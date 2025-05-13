@@ -38664,7 +38664,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "ba0292ba-ee70-495c-bd2c-361c821107c9")
@@ -38675,7 +38675,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38701,7 +38701,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

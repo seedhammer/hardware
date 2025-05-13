@@ -40048,7 +40048,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 127.381 229.743 0)
 			(effects
 				(font
@@ -40066,7 +40066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
 			(at 124.46 228.6 0)
 			(effects
 				(font
@@ -40084,7 +40084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C52923"
 			(at 124.46 228.6 0)
 			(effects
 				(font
