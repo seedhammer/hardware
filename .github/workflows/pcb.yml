@@ -29,5 +29,5 @@ jobs:
           go run .
       - uses: actions/upload-artifact@v4
         with:
-          name: shii-pcb-${{ env.version }}.zip
+          name: shii-pcb-${{ env.version }}
           path: pcb/production/
