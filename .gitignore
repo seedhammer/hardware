@@ -2,6 +2,7 @@
 *.bak
 *-backups
 *auto_saved_files*
+*.*-bak
 _autosave*
 fp-info-cache
 production
