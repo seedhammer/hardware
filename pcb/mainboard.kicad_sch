@@ -11417,12 +11417,6 @@
 		(uuid "72d2c138-ebd7-4d31-b603-832a1773fb54")
 	)
 	(junction
-		(at 426.72 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74ed8b08-1a79-4e36-b59c-6c1112850efc")
-	)
-	(junction
 		(at 36.83 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11471,7 +11465,7 @@
 		(uuid "8086f3f2-543f-4758-82a4-27eb204d0229")
 	)
 	(junction
-		(at 469.9 181.61)
+		(at 469.9 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "837345d8-30b3-46e8-8cfd-96a4671c4040")
@@ -11759,7 +11753,7 @@
 		(uuid "dd35722f-4c05-4c4e-a539-f72f09bfb2d3")
 	)
 	(junction
-		(at 469.9 166.37)
+		(at 469.9 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dff0181d-b860-4cb6-8a25-0c9accf2c31e")
@@ -12842,7 +12836,7 @@
 	)
 	(wire
 		(pts
-			(xy 430.53 189.23) (xy 439.42 189.23)
+			(xy 430.53 204.47) (xy 439.42 204.47)
 		)
 		(stroke
 			(width 0)
@@ -13212,7 +13206,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 166.37) (xy 476.25 172.72)
+			(xy 476.25 173.99) (xy 476.25 180.34)
 		)
 		(stroke
 			(width 0)
@@ -13972,7 +13966,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 166.37) (xy 476.25 166.37)
+			(xy 469.9 173.99) (xy 476.25 173.99)
 		)
 		(stroke
 			(width 0)
@@ -14352,7 +14346,7 @@
 	)
 	(wire
 		(pts
-			(xy 426.72 173.99) (xy 441.96 173.99)
+			(xy 426.72 173.99) (xy 469.9 173.99)
 		)
 		(stroke
 			(width 0)
@@ -14512,7 +14506,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 181.61) (xy 469.9 181.61)
+			(xy 453.39 189.23) (xy 469.9 189.23)
 		)
 		(stroke
 			(width 0)
@@ -14622,7 +14616,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 198.12) (xy 453.39 194.31)
+			(xy 453.39 210.82) (xy 453.39 209.55)
 		)
 		(stroke
 			(width 0)
@@ -14752,7 +14746,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 176.53) (xy 469.9 181.61)
+			(xy 469.9 184.15) (xy 469.9 189.23)
 		)
 		(stroke
 			(width 0)
@@ -15222,7 +15216,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 166.37) (xy 469.9 171.45)
+			(xy 469.9 173.99) (xy 469.9 179.07)
 		)
 		(stroke
 			(width 0)
@@ -15319,16 +15313,6 @@
 			(type default)
 		)
 		(uuid "90ad8f28-6467-4cf6-a50e-969b0c22c885")
-	)
-	(wire
-		(pts
-			(xy 441.96 173.99) (xy 441.96 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b29c00-206e-4d30-944b-b0bf24a5b666")
 	)
 	(wire
 		(pts
@@ -15462,7 +15446,7 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 175.26) (xy 476.25 181.61)
+			(xy 476.25 182.88) (xy 476.25 189.23)
 		)
 		(stroke
 			(width 0)
@@ -15659,16 +15643,6 @@
 			(type default)
 		)
 		(uuid "9c61faed-fe66-44d8-be07-1d68ff2c5c08")
-	)
-	(wire
-		(pts
-			(xy 441.96 166.37) (xy 469.9 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c91e2c5-ff41-4149-bb1a-ec83edd3d4f7")
 	)
 	(wire
 		(pts
@@ -16972,7 +16946,7 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 189.23) (xy 445.77 189.23)
+			(xy 444.5 204.47) (xy 445.77 204.47)
 		)
 		(stroke
 			(width 0)
@@ -17192,7 +17166,7 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 181.61) (xy 453.39 184.15)
+			(xy 453.39 189.23) (xy 453.39 199.39)
 		)
 		(stroke
 			(width 0)
@@ -17652,7 +17626,7 @@
 	)
 	(wire
 		(pts
-			(xy 469.9 181.61) (xy 476.25 181.61)
+			(xy 469.9 189.23) (xy 476.25 189.23)
 		)
 		(stroke
 			(width 0)
@@ -17949,16 +17923,6 @@
 			(type default)
 		)
 		(uuid "f56681df-e3e9-4a4b-8e8c-f96c44e9a79b")
-	)
-	(wire
-		(pts
-			(xy 426.72 198.12) (xy 453.39 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ed138d-1447-4029-8080-a1d09dd01ee4")
 	)
 	(wire
 		(pts
@@ -18761,7 +18725,7 @@
 		(uuid "44addd75-5b71-4160-9e46-627c9d0701ab")
 	)
 	(label "NEEDLE_OUT1"
-		(at 454.66 166.37 0)
+		(at 454.66 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19021,7 +18985,7 @@
 		(uuid "759ea99e-7ac2-4f2e-8076-73f2b399e288")
 	)
 	(label "NEEDLE"
-		(at 430.53 189.23 0)
+		(at 430.53 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19721,7 +19685,7 @@
 		(uuid "f1fc7f9c-521c-4760-975e-f261ba3a3936")
 	)
 	(label "NEEDLE_OUT2"
-		(at 454.66 181.61 0)
+		(at 454.66 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21088,6 +21052,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 453.39 210.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "080f14a9-8c99-4436-b0af-9fb66b71cf47")
+		(property "Reference" "#PWR0149"
+			(at 453.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 453.39 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 453.39 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 453.39 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3fdf0a4-def7-4604-8d7d-a758b9c420f9")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 180.34 204.47 90)
 		(unit 1)
@@ -21577,7 +21607,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 481.33 175.26 180)
+		(at 481.33 182.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21585,7 +21615,7 @@
 		(dnp no)
 		(uuid "0f946891-001b-47d5-ab24-4f0d83a37ac5")
 		(property "Reference" "J8"
-			(at 485.775 175.26 0)
+			(at 485.775 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21593,7 +21623,7 @@
 			)
 		)
 		(property "Value" "B2B-XH-A(LF)(SN)"
-			(at 480.695 177.8 0)
+			(at 480.695 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21602,7 +21632,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 481.33 175.26 0)
+			(at 481.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21611,7 +21641,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B2B_XH_A_LF_SN/C158012"
-			(at 481.33 175.26 0)
+			(at 481.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21620,7 +21650,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 481.33 175.26 0)
+			(at 481.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21629,7 +21659,7 @@
 			)
 		)
 		(property "LCSC" "C158012"
-			(at 481.33 175.26 0)
+			(at 481.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21638,7 +21668,7 @@
 			)
 		)
 		(property "Label" "NEEDLE"
-			(at 487.68 172.72 0)
+			(at 487.68 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21646,7 +21676,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 481.33 175.26 0)
+			(at 481.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21654,7 +21684,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 481.33 175.26 0)
+			(at 481.33 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28192,7 +28222,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:WSD40120DN56G")
-		(at 450.85 189.23 0)
+		(at 450.85 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28201,7 +28231,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cf6a331-824f-40df-a007-5b01b098353e")
 		(property "Reference" "Q3"
-			(at 457.2 187.96 0)
+			(at 457.2 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28210,7 +28240,7 @@
 			)
 		)
 		(property "Value" "WSD40120DN56G"
-			(at 457.2 190.5 0)
+			(at 457.2 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28219,7 +28249,7 @@
 			)
 		)
 		(property "Footprint" "Mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
-			(at 455.93 191.135 0)
+			(at 455.93 206.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28229,7 +28259,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.winsok.net/upload/202405/WSD40120DN56G.pdf"
-			(at 455.93 193.04 0)
+			(at 455.93 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28239,7 +28269,7 @@
 			)
 		)
 		(property "Description" "120A Id, 40V Vds, N-Channel MOSFET, DFN-8"
-			(at 450.85 189.23 0)
+			(at 450.85 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28248,7 +28278,7 @@
 			)
 		)
 		(property "LCSC" "C507088"
-			(at 450.85 189.23 0)
+			(at 450.85 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42555,7 +42585,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 469.9 173.99 90)
+		(at 469.9 181.61 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -42564,7 +42594,7 @@
 		(dnp no)
 		(uuid "eb98ccc6-09fa-41ca-aa6c-590672adfa7c")
 		(property "Reference" "D4"
-			(at 467.36 172.4659 90)
+			(at 467.36 180.0859 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42573,7 +42603,7 @@
 			)
 		)
 		(property "Value" "40V,5A"
-			(at 467.36 175.0059 90)
+			(at 467.36 182.6259 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42582,7 +42612,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 469.9 173.99 90)
+			(at 469.9 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42591,7 +42621,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/mdd_microdiode_semiconductor-SS54/C22452"
-			(at 469.9 173.99 90)
+			(at 469.9 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42600,7 +42630,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 469.9 173.99 0)
+			(at 469.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42609,7 +42639,7 @@
 			)
 		)
 		(property "LCSC" "C22452"
-			(at 469.9 173.99 90)
+			(at 469.9 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44014,7 +44044,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 441.96 189.23 90)
+		(at 441.96 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44023,7 +44053,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe3dedb1-36ce-40e7-a9ac-b673e0c12eda")
 		(property "Reference" "R30"
-			(at 441.96 184.15 90)
+			(at 441.96 199.39 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -44031,7 +44061,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 441.96 186.69 90)
+			(at 441.96 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44039,7 +44069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 441.96 189.23 0)
+			(at 441.96 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44048,7 +44078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 441.96 189.23 0)
+			(at 441.96 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44057,7 +44087,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 441.96 189.23 0)
+			(at 441.96 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44066,7 +44096,7 @@
 			)
 		)
 		(property "LCSC" "C25104"
-			(at 441.96 189.23 90)
+			(at 441.96 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
