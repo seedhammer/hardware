@@ -21610,7 +21610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B2B_XH_2_LF_SN/C158014"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B2B_XH_A_LF_SN/C158012"
 			(at 481.33 175.26 0)
 			(effects
 				(font
@@ -21628,7 +21628,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C158014"
+		(property "LCSC" "C158012"
 			(at 481.33 175.26 0)
 			(effects
 				(font
