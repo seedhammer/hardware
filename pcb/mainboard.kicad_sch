@@ -9524,26 +9524,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 5.08 -8.89 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -8.89 90)
+					(at 3.81 -8.89 90)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -9573,6 +9554,25 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 6.35 -8.89 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11857,6 +11857,10 @@
 		(uuid "02f4f916-ff18-4dff-8096-21ad0a2de172")
 	)
 	(no_connect
+		(at 341.63 185.42)
+		(uuid "30571bf5-3649-4816-8eec-4f39cd725d5d")
+	)
+	(no_connect
 		(at 83.82 222.25)
 		(uuid "326206a1-4f12-451f-92d9-e93b371c47e3")
 	)
@@ -11907,6 +11911,10 @@
 	(no_connect
 		(at 354.33 106.68)
 		(uuid "9670c036-662b-4be3-9a30-4856b873fafe")
+	)
+	(no_connect
+		(at 163.83 99.06)
+		(uuid "a5620c44-933c-4493-b54b-86cfbacf5c60")
 	)
 	(no_connect
 		(at 153.67 199.39)
@@ -15868,6 +15876,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 182.88) (xy 341.63 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a663bab7-cc64-4920-90c1-d9003a5e50f7")
+	)
+	(wire
+		(pts
 			(xy 25.4 234.95) (xy 25.4 236.22)
 		)
 		(stroke
@@ -16218,16 +16236,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 99.06) (xy 179.07 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ea42df-b7b0-47f0-9bb1-fb38b0cf8be0")
-	)
-	(wire
-		(pts
 			(xy 163.83 119.38) (xy 179.07 119.38)
 		)
 		(stroke
@@ -16495,16 +16503,6 @@
 			(type default)
 		)
 		(uuid "bd90ba50-f823-4c07-8643-22fe18c92de2")
-	)
-	(wire
-		(pts
-			(xy 331.47 182.88) (xy 341.63 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdc29288-6924-4b85-b4cc-2dff65f638a0")
 	)
 	(wire
 		(pts
@@ -17448,16 +17446,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 185.42) (xy 341.63 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b5e023-f241-4b75-a5dc-8a556e9268c5")
-	)
-	(wire
-		(pts
 			(xy 176.53 31.75) (xy 187.96 31.75)
 		)
 		(stroke
@@ -18296,16 +18284,6 @@
 		)
 		(uuid "07f7265f-3b57-4d24-a423-104b78ebbea7")
 	)
-	(label "~{ST}"
-		(at 331.47 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ab786d8-39f9-451b-a334-ce4b34bcefd2")
-	)
 	(label "LCD_DB5"
 		(at 179.07 129.54 180)
 		(effects
@@ -18676,16 +18654,6 @@
 		)
 		(uuid "3cf34a4a-b127-4dbc-8dcc-ce291619e460")
 	)
-	(label "~{ST}"
-		(at 179.07 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3d893036-69e4-4886-a0e8-e37c4e7a9b26")
-	)
 	(label "Y_STEP"
 		(at 326.39 63.5 0)
 		(effects
@@ -18805,16 +18773,6 @@
 			(justify left bottom)
 		)
 		(uuid "5616fc6a-3b94-47ae-9dac-4c7b89cbce51")
-	)
-	(label "DRV_EN0"
-		(at 331.47 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59189e66-83f4-47bf-8bc1-b3a1b8920295")
 	)
 	(label "X_DIR"
 		(at 179.07 78.74 180)
@@ -29492,6 +29450,73 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 339.09 182.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cc5e526-6649-4e26-adc4-70731856b4f8")
+		(property "Reference" "#PWR0146"
+			(at 332.74 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 182.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 339.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 339.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 339.09 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77e40ee5-5970-46f3-bb22-5ec14cd53d64")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
