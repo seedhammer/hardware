@@ -6648,6 +6648,419 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mainboard:AON7264E"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AON7264E"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7264E.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "28A Id, 60V Vds, N-Channel MOSFET, DFN-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "AO*DFN*8*1EP*5.55x5.2mm*P1.27mm*EP4.12x4.6mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AON7264E_0_1"
+				(polyline
+					(pts
+						(xy 0.2521 1.9049) (xy 0.2521 -1.9051)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.2521 -0.0001) (xy -2.5419 -0.0001)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7601 2.2859) (xy 0.7601 1.2699)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7601 0.5079) (xy 0.7601 -0.5081)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7601 -1.2701) (xy 0.7601 -2.2861)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.7601 -1.7781) (xy 3.3001 -1.7781) (xy 3.3001 1.7779) (xy 0.7601 1.7779)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.0141 -0.0001) (xy 2.0301 0.3809) (xy 2.0301 -0.3811) (xy 1.0141 -0.0001)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.6491 -0.0001)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5381 2.5399) (xy 2.5381 1.7779)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.5381 1.7779)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.5381 -1.7781)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.5381 -2.5401) (xy 2.5381 -0.0001) (xy 0.7601 -0.0001)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.7921 0.5079) (xy 2.9191 0.3809) (xy 3.6811 0.3809) (xy 3.8081 0.2539)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3001 0.3809) (xy 2.9191 -0.2541) (xy 3.6811 -0.2541) (xy 3.3001 0.3809)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AON7264E_1_0"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "AON7264E_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mainboard:AP33772S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -11063,6 +11476,12 @@
 		(uuid "1289d9ab-b0ca-49de-8364-1306b3dec72b")
 	)
 	(junction
+		(at 96.52 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134121e5-c0fa-4527-ab88-b38008a256ee")
+	)
+	(junction
 		(at 514.35 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11109,6 +11528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22c266b0-7d30-437f-aa0d-c4e0702a9e01")
+	)
+	(junction
+		(at 111.76 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c733f3-23bc-4fdc-818e-5b07fa40eb30")
 	)
 	(junction
 		(at 326.39 187.96)
@@ -11327,12 +11752,6 @@
 		(uuid "5514f03f-9343-49cc-811a-07a552481bd8")
 	)
 	(junction
-		(at 96.52 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55440e68-dabf-4081-917a-ea49ad50acb9")
-	)
-	(junction
 		(at 189.23 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11397,12 +11816,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a809700-0079-4087-811c-7354edfe6e18")
-	)
-	(junction
-		(at 121.92 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d7f239a-269f-4116-83dd-9f840c30de1d")
 	)
 	(junction
 		(at 406.4 173.99)
@@ -11753,6 +12166,12 @@
 		(uuid "dcbfe29e-feeb-479f-870f-12df09c770a5")
 	)
 	(junction
+		(at 124.46 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcfd9dde-1751-4816-a24f-756bdd371c52")
+	)
+	(junction
 		(at 217.17 307.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12033,6 +12452,16 @@
 			(type default)
 		)
 		(uuid "039fe67d-acb7-48e8-b52e-9107fe7fb166")
+	)
+	(wire
+		(pts
+			(xy 96.52 191.77) (xy 101.6 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a0b0c3-36c6-47e6-88a7-89918041b1d5")
 	)
 	(wire
 		(pts
@@ -12886,7 +13315,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 204.47) (xy 121.92 213.36)
+			(xy 124.46 204.47) (xy 124.46 213.36)
 		)
 		(stroke
 			(width 0)
@@ -13356,7 +13785,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 191.77) (xy 121.92 199.39)
+			(xy 124.46 191.77) (xy 124.46 199.39)
 		)
 		(stroke
 			(width 0)
@@ -13366,7 +13795,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 204.47) (xy 111.76 208.28)
+			(xy 111.76 205.74) (xy 111.76 208.28)
 		)
 		(stroke
 			(width 0)
@@ -13946,16 +14375,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 191.77) (xy 121.92 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58af7af3-d03f-42b6-aa2e-cbe408271484")
-	)
-	(wire
-		(pts
 			(xy 469.9 173.99) (xy 476.25 173.99)
 		)
 		(stroke
@@ -14206,7 +14625,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 191.77) (xy 139.7 191.77)
+			(xy 121.92 191.77) (xy 124.46 191.77)
 		)
 		(stroke
 			(width 0)
@@ -14446,7 +14865,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 187.96) (xy 121.92 191.77)
+			(xy 124.46 187.96) (xy 124.46 191.77)
 		)
 		(stroke
 			(width 0)
@@ -15656,6 +16075,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 199.39) (xy 116.84 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc2ada1-41e0-4cba-a548-633131cee68e")
+	)
+	(wire
+		(pts
 			(xy 16.51 152.4) (xy 16.51 162.56)
 		)
 		(stroke
@@ -15733,6 +16162,16 @@
 			(type default)
 		)
 		(uuid "9fee9d9d-b5f1-4dd2-a5f4-41064a84c45d")
+	)
+	(wire
+		(pts
+			(xy 106.68 199.39) (xy 111.76 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03d7c67-da59-4928-8a8c-cced8aabbdc4")
 	)
 	(wire
 		(pts
@@ -15863,6 +16302,16 @@
 			(type default)
 		)
 		(uuid "a41dedc0-50d9-4327-9301-2a1ac3b3fe4a")
+	)
+	(wire
+		(pts
+			(xy 111.76 200.66) (xy 111.76 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a45015a6-2064-4c61-bf40-493455a882ca")
 	)
 	(wire
 		(pts
@@ -16096,6 +16545,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 191.77) (xy 139.7 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac78881d-1732-4b0c-aeab-fc7ffe63b38c")
+	)
+	(wire
+		(pts
 			(xy 41.91 54.61) (xy 80.01 54.61)
 		)
 		(stroke
@@ -16166,7 +16625,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 213.36) (xy 121.92 213.36)
+			(xy 109.22 213.36) (xy 124.46 213.36)
 		)
 		(stroke
 			(width 0)
@@ -16503,16 +16962,6 @@
 			(type default)
 		)
 		(uuid "bcee433e-cc77-4294-a324-a6ba4371c527")
-	)
-	(wire
-		(pts
-			(xy 96.52 191.77) (xy 106.68 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd90ba50-f823-4c07-8643-22fe18c92de2")
 	)
 	(wire
 		(pts
@@ -23139,94 +23588,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:WSD40120DN56G")
-		(at 111.76 194.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19746951-4f54-4633-8481-47742e006c86")
-		(property "Reference" "Q2"
-			(at 111.7601 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WSD40120DN56G"
-			(at 111.7601 187.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
-			(at 113.665 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.winsok.net/upload/202405/WSD40120DN56G.pdf"
-			(at 115.57 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "120A Id, 40V Vds, N-Channel MOSFET, DFN-8"
-			(at 111.76 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C507088"
-			(at 111.76 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a51be092-359a-4978-b224-70fdce065743")
-		)
-		(pin "3"
-			(uuid "1f648fd1-18e8-44d1-8f1a-0f158ee26a0c")
-		)
-		(pin "5"
-			(uuid "aa442cd0-d762-4bf5-ac0a-2f39f6d5d24d")
-		)
-		(pin "1"
-			(uuid "ea67a65e-feea-468b-8e3e-93386cf356a9")
-		)
-		(pin "4"
-			(uuid "89e3cbe7-c570-49d3-84fd-968ae6aa4fbd")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 330.2 48.26 0)
 		(mirror y)
@@ -28839,7 +29200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 111.76 201.93 0)
+		(at 111.76 203.2 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28848,7 +29209,7 @@
 		(dnp no)
 		(uuid "55e3b5ca-ae59-4c06-95a8-93aae6d853d6")
 		(property "Reference" "R37"
-			(at 117.0178 201.93 90)
+			(at 117.0178 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28856,7 +29217,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 114.7064 201.93 90)
+			(at 114.7064 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28864,7 +29225,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.76 201.93 0)
+			(at 111.76 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28873,7 +29234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 111.76 201.93 0)
+			(at 111.76 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28882,7 +29243,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 111.76 201.93 0)
+			(at 111.76 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28891,7 +29252,7 @@
 			)
 		)
 		(property "LCSC" "C25100"
-			(at 111.76 201.93 0)
+			(at 111.76 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28900,7 +29261,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 111.76 201.93 0)
+			(at 111.76 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28908,7 +29269,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 111.76 201.93 0)
+			(at 111.76 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35400,6 +35761,106 @@
 		)
 	)
 	(symbol
+		(lib_id "mainboard:AON7264E")
+		(at 116.84 194.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3622f9e-b9ac-486d-a704-a27f3a3e1c47")
+		(property "Reference" "Q1"
+			(at 116.8401 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON7264E"
+			(at 116.8401 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+			(at 118.745 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7264E.pdf"
+			(at 120.65 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "28A Id, 60V Vds, N-Channel MOSFET, DFN-8"
+			(at 116.84 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431191"
+			(at 116.84 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "457eab0e-f22e-4be4-9bc8-7723b2864d0b")
+		)
+		(pin "7"
+			(uuid "31e990aa-dd89-4632-baa0-79bac5a5d719")
+		)
+		(pin "8"
+			(uuid "074e187f-fa09-4740-934d-1c4a186afa0e")
+		)
+		(pin "9"
+			(uuid "0cb2634a-0e29-4279-97ce-b45f75b1e08c")
+		)
+		(pin "4"
+			(uuid "20fec15e-7abe-40b6-be0e-c51756ecce81")
+		)
+		(pin "5"
+			(uuid "7f2cb517-fc42-434c-b4e3-135f791ddfb0")
+		)
+		(pin "1"
+			(uuid "c518af32-349d-4e26-b0df-353b449b39e8")
+		)
+		(pin "2"
+			(uuid "c50ab5b1-6b89-47f0-834b-4497a0dab534")
+		)
+		(pin "3"
+			(uuid "c2963d29-fe9e-4afe-a7a1-ee164a2dc037")
+		)
+		(instances
+			(project ""
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 433.07 393.7 180)
 		(unit 1)
@@ -36949,7 +37410,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 121.92 201.93 180)
+		(at 124.46 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36958,7 +37419,7 @@
 		(fields_autoplaced yes)
 		(uuid "b41cce6a-5250-4994-82ee-b504efafcc62")
 		(property "Reference" "R38"
-			(at 124.46 200.6599 0)
+			(at 127 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36967,7 +37428,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 124.46 203.1999 0)
+			(at 127 203.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36976,7 +37437,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.92 201.93 0)
+			(at 124.46 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36985,7 +37446,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076"
-			(at 121.92 201.93 0)
+			(at 124.46 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36994,7 +37455,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 121.92 201.93 0)
+			(at 124.46 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37003,7 +37464,7 @@
 			)
 		)
 		(property "LCSC" "C25076"
-			(at 121.92 201.93 0)
+			(at 124.46 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37012,7 +37473,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 121.92 201.93 0)
+			(at 124.46 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37020,7 +37481,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 121.92 201.93 0)
+			(at 124.46 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42233,7 +42694,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 121.92 187.96 0)
+		(at 124.46 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42241,7 +42702,7 @@
 		(dnp no)
 		(uuid "e8a5773a-f9ab-406a-8a36-bfa80fc16a4d")
 		(property "Reference" "#PWR0125"
-			(at 121.92 191.77 0)
+			(at 124.46 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42250,7 +42711,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 121.92 182.88 0)
+			(at 124.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42258,7 +42719,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 187.96 0)
+			(at 124.46 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42267,7 +42728,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 187.96 0)
+			(at 124.46 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42276,7 +42737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 187.96 0)
+			(at 124.46 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42972,6 +43433,106 @@
 			(project ""
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:AON7264E")
+		(at 106.68 194.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f322d3c8-68a6-49fc-bdb1-05438f5044c6")
+		(property "Reference" "Q2"
+			(at 106.6799 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AON7264E"
+			(at 106.6799 187.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
+			(at 104.775 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7264E.pdf"
+			(at 102.87 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "28A Id, 60V Vds, N-Channel MOSFET, DFN-8"
+			(at 106.68 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431191"
+			(at 106.68 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a89b7051-ef4b-439b-acd7-06b24277e03b")
+		)
+		(pin "7"
+			(uuid "4f025339-3647-4368-a107-e1ef3aa4ec54")
+		)
+		(pin "8"
+			(uuid "4fba943e-09d3-4bc3-a15e-c692b4800c62")
+		)
+		(pin "9"
+			(uuid "477c0fc2-e3e4-4be1-93ac-114eb0770e64")
+		)
+		(pin "4"
+			(uuid "072d2810-cfdf-49cd-8f28-1ae9834e6d09")
+		)
+		(pin "5"
+			(uuid "d6dfa623-f6b2-4679-8101-c8fdecb106f9")
+		)
+		(pin "1"
+			(uuid "c4a50531-4821-4447-8f81-4e2bfdc629a8")
+		)
+		(pin "2"
+			(uuid "c0776838-15da-43a0-a1dc-7208d1b4819f")
+		)
+		(pin "3"
+			(uuid "7a6e0ffd-6a49-44fe-819f-c84c14d55ab4")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
