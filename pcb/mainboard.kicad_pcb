@@ -60788,9 +60788,9 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "Sponsors\n\nbrikk\nBitcoin Brabant\nColumbusBitcoin\nSound Money Solutions"
-		(start 62.625 75.35)
-		(end 99.975 95.6)
+	(gr_text_box "Sponsors\n\nbrikk\nBitcoin Brabant\nColumbusBitcoin\nSound Money Solutions\nIII.I.MMIX"
+		(start 62.625 72.55)
+		(end 99.975 95.9)
 		(margins 0.8 0.8 0.8 0.8)
 		(layer "F.SilkS")
 		(uuid "5cf68eb4-1dd0-41b1-8b91-6b58959eccd0")
