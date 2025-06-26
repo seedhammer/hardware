@@ -1,5 +1,7 @@
 package main
 
+//go:generate go run .
+
 import (
 	"archive/zip"
 	"bytes"

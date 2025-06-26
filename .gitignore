@@ -3,6 +3,7 @@
 *-backups
 *auto_saved_files*
 *.*-bak
+*.kicad_prl
 _autosave*
 fp-info-cache
 production
