@@ -12539,10 +12539,6 @@
 		(uuid "9670c036-662b-4be3-9a30-4856b873fafe")
 	)
 	(no_connect
-		(at 163.83 99.06)
-		(uuid "a5620c44-933c-4493-b54b-86cfbacf5c60")
-	)
-	(no_connect
 		(at 153.67 199.39)
 		(uuid "adcb3dec-3b2e-4595-86f3-083612860bc8")
 	)
@@ -16506,6 +16502,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 99.06) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b00a42-d513-4622-a589-23d2da3e5220")
+	)
+	(wire
+		(pts
 			(xy 68.58 72.39) (xy 68.58 71.12)
 		)
 		(stroke
@@ -19814,6 +19820,16 @@
 		)
 		(uuid "76169387-7df2-4e7b-855a-97070d8965dd")
 	)
+	(label "LCD_RDX"
+		(at 179.07 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "786ee30a-f597-4741-9341-e77810d1daa3")
+	)
 	(label "VDD_D"
 		(at 55.88 293.37 0)
 		(effects
@@ -20193,6 +20209,16 @@
 			(justify right bottom)
 		)
 		(uuid "b2075b4d-892c-44df-b258-f714adca0ad5")
+	)
+	(label "LCD_RDX"
+		(at 527.05 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3088b21-7519-45a4-ab5b-0f7cc16f9cac")
 	)
 	(label "DATA_SDA"
 		(at 203.2 160.02 0)
@@ -28666,74 +28692,6 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 527.05 111.76 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47d0973a-1d3e-4a5b-9bc6-6dc55d57daa3")
-		(property "Reference" "#PWR044"
-			(at 523.24 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 530.86 111.7601 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 527.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 527.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 527.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce5e34e9-268b-4073-85ca-fdd4c17850df")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR044")
 					(unit 1)
 				)
 			)
