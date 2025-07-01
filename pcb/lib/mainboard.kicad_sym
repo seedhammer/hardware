@@ -4368,7 +4368,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 38.1 0)
 				(length 3.81)
 				(name "RESET"
@@ -4386,7 +4386,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 38.1 0)
 				(length 3.81)
 				(hide yes)
@@ -4477,7 +4477,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 25.4 0)
 				(length 3.81)
 				(name "DB17"
@@ -4495,7 +4495,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 22.86 0)
 				(length 3.81)
 				(name "DB16"
@@ -4513,7 +4513,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 20.32 0)
 				(length 3.81)
 				(name "DB15"
@@ -4531,7 +4531,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 17.78 0)
 				(length 3.81)
 				(name "DB14"
@@ -4549,7 +4549,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 15.24 0)
 				(length 3.81)
 				(name "DB13"
@@ -4567,7 +4567,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 12.7 0)
 				(length 3.81)
 				(name "DB12"
@@ -4585,7 +4585,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 10.16 0)
 				(length 3.81)
 				(name "DB11"
@@ -4603,7 +4603,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 7.62 0)
 				(length 3.81)
 				(name "DB10"
@@ -4621,7 +4621,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 5.08 0)
 				(length 3.81)
 				(name "DB9"
@@ -4639,7 +4639,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 2.54 0)
 				(length 3.81)
 				(name "DB8"
@@ -4657,7 +4657,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 0 0)
 				(length 3.81)
 				(name "DB7"
@@ -4675,7 +4675,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -2.54 0)
 				(length 3.81)
 				(name "DB6"
@@ -4693,7 +4693,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -5.08 0)
 				(length 3.81)
 				(name "DB5"
@@ -4711,7 +4711,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -7.62 0)
 				(length 3.81)
 				(name "DB4"
@@ -4729,7 +4729,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -10.16 0)
 				(length 3.81)
 				(name "DB3"
@@ -4747,7 +4747,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -12.7 0)
 				(length 3.81)
 				(name "DB2"
@@ -4765,7 +4765,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -15.24 0)
 				(length 3.81)
 				(name "DB1"
@@ -4783,7 +4783,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -17.78 0)
 				(length 3.81)
 				(name "DB0"
@@ -4801,7 +4801,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -20.32 0)
 				(length 3.81)
 				(name "SDO"
@@ -4819,7 +4819,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -22.86 0)
 				(length 3.81)
 				(name "SDA"
@@ -4837,10 +4837,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 -25.4 0)
 				(length 3.81)
-				(name "RD"
+				(name "RDX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4855,10 +4855,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 -27.94 0)
 				(length 3.81)
-				(name "WRX/SCL"
+				(name "WRX"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4872,8 +4872,9 @@
 						)
 					)
 				)
+				(alternate "SCL" input line)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 -30.48 0)
 				(length 3.81)
 				(name "D/CX"
@@ -4891,7 +4892,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 -33.02 0)
 				(length 3.81)
 				(name "CSX"
@@ -4909,7 +4910,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -7.62 -35.56 0)
 				(length 3.81)
 				(name "TE"
@@ -4982,7 +4983,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -7.62 -43.18 0)
 				(length 3.81)
 				(name "SCL"
@@ -5000,7 +5001,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -7.62 -45.72 0)
 				(length 3.81)
 				(name "SDA"
@@ -5018,7 +5019,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -7.62 -48.26 0)
 				(length 3.81)
 				(name "IRQ"

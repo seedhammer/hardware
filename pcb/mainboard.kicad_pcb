@@ -39899,7 +39899,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "/RESET")
 			(pinfunction "RESET")
-			(pintype "passive")
+			(pintype "input")
 			(uuid "4af4ac8f-e9f7-45f6-b50f-6717b77e041f")
 		)
 		(pad "11" smd rect
@@ -39944,7 +39944,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB17")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "967ac3eb-b8c0-42d9-8572-35f00e7a5edd")
 		)
 		(pad "16" smd rect
@@ -39953,7 +39953,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB16")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "191cb20f-076e-4afa-9549-9e16576df8b3")
 		)
 		(pad "17" smd rect
@@ -39962,7 +39962,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB15")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "386905f3-ed67-4a5d-80f5-30cfa2d22ccd")
 		)
 		(pad "18" smd rect
@@ -39971,7 +39971,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB14")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "4cfb467a-f151-41ed-abd1-3adcc88663f6")
 		)
 		(pad "19" smd rect
@@ -39980,7 +39980,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB13")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "d204d241-d8b5-42c6-92a6-070ce51d789f")
 		)
 		(pad "20" smd rect
@@ -39989,7 +39989,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB12")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "e667de57-ddc3-4423-8b13-2a411dad626c")
 		)
 		(pad "21" smd rect
@@ -39998,7 +39998,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB11")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "06907071-77dd-4548-aba5-e089a1f4fe54")
 		)
 		(pad "22" smd rect
@@ -40007,7 +40007,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB10")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "17a04d6f-4af4-4cff-98e6-7b84fb9c9233")
 		)
 		(pad "23" smd rect
@@ -40016,7 +40016,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB9")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "1169af5e-38dd-4ce4-9f6d-e9c97f538de4")
 		)
 		(pad "24" smd rect
@@ -40025,7 +40025,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "DB8")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "5d9f2813-4cbb-4493-9151-c2311b6cfffc")
 		)
 		(pad "25" smd rect
@@ -40034,7 +40034,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "/LCD_DB7")
 			(pinfunction "DB7")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "5e18d057-0c33-4c2a-a869-5aa91402cac1")
 		)
 		(pad "26" smd rect
@@ -40043,7 +40043,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "/LCD_DB6")
 			(pinfunction "DB6")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "e673306c-04ea-4f20-8861-c8b9860928f3")
 		)
 		(pad "27" smd rect
@@ -40052,7 +40052,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "/LCD_DB5")
 			(pinfunction "DB5")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "cf63d756-ba8c-42fb-b274-a9ea6c218d88")
 		)
 		(pad "28" smd rect
@@ -40061,7 +40061,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "/LCD_DB4")
 			(pinfunction "DB4")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "680379f9-0df1-4a8d-b1be-a6b56f0669c4")
 		)
 		(pad "29" smd rect
@@ -40070,7 +40070,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "/LCD_DB3")
 			(pinfunction "DB3")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "a7f12c77-f45f-4222-adb0-64eaee419ce2")
 		)
 		(pad "30" smd rect
@@ -40079,7 +40079,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "/LCD_DB2")
 			(pinfunction "DB2")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "693d8b2e-b05d-4594-9831-d58854a8fde1")
 		)
 		(pad "31" smd rect
@@ -40088,7 +40088,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "/LCD_DB1")
 			(pinfunction "DB1")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "8c9b551d-78d9-452e-ae5f-935410ea4dac")
 		)
 		(pad "32" smd rect
@@ -40097,7 +40097,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "/LCD_DB0")
 			(pinfunction "DB0")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "565a96de-fb1e-4252-9bbc-a47733ef0136")
 		)
 		(pad "33" smd rect
@@ -40106,7 +40106,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 75 "unconnected-(J3-SDO-Pad33)")
 			(pinfunction "SDO")
-			(pintype "passive+no_connect")
+			(pintype "bidirectional+no_connect")
 			(uuid "eaf53bd3-3444-4c79-ae98-4b5933dbe2a4")
 		)
 		(pad "34" smd rect
@@ -40115,7 +40115,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "SDA")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "8cbf59f9-f267-4a5f-aafa-00cffe9e4700")
 		)
 		(pad "35" smd rect
@@ -40123,8 +40123,8 @@
 			(size 0.3 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "+3V3")
-			(pinfunction "RD")
-			(pintype "passive")
+			(pinfunction "RDX")
+			(pintype "input")
 			(uuid "f167f3c4-eda0-47b0-a46d-449f23e2f942")
 		)
 		(pad "36" smd rect
@@ -40132,8 +40132,8 @@
 			(size 0.3 1.1)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 15 "/LCD_WRX")
-			(pinfunction "WRX/SCL")
-			(pintype "passive")
+			(pinfunction "WRX")
+			(pintype "input")
 			(uuid "82fb207c-989a-44d3-bbda-8d4239ba4836")
 		)
 		(pad "37" smd rect
@@ -40142,7 +40142,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "/LCD_DC")
 			(pinfunction "D/CX")
-			(pintype "passive")
+			(pintype "input")
 			(uuid "f45857d0-6880-44f1-8fae-94be0ebf1e2f")
 		)
 		(pad "38" smd rect
@@ -40151,7 +40151,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "GND")
 			(pinfunction "CSX")
-			(pintype "passive")
+			(pintype "input")
 			(uuid "56ef185b-1e12-48c4-8963-1d4de1807b93")
 		)
 		(pad "39" smd rect
@@ -40160,7 +40160,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "/LCD_TE")
 			(pinfunction "TE")
-			(pintype "passive")
+			(pintype "output")
 			(uuid "b4dc83cd-587a-4c2b-b00e-03fa44ceec1b")
 		)
 		(pad "40" smd rect
@@ -40205,7 +40205,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 163 "/TOUCH_SCL")
 			(pinfunction "SCL")
-			(pintype "passive")
+			(pintype "input")
 			(uuid "e1489a9c-f732-4179-b298-8f766abbed71")
 		)
 		(pad "45" smd rect
@@ -40214,7 +40214,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 162 "/TOUCH_SDA")
 			(pinfunction "SDA")
-			(pintype "passive")
+			(pintype "bidirectional")
 			(uuid "783617f5-90fd-4c93-8d8f-dda8af3195aa")
 		)
 		(pad "46" smd rect
@@ -40223,7 +40223,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 74 "/~{TOUCH_INT}")
 			(pinfunction "IRQ")
-			(pintype "passive")
+			(pintype "output")
 			(uuid "b2b390ed-8601-491d-9ede-129a711c9efe")
 		)
 		(pad "47" smd rect
@@ -40232,7 +40232,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "/RESET")
 			(pinfunction "RST")
-			(pintype "passive")
+			(pintype "input")
 			(uuid "c8facad3-d0dd-47fa-a0d1-b71fd68d62bd")
 		)
 		(pad "48" smd rect
