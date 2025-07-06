@@ -12327,12 +12327,6 @@
 		(uuid "c0411b8c-b833-4cd5-b41e-ba99ebe1c582")
 	)
 	(junction
-		(at 73.66 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c30c0d84-c4ac-4ce9-9996-887ed46a6ef8")
-	)
-	(junction
 		(at 217.17 280.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12355,6 +12349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce261e60-ef4c-4be2-a3dd-fe98b72d847b")
+	)
+	(junction
+		(at 71.12 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1c8f2d9-8877-4759-993a-b765dd49fd23")
 	)
 	(junction
 		(at 373.38 30.48)
@@ -13282,6 +13282,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 191.77) (xy 76.2 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c88fecf-eeef-4ee1-9c74-413aca17e9bc")
+	)
+	(wire
+		(pts
 			(xy 346.71 31.75) (xy 346.71 40.64)
 		)
 		(stroke
@@ -13732,7 +13742,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 191.77) (xy 87.63 191.77)
+			(xy 81.28 191.77) (xy 87.63 191.77)
 		)
 		(stroke
 			(width 0)
@@ -14599,16 +14609,6 @@
 			(type default)
 		)
 		(uuid "57805928-8152-429b-9d69-fdcd05e1bdc5")
-	)
-	(wire
-		(pts
-			(xy 73.66 191.77) (xy 77.47 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "579a6da0-ca6e-4ee9-8961-8ae400a8e435")
 	)
 	(wire
 		(pts
@@ -16232,7 +16232,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 203.2) (xy 59.69 203.2)
+			(xy 62.23 203.2) (xy 59.69 203.2)
 		)
 		(stroke
 			(width 0)
@@ -17102,7 +17102,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 191.77) (xy 73.66 191.77)
+			(xy 52.07 191.77) (xy 71.12 191.77)
 		)
 		(stroke
 			(width 0)
@@ -17632,7 +17632,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 208.28) (xy 83.82 208.28)
+			(xy 71.12 208.28) (xy 83.82 208.28)
 		)
 		(stroke
 			(width 0)
@@ -18992,7 +18992,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 191.77) (xy 73.66 208.28)
+			(xy 71.12 191.77) (xy 71.12 208.28)
 		)
 		(stroke
 			(width 0)
@@ -30734,7 +30734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 203.2 90)
+		(at 62.23 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30742,7 +30742,7 @@
 		(dnp no)
 		(uuid "606b608f-8192-45b9-8534-8c501ee59934")
 		(property "Reference" "#PWR099"
-			(at 69.85 203.2 0)
+			(at 68.58 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30751,7 +30751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 203.2 90)
+			(at 66.04 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30760,7 +30760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 203.2 0)
+			(at 62.23 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30769,7 +30769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 203.2 0)
+			(at 62.23 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30778,7 +30778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 203.2 0)
+			(at 62.23 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37832,7 +37832,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 80.01 191.77 90)
+		(at 78.74 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37840,23 +37840,23 @@
 		(dnp no)
 		(uuid "b35c9b9a-08ff-46ac-a764-56fddbe93513")
 		(property "Reference" "R35"
-			(at 80.01 196.85 90)
+			(at 78.74 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5m,1%,3W"
-			(at 80.01 194.31 90)
+		(property "Value" "5m,1%"
+			(at 78.74 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 80.01 191.77 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37865,7 +37865,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/ta_iTech-RLP25FEGMR005/C393074"
-			(at 80.01 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37874,7 +37874,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 80.01 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37882,8 +37882,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C393074"
-			(at 80.01 191.77 90)
+		(property "LCSC" "C728267"
+			(at 78.74 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37892,7 +37892,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 80.01 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37900,7 +37900,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 80.01 191.77 0)
+			(at 78.74 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
