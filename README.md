@@ -25,8 +25,8 @@ settings:
 
 ### LCD
 
-In addition to the PCB, an [LCD](https://www.buydisplay.com/3-5-inch-ips-320x480-tft-lcd-display-capacitive-touch-screen)
-from buydisplay.com is required. Only the variant with capacitive touch is supported by the firmware.
+The LCD is a [ER-TFT035IPS-6](https://www.buydisplay.com/3-5-inch-ips-320x480-tft-lcd-display-capacitive-touch-screen)
+with capacitive touch from buydisplay.com. The variant with resistive touch is not supported by the firmware.
 
 
 ## CAD
