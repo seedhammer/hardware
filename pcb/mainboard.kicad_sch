@@ -25968,7 +25968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm_ThermalVias"
+		(property "Footprint" "Package_SO:Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
 			(at 387.35 195.58 0)
 			(effects
 				(font
@@ -34865,7 +34865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm_ThermalVias"
+		(property "Footprint" "Package_SO:Texas_HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3.155x3.255mm_ThermalVias"
 			(at 353.06 180.34 0)
 			(effects
 				(font
