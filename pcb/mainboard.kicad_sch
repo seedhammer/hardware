@@ -7347,8 +7347,26 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "GPIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
-					(at -12.7 -13.97 0)
+					(at -12.7 -15.24 0)
 					(length 2.54)
 					(name "OTP"
 						(effects
@@ -7377,25 +7395,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -17.78 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7489,25 +7488,6 @@
 						)
 					)
 					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 -8.89 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7617,6 +7597,24 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "VSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12374,6 +12372,10 @@
 		(uuid "1de3ed18-ab26-4b92-87bf-f41692b55ed0")
 	)
 	(no_connect
+		(at 83.82 236.22)
+		(uuid "2fe8bddf-4f97-4aa1-ad86-2906a9976236")
+	)
+	(no_connect
 		(at 341.63 185.42)
 		(uuid "30571bf5-3649-4816-8eec-4f39cd725d5d")
 	)
@@ -12420,6 +12422,10 @@
 	(no_connect
 		(at 153.67 209.55)
 		(uuid "7bb27830-11e9-424b-be1d-672d2b4dc821")
+	)
+	(no_connect
+		(at 109.22 233.68)
+		(uuid "7d264f95-7f41-4e7b-9caf-b3d140d89714")
 	)
 	(no_connect
 		(at 101.6 328.93)
@@ -13023,7 +13029,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 240.03) (xy 80.01 237.49)
+			(xy 80.01 240.03) (xy 80.01 238.76)
 		)
 		(stroke
 			(width 0)
@@ -14763,7 +14769,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 237.49) (xy 83.82 237.49)
+			(xy 80.01 238.76) (xy 83.82 238.76)
 		)
 		(stroke
 			(width 0)
