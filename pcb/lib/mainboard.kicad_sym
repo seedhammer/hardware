@@ -6537,7 +6537,26 @@
 				(alternate "CS" output line)
 			)
 			(pin power_in line
-				(at -2.54 12.7 270)
+				(at 0 12.7 270)
+				(length 2.54)
+				(hide yes)
+				(name "VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -6557,6 +6576,7 @@
 			(pin power_in line
 				(at 0 12.7 270)
 				(length 2.54)
+				(hide yes)
 				(name "VS"
 					(effects
 						(font
@@ -6602,24 +6622,6 @@
 					)
 				)
 				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 12.7 270)
-				(length 2.54)
-				(name "VS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
