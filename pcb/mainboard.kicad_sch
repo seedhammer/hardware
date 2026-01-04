@@ -31004,7 +31004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "7.15k"
 			(at 405.13 222.2499 0)
 			(effects
 				(font
@@ -31022,7 +31022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26661-0402WGF7501TCE/C25918"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/PANASONIC-ERJ2RKF7151X/C409927"
 			(at 402.59 220.98 0)
 			(effects
 				(font
@@ -31040,7 +31040,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25918"
+		(property "LCSC" "C409927"
 			(at 402.59 220.98 0)
 			(effects
 				(font

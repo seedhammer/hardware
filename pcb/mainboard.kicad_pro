@@ -574,7 +574,7 @@
       "plot": "plots",
       "pos_files": "production/",
       "specctra_dsn": "",
-      "step": "../../../Downloads/mainboard-rev9-1.step",
+      "step": "../../../../Downloads/muscle-demo.step",
       "svg": "",
       "vrml": "../../../Downloads/mainboard-rev4.wrl"
     },
