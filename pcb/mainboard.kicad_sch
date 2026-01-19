@@ -12432,12 +12432,6 @@
 		(uuid "6161cc08-ee5c-478f-9375-257da5c47577")
 	)
 	(junction
-		(at 401.32 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "694c5159-7f8e-4c8f-91a2-ecc9b05b02b9")
-	)
-	(junction
 		(at 76.2 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13243,7 +13237,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 180.34) (xy 408.94 180.34)
+			(xy 397.51 180.34) (xy 408.94 180.34)
 		)
 		(stroke
 			(width 0)
@@ -13390,26 +13384,6 @@
 			(type default)
 		)
 		(uuid "0d086dcb-a559-484c-afb8-90c09b7f213d")
-	)
-	(wire
-		(pts
-			(xy 401.32 180.34) (xy 401.32 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1580b3-4894-4071-b1f0-69f5bb568152")
-	)
-	(wire
-		(pts
-			(xy 397.51 180.34) (xy 401.32 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2918da-a2cb-4253-b083-67eccf81e8d5")
 	)
 	(wire
 		(pts
@@ -14550,16 +14524,6 @@
 			(type default)
 		)
 		(uuid "40905937-e8ba-46d5-a4c8-eedd75edd948")
-	)
-	(wire
-		(pts
-			(xy 401.32 194.31) (xy 401.32 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c486e8-099b-4b50-b59d-a53d3762a844")
 	)
 	(wire
 		(pts
@@ -17640,16 +17604,6 @@
 			(type default)
 		)
 		(uuid "b2c0bfc1-6a15-4e8a-8a97-ca470c44cefc")
-	)
-	(wire
-		(pts
-			(xy 401.32 200.66) (xy 408.94 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ec6aea-dcb5-435f-84a4-59070db5f5bf")
 	)
 	(wire
 		(pts
@@ -44592,100 +44546,6 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 401.32 191.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ead6dda4-1ca2-4b22-8bc4-340d364677ad")
-		(property "Reference" "R43"
-			(at 398.78 193.0401 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 398.78 190.5001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 401.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
-			(at 401.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 401.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17414"
-			(at 401.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 401.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 401.32 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dbb88ede-4a6e-4a33-9ea1-a24e6b30b89f")
-		)
-		(pin "1"
-			(uuid "f7b8f304-a384-465e-8087-30d6e2f80456")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R43")
 					(unit 1)
 				)
 			)
