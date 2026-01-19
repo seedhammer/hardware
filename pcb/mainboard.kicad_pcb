@@ -152,7 +152,7 @@
 			(outputdirectory "gerbers")
 		)
 	)
-	(property "TITLE" "SeedHammer II")
+	(property "TITLE" "Mainboard")
 	(property "VERSION" "")
 	(net 0 "")
 	(net 1 "/DBG_RX")
