@@ -23312,7 +23312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B2B_XH_A_LF_SN/C158012"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B2B_XH_A_BK_LF_SN/C378939"
 			(at 481.33 189.23 0)
 			(effects
 				(font
@@ -23330,7 +23330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C158012"
+		(property "LCSC" "C378939"
 			(at 481.33 189.23 0)
 			(effects
 				(font
@@ -24046,7 +24046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B4B_XH_2_LF_SN/C157999"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B4B_XH_A_BK_LF_SN/C566013"
 			(at 312.42 58.42 0)
 			(effects
 				(font
@@ -24064,7 +24064,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C157999"
+		(property "LCSC" "C566013"
 			(at 312.42 58.42 0)
 			(effects
 				(font
@@ -39976,7 +39976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B4B_XH_2_LF_SN/C157999"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B4B_XH_A_BK_LF_SN/C566013"
 			(at 388.62 58.42 0)
 			(effects
 				(font
@@ -39994,7 +39994,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C157999"
+		(property "LCSC" "C566013"
 			(at 388.62 58.42 0)
 			(effects
 				(font

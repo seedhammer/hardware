@@ -18637,7 +18637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B4B_XH_2_LF_SN/C157999"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B4B_XH_A_BK_LF_SN/C566013"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18663,7 +18663,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C157999"
+		(property "LCSC" "C566013"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26732,7 +26732,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B2B_XH_A_LF_SN/C158012"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B2B_XH_A_BK_LF_SN/C378939"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26758,7 +26758,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C158012"
+		(property "LCSC" "C378939"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56477,7 +56477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Jst-B4B_XH_2_LF_SN/C157999"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B4B_XH_A_BK_LF_SN/C566013"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56503,7 +56503,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C157999"
+		(property "LCSC" "C566013"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
