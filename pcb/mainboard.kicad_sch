@@ -12312,7 +12312,7 @@
 		(uuid "4c83ede2-f51f-4d53-b632-d889ebac65d3")
 	)
 	(junction
-		(at 402.59 215.9)
+		(at 403.86 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cefe5b1-44bb-4e84-876b-57ae978f4223")
@@ -12624,7 +12624,7 @@
 		(uuid "9ba582c2-5c97-4a39-a715-ec31d7e4aafd")
 	)
 	(junction
-		(at 402.59 226.06)
+		(at 403.86 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bff8789-c263-42de-aed6-7720d5d00007")
@@ -12754,6 +12754,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c60b2b66-5d1e-474f-847b-a4055ee50c14")
+	)
+	(junction
+		(at 392.43 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c86f24cd-af70-4bcd-8f11-5381f2c3158a")
 	)
 	(junction
 		(at 142.24 31.75)
@@ -13057,7 +13063,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 226.06) (xy 407.67 226.06)
+			(xy 403.86 226.06) (xy 408.94 226.06)
 		)
 		(stroke
 			(width 0)
@@ -14267,7 +14273,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 226.06) (xy 402.59 223.52)
+			(xy 403.86 226.06) (xy 403.86 223.52)
 		)
 		(stroke
 			(width 0)
@@ -14507,7 +14513,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 215.9) (xy 407.67 215.9)
+			(xy 403.86 215.9) (xy 408.94 215.9)
 		)
 		(stroke
 			(width 0)
@@ -14687,7 +14693,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 209.55) (xy 402.59 215.9)
+			(xy 403.86 209.55) (xy 403.86 215.9)
 		)
 		(stroke
 			(width 0)
@@ -15287,7 +15293,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 228.6) (xy 402.59 226.06)
+			(xy 403.86 228.6) (xy 403.86 226.06)
 		)
 		(stroke
 			(width 0)
@@ -15867,7 +15873,7 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 209.55) (xy 402.59 209.55)
+			(xy 384.81 209.55) (xy 403.86 209.55)
 		)
 		(stroke
 			(width 0)
@@ -19097,7 +19103,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 218.44) (xy 402.59 215.9)
+			(xy 403.86 218.44) (xy 403.86 215.9)
 		)
 		(stroke
 			(width 0)
@@ -26971,7 +26977,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 402.59 228.6 0)
+		(at 403.86 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26980,7 +26986,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e19da50-7506-45f1-9e82-bdd52a88ff5c")
 		(property "Reference" "#PWR089"
-			(at 402.59 234.95 0)
+			(at 403.86 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26989,7 +26995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 402.59 233.68 0)
+			(at 403.86 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26997,7 +27003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 402.59 228.6 0)
+			(at 403.86 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27006,7 +27012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.59 228.6 0)
+			(at 403.86 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27015,7 +27021,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 402.59 228.6 0)
+			(at 403.86 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30988,7 +30994,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 402.59 220.98 0)
+		(at 403.86 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30996,7 +31002,7 @@
 		(dnp no)
 		(uuid "5870a7e4-7390-41ba-bb3b-526ee1a86c0f")
 		(property "Reference" "R32"
-			(at 405.13 219.7099 0)
+			(at 406.4 219.7099 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -31005,7 +31011,7 @@
 			)
 		)
 		(property "Value" "7.15k"
-			(at 405.13 222.2499 0)
+			(at 406.4 222.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31014,7 +31020,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 402.59 220.98 0)
+			(at 403.86 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31023,7 +31029,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/PANASONIC-ERJ2RKF7151X/C409927"
-			(at 402.59 220.98 0)
+			(at 403.86 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31032,7 +31038,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 402.59 220.98 0)
+			(at 403.86 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31041,7 +31047,7 @@
 			)
 		)
 		(property "LCSC" "C409927"
-			(at 402.59 220.98 0)
+			(at 403.86 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42126,7 +42132,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 407.67 226.06 270)
+		(at 408.94 226.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -42134,7 +42140,7 @@
 		(dnp no)
 		(uuid "d846565d-1a5e-4b40-a4f6-e3f4e93eb949")
 		(property "Reference" "TP11"
-			(at 413.258 224.79 90)
+			(at 414.528 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42143,7 +42149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 413.258 227.33 90)
+			(at 414.528 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42152,7 +42158,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
-			(at 407.67 231.14 0)
+			(at 408.94 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42161,7 +42167,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 231.14 0)
+			(at 408.94 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42170,7 +42176,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 407.67 226.06 0)
+			(at 408.94 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43619,6 +43625,72 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 392.43 215.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e34db8f0-a0f5-472f-9bba-e557f0a9d4c2")
+		(property "Reference" "TP6"
+			(at 398.018 214.884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "dVdT"
+			(at 398.018 217.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 392.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 392.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 392.43 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd1ed98c-f376-49a9-9a97-34e38e451fcf")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -46279,7 +46351,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 407.67 215.9 270)
+		(at 408.94 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -46287,7 +46359,7 @@
 		(dnp no)
 		(uuid "fe3b9ac1-cc7c-4036-ba17-2971f5d247b3")
 		(property "Reference" "TP10"
-			(at 413.258 214.884 90)
+			(at 414.528 214.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46296,7 +46368,7 @@
 			)
 		)
 		(property "Value" "Rilim"
-			(at 413.258 217.424 90)
+			(at 414.528 217.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46305,7 +46377,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
-			(at 407.67 220.98 0)
+			(at 408.94 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46314,7 +46386,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 407.67 220.98 0)
+			(at 408.94 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46323,7 +46395,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 407.67 215.9 0)
+			(at 408.94 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
