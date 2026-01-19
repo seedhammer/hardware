@@ -33172,7 +33172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Nichicon-UCD1V221MNL1GS/C136294"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/DMBJ-RVT1V221M0810_220UF35V/C970697"
 			(at 308.61 34.29 0)
 			(effects
 				(font
@@ -33190,7 +33190,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C136294"
+		(property "LCSC" "C970697"
 			(at 308.61 34.29 0)
 			(effects
 				(font
@@ -45500,7 +45500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Nichicon-UCD1V221MNL1GS/C136294"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/DMBJ-RVT1V221M0810_220UF35V/C970697"
 			(at 384.81 34.29 0)
 			(effects
 				(font
@@ -45518,7 +45518,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C136294"
+		(property "LCSC" "C970697"
 			(at 384.81 34.29 0)
 			(effects
 				(font
