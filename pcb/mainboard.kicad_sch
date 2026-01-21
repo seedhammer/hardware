@@ -14407,6 +14407,16 @@
 	)
 	(wire
 		(pts
+			(xy 346.71 209.55) (xy 359.41 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7622cf-d537-4115-8ba6-42ad7cd152fd")
+	)
+	(wire
+		(pts
 			(xy 25.4 162.56) (xy 38.1 162.56)
 		)
 		(stroke
@@ -14894,6 +14904,16 @@
 			(type default)
 		)
 		(uuid "4e8d01a8-9fc8-4657-907b-9e190a821b06")
+	)
+	(wire
+		(pts
+			(xy 346.71 207.01) (xy 346.71 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4edb6f5f-cb43-4ab8-8288-3a551a6482bc")
 	)
 	(wire
 		(pts
@@ -18927,16 +18947,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 209.55) (xy 359.41 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5834f30-6e83-416e-99fd-66b3f9add545")
-	)
-	(wire
-		(pts
 			(xy 514.35 93.98) (xy 527.05 93.98)
 		)
 		(stroke
@@ -20224,16 +20234,6 @@
 			(justify left bottom)
 		)
 		(uuid "5a7291c4-75ad-4daf-9829-37581971c580")
-	)
-	(label "DRV_EN"
-		(at 336.55 209.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bc28357-d925-4e3e-bc08-e8a5b45988e9")
 	)
 	(label "LCD_DB2"
 		(at 527.05 99.06 180)
@@ -38557,6 +38557,72 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 346.71 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae974428-60f3-4322-834c-09fc3196cda0")
+		(property "Reference" "#PWR073"
+			(at 346.71 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 346.71 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 346.71 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "beb6c7fc-6c5c-4532-9ba3-0fad9824838b")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
