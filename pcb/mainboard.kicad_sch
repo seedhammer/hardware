@@ -11923,7 +11923,7 @@
 		)
 		(uuid "7970f104-f727-4652-be05-10d360d98f12")
 	)
-	(text "5V Power (4.88V)"
+	(text "5V Power"
 		(exclude_from_sim no)
 		(at 146.812 185.928 0)
 		(effects
@@ -32457,7 +32457,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "13k"
 			(at 180.34 217.1699 0)
 			(effects
 				(font
@@ -32466,7 +32466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 215.9 0)
 			(effects
 				(font
@@ -32475,7 +32475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23524-0603WAF1302T5E/C22797"
 			(at 184.15 215.9 0)
 			(effects
 				(font
@@ -32493,7 +32493,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C22797"
 			(at 184.15 215.9 0)
 			(effects
 				(font
@@ -37575,7 +37575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51k"
+		(property "Value" "68k"
 			(at 180.34 209.5499 0)
 			(effects
 				(font
@@ -37584,7 +37584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.15 208.28 0)
 			(effects
 				(font
@@ -37593,7 +37593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26537-0402WGF5102TCE/C25794"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
 			(at 184.15 208.28 0)
 			(effects
 				(font
@@ -37611,7 +37611,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25794"
+		(property "LCSC" "C23231"
 			(at 184.15 208.28 0)
 			(effects
 				(font
