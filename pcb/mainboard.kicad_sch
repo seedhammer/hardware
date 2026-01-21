@@ -32356,7 +32356,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138W"
 			(at 435.61 123.1899 0)
 			(effects
 				(font
@@ -32365,7 +32365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 434.34 123.825 0)
 			(effects
 				(font
@@ -32376,7 +32376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
 			(at 434.34 125.73 0)
 			(effects
 				(font
@@ -32386,7 +32386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 429.26 121.92 0)
 			(effects
 				(font
@@ -32395,7 +32395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20917"
+		(property "LCSC" "C28646265"
 			(at 429.26 121.92 0)
 			(effects
 				(font
@@ -33070,7 +33070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138"
+		(property "Value" "BSS138W"
 			(at 337.82 193.0401 0)
 			(effects
 				(font
@@ -39333,7 +39333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138W"
 			(at 222.25 171.704 90)
 			(effects
 				(font
@@ -39342,7 +39342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 217.805 181.61 0)
 			(effects
 				(font
@@ -39353,7 +39353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
 			(at 215.9 181.61 0)
 			(effects
 				(font
@@ -39363,7 +39363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 219.71 176.53 0)
 			(effects
 				(font
@@ -39372,7 +39372,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20917"
+		(property "LCSC" "C28646265"
 			(at 219.71 176.53 0)
 			(effects
 				(font
@@ -41305,7 +41305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138W"
 			(at 222.25 152.654 90)
 			(effects
 				(font
@@ -41314,7 +41314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 217.805 162.56 0)
 			(effects
 				(font
@@ -41325,7 +41325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
 			(at 215.9 162.56 0)
 			(effects
 				(font
@@ -41335,7 +41335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 219.71 157.48 0)
 			(effects
 				(font
@@ -41344,7 +41344,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20917"
+		(property "LCSC" "C28646265"
 			(at 219.71 157.48 0)
 			(effects
 				(font
@@ -44569,7 +44569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138W"
 			(at 288.29 133.3499 0)
 			(effects
 				(font
@@ -44578,7 +44578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 287.02 133.985 0)
 			(effects
 				(font
@@ -44589,7 +44589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
 			(at 287.02 135.89 0)
 			(effects
 				(font
@@ -44599,7 +44599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 281.94 132.08 0)
 			(effects
 				(font
@@ -44608,7 +44608,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20917"
+		(property "LCSC" "C28646265"
 			(at 281.94 132.08 0)
 			(effects
 				(font
@@ -45079,7 +45079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AO3400A"
+		(property "Value" "BSS138W"
 			(at 207.01 140.9699 0)
 			(effects
 				(font
@@ -45088,7 +45088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 208.28 141.605 0)
 			(effects
 				(font
@@ -45099,7 +45099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
 			(at 208.28 143.51 0)
 			(effects
 				(font
@@ -45109,7 +45109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 213.36 139.7 0)
 			(effects
 				(font
@@ -45118,7 +45118,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C20917"
+		(property "LCSC" "C28646265"
 			(at 213.36 139.7 0)
 			(effects
 				(font
