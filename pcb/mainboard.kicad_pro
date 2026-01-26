@@ -504,6 +504,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.18,
+        "diff_pair_width": 0.35,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LongSig",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -513,56 +527,36 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "GND"
+        "netclass": "LongSig",
+        "pattern": "/USB_D+"
       },
       {
-        "netclass": "Default",
-        "pattern": "+5V"
+        "netclass": "LongSig",
+        "pattern": "/USB_D-"
       },
       {
-        "netclass": "Default",
-        "pattern": "+3V3"
+        "netclass": "LongSig",
+        "pattern": "/SWCLK"
       },
       {
-        "netclass": "Default",
-        "pattern": "+24V"
+        "netclass": "LongSig",
+        "pattern": "/SWD"
       },
       {
-        "netclass": "Default",
-        "pattern": "/Y_A1"
+        "netclass": "LongSig",
+        "pattern": "/DBG_RX"
       },
       {
-        "netclass": "Default",
-        "pattern": "/Y_A2"
+        "netclass": "LongSig",
+        "pattern": "/DBG_TX"
       },
       {
-        "netclass": "Default",
-        "pattern": "/X_A1"
+        "netclass": "LongSig",
+        "pattern": "/CC1"
       },
       {
-        "netclass": "Default",
-        "pattern": "/X_A2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Y_B1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/Y_B2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/X_B1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/X_B2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/MOSFET"
+        "netclass": "LongSig",
+        "pattern": "/CC2"
       }
     ]
   },
