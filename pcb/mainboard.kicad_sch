@@ -15195,16 +15195,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 350.52) (xy 66.04 350.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23fa694d-9dbb-43af-85c4-777d35889a46")
-	)
-	(wire
-		(pts
 			(xy 153.67 40.64) (xy 153.67 53.34)
 		)
 		(stroke
@@ -16975,6 +16965,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 350.52) (xy 58.42 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67d85380-e6a4-4df6-b32a-d27fa84c4bb2")
+	)
+	(wire
+		(pts
 			(xy 448.31 85.09) (xy 459.74 85.09)
 		)
 		(stroke
@@ -17442,6 +17442,16 @@
 			(type default)
 		)
 		(uuid "79b383ae-8bc0-4a5e-8df7-bba967a72e9e")
+	)
+	(wire
+		(pts
+			(xy 48.26 345.44) (xy 58.42 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c6cea5-1d78-45f5-a4f4-5fb36f994aed")
 	)
 	(wire
 		(pts
@@ -18955,6 +18965,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 355.6) (xy 58.42 355.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab320f17-80ff-4fa8-b270-0953bd6c61d2")
+	)
+	(wire
+		(pts
 			(xy 514.35 53.34) (xy 514.35 55.88)
 		)
 		(stroke
@@ -19402,16 +19422,6 @@
 			(type default)
 		)
 		(uuid "b9b21799-3a4f-4d10-a428-f83b437176a3")
-	)
-	(wire
-		(pts
-			(xy 55.88 355.6) (xy 66.04 355.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad54686-ab21-4acf-a91b-7274f7c45355")
 	)
 	(wire
 		(pts
@@ -20072,16 +20082,6 @@
 			(type default)
 		)
 		(uuid "d29cae87-bd35-4681-bfa0-bf9ab00e997b")
-	)
-	(wire
-		(pts
-			(xy 55.88 345.44) (xy 66.04 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2dbab22-e4a0-4cf0-819d-329a3bd58d85")
 	)
 	(wire
 		(pts
@@ -22244,7 +22244,7 @@
 		(uuid "74b6354b-7f3b-4f7b-a7fe-d619ae277d4d")
 	)
 	(label "DATA_SDA"
-		(at 55.88 350.52 0)
+		(at 48.26 350.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22394,7 +22394,7 @@
 		(uuid "85259c6b-6c45-4583-b035-23fa7d2571d9")
 	)
 	(label "NFC_INT"
-		(at 55.88 355.6 0)
+		(at 48.26 355.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22924,7 +22924,7 @@
 		(uuid "d9303ab6-f0a8-42c0-97dd-ae4bd6397938")
 	)
 	(label "DATA_SCL"
-		(at 55.88 345.44 0)
+		(at 48.26 345.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35291,6 +35291,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 62.23 350.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c35db8-cd2d-4e39-9e95-5e4857095274")
+		(property "Reference" "JP3"
+			(at 62.23 347.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 62.23 346.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 62.23 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 62.23 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c39a6bf5-2f9e-4a06-a26e-c513dd30d24c")
+		)
+		(pin "2"
+			(uuid "48eb6ee7-1625-408d-b031-a2134042719f")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 335.28 53.34 270)
 		(unit 1)
@@ -36735,6 +36803,74 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 62.23 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7dcb0286-a2e2-4109-8316-8547ae9cfd9c")
+		(property "Reference" "JP2"
+			(at 62.23 342.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 62.23 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 62.23 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 62.23 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30aff29f-da39-48d3-922b-216293f9b09d")
+		)
+		(pin "2"
+			(uuid "cb44f22b-5dbc-4ee8-8746-5f78b4e00ef9")
+		)
+		(instances
+			(project ""
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -49734,6 +49870,74 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 62.23 355.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2ba4a8a-d436-4597-84d7-22a65ccf9553")
+		(property "Reference" "JP4"
+			(at 62.23 352.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 62.23 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 62.23 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 62.23 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e95b0822-e4c9-4d40-b152-a7efc662d274")
+		)
+		(pin "2"
+			(uuid "5c498784-73c8-4d1d-925e-9caf598b902e")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
