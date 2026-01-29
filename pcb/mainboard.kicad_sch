@@ -12643,6 +12643,17 @@
 		)
 		(uuid "8b071e69-1fba-401f-85a3-ba2b2fb9ca19")
 	)
+	(text "Vgs < Vgs(min) at VBUS0~=7V\nVgs > Vgs(max) at VBUS0~=15V"
+		(exclude_from_sim no)
+		(at 250.19 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b69b1cf9-23c4-49d3-a878-f4486ed57f90")
+	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
 		(at 18.542 19.05 0)
@@ -13550,12 +13561,6 @@
 		(uuid "ce261e60-ef4c-4be2-a3dd-fe98b72d847b")
 	)
 	(junction
-		(at 143.51 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfcf6f80-e766-49cf-a6f5-5edf0d5189ab")
-	)
-	(junction
 		(at 146.05 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13566,6 +13571,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4898b42-1b81-46a8-9a24-50134cb0fefd")
+	)
+	(junction
+		(at 138.43 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d90c6013-c03d-4795-97ca-7cbe7fbd3424")
 	)
 	(junction
 		(at 158.75 238.76)
@@ -14025,16 +14036,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 238.76) (xy 153.67 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069c2a30-6d75-4e5f-bfbf-d564df5a1984")
-	)
-	(wire
-		(pts
 			(xy 88.9 20.32) (xy 100.33 20.32)
 		)
 		(stroke
@@ -14222,6 +14223,16 @@
 			(type default)
 		)
 		(uuid "0d086dcb-a559-484c-afb8-90c09b7f213d")
+	)
+	(wire
+		(pts
+			(xy 138.43 238.76) (xy 153.67 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d6763aa-8230-46db-b146-91bfd3cada44")
 	)
 	(wire
 		(pts
@@ -14535,7 +14546,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 251.46) (xy 132.08 255.27)
+			(xy 124.46 251.46) (xy 124.46 255.27)
 		)
 		(stroke
 			(width 0)
@@ -16395,16 +16406,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 238.76) (xy 137.16 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61e6f077-90c9-47ba-966d-1e6ea72ddfbe")
-	)
-	(wire
-		(pts
 			(xy 354.33 156.21) (xy 360.68 156.21)
 		)
 		(stroke
@@ -16435,7 +16436,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 260.35) (xy 118.11 260.35)
+			(xy 127 260.35) (xy 118.11 260.35)
 		)
 		(stroke
 			(width 0)
@@ -16685,7 +16686,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 260.35) (xy 139.7 260.35)
+			(xy 138.43 260.35) (xy 132.08 260.35)
 		)
 		(stroke
 			(width 0)
@@ -17735,7 +17736,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 238.76) (xy 127 238.76)
+			(xy 105.41 238.76) (xy 119.38 238.76)
 		)
 		(stroke
 			(width 0)
@@ -18655,6 +18656,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 238.76) (xy 129.54 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9e37f1-9c53-43ae-9f76-9ce10a58bf06")
+	)
+	(wire
+		(pts
 			(xy 193.04 363.22) (xy 193.04 365.76)
 		)
 		(stroke
@@ -18745,7 +18756,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 238.76) (xy 143.51 260.35)
+			(xy 138.43 238.76) (xy 138.43 260.35)
 		)
 		(stroke
 			(width 0)
@@ -18855,7 +18866,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 255.27) (xy 132.08 255.27)
+			(xy 118.11 255.27) (xy 124.46 255.27)
 		)
 		(stroke
 			(width 0)
@@ -21103,8 +21114,8 @@
 		)
 		(uuid "19743f36-e9a6-4e99-a337-4623b7a936ee")
 	)
-	(label "PWR_EN"
-		(at 128.27 255.27 180)
+	(label "VBUS0"
+		(at 148.59 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22283,7 +22294,7 @@
 		)
 		(uuid "cbecd813-3c6e-43b5-9304-936a22fe22ca")
 	)
-	(label "PWR_EN"
+	(label "VBUS0"
 		(at 257.81 148.59 0)
 		(effects
 			(font
@@ -33719,7 +33730,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 132.08 248.92 180)
+		(at 124.46 248.92 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33728,7 +33739,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a2b3ab-9077-495d-a17c-f85cc6c377b3")
 		(property "Reference" "R47"
-			(at 134.62 247.6499 0)
+			(at 127 247.6499 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -33737,7 +33748,7 @@
 			)
 		)
 		(property "Value" "6.2k"
-			(at 134.62 250.1899 0)
+			(at 127 250.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33746,7 +33757,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 132.08 248.92 0)
+			(at 124.46 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33755,7 +33766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 248.92 0)
+			(at 124.46 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33764,7 +33775,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 132.08 248.92 0)
+			(at 124.46 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33773,7 +33784,7 @@
 			)
 		)
 		(property "LCSC" "C4260"
-			(at 132.08 248.92 90)
+			(at 124.46 248.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37087,7 +37098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "82k"
 			(at 267.9701 146.05 0)
 			(effects
 				(font
@@ -37096,7 +37107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 269.24 148.59 0)
 			(effects
 				(font
@@ -37105,7 +37116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26522-0402WGF3302TCE/C25779"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23981-0603WAF8202T5E/C23254"
 			(at 269.24 148.59 0)
 			(effects
 				(font
@@ -37123,7 +37134,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25779"
+		(property "LCSC" "C23254"
 			(at 269.24 148.59 0)
 			(effects
 				(font
@@ -39750,7 +39761,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "9.1k"
 			(at 273.05 153.6701 0)
 			(effects
 				(font
@@ -39759,7 +39770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 275.59 154.94 0)
 			(effects
 				(font
@@ -39768,7 +39779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26522-0402WGF3302TCE/C25779"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23987-0603WAF9101T5E/C23260"
 			(at 275.59 154.94 0)
 			(effects
 				(font
@@ -39786,7 +39797,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25779"
+		(property "LCSC" "C23260"
 			(at 275.59 154.94 0)
 			(effects
 				(font
@@ -40187,7 +40198,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:AON7264E")
-		(at 132.08 241.3 90)
+		(at 124.46 241.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40196,7 +40207,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3622f9e-b9ac-486d-a704-a27f3a3e1c47")
 		(property "Reference" "Q1"
-			(at 132.0801 232.41 90)
+			(at 124.4601 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40204,7 +40215,7 @@
 			)
 		)
 		(property "Value" "AON7264E"
-			(at 132.0801 234.95 90)
+			(at 124.4601 234.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40212,7 +40223,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm"
-			(at 133.985 236.22 0)
+			(at 126.365 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40222,7 +40233,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AON7264E.pdf"
-			(at 135.89 236.22 0)
+			(at 128.27 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40232,7 +40243,7 @@
 			)
 		)
 		(property "Description" "28A Id, 60V Vds, N-Channel MOSFET, DFN-8"
-			(at 132.08 241.3 0)
+			(at 124.46 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40241,7 +40252,7 @@
 			)
 		)
 		(property "LCSC" "C431191"
-			(at 132.08 241.3 90)
+			(at 124.46 241.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41685,7 +41696,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 137.16 260.35 270)
+		(at 129.54 260.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41694,7 +41705,7 @@
 		(fields_autoplaced yes)
 		(uuid "b41cce6a-5250-4994-82ee-b504efafcc62")
 		(property "Reference" "R38"
-			(at 137.16 255.27 90)
+			(at 129.54 255.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41702,7 +41713,7 @@
 			)
 		)
 		(property "Value" "200"
-			(at 137.16 257.81 90)
+			(at 129.54 257.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41710,7 +41721,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 137.16 260.35 0)
+			(at 129.54 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41719,7 +41730,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/25830-0402WGF2000TCE/C25087"
-			(at 137.16 260.35 0)
+			(at 129.54 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41728,7 +41739,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 137.16 260.35 0)
+			(at 129.54 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41737,7 +41748,7 @@
 			)
 		)
 		(property "LCSC" "C25087"
-			(at 137.16 260.35 0)
+			(at 129.54 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41746,7 +41757,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 137.16 260.35 0)
+			(at 129.54 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41754,7 +41765,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 137.16 260.35 0)
+			(at 129.54 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
