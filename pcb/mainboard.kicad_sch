@@ -6822,7 +6822,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3400A"
+		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -6839,7 +6839,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AO3400A"
+			(property "Value" "BSS138"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -6859,7 +6859,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -6869,7 +6869,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6896,7 +6896,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AO3400A_0_1"
+			(symbol "BSS138_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -7063,7 +7063,7 @@
 					)
 				)
 			)
-			(symbol "AO3400A_1_1"
+			(symbol "BSS138_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -33497,7 +33497,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "Transistor_FET:BSS138")
 		(at 212.09 134.62 0)
 		(mirror y)
 		(unit 1)
@@ -33545,7 +33545,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 212.09 134.62 0)
 			(effects
 				(font
@@ -34338,7 +34338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "Transistor_FET:BSS138")
 		(at 444.5 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34385,7 +34385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 444.5 123.19 0)
 			(effects
 				(font
@@ -34438,7 +34438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "Transistor_FET:BSS138")
 		(at 281.94 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -34485,7 +34485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 281.94 148.59 0)
 			(effects
 				(font
@@ -41920,7 +41920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "Transistor_FET:BSS138")
 		(at 214.63 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41967,7 +41967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 214.63 175.26 0)
 			(effects
 				(font
@@ -43840,7 +43840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
+		(lib_id "Transistor_FET:BSS138")
 		(at 214.63 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43887,7 +43887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V Vds, 27pF Ciss, 0.22A Id, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 214.63 157.48 0)
 			(effects
 				(font
