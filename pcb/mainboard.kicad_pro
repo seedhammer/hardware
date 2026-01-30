@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|251285000|78580000|b43a057a-55f0-4448-8634-773a7186b36a|00000000-0000-0000-0000-000000000000",
+          "Overlaid pins confuses DRC"
+        ]
+      ],
       "meta": {
         "version": 2
       },
