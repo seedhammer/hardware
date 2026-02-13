@@ -3875,6 +3875,237 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Interface:PCA9306DC1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PCA9306DC1"
+				(at 3.81 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf"
+				(at -7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual bidirectional I2C Bus and SMBus voltage level translator, VSSOP-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C SMBus"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "VSSOP*2.3x2mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PCA9306DC1_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "PCA9306DC1_1_1"
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SCL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SDA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 12.7 270)
+					(length 2.54)
+					(name "VREF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "VREF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SDA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -13209,6 +13440,12 @@
 		(uuid "189fce0b-5c29-4abc-a5d0-f2999cb5280a")
 	)
 	(junction
+		(at 288.29 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1af97888-ef48-4afa-9f7c-ba208a462359")
+	)
+	(junction
 		(at 85.09 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15898,7 +16135,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 161.29) (xy 293.37 161.29)
+			(xy 285.75 182.88) (xy 298.45 182.88)
 		)
 		(stroke
 			(width 0)
@@ -17458,7 +17695,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 179.07) (xy 270.51 179.07)
+			(xy 254 180.34) (xy 265.43 180.34)
 		)
 		(stroke
 			(width 0)
@@ -18578,6 +18815,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 167.64) (xy 278.13 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f116fe-e5d1-4c7a-8a4a-04ae81811f5b")
+	)
+	(wire
+		(pts
 			(xy 193.04 323.85) (xy 193.04 326.39)
 		)
 		(stroke
@@ -19235,6 +19482,16 @@
 			(type default)
 		)
 		(uuid "a71e6b93-1b0d-4fe0-b68f-832eecaec731")
+	)
+	(wire
+		(pts
+			(xy 278.13 166.37) (xy 288.29 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a739707a-b420-4d2d-8627-81c78e41e043")
 	)
 	(wire
 		(pts
@@ -20258,7 +20515,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 179.07) (xy 293.37 179.07)
+			(xy 285.75 180.34) (xy 298.45 180.34)
 		)
 		(stroke
 			(width 0)
@@ -20368,6 +20625,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 156.21) (xy 279.4 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7d919a-3a8a-4a70-8baa-d85c075b6743")
+	)
+	(wire
+		(pts
 			(xy 495.3 321.31) (xy 490.22 321.31)
 		)
 		(stroke
@@ -20465,6 +20732,16 @@
 			(type default)
 		)
 		(uuid "cf003182-f369-4120-9ac1-283d28eeb66f")
+	)
+	(wire
+		(pts
+			(xy 288.29 177.8) (xy 285.75 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2959a0-cf94-482e-a012-6e25c1d496fd")
 	)
 	(wire
 		(pts
@@ -20645,6 +20922,16 @@
 			(type default)
 		)
 		(uuid "d50d7040-bfbe-4afc-bbf4-3f2ece353f8b")
+	)
+	(wire
+		(pts
+			(xy 288.29 166.37) (xy 288.29 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5587542-b16f-48bf-8683-cad3c3ceeeaf")
 	)
 	(wire
 		(pts
@@ -20948,7 +21235,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 161.29) (xy 270.51 161.29)
+			(xy 254 182.88) (xy 265.43 182.88)
 		)
 		(stroke
 			(width 0)
@@ -21118,6 +21405,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 158.75) (xy 288.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ec301a-f923-46ad-aeee-7663d075a5de")
+	)
+	(wire
+		(pts
 			(xy 38.1 152.4) (xy 59.69 152.4)
 		)
 		(stroke
@@ -21215,6 +21512,16 @@
 			(type default)
 		)
 		(uuid "e790e3b0-c196-427f-9204-96675c906a8a")
+	)
+	(wire
+		(pts
+			(xy 288.29 163.83) (xy 288.29 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7bd494d-5c33-4281-bd2d-462804ab12fd")
 	)
 	(wire
 		(pts
@@ -22927,7 +23234,7 @@
 		(uuid "86ea599b-ee85-46cc-8f3c-5223167cbaf5")
 	)
 	(label "PD_SDA_5V"
-		(at 293.37 161.29 180)
+		(at 298.45 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -22967,7 +23274,7 @@
 		(uuid "8a2f06b3-4f42-4ad6-8079-c54a7032856c")
 	)
 	(label "PD_SCL_5V"
-		(at 293.37 179.07 180)
+		(at 298.45 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23267,7 +23574,7 @@
 		(uuid "b2075b4d-892c-44df-b258-f714adca0ad5")
 	)
 	(label "DATA_SDA"
-		(at 259.08 161.29 0)
+		(at 254 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23387,7 +23694,7 @@
 		(uuid "c784f58f-6a75-4979-9fe2-7436b9b8c858")
 	)
 	(label "DATA_SCL"
-		(at 259.08 179.07 0)
+		(at 254 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23605,6 +23912,16 @@
 			(justify right bottom)
 		)
 		(uuid "f16c5ca9-4800-47e0-a2fb-072f6ff21f4d")
+	)
+	(label "PD_5V"
+		(at 279.4 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f223e23e-f49a-418f-92c3-d3ddc51ec6ab")
 	)
 	(label "STEP_UART"
 		(at 184.15 93.98 180)
@@ -29755,6 +30072,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 288.29 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d4c5ec4-6d37-4bbc-97a7-778f6bfd8531")
+		(property "Reference" "R34"
+			(at 283.21 161.29 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "200k"
+			(at 285.75 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 288.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26507-0402WGF2003TCE/C25764"
+			(at 288.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 288.29 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25764"
+			(at 288.29 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b860386-3de8-4bef-a63c-4564b82d7ad4")
+		)
+		(pin "2"
+			(uuid "dffe0c0e-cb62-44b8-8a4a-fb361cf607d4")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 340.36 349.25 0)
 		(unit 1)
@@ -32134,6 +32527,103 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface:PCA9306DC1")
+		(at 275.59 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42269471-5a9f-437b-bd97-6a7e5a9b4347")
+		(property "Reference" "U9"
+			(at 277.7333 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PCA9306DC1"
+			(at 277.7333 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mainboard:VSSOP-8_2.3x2mm_P0.5mm"
+			(at 275.59 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf"
+			(at 267.97 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual bidirectional I2C Bus and SMBus voltage level translator, VSSOP-8"
+			(at 275.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C33196"
+			(at 275.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4adb6636-7be0-450a-a3f5-c8c378b86b89")
+		)
+		(pin "4"
+			(uuid "0d118ce5-79e6-49b4-bf93-4be25ce4b817")
+		)
+		(pin "2"
+			(uuid "0e5bcbcd-d72b-418d-8c6b-26f8848f1564")
+		)
+		(pin "1"
+			(uuid "41d34ccf-4a9a-4e02-bf7a-1f89497674b1")
+		)
+		(pin "7"
+			(uuid "b7339ad8-b7b6-4bad-b02f-2af9b449de81")
+		)
+		(pin "8"
+			(uuid "5c5d47a2-13ec-4f23-9503-d19b69c568dd")
+		)
+		(pin "6"
+			(uuid "6146a6b7-f2d4-431b-b52d-da5da8517eb3")
+		)
+		(pin "5"
+			(uuid "f27f6b8f-9d48-4f3c-bb6a-c1f86cbdf31e")
+		)
+		(instances
+			(project ""
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -36908,6 +37398,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 275.59 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71a125e9-f717-4591-aa7a-817e4e8c5e49")
+		(property "Reference" "#PWR0128"
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a49405f-75bf-45f9-aa7e-6e0f62f5c01c")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 278.13 257.81 0)
 		(mirror y)
@@ -37391,7 +37948,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 275.59 171.45 0)
+		(at 273.05 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37399,7 +37956,7 @@
 		(dnp no)
 		(uuid "75ec68ee-6c94-46c7-aa2d-60bb4415a909")
 		(property "Reference" "#PWR070"
-			(at 275.59 175.26 0)
+			(at 273.05 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37408,7 +37965,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 275.082 166.878 0)
+			(at 272.542 163.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37416,7 +37973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 171.45 0)
+			(at 273.05 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37425,7 +37982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 171.45 0)
+			(at 273.05 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37434,7 +37991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 275.59 171.45 0)
+			(at 273.05 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44908,106 +45465,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 275.59 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b97d77b3-226f-4bee-90dd-29b67c8b22f5")
-		(property "Reference" "Q15"
-			(at 278.1299 174.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138W"
-			(at 278.13 171.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 273.685 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
-			(at 271.78 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 275.59 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28646265"
-			(at 275.59 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 275.59 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 275.59 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8502187-32cd-4e74-a51b-4cd2f883209f")
-		)
-		(pin "2"
-			(uuid "8a8938c0-2a98-4b70-a054-ef9d9b0af55d")
-		)
-		(pin "3"
-			(uuid "857f9646-46c3-4ea4-855c-e2c4678aaec0")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "Q15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 246.38 39.37 0)
 		(unit 1)
@@ -47117,106 +47574,6 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS138")
-		(at 275.59 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdd56e52-dc83-4938-951b-b5bb0e1c4dd3")
-		(property "Reference" "Q14"
-			(at 278.1299 156.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138W"
-			(at 278.13 153.924 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 273.685 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
-			(at 271.78 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 275.59 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C28646265"
-			(at 275.59 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 275.59 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 275.59 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b27edef4-2db7-4d3d-855e-13170cf5b93f")
-		)
-		(pin "2"
-			(uuid "7b9cafde-ff5b-4a63-b816-c37b7f0fb411")
-		)
-		(pin "3"
-			(uuid "031798a2-e536-41a6-986a-646b01a06fa2")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "Q14")
 					(unit 1)
 				)
 			)
@@ -50124,71 +50481,6 @@
 			(project "mainboard"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 275.59 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e45219b2-c4f1-4b2a-abd8-edf73c753ea9")
-		(property "Reference" "#PWR066"
-			(at 275.59 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 275.082 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 275.59 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0256504-d2f9-467a-a6f4-ed8f7981b177")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
