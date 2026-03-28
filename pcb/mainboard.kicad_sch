@@ -14038,7 +14038,7 @@
 		)
 		(uuid "029a9670-093f-4aae-adce-81c71b5eb6a5")
 	)
-	(text "Ichop = 11.4A"
+	(text "S_VREF = 1.08V\nIchop = 10.3A"
 		(exclude_from_sim no)
 		(at 433.832 368.554 0)
 		(effects
@@ -27486,7 +27486,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e85c71e-5ed2-4742-93b0-38095b39d656")
@@ -27817,7 +27817,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 422.021 389.3058 0)
+			(at 421.386 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28452,7 +28452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "62k"
 			(at 426.72 358.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28463,7 +28463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 429.26 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -28474,7 +28474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23948-0603WAF6202T5E/C23221"
 			(at 429.26 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -28496,7 +28496,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C23221"
 			(at 429.26 356.87 0)
 			(hide yes)
 			(show_name no)
@@ -29215,7 +29215,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "185d16fb-3c8b-4987-ad30-37804e9dd61f")
 		(property "Reference" "JP6"
@@ -30170,7 +30170,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "20054846-23d2-485c-a6da-31f0a73458e7")
 		(property "Reference" "TP7"
@@ -34669,7 +34669,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fdd956a-abff-48e1-b492-c53b36d8eed9")
@@ -36966,7 +36966,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f9ba2b6-4662-468e-a27a-a4e49125bf2c")
@@ -40400,7 +40400,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "69c35db8-cd2d-4e39-9e95-5e4857095274")
 		(property "Reference" "JP3"
@@ -40558,7 +40558,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "6a3490de-3bf4-4b9a-9bc4-85d3f9a40627")
 		(property "Reference" "TP9"
@@ -42457,7 +42457,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7dcb0286-a2e2-4109-8316-8547ae9cfd9c")
 		(property "Reference" "JP2"
@@ -42845,7 +42845,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80a2c814-ca51-4c3e-ac58-7d27c95b581c")
@@ -43651,7 +43651,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "8961037e-783d-4eb0-b607-b4f6cbb3b07f")
 		(property "Reference" "TP12"
@@ -43799,14 +43799,14 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "Jumper:SolderJumper_2_Bridged")
 		(at 435.61 361.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "896acb43-2bef-48b1-998c-e8d676cb8ff1")
 		(property "Reference" "JP9"
@@ -43830,7 +43830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 435.61 361.95 0)
 			(hide yes)
 			(show_name no)
@@ -43842,7 +43842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 435.61 361.95 0)
+			(at 435.61 368.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43852,8 +43852,8 @@
 				)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 435.61 361.95 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 435.61 367.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48142,7 +48142,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a0aedb28-9024-49cc-836e-cf7a1039bc2c")
 		(property "Reference" "JP5"
@@ -51645,7 +51645,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c00442ea-ee55-4cf2-81a9-91759efe05c4")
 		(property "Reference" "JP8"
@@ -52450,7 +52450,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c5caf9de-386f-40ef-9bc9-6af78e36ca57")
 		(property "Reference" "TP8"
@@ -53374,7 +53374,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "18k"
 			(at 425.45 368.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53384,7 +53384,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 429.26 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -53395,7 +53395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26633-0402WGF3301TCE/C25890"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26553-0603WAF1802T5E/C25810"
 			(at 429.26 367.03 0)
 			(hide yes)
 			(show_name no)
@@ -53417,7 +53417,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25890"
+		(property "LCSC" "C25810"
 			(at 429.26 367.03 90)
 			(hide yes)
 			(show_name no)
@@ -53606,7 +53606,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "cfe51133-749c-4f9b-b5b8-45261ace12f4")
 		(property "Reference" "TP3"
@@ -54227,7 +54227,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d6d7d7ad-ff60-4ca2-ac76-9a8ae9dfbae7")
 		(property "Reference" "JP7"
@@ -54512,7 +54512,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d846565d-1a5e-4b40-a4f6-e3f4e93eb949")
 		(property "Reference" "TP11"
@@ -56437,7 +56437,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e34db8f0-a0f5-472f-9bba-e557f0a9d4c2")
 		(property "Reference" "TP6"
@@ -56627,7 +56627,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e428200d-c2d0-4bf3-8cdc-901538e44370")
@@ -58369,7 +58369,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f2ba4a8a-d436-4597-84d7-22a65ccf9553")
 		(property "Reference" "JP4"
@@ -59734,7 +59734,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fe3b9ac1-cc7c-4036-ba17-2971f5d247b3")
 		(property "Reference" "TP10"
