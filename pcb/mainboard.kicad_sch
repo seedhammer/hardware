@@ -27598,7 +27598,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B2B_XH_A_BK_LF_SN/C378939"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/24933-XH2ABlack/C24193"
 			(at 534.67 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -27620,7 +27620,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C378939"
+		(property "LCSC" "C24193"
 			(at 534.67 345.44 0)
 			(hide yes)
 			(show_name no)
@@ -28586,7 +28586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B4B_XH_A_BK_LF_SN/C566013"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/58883-XH4ABlack/C57846"
 			(at 312.42 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -28608,7 +28608,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C566013"
+		(property "LCSC" "C57846"
 			(at 312.42 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -37816,7 +37816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/416146-0402WGF300KTCE/C423196"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/KOA_SpeerElec-RK73B1ETTP3R0J/C131555"
 			(at 224.79 363.22 0)
 			(hide yes)
 			(show_name no)
@@ -37838,7 +37838,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C423196"
+		(property "LCSC" "C131555"
 			(at 224.79 363.22 90)
 			(hide yes)
 			(show_name no)
@@ -49835,7 +49835,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/416146-0402WGF300KTCE/C423196"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/KOA_SpeerElec-RK73B1ETTP3R0J/C131555"
 			(at 224.79 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -49857,7 +49857,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C423196"
+		(property "LCSC" "C131555"
 			(at 224.79 326.39 90)
 			(hide yes)
 			(show_name no)
@@ -51552,7 +51552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B4B_XH_A_BK_LF_SN/C566013"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/58883-XH4ABlack/C57846"
 			(at 388.62 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -51574,7 +51574,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C566013"
+		(property "LCSC" "C57846"
 			(at 388.62 58.42 0)
 			(hide yes)
 			(show_name no)
