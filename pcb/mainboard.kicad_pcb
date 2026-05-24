@@ -22506,7 +22506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/835275-GRM1555C1H681FA01D/C782153"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/946686-GCM1555C1H681FA16D/C882579"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22532,7 +22532,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C782153"
+		(property "LCSC" "C882579"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29233,7 +29233,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/835275-GRM1555C1H681FA01D/C782153"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/946686-GCM1555C1H681FA16D/C882579"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29259,7 +29259,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C782153"
+		(property "LCSC" "C882579"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
