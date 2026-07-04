@@ -10421,18 +10421,7 @@
 		)
 		(uuid "600f3633-3bdd-4f39-8520-2fb47d9091af")
 	)
-	(text "Note: when VBUS goes low, the capacitor bank\nacts as backup supply through the TPS1663 body\ndiode. Drivers are forced off so the power\ndissipation in the diode is limited to the\nMCU+LCD power draw."
-		(exclude_from_sim no)
-		(at 323.596 283.972 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6398adb7-7040-410e-bb75-1b154b6bf7a2")
-	)
-	(text "Vsel = 20V\n"
+	(text "Vsel = 28V\n"
 		(exclude_from_sim no)
 		(at 133.858 289.814 0)
 		(effects
@@ -10719,12 +10708,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "47d95241-068b-4944-861f-dc9cb0fe051e")
-	)
-	(junction
-		(at 69.85 278.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b0b5903-1f07-49f8-b503-e7a653b8a14c")
 	)
 	(junction
 		(at 347.98 314.96)
@@ -11069,12 +11052,6 @@
 		(uuid "d53c9447-afe3-4c55-8386-ac9a4c194740")
 	)
 	(junction
-		(at 138.43 238.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d90c6013-c03d-4795-97ca-7cbe7fbd3424")
-	)
-	(junction
 		(at 158.75 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11135,6 +11112,12 @@
 		(uuid "f77a19fd-9b53-4132-a2ad-17e78f46d2b1")
 	)
 	(junction
+		(at 143.51 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7ce9cf0-e45e-4abe-a3a1-31bf94d95499")
+	)
+	(junction
 		(at 306.07 246.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11157,6 +11140,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff1cbe27-c277-45f5-a996-2f2169280549")
+	)
+	(no_connect
+		(at 92.71 274.32)
+		(uuid "075da919-bc15-4604-b340-2a3bc36aa453")
 	)
 	(no_connect
 		(at 158.75 102.87)
@@ -11183,8 +11170,16 @@
 		(uuid "3800b63a-7409-4fee-99bd-c3d4d6a0ed55")
 	)
 	(no_connect
+		(at 92.71 276.86)
+		(uuid "3d16603b-5544-4616-9061-6ded0925aab1")
+	)
+	(no_connect
 		(at 118.11 285.75)
 		(uuid "42910f94-5fd7-4a05-8e0d-ea23575ef0b6")
+	)
+	(no_connect
+		(at 92.71 279.4)
+		(uuid "434b2882-d59c-4b1f-bfa7-9974ae04b579")
 	)
 	(no_connect
 		(at 158.75 130.81)
@@ -11520,13 +11515,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 278.13) (xy 69.85 278.13)
+			(xy 143.51 238.76) (xy 153.67 238.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "094aceb4-72bf-41c3-a5fc-e7a6827930c7")
+		(uuid "09809924-3718-4d01-b689-63bb1d8291b1")
 	)
 	(wire
 		(pts
@@ -11570,16 +11565,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 276.86) (xy 69.85 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b13cb95-de89-440c-95b4-1e6d955fcf57")
-	)
-	(wire
-		(pts
 			(xy 110.49 35.56) (xy 110.49 39.37)
 		)
 		(stroke
@@ -11617,16 +11602,6 @@
 			(type default)
 		)
 		(uuid "0d086dcb-a559-484c-afb8-90c09b7f213d")
-	)
-	(wire
-		(pts
-			(xy 138.43 238.76) (xy 153.67 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d6763aa-8230-46db-b146-91bfd3cada44")
 	)
 	(wire
 		(pts
@@ -11707,16 +11682,6 @@
 			(type default)
 		)
 		(uuid "133cd10f-d410-462f-9c04-49ed5800ed7b")
-	)
-	(wire
-		(pts
-			(xy 77.47 279.4) (xy 92.71 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13787596-aec2-41e3-8f61-758018f5d9c9")
 	)
 	(wire
 		(pts
@@ -12287,16 +12252,6 @@
 			(type default)
 		)
 		(uuid "2d9bde2c-e346-4e0b-9d15-821bd14489d1")
-	)
-	(wire
-		(pts
-			(xy 69.85 278.13) (xy 69.85 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f50a9da-f3b9-4387-b212-a207a0da6ab9")
 	)
 	(wire
 		(pts
@@ -13350,16 +13305,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 278.13) (xy 69.85 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "652d1ae0-ea68-41d0-a730-f32b64ea0bfd")
-	)
-	(wire
-		(pts
 			(xy 203.2 62.23) (xy 214.63 62.23)
 		)
 		(stroke
@@ -13450,7 +13395,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 260.35) (xy 132.08 260.35)
+			(xy 143.51 260.35) (xy 132.08 260.35)
 		)
 		(stroke
 			(width 0)
@@ -14200,16 +14145,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 274.32) (xy 92.71 274.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903f3025-4ced-4aa0-9d44-ff7a6aa88978")
-	)
-	(wire
-		(pts
 			(xy 262.89 238.76) (xy 269.24 238.76)
 		)
 		(stroke
@@ -14367,16 +14302,6 @@
 			(type default)
 		)
 		(uuid "98e2a17a-f6d2-4528-9df7-02ccb1ada680")
-	)
-	(wire
-		(pts
-			(xy 72.39 279.4) (xy 69.85 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98eef2fa-a275-443b-9430-a3234dc850fb")
 	)
 	(wire
 		(pts
@@ -14950,7 +14875,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 238.76) (xy 129.54 238.76)
+			(xy 129.54 238.76) (xy 143.51 238.76)
 		)
 		(stroke
 			(width 0)
@@ -15000,7 +14925,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 238.76) (xy 138.43 260.35)
+			(xy 143.51 238.76) (xy 143.51 260.35)
 		)
 		(stroke
 			(width 0)
@@ -15960,16 +15885,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 276.86) (xy 92.71 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d5adc2-0c19-4938-acf1-f6cc51a660e9")
-	)
-	(wire
-		(pts
 			(xy 214.63 100.33) (xy 213.36 100.33)
 		)
 		(stroke
@@ -16507,16 +16422,6 @@
 			(justify left bottom)
 		)
 		(uuid "0478cd65-8e99-43f6-9c7f-c3e323fdbd07")
-	)
-	(label "PD_5V"
-		(at 62.23 278.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04968c33-cb0d-4bbc-b634-0f1e5fce7626")
 	)
 	(label "QSPI_SD3"
 		(at 57.15 124.46 180)
@@ -17058,16 +16963,6 @@
 		)
 		(uuid "752ab5f3-0473-4c2d-87cd-915547164501")
 	)
-	(label "PD_SCL_5V"
-		(at 81.28 279.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "76169387-7df2-4e7b-855a-97070d8965dd")
-	)
 	(label "VREG_FB"
 		(at 140.97 52.07 270)
 		(effects
@@ -17278,16 +17173,6 @@
 		)
 		(uuid "a5b14cd3-e4fd-45ea-beb6-7e2437182a36")
 	)
-	(label "PD_INT_5V"
-		(at 81.28 274.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aa183492-0bc8-40f2-a52d-ca43c63bae29")
-	)
 	(label "S_VREF"
 		(at 212.09 140.97 180)
 		(effects
@@ -17317,16 +17202,6 @@
 			(justify right bottom)
 		)
 		(uuid "b69558e5-753e-444d-b799-b59d5ffbe94a")
-	)
-	(label "PD_SDA_5V"
-		(at 81.28 276.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b95bc53e-b9af-43ad-a290-4590e1abfe13")
 	)
 	(label "X_B1"
 		(at 298.45 88.9 180)
@@ -21014,10 +20889,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18a8eae8-c6f7-4b09-842c-8d2a6c6f6044")
 		(property "Reference" "U12"
-			(at 107.6041 247.65 0)
+			(at 94.996 291.592 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21027,8 +20901,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP33772S"
-			(at 107.6041 250.19 0)
+		(property "Value" "AP33772SDKZ-13-FA02"
+			(at 94.996 299.212 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21071,7 +20945,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9900152998"
+		(property "LCSC" "C50341643"
 			(at 105.41 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -21647,119 +21521,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 74.93 279.4 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1fd100df-1997-4f08-8c3f-310fc941b12e")
-		(property "Reference" "R29"
-			(at 73.6599 281.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 76.1999 281.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.93 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
-			(at 74.93 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 74.93 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25905"
-			(at 74.93 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 279.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 74.93 279.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b24c2d7a-7331-42b3-ab5e-07f869bb4477")
-		)
-		(pin "1"
-			(uuid "c890e5de-0c84-4115-a7b3-7788f86363e3")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -26112,10 +25873,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "4773b753-d454-48f4-b5dc-9232369258c0")
 		(property "Reference" "R54"
 			(at 123.19 287.0199 0)
@@ -26128,7 +25889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "26k"
 			(at 123.19 289.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26150,7 +25911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23880-0603WAF3902T5E/C23153"
+		(property "Datasheet" ""
 			(at 125.73 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -26172,7 +25933,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23153"
+		(property "LCSC" ""
 			(at 125.73 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -39626,118 +39387,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 74.93 276.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e3e21659-2e86-40fe-a493-07a8c8f97b99")
-		(property "Reference" "R25"
-			(at 73.6599 274.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 76.1999 274.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.93 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
-			(at 74.93 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 74.93 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25905"
-			(at 74.93 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 74.93 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 74.93 276.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5973f652-825e-44bf-97db-ded7f1e25e2b")
-		)
-		(pin "1"
-			(uuid "3f408397-9ee7-407e-9fac-bb79c2f4458a")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R25")
 					(unit 1)
 				)
 			)
