@@ -1,7 +1,5 @@
 package main
 
-//go:generate go run .
-
 import (
 	"archive/zip"
 	"bytes"
@@ -20,9 +18,7 @@ import (
 )
 
 var (
-	outputDir  = flag.String("dir", "production", "output directory")
-	boardName  = flag.String("board", "mainboard", "board name")
-	fixupsName = flag.String("fixup", "cpl_rotations_db.csv", "fixup file")
+	outputDir = flag.String("dir", "production", "output directory")
 )
 
 type Fixup struct {
@@ -33,14 +29,15 @@ type Fixup struct {
 
 func main() {
 	flag.Parse()
-	if err := run(); err != nil {
+	board := flag.Arg(0)
+	if err := run(*outputDir, board); err != nil {
 		fmt.Fprintf(os.Stderr, "jlcpcb: %v\n", err)
 		os.Exit(1)
 	}
 }
 
-func run() (err error) {
-	if err := os.MkdirAll(*outputDir, 0o755); err != nil {
+func run(out, board string) (err error) {
+	if err := os.MkdirAll(out, 0o755); err != nil {
 		return err
 	}
 	tmp, err := os.MkdirTemp("", "jlcpcb")
@@ -49,21 +46,27 @@ func run() (err error) {
 	}
 	defer os.RemoveAll(tmp)
 
+	ext := filepath.Ext(board)
+	if ext != ".kicad_pro" {
+		return fmt.Errorf("%s: filename must end in .kicad_pro", board)
+	}
+	boardName := board[:len(board)-len(ext)]
 	verCmd := exec.Command("git", "describe", "--dirty", "--abbrev=10", "--tags", "--always")
 	verBytes, err := verCmd.Output()
 	if err != nil {
 		return err
 	}
 	version := string(bytes.TrimSpace(verBytes))
+	pcb := boardName + ".kicad_pcb"
 	gerbersCmd := exec.Command(
 		"kicad-cli", "pcb", "export", "gerbers",
 		"-D", "VERSION="+version,
 		"-o", tmp, "--subtract-soldermask",
-		*boardName+".kicad_pcb",
+		pcb,
 	)
 	gerbersCmd.Stderr = os.Stderr
 	if err := gerbersCmd.Run(); err != nil {
-		return err
+		return fmt.Errorf("%s: %w", pcb, err)
 	}
 	drillCmd := exec.Command(
 		"kicad-cli", "pcb", "export", "drill",
@@ -73,13 +76,13 @@ func run() (err error) {
 		"--drill-origin", "absolute",
 		"--generate-map",
 		"-u", "mm",
-		*boardName+".kicad_pcb",
+		boardName+".kicad_pcb",
 	)
 	drillCmd.Stderr = os.Stderr
 	if err := drillCmd.Run(); err != nil {
 		return err
 	}
-	if err := zipDir(filepath.Join(*outputDir, *boardName+".zip"), tmp); err != nil {
+	if err := zipDir(filepath.Join(out, boardName+".zip"), tmp); err != nil {
 		return err
 	}
 
@@ -87,13 +90,13 @@ func run() (err error) {
 	bomCmd := exec.Command(
 		"kicad-cli", "sch", "export", "bom",
 		"-o", bom, "--exclude-dnp", "--group-by", "LCSC", "--fields", "Reference,Value,Footprint,LCSC",
-		*boardName+".kicad_sch",
+		boardName+".kicad_sch",
 	)
 	bomCmd.Stderr = os.Stderr
 	if err := bomCmd.Run(); err != nil {
 		return err
 	}
-	dstBOM := filepath.Join(*outputDir, *boardName+"-bom.csv")
+	dstBOM := filepath.Join(out, boardName+"-bom.csv")
 	srcBOM := filepath.Join(tmp, "bom.csv")
 	fixups, err := convertBOM(dstBOM, srcBOM)
 	if err != nil {
@@ -104,13 +107,13 @@ func run() (err error) {
 	cplCmd := exec.Command(
 		"kicad-cli", "pcb", "export", "pos",
 		"-o", cpl, "--format", "csv", "--exclude-dnp", "--units", "mm",
-		*boardName+".kicad_pcb",
+		boardName+".kicad_pcb",
 	)
 	cplCmd.Stderr = os.Stderr
 	if err := cplCmd.Run(); err != nil {
 		return err
 	}
-	dstCPL := filepath.Join(*outputDir, *boardName+"-cpl.csv")
+	dstCPL := filepath.Join(out, boardName+"-cpl.csv")
 	srcCPL := filepath.Join(tmp, "cpl.csv")
 	if err := convertCPL(fixups, dstCPL, srcCPL); err != nil {
 		return err
