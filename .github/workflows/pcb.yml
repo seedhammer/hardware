@@ -25,9 +25,8 @@ jobs:
       - name: Build
         run: |
           nix profile install nixpkgs#kicad-small
-          cd pcb
-          go run .
+          go generate ./...
       - uses: actions/upload-artifact@v4
         with:
-          name: shii-pcb-${{ env.version }}
-          path: pcb/production/
+          name: mainboard-pcb-${{ env.version }}
+          path: mainboard/pcb/production/

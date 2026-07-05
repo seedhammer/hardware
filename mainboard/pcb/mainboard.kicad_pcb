@@ -14375,7 +14375,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/lib/RP2350_QFN80.step"
+		(model "${KIPRJMOD}/../../lib/RP2350_QFN80.step"
 			(offset
 				(xyz 0 0 0)
 			)
