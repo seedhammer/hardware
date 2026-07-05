@@ -20183,7 +20183,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 421.64 393.7 0)
+		(at 276.86 393.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20193,7 +20193,7 @@
 		(dnp no)
 		(uuid "10192edf-e909-411d-a1c0-51726b21589a")
 		(property "Reference" "#PWR0119"
-			(at 421.64 397.51 0)
+			(at 276.86 397.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20204,7 +20204,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 421.386 388.62 0)
+			(at 276.606 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20214,7 +20214,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 421.64 393.7 0)
+			(at 276.86 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20225,7 +20225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 421.64 393.7 0)
+			(at 276.86 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20236,7 +20236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 421.64 393.7 0)
+			(at 276.86 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20493,7 +20493,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 410.21 393.7 0)
+		(at 265.43 393.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20504,7 +20504,7 @@
 		(fields_autoplaced yes)
 		(uuid "1049eb6d-36af-442b-a07e-99b0b76fea79")
 		(property "Reference" "#PWR0118"
-			(at 410.21 397.51 0)
+			(at 265.43 397.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20515,7 +20515,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 410.21 388.62 0)
+			(at 265.43 388.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20525,7 +20525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 410.21 393.7 0)
+			(at 265.43 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20536,7 +20536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 393.7 0)
+			(at 265.43 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20547,7 +20547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 410.21 393.7 0)
+			(at 265.43 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21911,7 +21911,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 401.32 402.59 0)
+		(at 256.54 402.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21922,7 +21922,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bc58d3a-07b0-449d-bcb1-ad5d660c0a71")
 		(property "Reference" "H4"
-			(at 403.86 401.3199 0)
+			(at 259.08 401.3199 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21934,7 +21934,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 403.86 403.8599 0)
+			(at 259.08 403.8599 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21946,7 +21946,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 401.32 402.59 0)
+			(at 256.54 402.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21957,7 +21957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 402.59 0)
+			(at 256.54 402.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21968,7 +21968,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 401.32 402.59 0)
+			(at 256.54 402.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24914,7 +24914,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 401.32 398.78 0)
+		(at 256.54 398.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24925,7 +24925,7 @@
 		(fields_autoplaced yes)
 		(uuid "3adee4e8-ee9c-49c4-91d2-42037af77cd3")
 		(property "Reference" "H3"
-			(at 403.86 397.5099 0)
+			(at 259.08 397.5099 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24937,7 +24937,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 403.86 400.0499 0)
+			(at 259.08 400.0499 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24949,7 +24949,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 401.32 398.78 0)
+			(at 256.54 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24960,7 +24960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 398.78 0)
+			(at 256.54 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24971,7 +24971,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 401.32 398.78 0)
+			(at 256.54 398.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25451,7 +25451,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 410.21 393.7 180)
+		(at 265.43 393.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25462,7 +25462,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fdd956a-abff-48e1-b492-c53b36d8eed9")
 		(property "Reference" "TP1"
-			(at 412.75 395.7319 0)
+			(at 267.97 395.7319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25473,7 +25473,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 412.75 398.2719 0)
+			(at 267.97 398.2719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25484,7 +25484,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 405.13 393.7 0)
+			(at 260.35 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25495,7 +25495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 405.13 393.7 0)
+			(at 260.35 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25506,7 +25506,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 410.21 393.7 0)
+			(at 265.43 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25517,7 +25517,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 410.21 393.7 0)
+			(at 265.43 393.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25527,7 +25527,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 410.21 393.7 0)
+			(at 265.43 393.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33892,7 +33892,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 401.32 391.16 0)
+		(at 256.54 391.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33903,7 +33903,7 @@
 		(fields_autoplaced yes)
 		(uuid "94ba54ef-4fc8-4240-8d33-d986f2ebb37c")
 		(property "Reference" "H1"
-			(at 403.86 389.8899 0)
+			(at 259.08 389.8899 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33915,7 +33915,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 403.86 392.4299 0)
+			(at 259.08 392.4299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33927,7 +33927,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 401.32 391.16 0)
+			(at 256.54 391.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33938,7 +33938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 391.16 0)
+			(at 256.54 391.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33949,7 +33949,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 401.32 391.16 0)
+			(at 256.54 391.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37678,7 +37678,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 401.32 394.97 0)
+		(at 256.54 394.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37689,7 +37689,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7de21bd-421d-4d30-a99c-8efd35e918c8")
 		(property "Reference" "H2"
-			(at 403.86 393.6999 0)
+			(at 259.08 393.6999 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37701,7 +37701,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 403.86 396.2399 0)
+			(at 259.08 396.2399 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37713,7 +37713,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 401.32 394.97 0)
+			(at 256.54 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37724,7 +37724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 401.32 394.97 0)
+			(at 256.54 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37735,7 +37735,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 401.32 394.97 0)
+			(at 256.54 394.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40514,7 +40514,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 421.64 393.7 180)
+		(at 276.86 393.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40525,7 +40525,7 @@
 		(fields_autoplaced yes)
 		(uuid "e428200d-c2d0-4bf3-8cdc-901538e44370")
 		(property "Reference" "TP2"
-			(at 424.18 395.7319 0)
+			(at 279.4 395.7319 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40536,7 +40536,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 424.18 398.2719 0)
+			(at 279.4 398.2719 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40547,7 +40547,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 416.56 393.7 0)
+			(at 271.78 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40558,7 +40558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 416.56 393.7 0)
+			(at 271.78 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40569,7 +40569,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 421.64 393.7 0)
+			(at 276.86 393.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40580,7 +40580,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 421.64 393.7 0)
+			(at 276.86 393.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40590,7 +40590,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 421.64 393.7 0)
+			(at 276.86 393.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
