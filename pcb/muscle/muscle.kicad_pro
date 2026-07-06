@@ -273,7 +273,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|1409700|520700|6fa3f664-cc01-48f1-a622-bb3bdcaeb5f3|7da22d88-caa5-495e-8d7c-cdcfb051ac8f|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -732,6 +737,14 @@
     "legacy_lib_list": [],
     "meta": {
       "version": 1
+    },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
