@@ -10512,6 +10512,16 @@
 		)
 		(uuid "8085dded-c050-417b-b675-f23f285c3a91")
 	)
+	(text "Vref = 1.66V\nIrms = 0.9A"
+		(exclude_from_sim no)
+		(at 253.492 39.624 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a4896ef-4b50-4598-bb24-38e637ab0859")
+	)
 	(text "Y-axis Motor Driver"
 		(exclude_from_sim no)
 		(at 323.342 19.304 0)
@@ -10653,6 +10663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18001861-6ccd-46b0-a4b9-7aa63c708e02")
+	)
+	(junction
+		(at 302.26 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b577b54-2e29-43d5-977e-a7751644d040")
 	)
 	(junction
 		(at 340.36 147.32)
@@ -11087,6 +11103,12 @@
 		(uuid "c976a6ee-f91f-45dc-81a6-8e8d42b6eb0a")
 	)
 	(junction
+		(at 302.26 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf14ce49-133d-4ba1-aa71-a83b9193bc04")
+	)
+	(junction
 		(at 133.35 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11139,6 +11161,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e344f44a-0fff-4cb8-ae9d-c5e9cc83535f")
+	)
+	(junction
+		(at 381 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3dad215-4684-41ea-a2e4-9ebbcae48795")
 	)
 	(junction
 		(at 213.36 68.58)
@@ -11217,6 +11245,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff1cbe27-c277-45f5-a996-2f2169280549")
+	)
+	(junction
+		(at 381 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff7f587f-5034-4510-ac1e-e13d6cdfc764")
 	)
 	(no_connect
 		(at 92.71 302.26)
@@ -11449,6 +11483,16 @@
 			(type default)
 		)
 		(uuid "034dad2b-4037-419c-b968-1452dac171f0")
+	)
+	(wire
+		(pts
+			(xy 302.26 66.04) (xy 302.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "036e8d9b-5210-4d21-b363-173b90473046")
 	)
 	(wire
 		(pts
@@ -11862,7 +11906,7 @@
 	)
 	(wire
 		(pts
-			(xy 367.03 71.12) (xy 374.65 71.12)
+			(xy 367.03 71.12) (xy 369.57 71.12)
 		)
 		(stroke
 			(width 0)
@@ -12242,7 +12286,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 74.93) (xy 311.15 74.93)
+			(xy 307.34 74.93) (xy 312.42 74.93)
 		)
 		(stroke
 			(width 0)
@@ -12382,7 +12426,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 80.01) (xy 311.15 80.01)
+			(xy 307.34 80.01) (xy 312.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -12522,6 +12566,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 57.15) (xy 302.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391bd01a-8e4f-4b82-aca5-2905266227ff")
+	)
+	(wire
+		(pts
 			(xy 21.59 309.88) (xy 25.4 309.88)
 		)
 		(stroke
@@ -12649,6 +12703,16 @@
 			(type default)
 		)
 		(uuid "40aaa6c2-6208-4c49-b229-420cee5e0177")
+	)
+	(wire
+		(pts
+			(xy 302.26 57.15) (xy 314.96 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427b29df-22e4-40d7-9eab-008290dce58b")
 	)
 	(wire
 		(pts
@@ -12892,7 +12956,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 64.77) (xy 378.46 66.04)
+			(xy 396.24 63.5) (xy 396.24 64.77)
 		)
 		(stroke
 			(width 0)
@@ -12919,6 +12983,16 @@
 			(type default)
 		)
 		(uuid "4dad8c5b-46fd-4ca9-867b-f5f3f99092ea")
+	)
+	(wire
+		(pts
+			(xy 295.91 66.04) (xy 295.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e00de1d-57dc-430d-b402-4ed8e5b2d746")
 	)
 	(wire
 		(pts
@@ -13042,7 +13116,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 71.12) (xy 294.64 71.12)
+			(xy 290.83 71.12) (xy 293.37 71.12)
 		)
 		(stroke
 			(width 0)
@@ -13259,6 +13333,16 @@
 			(type default)
 		)
 		(uuid "5cbc560c-5b34-473d-99f2-adf97fa62821")
+	)
+	(wire
+		(pts
+			(xy 302.26 64.77) (xy 302.26 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbe4706-1980-4f93-ad6a-b788d22cc193")
 	)
 	(wire
 		(pts
@@ -13792,6 +13876,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 58.42) (xy 381 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7850428c-a0c4-4b9f-ba29-c192912c7449")
+	)
+	(wire
+		(pts
 			(xy 264.16 195.58) (xy 275.59 195.58)
 		)
 		(stroke
@@ -13902,7 +13996,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 82.55) (xy 311.15 82.55)
+			(xy 307.34 82.55) (xy 312.42 82.55)
 		)
 		(stroke
 			(width 0)
@@ -13929,16 +14023,6 @@
 			(type default)
 		)
 		(uuid "7d728171-ed73-439f-89fd-d981a0d39d6a")
-	)
-	(wire
-		(pts
-			(xy 378.46 60.96) (xy 367.03 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc82b65-30e4-4567-ae25-42679de6365e")
 	)
 	(wire
 		(pts
@@ -14172,6 +14256,16 @@
 	)
 	(wire
 		(pts
+			(xy 375.92 58.42) (xy 381 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c8e626-8f0a-4c8d-89f2-cc65607d6b7c")
+	)
+	(wire
+		(pts
 			(xy 260.35 299.72) (xy 261.62 299.72)
 		)
 		(stroke
@@ -14332,7 +14426,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 76.2) (xy 367.03 76.2)
+			(xy 369.57 76.2) (xy 367.03 76.2)
 		)
 		(stroke
 			(width 0)
@@ -14802,6 +14896,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 64.77) (xy 302.26 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4853271-93dd-4c5d-a757-451a07d862f7")
+	)
+	(wire
+		(pts
 			(xy 25.4 309.88) (xy 25.4 311.15)
 		)
 		(stroke
@@ -14809,6 +14913,16 @@
 			(type default)
 		)
 		(uuid "a673c8e2-33e0-4918-9ed0-1d291c11c8ff")
+	)
+	(wire
+		(pts
+			(xy 375.92 60.96) (xy 375.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6ba30c8-81b9-4e40-adc0-fac519b6419d")
 	)
 	(wire
 		(pts
@@ -14892,7 +15006,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 66.04) (xy 290.83 66.04)
+			(xy 290.83 66.04) (xy 295.91 66.04)
 		)
 		(stroke
 			(width 0)
@@ -15109,16 +15223,6 @@
 			(type default)
 		)
 		(uuid "afefe8aa-7c87-4ab1-9f77-92737b1b8a11")
-	)
-	(wire
-		(pts
-			(xy 290.83 60.96) (xy 303.53 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b039eff2-9a79-4835-876e-3c1e68807e56")
 	)
 	(wire
 		(pts
@@ -15402,6 +15506,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 60.96) (xy 295.91 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdd92a1-f7be-4c23-b5b4-9eeeb75f1904")
+	)
+	(wire
+		(pts
 			(xy 44.45 354.33) (xy 46.99 354.33)
 		)
 		(stroke
@@ -15502,7 +15616,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 66.04) (xy 367.03 66.04)
+			(xy 367.03 66.04) (xy 381 66.04)
 		)
 		(stroke
 			(width 0)
@@ -15559,6 +15673,16 @@
 			(type default)
 		)
 		(uuid "c485ed9e-cde8-452e-9e0c-b686962cdf2f")
+	)
+	(wire
+		(pts
+			(xy 381 66.04) (xy 381 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5927965-05e8-43d3-96a5-1f214cba72c0")
 	)
 	(wire
 		(pts
@@ -15652,6 +15776,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 64.77) (xy 381 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6872c6-01f4-485b-8a02-73bc25aa6365")
+	)
+	(wire
+		(pts
 			(xy 180.34 74.93) (xy 190.5 74.93)
 		)
 		(stroke
@@ -15669,6 +15803,16 @@
 			(type default)
 		)
 		(uuid "ca8ad6f0-9112-4b9a-a634-e6bbb6c88656")
+	)
+	(wire
+		(pts
+			(xy 302.26 57.15) (xy 302.26 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac01653-391e-404e-b736-df7ef040a498")
 	)
 	(wire
 		(pts
@@ -15972,6 +16116,16 @@
 	)
 	(wire
 		(pts
+			(xy 381 58.42) (xy 396.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7501c2f-6ad3-4703-94c1-04dba3fdbbb9")
+	)
+	(wire
+		(pts
 			(xy 109.22 367.03) (xy 115.57 367.03)
 		)
 		(stroke
@@ -16182,6 +16336,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 60.96) (xy 375.92 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12cd3e9-aa1b-492f-aa99-31ed282c7a9e")
+	)
+	(wire
+		(pts
 			(xy 77.47 367.03) (xy 77.47 368.3)
 		)
 		(stroke
@@ -16189,6 +16353,26 @@
 			(type default)
 		)
 		(uuid "e16a681a-8b03-4d3b-a46e-2ba6643c66ab")
+	)
+	(wire
+		(pts
+			(xy 290.83 60.96) (xy 295.91 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20ae290-f69c-4cd2-bf21-5f66902ad151")
+	)
+	(wire
+		(pts
+			(xy 314.96 57.15) (xy 314.96 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e256eb8b-77c8-4aaa-bf2e-cc1041fd1491")
 	)
 	(wire
 		(pts
@@ -16492,7 +16676,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 77.47) (xy 311.15 77.47)
+			(xy 307.34 77.47) (xy 312.42 77.47)
 		)
 		(stroke
 			(width 0)
@@ -16502,7 +16686,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 76.2) (xy 294.64 76.2)
+			(xy 290.83 76.2) (xy 293.37 76.2)
 		)
 		(stroke
 			(width 0)
@@ -16549,6 +16733,16 @@
 			(type default)
 		)
 		(uuid "f819a466-eb8e-475d-80c1-27b039c04c95")
+	)
+	(wire
+		(pts
+			(xy 396.24 58.42) (xy 396.24 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f93496d8-2cf3-46f7-92df-ca613ada31a1")
 	)
 	(wire
 		(pts
@@ -17161,7 +17355,7 @@
 		(uuid "52a3ee3e-0d93-4247-ad3e-295f9b7bfdcd")
 	)
 	(label "X_A1"
-		(at 306.07 80.01 0)
+		(at 307.34 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17301,7 +17495,7 @@
 		(uuid "7e4a5e30-d0b7-4603-be7c-7048e91a3d2a")
 	)
 	(label "X_B2"
-		(at 306.07 74.93 0)
+		(at 307.34 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17481,7 +17675,7 @@
 		(uuid "a2e2c093-733c-4972-940d-18f1c9c62ea3")
 	)
 	(label "X_A2"
-		(at 306.07 82.55 0)
+		(at 307.34 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17561,7 +17755,7 @@
 		(uuid "ba9755a0-a328-4c7b-a1d4-992dbf0f53a9")
 	)
 	(label "X_B1"
-		(at 306.07 77.47 0)
+		(at 307.34 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19788,6 +19982,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 302.26 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ca32657-7a44-408b-8c6c-6ec588301898")
+		(property "Reference" "R1"
+			(at 304.8 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30k"
+			(at 304.8 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 302.26 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23711-0603WAF3002T5E/C22984"
+			(at 302.26 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 302.26 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22984"
+			(at 302.26 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66333228-2191-4e37-b1c7-359076977f32")
+		)
+		(pin "2"
+			(uuid "8cf45155-13fb-4a2b-b3b0-1373df87ac5c")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 177.8 365.76 0)
 		(unit 1)
@@ -20057,6 +20344,85 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 302.26 71.12 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0faa6197-ac20-466a-8808-166402c6d8e4")
+		(property "Reference" "#PWR09"
+			(at 302.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 302.26 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 302.26 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 302.26 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 302.26 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "433afd12-efbf-4f09-a500-d0afe0adfc71")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -20761,8 +21127,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 302.26 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12a8fc97-ba77-4b0d-af22-67443b045a21")
+		(property "Reference" "R10"
+			(at 304.8 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 304.8 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26499-0402WGF1502TCE/C25756"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25756"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1c60b43-4b08-4347-a7a9-01bfbbec44e1")
+		)
+		(pin "2"
+			(uuid "fb558d32-dd03-4323-bcb5-9bfac36c0e37")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 316.23 77.47 0)
+		(at 317.5 77.47 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20773,7 +21232,7 @@
 		(dnp no)
 		(uuid "146418db-901b-4573-9389-de7206f5183b")
 		(property "Reference" "J1"
-			(at 317.5 78.486 90)
+			(at 318.77 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20783,7 +21242,7 @@
 			)
 		)
 		(property "Value" "B4B-XH-2(LF)(SN)"
-			(at 320.294 78.74 90)
+			(at 321.564 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20794,7 +21253,7 @@
 			)
 		)
 		(property "Footprint" "Mainboard:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_Motor"
-			(at 316.23 77.47 0)
+			(at 317.5 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20805,7 +21264,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/58883-XH4ABlack/C57846"
-			(at 316.23 77.47 0)
+			(at 317.5 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20816,7 +21275,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 316.23 77.47 0)
+			(at 317.5 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20827,7 +21286,7 @@
 			)
 		)
 		(property "LCSC" "C57846"
-			(at 316.23 77.47 0)
+			(at 317.5 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20838,7 +21297,7 @@
 			)
 		)
 		(property "Label" "X-AXIS"
-			(at 320.04 78.74 90)
+			(at 321.31 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20848,7 +21307,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 316.23 77.47 0)
+			(at 317.5 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20858,7 +21317,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 316.23 77.47 0)
+			(at 317.5 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21071,85 +21530,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 368.3 66.04 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "15e12805-319c-43ca-9d6a-5f30beadd477")
-		(property "Reference" "#PWR0134"
-			(at 374.65 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 371.602 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc491e75-3bc4-4618-b2c2-da1e440e51c6")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -21683,7 +22063,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 374.65 73.66 0)
+		(at 369.57 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21693,7 +22073,7 @@
 		(dnp no)
 		(uuid "1b84a028-87e8-44fd-a8d2-9aab009becc8")
 		(property "Reference" "C28"
-			(at 377.19 72.3962 0)
+			(at 372.11 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21704,7 +22084,7 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 377.19 74.9362 0)
+			(at 372.11 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21715,7 +22095,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 374.65 73.66 0)
+			(at 369.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21726,7 +22106,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/1884-0402B223K500NT/C1532"
-			(at 374.65 73.66 0)
+			(at 369.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21737,7 +22117,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 374.65 73.66 0)
+			(at 369.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21748,7 +22128,7 @@
 			)
 		)
 		(property "LCSC" "C1532"
-			(at 374.65 73.66 0)
+			(at 369.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21759,7 +22139,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 374.65 73.66 0)
+			(at 369.57 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21769,7 +22149,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 374.65 73.66 0)
+			(at 369.57 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22943,6 +23323,85 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 381 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a6e33f-e42d-46ee-82b4-0826b99ca9c0")
+		(property "Reference" "#PWR015"
+			(at 381 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 381 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 381 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 381 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 381 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1bcf9d6d-4af6-4da1-b54a-73cf2bb8de06")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -27615,7 +28074,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 294.64 73.66 0)
+		(at 293.37 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27625,7 +28084,7 @@
 		(dnp no)
 		(uuid "51f40ee3-b927-4012-ae3a-80aace57f31a")
 		(property "Reference" "C17"
-			(at 297.18 72.3962 0)
+			(at 295.91 72.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27636,7 +28095,7 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 297.18 74.9362 0)
+			(at 295.91 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27647,7 +28106,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 294.64 73.66 0)
+			(at 293.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27658,7 +28117,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/1884-0402B223K500NT/C1532"
-			(at 294.64 73.66 0)
+			(at 293.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27669,7 +28128,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 294.64 73.66 0)
+			(at 293.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27680,7 +28139,7 @@
 			)
 		)
 		(property "LCSC" "C1532"
-			(at 294.64 73.66 0)
+			(at 293.37 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27691,7 +28150,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 294.64 73.66 0)
+			(at 293.37 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27701,7 +28160,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 294.64 73.66 0)
+			(at 293.37 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27965,85 +28424,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 292.1 66.04 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56f4d7e3-abd8-4f01-b227-29ee6926e585")
-		(property "Reference" "#PWR020"
-			(at 298.45 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 295.91 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 292.1 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 292.1 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 292.1 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6b1e6a0-9e3e-465f-b0e4-66141df259ac")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -28882,7 +29262,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 303.53 63.5 0)
+		(at 314.96 60.96 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -28893,7 +29273,7 @@
 		(dnp no)
 		(uuid "60ffb8ee-a895-41f0-a092-05d5a6a83c7e")
 		(property "Reference" "C11"
-			(at 306.07 64.7638 0)
+			(at 317.5 62.2238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28904,7 +29284,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 306.07 62.2238 0)
+			(at 317.5 59.6838 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28915,7 +29295,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 303.53 63.5 0)
+			(at 314.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28926,7 +29306,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
-			(at 303.53 63.5 0)
+			(at 314.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28937,7 +29317,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 303.53 63.5 0)
+			(at 314.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28948,7 +29328,7 @@
 			)
 		)
 		(property "LCSC" "C15525"
-			(at 303.53 63.5 0)
+			(at 314.96 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28959,7 +29339,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 303.53 63.5 0)
+			(at 314.96 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28969,7 +29349,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 303.53 63.5 0)
+			(at 314.96 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32606,7 +32986,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 303.53 66.04 0)
+		(at 314.96 63.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -32618,7 +32998,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b8b79a0-284a-4ca9-a144-cd4b779e3880")
 		(property "Reference" "#PWR06"
-			(at 303.53 72.39 0)
+			(at 314.96 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32629,7 +33009,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 303.53 71.12 0)
+			(at 314.96 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32639,7 +33019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 66.04 0)
+			(at 314.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32650,7 +33030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 66.04 0)
+			(at 314.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32661,7 +33041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 66.04 0)
+			(at 314.96 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35008,6 +35388,192 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 381 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a22052e9-cdb1-4d8a-99f7-22d29f1bf729")
+		(property "Reference" "R14"
+			(at 383.54 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 383.54 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26499-0402WGF1502TCE/C25756"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25756"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a8dc875-b1b0-45a2-9be3-2d63e0994bbc")
+		)
+		(pin "2"
+			(uuid "07949d36-8495-4f28-a6b6-859524d9a253")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 381 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2d1ae9b-36e8-4160-842c-57c5dae9bb7e")
+		(property "Reference" "R11"
+			(at 383.54 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30k"
+			(at 383.54 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23711-0603WAF3002T5E/C22984"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22984"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "88a70f1a-fcb6-4d95-af43-d236618d704e")
+		)
+		(pin "2"
+			(uuid "14bb1204-6473-4983-bb1a-0d4bc7cc42d6")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mainboard:AON7264E")
 		(at 124.46 269.24 90)
 		(unit 1)
@@ -35619,7 +36185,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 378.46 64.77 0)
+		(at 396.24 63.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -35630,7 +36196,7 @@
 		(dnp no)
 		(uuid "ac01acff-1657-486a-9d92-3d31ba9eb194")
 		(property "Reference" "#PWR052"
-			(at 378.46 71.12 0)
+			(at 396.24 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35641,7 +36207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 376.428 68.834 0)
+			(at 394.208 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35652,7 +36218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 378.46 64.77 0)
+			(at 396.24 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35663,7 +36229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 378.46 64.77 0)
+			(at 396.24 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35674,7 +36240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 378.46 64.77 0)
+			(at 396.24 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40132,7 +40698,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 378.46 63.5 0)
+		(at 396.24 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -40142,7 +40708,7 @@
 		(dnp no)
 		(uuid "e0aadea5-50e4-4678-a581-4b8c7276a78d")
 		(property "Reference" "C22"
-			(at 381 62.2362 0)
+			(at 398.78 60.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40153,7 +40719,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 381 64.7762 0)
+			(at 398.78 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40164,7 +40730,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 378.46 63.5 0)
+			(at 396.24 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40175,7 +40741,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
-			(at 378.46 63.5 0)
+			(at 396.24 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40186,7 +40752,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 378.46 63.5 0)
+			(at 396.24 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40197,7 +40763,7 @@
 			)
 		)
 		(property "LCSC" "C15525"
-			(at 378.46 63.5 0)
+			(at 396.24 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40208,7 +40774,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 378.46 63.5 0)
+			(at 396.24 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40218,7 +40784,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 378.46 63.5 0)
+			(at 396.24 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
