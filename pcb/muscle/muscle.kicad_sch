@@ -20004,7 +20004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30k"
+		(property "Value" "180k"
 			(at 304.8 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20026,7 +20026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23711-0603WAF3002T5E/C22984"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23554-0603WAF1803T5E/C22827"
 			(at 302.26 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -20048,7 +20048,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22984"
+		(property "LCSC" "C22827"
 			(at 302.26 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -21149,7 +21149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
+		(property "Value" "68k"
 			(at 304.8 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21171,7 +21171,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26499-0402WGF1502TCE/C25756"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
 			(at 302.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -21193,7 +21193,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25756"
+		(property "LCSC" "C23231"
 			(at 302.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -24976,7 +24976,7 @@
 				)
 			)
 		)
-		(property "Value" "150m,1%,1W"
+		(property "Value" "120m,1%,1W"
 			(at 313.69 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24997,7 +24997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RLH12FTCR150/C2683383"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WalterElec-STE1206M1W0R120F/C201309"
 			(at 313.69 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -25019,7 +25019,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2683383"
+		(property "LCSC" "C201309"
 			(at 313.69 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -25707,7 +25707,7 @@
 				)
 			)
 		)
-		(property "Value" "150m,1%,1W"
+		(property "Value" "120m,1%,1W"
 			(at 394.97 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25728,7 +25728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RLH12FTCR150/C2683383"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WalterElec-STE1206M1W0R120F/C201309"
 			(at 394.97 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -25750,7 +25750,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2683383"
+		(property "LCSC" "C201309"
 			(at 394.97 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -26236,7 +26236,7 @@
 				)
 			)
 		)
-		(property "Value" "150m,1%,1W"
+		(property "Value" "120m,1%,1W"
 			(at 313.69 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26257,7 +26257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RLH12FTCR150/C2683383"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WalterElec-STE1206M1W0R120F/C201309"
 			(at 313.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -26279,7 +26279,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2683383"
+		(property "LCSC" "C201309"
 			(at 313.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -35388,192 +35388,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 381 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a22052e9-cdb1-4d8a-99f7-22d29f1bf729")
-		(property "Reference" "R14"
-			(at 383.54 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15k"
-			(at 383.54 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 381 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26499-0402WGF1502TCE/C25756"
-			(at 381 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 381 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25756"
-			(at 381 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a8dc875-b1b0-45a2-9be3-2d63e0994bbc")
-		)
-		(pin "2"
-			(uuid "07949d36-8495-4f28-a6b6-859524d9a253")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 381 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2d1ae9b-36e8-4160-842c-57c5dae9bb7e")
-		(property "Reference" "R11"
-			(at 383.54 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "30k"
-			(at 383.54 63.4999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 381 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23711-0603WAF3002T5E/C22984"
-			(at 381 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 381 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22984"
-			(at 381 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "88a70f1a-fcb6-4d95-af43-d236618d704e")
-		)
-		(pin "2"
-			(uuid "14bb1204-6473-4983-bb1a-0d4bc7cc42d6")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mainboard:AON7264E")
 		(at 124.46 269.24 90)
 		(unit 1)
@@ -37699,6 +37513,99 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 381 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c07e1c15-67d8-41ea-9440-c4bc039045b5")
+		(property "Reference" "R15"
+			(at 383.54 60.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180k"
+			(at 383.54 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23554-0603WAF1803T5E/C22827"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22827"
+			(at 381 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0a6afdd-96f3-40a5-b777-139cecc9f33f")
+		)
+		(pin "2"
+			(uuid "3d121a24-c8c1-44ee-8d70-e8e695a13ef6")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -41908,7 +41815,7 @@
 				)
 			)
 		)
-		(property "Value" "150m,1%,1W"
+		(property "Value" "120m,1%,1W"
 			(at 394.97 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41929,7 +41836,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RLH12FTCR150/C2683383"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WalterElec-STE1206M1W0R120F/C201309"
 			(at 394.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -41951,7 +41858,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2683383"
+		(property "LCSC" "C201309"
 			(at 394.97 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -42424,6 +42331,99 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 381 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f36ffb6d-cf6c-435b-b8e8-0318d5d4406d")
+		(property "Reference" "R20"
+			(at 383.54 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68k"
+			(at 383.54 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23231"
+			(at 381 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41f02930-a73b-4c18-9631-d3819298c11d")
+		)
+		(pin "2"
+			(uuid "c3f0e37a-7c66-45ec-af65-139948ed3cb1")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R20")
 					(unit 1)
 				)
 			)
