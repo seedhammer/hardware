@@ -10845,6 +10845,12 @@
 		(uuid "5fc5d8f8-d31c-42ce-89f3-5028d5a6a98b")
 	)
 	(junction
+		(at 73.66 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fd8279e-9294-4125-a6e4-814b1631dbdb")
+	)
+	(junction
 		(at 195.58 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10981,12 +10987,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e3686da-8788-404f-9627-3a34a0f2c844")
-	)
-	(junction
-		(at 73.66 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f525d14-775e-46e3-bd9f-97aa06f443f7")
 	)
 	(junction
 		(at 154.94 27.94)
@@ -14066,7 +14066,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 81.28) (xy 88.9 81.28)
+			(xy 57.15 81.28) (xy 80.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -14956,7 +14956,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 64.77 78.74)
+			(xy 80.01 78.74) (xy 64.77 78.74)
 		)
 		(stroke
 			(width 0)
@@ -16746,7 +16746,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 163.83) (xy 93.98 163.83)
+			(xy 73.66 163.83) (xy 86.36 163.83)
 		)
 		(stroke
 			(width 0)
@@ -17325,12 +17325,12 @@
 		(uuid "4dd41848-5265-4f88-9196-188947e02679")
 	)
 	(label "RESET"
-		(at 80.01 163.83 0)
+		(at 86.36 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4e3bbf3a-4a52-4e18-8c2f-1c553750609c")
 	)
@@ -17415,7 +17415,7 @@
 		(uuid "6e45e95a-8900-443f-95b5-6e80b7ce9e99")
 	)
 	(label "VREG_LX"
-		(at 83.82 81.28 180)
+		(at 80.01 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17915,7 +17915,7 @@
 		(uuid "ecea8c1f-de14-41a1-8147-cfb3d31eb593")
 	)
 	(label "VREG_FB"
-		(at 83.82 78.74 180)
+		(at 80.01 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21252,7 +21252,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mainboard:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_Motor"
+		(property "Footprint" "mainboard:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_Motor"
 			(at 317.5 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -27190,7 +27190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
+		(property "Footprint" "mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
 			(at 363.22 245.745 0)
 			(hide yes)
 			(show_name no)
@@ -29407,7 +29407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
+		(property "Footprint" "mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
 			(at 340.36 283.845 0)
 			(hide yes)
 			(show_name no)
@@ -37423,7 +37423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mainboard:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_Motor"
+		(property "Footprint" "mainboard:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_Motor"
 			(at 398.78 76.2 0)
 			(hide yes)
 			(show_name no)

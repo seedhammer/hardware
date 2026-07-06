@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "mainboard") (type "KiCad") (uri "/Users/a/proj/seedhammer/hardware/pcb/lib/mainboard.kicad_sym") (options "") (descr ""))
+)
