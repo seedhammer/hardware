@@ -597,7 +597,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -659,12 +659,48 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label",
+          "name": "Label",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -709,7 +745,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "H1-4,JP10,R1,R10-11,R14,R44,R55-56,Q4,D1-3,#PWR9,#PWR15,#PWR67,#PWR86-87,#PWR96,#PWR116-117,#PWR121,#PWR126,#PWR150,J3,J10,U3",
+    "used_designators": "H1-4,JP10,R1,R10-11,R14-15,R20,R44,R55-56,Q4,D1-3,#PWR9,#PWR15,#PWR67,#PWR86-87,#PWR96,#PWR116-117,#PWR121,#PWR126,#PWR150,J3,J10,U3",
     "variants": []
   },
   "sheets": [
