@@ -2633,6 +2633,209 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -10653,6 +10856,12 @@
 		(uuid "0e2b22e0-9313-4f0c-8fe0-4a3a1338d733")
 	)
 	(junction
+		(at 135.89 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15227b88-f38e-447b-b3e2-8b847ca46e2b")
+	)
+	(junction
 		(at 360.68 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10873,12 +11082,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be99eb8-ba5e-4408-ab76-583c9de3eed1")
-	)
-	(junction
-		(at 135.89 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fd177e2-9dca-4304-bcfe-ae445c5a518d")
 	)
 	(junction
 		(at 36.83 99.06)
@@ -11916,16 +12119,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 199.39) (xy 135.89 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "194c073d-838b-41f8-ba6b-cd5518d11bcd")
-	)
-	(wire
-		(pts
 			(xy 46.99 121.92) (xy 57.15 121.92)
 		)
 		(stroke
@@ -12886,16 +13079,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 205.74) (xy 135.89 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a983bc5-9ef6-48ff-b715-6064e448b9d3")
-	)
-	(wire
-		(pts
 			(xy 83.82 290.83) (xy 92.71 290.83)
 		)
 		(stroke
@@ -13733,6 +13916,16 @@
 			(type default)
 		)
 		(uuid "6f600453-a0dc-4399-b356-f1931748d8b5")
+	)
+	(wire
+		(pts
+			(xy 135.89 205.74) (xy 135.89 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "704e1ef3-dae2-489d-bb9e-c4418f14d82f")
 	)
 	(wire
 		(pts
@@ -16626,6 +16819,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 200.66) (xy 135.89 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37b6205-4771-4c6d-b54f-9279e5609247")
+	)
+	(wire
+		(pts
 			(xy 88.9 369.57) (xy 93.98 369.57)
 		)
 		(stroke
@@ -16753,6 +16956,16 @@
 			(type default)
 		)
 		(uuid "f96e781c-3b5a-475a-b3bd-4c3737a27f61")
+	)
+	(wire
+		(pts
+			(xy 135.89 194.31) (xy 135.89 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98b6f79-5f7d-4195-92f9-6248c156ed49")
 	)
 	(wire
 		(pts
@@ -20645,7 +20858,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A-120"
+		(property "Value" "USB4115-03-C"
 			(at 29.21 266.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20655,7 +20868,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
 			(at 33.02 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -20666,7 +20879,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://gct.co/connector/usb4105"
+		(property "Datasheet" "https://gct.co/connector/usb4115"
 			(at 33.02 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -20677,7 +20890,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "Type C USB 3.2 Gen 2 16P Receptacle Connector"
 			(at 29.21 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -20688,7 +20901,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5184243"
+		(property "LCSC" "C5250720"
 			(at 29.21 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -22452,7 +22665,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 135.89 199.39 0)
+		(at 135.89 193.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22462,7 +22675,7 @@
 		(dnp no)
 		(uuid "208937d1-298b-43ef-81a1-f229b0d14ba6")
 		(property "Reference" "#PWR031"
-			(at 135.89 203.2 0)
+			(at 135.89 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22473,7 +22686,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 135.89 195.326 0)
+			(at 135.89 188.976 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22483,7 +22696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 199.39 0)
+			(at 135.89 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22494,7 +22707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 199.39 0)
+			(at 135.89 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22505,7 +22718,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 135.89 199.39 0)
+			(at 135.89 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23842,161 +24055,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 29.21 349.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2cd3040a-c59e-4094-bdde-e3a880c334ba")
-		(property "Reference" "J10"
-			(at 29.21 326.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB4105-GF-A-120"
-			(at 29.21 328.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 33.02 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://gct.co/connector/usb4105"
-			(at 33.02 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 29.21 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5184243"
-			(at 29.21 349.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 29.21 349.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 29.21 349.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B9"
-			(uuid "100996ed-bad2-45fd-9883-72b7e7cae6d9")
-		)
-		(pin "B5"
-			(uuid "13ddfd69-b60e-4522-b0a8-74fa36bc30c2")
-		)
-		(pin "A9"
-			(uuid "5c51a5de-d9b4-47b0-a97e-844ede38db0a")
-		)
-		(pin "A12"
-			(uuid "e8b49fd3-3bfe-4e62-83e7-cc7b248829cc")
-		)
-		(pin "A5"
-			(uuid "cf4fc442-d670-4cd2-a91a-6b128500cf17")
-		)
-		(pin "B12"
-			(uuid "6716c06e-226d-4b33-bf41-61b686da86cc")
-		)
-		(pin "SH"
-			(uuid "b05ef9d6-f1f7-460b-ac15-c0f3e8afd96e")
-		)
-		(pin "A1"
-			(uuid "7459b272-d781-4a29-bfec-c43ccc483414")
-		)
-		(pin "A4"
-			(uuid "b51e3de8-0569-4722-a9a7-237070cac62b")
-		)
-		(pin "A7"
-			(uuid "cfb28ad9-eda3-4be0-adea-6c2d3e7208d6")
-		)
-		(pin "A8"
-			(uuid "e1a8702d-7c89-43c9-aaa7-74a489df873b")
-		)
-		(pin "B1"
-			(uuid "654c7955-6d30-4ef1-8e1a-8e2542c2e124")
-		)
-		(pin "B4"
-			(uuid "106cb334-bc4e-4d3a-8c25-cda2b2fa1fea")
-		)
-		(pin "B6"
-			(uuid "d4716302-2576-41b1-bfb7-ca7036a30293")
-		)
-		(pin "B7"
-			(uuid "0fad612d-8f17-40e9-b391-9f3a6f234e07")
-		)
-		(pin "B8"
-			(uuid "3d1ec13d-5c03-4402-b7ee-00d99475c05e")
-		)
-		(pin "A6"
-			(uuid "1b9f3e7a-407b-4aff-bd2f-b26a66efc3fe")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -33629,7 +33687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 133.35 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -34265,6 +34323,110 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 135.89 203.2 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94a6768a-f926-41e8-b649-bef69a82570f")
+		(property "Reference" "D1"
+			(at 133.35 201.8664 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 133.35 204.4064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 135.89 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603W/C2290"
+			(at 135.89 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 135.89 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 135.89 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2290"
+			(at 135.89 203.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a18a6f56-855a-4d9a-a347-7e2daac11f0c")
+		)
+		(pin "1"
+			(uuid "9e9ec65b-42b4-431f-9925-0566d3f3d211")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -34955,6 +35117,161 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 29.21 349.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9cd96a2e-5631-4431-9b83-4b6a234aa555")
+		(property "Reference" "J10"
+			(at 29.21 326.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4115-03-C"
+			(at 29.21 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+			(at 33.02 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://gct.co/connector/usb4115"
+			(at 33.02 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type C USB 3.2 Gen 2 16P Receptacle Connector"
+			(at 29.21 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5250720"
+			(at 29.21 349.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 29.21 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 29.21 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B9"
+			(uuid "689a2d3b-93b1-407c-b4b9-3577b728860f")
+		)
+		(pin "B5"
+			(uuid "06e187cf-b550-4e59-a8f2-3e0c64b1d37e")
+		)
+		(pin "A9"
+			(uuid "66be55af-692c-416f-b0fb-1349f7b8082d")
+		)
+		(pin "A12"
+			(uuid "bc441d2a-8735-4220-96ff-5d1ed713a23d")
+		)
+		(pin "A5"
+			(uuid "0d09d2a0-9f6f-4d54-a478-5c81828c666a")
+		)
+		(pin "B12"
+			(uuid "7633f4cc-8361-4efc-8405-64ede60def24")
+		)
+		(pin "SH"
+			(uuid "23ffca8d-1684-4b22-8e7e-43fef214d28e")
+		)
+		(pin "A1"
+			(uuid "090b76ee-6f27-40a9-89f5-28c3af01645f")
+		)
+		(pin "A4"
+			(uuid "4763f12e-66d4-4a63-8807-c361e485c53f")
+		)
+		(pin "A7"
+			(uuid "894517bf-a9fe-4ed3-bb06-a25d1101d650")
+		)
+		(pin "A8"
+			(uuid "cbfbbd0d-e69f-4b89-88d5-65de38d9e37e")
+		)
+		(pin "B1"
+			(uuid "ae1d4656-ede4-4f1f-8d75-e68295053e8d")
+		)
+		(pin "B4"
+			(uuid "3663b8d3-f8e5-4f81-9f5d-55f89278d09d")
+		)
+		(pin "B6"
+			(uuid "4fd02d2b-8c26-4a22-89af-e018344e7cb2")
+		)
+		(pin "B7"
+			(uuid "59f2e075-75a5-41ed-9dd7-4e7cc6f4708d")
+		)
+		(pin "B8"
+			(uuid "1c29f7ec-1757-45f4-a9a6-d6e183f56a35")
+		)
+		(pin "A6"
+			(uuid "6e921a72-97e8-4393-ada0-dbc10fe4a9c9")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -40795,7 +41112,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 135.89 203.2 0)
+		(at 135.89 196.85 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -40806,7 +41123,7 @@
 		(dnp no)
 		(uuid "e3189d8f-fdb4-4a5c-b471-088901fbbfe6")
 		(property "Reference" "R46"
-			(at 133.35 201.9299 0)
+			(at 133.35 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40816,8 +41133,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22k"
-			(at 133.35 204.4699 0)
+		(property "Value" "100"
+			(at 133.35 198.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40828,7 +41145,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 135.89 203.2 0)
+			(at 135.89 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40838,8 +41155,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 135.89 203.2 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076"
+			(at 135.89 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40850,7 +41167,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 135.89 203.2 0)
+			(at 135.89 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40860,8 +41177,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C25768"
-			(at 135.89 203.2 0)
+		(property "LCSC" "C25076"
+			(at 135.89 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40872,7 +41189,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 135.89 203.2 0)
+			(at 135.89 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -40882,7 +41199,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 135.89 203.2 0)
+			(at 135.89 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
