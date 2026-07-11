@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -146,8 +146,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
+        "min_clearance": 0.1,
+        "min_connection": 0.2,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -159,10 +159,10 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.25,
+        "min_via_diameter": 0.3,
+        "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -210,7 +210,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -242,6 +243,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -758,7 +763,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG3-7,L2,H1-4,JP8,JP10,R1,R10-11,R14-15,R20-21,R24-26,R28-34,R44,R55-60,C31-38,C40-44,C47-50,C67-73,Q4,Q7-8,D1-6,#PWR9,#PWR15,#PWR67,#PWR69-70,#PWR73-74,#PWR76,#PWR79,#PWR82,#PWR86-88,#PWR91,#PWR96,#PWR116-117,#PWR121-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-153,J3,J10,U3-4,U7",
+    "used_designators": "#FLG3-7,L2,H1-4,R1,R10-11,R14-15,R20-21,R24-26,R28-35,R44,R54-60,JP8,JP10,C31-38,C40-44,C47-50,C67-73,Q4,Q6-8,D1-6,#PWR9,#PWR15,#PWR67,#PWR69-70,#PWR73-74,#PWR76,#PWR79,#PWR82,#PWR86-88,#PWR91,#PWR96,#PWR112,#PWR116-117,#PWR121-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-153,J3,J10,U3-4,U7",
     "variants": []
   },
   "sheets": [
