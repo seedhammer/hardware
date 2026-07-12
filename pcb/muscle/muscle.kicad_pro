@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.53,
+          "width": 0.47
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -211,7 +211,10 @@
       ],
       "track_widths": [
         0.0,
-        0.3
+        0.15,
+        0.2,
+        0.3,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -763,7 +766,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG3-7,L2,H1-4,R1,R10-11,R14-15,R20-21,R24-26,R28-35,R44,R54-60,JP8,JP10,C31-38,C40-44,C47-50,C67-73,Q4,Q6-8,D1-6,#PWR9,#PWR15,#PWR67,#PWR69-70,#PWR73-74,#PWR76,#PWR79,#PWR82,#PWR86-88,#PWR91,#PWR96,#PWR112,#PWR116-117,#PWR121-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-153,J3,J10,U3-4,U7",
+    "used_designators": "#FLG3-7,L2,H1-4,R1,R10-11,R14-15,R20-21,R24-26,R28-35,R44,R54-60,JP8,JP10,C31-38,C40-44,C47-50,C67-73,Q4,Q6-8,D1-6,#PWR9,#PWR15,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR82,#PWR86-88,#PWR91,#PWR96,#PWR112,#PWR116-117,#PWR121-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-153,J3,J10,U3-4,U7",
     "variants": []
   },
   "sheets": [
