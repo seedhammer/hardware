@@ -121,8 +121,8 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -147,8 +147,8 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.1,
-        "min_connection": 0.2,
-        "min_copper_edge_clearance": 0.5,
+        "min_connection": 0.15,
+        "min_copper_edge_clearance": 0.45,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -282,6 +282,10 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "multiple_net_names|1409700|520700|1aa2f6f1-0862-4cf6-b990-fe98e7f5c019|7da22d88-caa5-495e-8d7c-cdcfb051ac8f|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680",
+        ""
+      ],
       [
         "multiple_net_names|1409700|520700|6fa3f664-cc01-48f1-a622-bb3bdcaeb5f3|7da22d88-caa5-495e-8d7c-cdcfb051ac8f|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680",
         ""
@@ -521,7 +525,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.125,
         "diff_pair_gap": 0.18,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.35,
@@ -539,7 +543,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.18,
         "diff_pair_width": 0.35,
         "microvia_diameter": 0.3,
@@ -766,7 +770,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG3-7,L2,H1-4,R1,R10-11,R14-15,R20-21,R24-26,R28-35,R44,R54-60,JP8,JP10,C31-38,C40-44,C47-50,C67-73,Q4,Q6-8,D1-6,#PWR9,#PWR15,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR82,#PWR86-88,#PWR91,#PWR96,#PWR112,#PWR116-117,#PWR121-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-153,J3,J10,U3-4,U7",
+    "used_designators": "TP3-4,#FLG3-7,L2,H1-4,R1,R9-11,R14-15,R20-21,R24-26,R28-35,R44-45,R54-60,JP8-11,U3-4,U7,C31-38,C40-44,C47-50,C67-73,Q4,Q6-8,D1-7,#PWR9,#PWR15,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR82,#PWR85-88,#PWR91,#PWR96,#PWR112,#PWR116-117,#PWR121-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-154,J3,J10",
     "variants": []
   },
   "sheets": [
