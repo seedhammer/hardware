@@ -10348,6 +10348,12 @@
 		(uuid "07c77ce9-a821-4d5c-8199-5464e4a7df7d")
 	)
 	(junction
+		(at 440.69 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07e97741-cdd8-44e1-9130-fe7a89ec0f63")
+	)
+	(junction
 		(at 115.57 367.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10376,12 +10382,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1df566f3-71e4-467f-ab33-b23e193fc24b")
-	)
-	(junction
-		(at 453.39 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ef66998-afff-41eb-93ad-96469ea7dc46")
 	)
 	(junction
 		(at 280.67 38.1)
@@ -10472,6 +10472,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4032144a-94fa-4929-9ad8-5495d96e10b8")
+	)
+	(junction
+		(at 429.26 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40ac8f7d-5797-450a-bd9a-b1af9fabbafa")
 	)
 	(junction
 		(at 339.09 170.18)
@@ -10592,12 +10598,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a809700-0079-4087-811c-7354edfe6e18")
-	)
-	(junction
-		(at 464.82 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "701d0a01-3dce-43fa-b519-2d673d542768")
 	)
 	(junction
 		(at 381 181.61)
@@ -10744,6 +10744,12 @@
 		(uuid "a8a26dce-c3cf-46a2-b2d8-6be6ff562538")
 	)
 	(junction
+		(at 464.82 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aef1bb79-f9ae-4d2c-b0c8-3ddd8412ff98")
+	)
+	(junction
 		(at 86.36 281.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10780,16 +10786,10 @@
 		(uuid "bf95ee43-9a3c-4199-8eb1-1c4bf1a190ef")
 	)
 	(junction
-		(at 440.69 170.18)
+		(at 453.39 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c17d1843-0997-4dfc-94e1-cadef885d5a2")
-	)
-	(junction
-		(at 429.26 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c796cf23-f54d-4e48-b234-4d88075e66da")
+		(uuid "c4fc647e-e29d-4b07-9a4d-51580873885f")
 	)
 	(junction
 		(at 302.26 57.15)
@@ -11250,6 +11250,16 @@
 			(type default)
 		)
 		(uuid "02c39676-f0bc-4c18-b569-a0440ca218a0")
+	)
+	(wire
+		(pts
+			(xy 429.26 170.18) (xy 440.69 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c58b93-025e-4730-9437-88e36f1ea38a")
 	)
 	(wire
 		(pts
@@ -11733,6 +11743,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 170.18) (xy 429.26 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d8212d-a219-4055-a958-f9b199f152fa")
+	)
+	(wire
+		(pts
 			(xy 356.87 170.18) (xy 360.68 170.18)
 		)
 		(stroke
@@ -12120,6 +12140,16 @@
 			(type default)
 		)
 		(uuid "267f45e3-8509-47ab-a95c-af68764bac22")
+	)
+	(wire
+		(pts
+			(xy 453.39 170.18) (xy 453.39 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a78594-27ae-43d4-8717-5277c0856c91")
 	)
 	(wire
 		(pts
@@ -12713,6 +12743,16 @@
 	)
 	(wire
 		(pts
+			(xy 464.82 182.88) (xy 464.82 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e3078c-dd11-4d2d-a01b-5033c3a59bd1")
+	)
+	(wire
+		(pts
 			(xy 340.36 170.18) (xy 339.09 170.18)
 		)
 		(stroke
@@ -13063,16 +13103,6 @@
 	)
 	(wire
 		(pts
-			(xy 464.82 170.18) (xy 464.82 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a5b673-fbdc-4246-a50d-7336aa651e49")
-	)
-	(wire
-		(pts
 			(xy 219.71 107.95) (xy 219.71 109.22)
 		)
 		(stroke
@@ -13213,7 +13243,7 @@
 	)
 	(wire
 		(pts
-			(xy 400.05 170.18) (xy 464.82 170.18)
+			(xy 400.05 170.18) (xy 429.26 170.18)
 		)
 		(stroke
 			(width 0)
@@ -13353,16 +13383,6 @@
 	)
 	(wire
 		(pts
-			(xy 453.39 170.18) (xy 453.39 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6483e93c-f5e3-4de4-bab9-343bce2f3c05")
-	)
-	(wire
-		(pts
 			(xy 102.87 261.62) (xy 109.22 261.62)
 		)
 		(stroke
@@ -13450,16 +13470,6 @@
 			(type default)
 		)
 		(uuid "69b02ea4-338e-4bc4-ac99-98aab0178a87")
-	)
-	(wire
-		(pts
-			(xy 429.26 170.18) (xy 429.26 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a47509a-4293-4a73-9285-4c36ba766394")
 	)
 	(wire
 		(pts
@@ -14103,6 +14113,16 @@
 	)
 	(wire
 		(pts
+			(xy 453.39 170.18) (xy 464.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84314f36-d55c-4dc5-91e2-261db7ee8aeb")
+	)
+	(wire
+		(pts
 			(xy 389.89 170.18) (xy 392.43 170.18)
 		)
 		(stroke
@@ -14240,6 +14260,16 @@
 			(type default)
 		)
 		(uuid "874f5611-c500-4a37-85d3-cfd8d5783eb6")
+	)
+	(wire
+		(pts
+			(xy 440.69 170.18) (xy 440.69 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8861c2f7-cfac-4384-b727-b7509eedbf23")
 	)
 	(wire
 		(pts
@@ -14443,16 +14473,6 @@
 	)
 	(wire
 		(pts
-			(xy 440.69 170.18) (xy 440.69 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91b0a283-5c7a-4f00-be84-b9fa78a26190")
-	)
-	(wire
-		(pts
 			(xy 54.61 345.44) (xy 44.45 345.44)
 		)
 		(stroke
@@ -14640,6 +14660,16 @@
 			(type default)
 		)
 		(uuid "9a5a3c50-b172-4059-a639-e5f6b432d4e4")
+	)
+	(wire
+		(pts
+			(xy 440.69 182.88) (xy 440.69 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6e247f-779d-44ec-8d60-f2a5fe40be70")
 	)
 	(wire
 		(pts
@@ -15333,6 +15363,16 @@
 	)
 	(wire
 		(pts
+			(xy 429.26 182.88) (xy 429.26 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5a36fd5-5bdd-4a5e-867a-40197aca48fe")
+	)
+	(wire
+		(pts
 			(xy 245.11 312.42) (xy 284.48 312.42)
 		)
 		(stroke
@@ -15440,6 +15480,16 @@
 			(type default)
 		)
 		(uuid "bb94fb3b-4fc9-4450-87a9-1f53492436a6")
+	)
+	(wire
+		(pts
+			(xy 464.82 170.18) (xy 464.82 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc28b89f-ca5a-4679-aeca-03b8e7e994a4")
 	)
 	(wire
 		(pts
@@ -15650,6 +15700,16 @@
 			(type default)
 		)
 		(uuid "c625faab-e80d-492a-b4fc-63948c8854c6")
+	)
+	(wire
+		(pts
+			(xy 440.69 170.18) (xy 453.39 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c71cf201-0d51-4c1c-afee-d8260c7c04d7")
 	)
 	(wire
 		(pts
@@ -16710,6 +16770,16 @@
 			(type default)
 		)
 		(uuid "f819a466-eb8e-475d-80c1-27b039c04c95")
+	)
+	(wire
+		(pts
+			(xy 453.39 182.88) (xy 453.39 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bcc40a-1710-4fb3-beae-cc765402a148")
 	)
 	(wire
 		(pts
@@ -18106,7 +18176,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/FOJAN-FRC0402F27R0TS/C2909343"
 			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -18128,7 +18198,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25100"
+		(property "LCSC" "C2909343"
 			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -18223,7 +18293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/FOJAN-FRC0402F27R0TS/C2909343"
 			(at 95.25 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18245,7 +18315,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25100"
+		(property "LCSC" "C2909343"
 			(at 95.25 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -19584,7 +19654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 302.26 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19595,7 +19665,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23554-0603WAF1803T5E/C22827"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR07180KL/C138046"
 			(at 302.26 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19617,7 +19687,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22827"
+		(property "LCSC" "C138046"
 			(at 302.26 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -22112,6 +22182,87 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 464.82 177.8 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "2095e265-74d0-492a-8fad-66c7cdf1bd4e")
+		(property "Reference" "JP14"
+			(at 462.026 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 461.01 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 464.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 464.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 464.82 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c99cbeb-88cb-43e3-882c-fca78082c3d6")
+		)
+		(pin "2"
+			(uuid "21ea39dd-f25a-494a-9c80-f9f9417c46df")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -25913,6 +26064,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 440.69 177.8 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "40db6f9a-f346-4ab1-829d-772fff8e1f11")
+		(property "Reference" "JP12"
+			(at 437.896 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 436.88 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 440.69 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 440.69 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 440.69 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "defd6e79-cc85-4aa1-a0c7-e2ae01bb1ed7")
+		)
+		(pin "2"
+			(uuid "a37d01a6-ea01-486b-9abd-c5f084bfcf5c")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Schottky_Small")
 		(at 354.33 170.18 180)
 		(unit 1)
@@ -26228,7 +26460,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 416.56 186.69 0)
+		(at 453.39 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -26239,7 +26471,7 @@
 		(dnp no)
 		(uuid "432efd68-726c-4df6-92e9-c1bf5cc083a4")
 		(property "Reference" "C44"
-			(at 414.02 184.8738 0)
+			(at 450.85 184.8738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26250,7 +26482,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 414.02 187.4138 0)
+			(at 450.85 187.4138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26261,7 +26493,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
-			(at 416.56 186.69 0)
+			(at 453.39 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26272,7 +26504,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
-			(at 416.56 186.69 0)
+			(at 453.39 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26283,7 +26515,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 416.56 186.69 0)
+			(at 453.39 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26294,7 +26526,7 @@
 			)
 		)
 		(property "LCSC" "C18104"
-			(at 416.56 186.69 0)
+			(at 453.39 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32229,6 +32461,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 429.26 177.8 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "87b029f0-c561-441d-b98a-ce73454944b9")
+		(property "Reference" "JP11"
+			(at 426.466 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 425.45 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 429.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 429.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 429.26 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e79db24-3fda-42bd-bb54-8f58bd21e490")
+		)
+		(pin "2"
+			(uuid "a230bb40-b6a0-4809-b20c-f95c5f26d783")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x03_MountingPin")
 		(at 219.71 100.33 0)
 		(unit 1)
@@ -33556,6 +33869,87 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 453.39 177.8 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "8f77f61e-ff0d-4e77-8708-79efbae520ea")
+		(property "Reference" "JP13"
+			(at 450.596 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 449.58 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 453.39 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 453.39 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 453.39 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e61cef3c-54fb-419e-80b6-d5ab604399d6")
+		)
+		(pin "2"
+			(uuid "27d5a16b-4858-418f-969a-bc7e226b184d")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -38191,7 +38585,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 386.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -38202,7 +38596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23554-0603WAF1803T5E/C22827"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR07180KL/C138046"
 			(at 386.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -38224,7 +38618,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22827"
+		(property "LCSC" "C138046"
 			(at 386.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -44641,7 +45035,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 453.39 186.69 0)
+		(at 416.56 186.69 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -44652,7 +45046,7 @@
 		(dnp no)
 		(uuid "fe25e7eb-7dba-4bd2-9185-3e461ce6f308")
 		(property "Reference" "C49"
-			(at 450.85 184.8738 0)
+			(at 414.02 184.8738 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44663,7 +45057,7 @@
 			)
 		)
 		(property "Value" "1000u"
-			(at 450.85 187.4138 0)
+			(at 414.02 187.4138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44674,7 +45068,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm"
-			(at 453.39 186.69 0)
+			(at 416.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44685,7 +45079,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
-			(at 453.39 186.69 0)
+			(at 416.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44696,7 +45090,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
-			(at 453.39 186.69 0)
+			(at 416.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44707,7 +45101,7 @@
 			)
 		)
 		(property "LCSC" "C18104"
-			(at 453.39 186.69 0)
+			(at 416.56 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
