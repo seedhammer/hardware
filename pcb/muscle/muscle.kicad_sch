@@ -21278,7 +21278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
+		(property "Footprint" "mainboard:WSD_DFN-5-1EP_6x5mm_P1.27mm_ThermalVias"
 			(at 339.09 321.945 0)
 			(hide yes)
 			(show_name no)
@@ -27109,7 +27109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:WSD_DFN-8-1EP_6x5mm_P1.27mm_ThermalVias"
+		(property "Footprint" "mainboard:WSD_DFN-5-1EP_6x5mm_P1.27mm_ThermalVias"
 			(at 361.95 283.845 0)
 			(hide yes)
 			(show_name no)
