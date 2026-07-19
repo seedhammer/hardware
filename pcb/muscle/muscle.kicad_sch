@@ -11003,7 +11003,7 @@
 		(uuid "50f2c9a0-d724-4ab7-82d2-bfbca5de37aa")
 	)
 	(no_connect
-		(at 158.75 135.89)
+		(at 158.75 102.87)
 		(uuid "58c419f7-5631-4b56-8d88-90c9f55c18fb")
 	)
 	(no_connect
@@ -11051,7 +11051,7 @@
 		(uuid "81039013-4878-441e-93ab-bc6168916618")
 	)
 	(no_connect
-		(at 158.75 148.59)
+		(at 158.75 135.89)
 		(uuid "88521b20-b53d-4c5c-a09c-1997647ad55d")
 	)
 	(no_connect
@@ -11604,7 +11604,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 302.26) (xy 274.32 297.18)
+			(xy 274.32 302.26) (xy 274.32 298.45)
 		)
 		(stroke
 			(width 0)
@@ -12234,7 +12234,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 173.99 102.87)
+			(xy 158.75 148.59) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -13884,7 +13884,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 297.18) (xy 274.32 297.18)
+			(xy 245.11 298.45) (xy 274.32 298.45)
 		)
 		(stroke
 			(width 0)
@@ -17083,7 +17083,7 @@
 		(uuid "250d80bd-d256-4abb-a3a3-f5f7cf314204")
 	)
 	(label "STATUS_LED"
-		(at 173.99 102.87 180)
+		(at 173.99 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17182,7 +17182,7 @@
 		)
 		(uuid "3190b360-2179-46e3-a465-ebcfe7a97c1b")
 	)
-	(label "NEEDLE"
+	(label "S_IN1"
 		(at 173.99 82.55 180)
 		(effects
 			(font
@@ -17502,7 +17502,7 @@
 		)
 		(uuid "73b53835-4e3e-4b6b-8452-4a3f289023ef")
 	)
-	(label "NEEDLE"
+	(label "S_IN1"
 		(at 245.11 293.37 0)
 		(effects
 			(font
@@ -17623,7 +17623,7 @@
 		(uuid "96602851-bc8e-4a83-ade6-2cdc237e5a2a")
 	)
 	(label "DRV_EN"
-		(at 245.11 297.18 0)
+		(at 245.11 298.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
