@@ -10761,6 +10761,12 @@
 		(uuid "b260ac1d-7606-4bad-b219-600b07fb92d6")
 	)
 	(junction
+		(at 58.42 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3a5475c-af1f-483d-ae49-3b09e81edcb5")
+	)
+	(junction
 		(at 400.05 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11488,7 +11494,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 241.3) (xy 44.45 241.3)
+			(xy 81.28 241.3) (xy 58.42 241.3)
 		)
 		(stroke
 			(width 0)
@@ -12405,6 +12411,16 @@
 			(type default)
 		)
 		(uuid "3701f01b-2460-4676-9dfe-cee0ed317f71")
+	)
+	(wire
+		(pts
+			(xy 58.42 237.49) (xy 58.42 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ea86be-474e-4bd7-aa5a-05b7365f4838")
 	)
 	(wire
 		(pts
@@ -15535,6 +15551,16 @@
 			(type default)
 		)
 		(uuid "c0fdbfd8-291c-4268-9c84-ac8b8334a165")
+	)
+	(wire
+		(pts
+			(xy 58.42 241.3) (xy 44.45 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c122c8f3-d9fc-4865-aee5-89c63f6871e1")
 	)
 	(wire
 		(pts
@@ -20027,6 +20053,83 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 58.42 237.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0fa21fe2-1766-4b88-9344-a966ef1169b8")
+		(property "Reference" "#PWR094"
+			(at 58.42 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS0"
+			(at 58.42 232.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc3685d7-73ca-4b0d-b255-53d4e059cdb2")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -27711,7 +27814,7 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VBUS0"
 			(at 77.47 350.52 0)
 			(show_name no)
 			(do_not_autoplace no)
