@@ -8749,7 +8749,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 15.24 22.86 180)
 					(length 2.54)
 					(name "PPHV"
@@ -10351,7 +10351,7 @@
 	)
 	(text "USB Power"
 		(exclude_from_sim no)
-		(at 19.304 239.268 0)
+		(at 19.304 237.49 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -10395,7 +10395,7 @@
 	)
 	(text "USB PD"
 		(exclude_from_sim no)
-		(at 94.742 239.268 0)
+		(at 94.742 237.49 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -10944,6 +10944,12 @@
 		(uuid "b260ac1d-7606-4bad-b219-600b07fb92d6")
 	)
 	(junction
+		(at 44.45 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2a7d197-4177-4890-a630-adfbb084b2fa")
+	)
+	(junction
 		(at 58.42 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11330,6 +11336,10 @@
 	(no_connect
 		(at 44.45 261.62)
 		(uuid "ec3964ca-5876-4f38-99e3-2df6d08004e4")
+	)
+	(no_connect
+		(at 44.45 382.27)
+		(uuid "ec45a035-fc27-4f5e-9984-b6980e2fa803")
 	)
 	(no_connect
 		(at 44.45 271.78)
@@ -12164,16 +12174,6 @@
 			(type default)
 		)
 		(uuid "223b37a8-e968-4a43-a7d3-88576d98a86a")
-	)
-	(wire
-		(pts
-			(xy 109.22 276.86) (xy 102.87 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "236ab240-68b0-4bf3-8f2d-4db83f5b9f1a")
 	)
 	(wire
 		(pts
@@ -13237,16 +13237,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 267.97) (xy 92.71 267.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "578b26ed-c12a-4c1e-a8aa-b1e59e354603")
-	)
-	(wire
-		(pts
 			(xy 158.75 85.09) (xy 173.99 85.09)
 		)
 		(stroke
@@ -13434,16 +13424,6 @@
 			(type default)
 		)
 		(uuid "6072f3da-2acd-4d63-b077-b7b5241016bd")
-	)
-	(wire
-		(pts
-			(xy 92.71 267.97) (xy 92.71 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6074ab15-0619-484d-86b9-add2d1947e9d")
 	)
 	(wire
 		(pts
@@ -14994,16 +14974,6 @@
 			(type default)
 		)
 		(uuid "a1341504-7113-4797-893f-46a1e40ff660")
-	)
-	(wire
-		(pts
-			(xy 102.87 267.97) (xy 102.87 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f2e470-7576-4f0c-8715-30c47c5689fd")
 	)
 	(wire
 		(pts
@@ -20754,7 +20724,7 @@
 		(dnp no)
 		(uuid "1027ea3e-5ff8-4288-8304-52b05070321b")
 		(property "Reference" "J9"
-			(at 29.21 248.92 0)
+			(at 28.956 239.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20764,7 +20734,7 @@
 			)
 		)
 		(property "Value" "USB4115-03-C"
-			(at 29.21 251.46 0)
+			(at 28.956 242.316 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20829,6 +20799,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 29.21 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "POWER"
+			(at 29.21 271.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26553,118 +26534,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 92.71 271.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "412f8c04-5b9b-4a05-ab0e-0a853b9352c9")
-		(property "Reference" "C69"
-			(at 96.52 270.5162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 96.52 273.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 92.71 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
-			(at 92.71 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C15525"
-			(at 92.71 271.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 92.71 271.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 92.71 271.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b731a7af-b769-421e-865d-a548202647f3")
-		)
-		(pin "2"
-			(uuid "e3c26b41-ff5c-4954-b124-12e2185cda66")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 313.69 90.17 90)
 		(unit 1)
@@ -28233,6 +28102,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 416.56 170.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b0ecf0-ac6f-47ad-827b-0834a395ed74")
+		(property "Reference" "#FLG08"
+			(at 416.56 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 416.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 416.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 416.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 416.56 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9ca3b6f-03ea-4f47-bc37-34419c4310cc")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 269.24 304.8 90)
 		(unit 1)
@@ -28898,84 +28847,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 92.71 274.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b708987-2ac6-40ef-8ab8-6ffe1ba09f09")
-		(property "Reference" "#PWR0140"
-			(at 92.71 280.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 92.71 279.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 274.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35d50baf-1f03-4a37-9c45-0ddbe801e050")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -35431,7 +35302,7 @@
 		(dnp no)
 		(uuid "9cd96a2e-5631-4431-9b83-4b6a234aa555")
 		(property "Reference" "J10"
-			(at 29.21 334.01 0)
+			(at 28.956 324.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35441,7 +35312,7 @@
 			)
 		)
 		(property "Value" "USB4115-03-C"
-			(at 29.21 336.55 0)
+			(at 28.956 326.644 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35506,6 +35377,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 29.21 356.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "DATA"
+			(at 29.21 356.87 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36340,6 +36222,86 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 44.45 241.3 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6e3a2ba-f88a-4297-a1ce-e9546ca73d57")
+		(property "Reference" "#FLG07"
+			(at 44.45 239.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 44.45 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21f0d1fe-674a-41db-aae2-acd33a872b11")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -38703,6 +38665,85 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 109.22 276.86 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4ef5a6a-fdde-4113-ba1d-e2321bf3e326")
+		(property "Reference" "#PWR0109"
+			(at 102.87 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 276.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "660f935b-65e5-4cce-9dff-02daff4ba12a")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
