@@ -57,7 +57,28 @@ func run(out, board string) (err error) {
 		return err
 	}
 	version := string(bytes.TrimSpace(verBytes))
+	// Run board checks.
 	pcb := boardName + ".kicad_pcb"
+	sch := boardName + ".kicad_sch"
+	drcCmd := exec.Command(
+		"kicad-cli", "sch", "erc",
+		"-D", "VERSION="+version,
+		"-o", "/dev/stderr", "--exit-code-violations",
+		sch,
+	)
+	if ercOut, err := drcCmd.CombinedOutput(); err != nil {
+		return fmt.Errorf("%s%s: %w", ercOut, pcb, err)
+	}
+	ercCmd := exec.Command(
+		"kicad-cli", "pcb", "drc",
+		"-D", "VERSION="+version,
+		"-o", "/dev/stderr", "--exit-code-violations",
+		"--schematic-parity",
+		pcb,
+	)
+	if ercOut, err := ercCmd.CombinedOutput(); err != nil {
+		return fmt.Errorf("%s%s: %w", ercOut, pcb, err)
+	}
 	gerbersCmd := exec.Command(
 		"kicad-cli", "pcb", "export", "gerbers",
 		"-D", "VERSION="+version,
@@ -76,7 +97,7 @@ func run(out, board string) (err error) {
 		"--drill-origin", "absolute",
 		"--generate-map",
 		"-u", "mm",
-		boardName+".kicad_pcb",
+		pcb,
 	)
 	drillCmd.Stderr = os.Stderr
 	if err := drillCmd.Run(); err != nil {
