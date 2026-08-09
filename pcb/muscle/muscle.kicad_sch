@@ -10854,6 +10854,12 @@
 		(uuid "944c6295-774d-4f49-b839-45908825b9f9")
 	)
 	(junction
+		(at 260.35 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9461fb58-1dea-4e84-9776-00b14a344793")
+	)
+	(junction
 		(at 317.5 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11180,6 +11186,10 @@
 	(no_connect
 		(at 44.45 259.08)
 		(uuid "4d1827f6-b86b-4056-b95a-277845369f10")
+	)
+	(no_connect
+		(at 158.75 143.51)
+		(uuid "4dee3966-776b-45a3-ae61-d9b1469d1bb7")
 	)
 	(no_connect
 		(at 44.45 359.41)
@@ -14427,16 +14437,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 205.74) (xy 285.75 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7eb730-a894-45a1-a2c9-6e22ba1b6fb5")
-	)
-	(wire
-		(pts
 			(xy 72.39 293.37) (xy 72.39 292.1)
 		)
 		(stroke
@@ -14857,6 +14857,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 312.42) (xy 284.48 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d399789-9216-4fc7-a85a-87002d2d4fc7")
+	)
+	(wire
+		(pts
 			(xy 295.91 278.13) (xy 276.86 278.13)
 		)
 		(stroke
@@ -15074,6 +15084,16 @@
 			(type default)
 		)
 		(uuid "a5b0f398-610a-4e7e-ae3f-31ae80cbbf2b")
+	)
+	(wire
+		(pts
+			(xy 273.05 205.74) (xy 285.75 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64085d1-a74d-48e6-92d8-91f898ec6b16")
 	)
 	(wire
 		(pts
@@ -15477,7 +15497,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 312.42) (xy 284.48 312.42)
+			(xy 245.11 312.42) (xy 260.35 312.42)
 		)
 		(stroke
 			(width 0)
@@ -16314,16 +16334,6 @@
 			(type default)
 		)
 		(uuid "da1ddbe3-3790-464b-bdb7-3b5c46b98acf")
-	)
-	(wire
-		(pts
-			(xy 158.75 143.51) (xy 173.99 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db634d01-9214-4f08-ae56-4e03d082ad9f")
 	)
 	(wire
 		(pts
@@ -17345,16 +17355,6 @@
 		)
 		(uuid "2c167a5b-963c-4014-895d-c629c5089c26")
 	)
-	(label "S_IMON"
-		(at 173.99 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "309c4494-be18-4ae5-b872-ae278bbdf59c")
-	)
 	(label "S_VREF"
 		(at 245.11 309.88 0)
 		(effects
@@ -17774,16 +17774,6 @@
 			(justify right bottom)
 		)
 		(uuid "7e4a5e30-d0b7-4603-be7c-7048e91a3d2a")
-	)
-	(label "S_IMON"
-		(at 257.81 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f1bf602-a229-4dcd-9c31-a7d94469bb85")
 	)
 	(label "X_B2"
 		(at 307.34 74.93 0)
@@ -30707,6 +30697,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 273.05 205.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b749d13-a31e-4866-9e25-daad70ec1e3a")
+		(property "Reference" "TP5"
+			(at 275.59 201.1679 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S_IMON"
+			(at 275.59 203.7079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 278.13 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 273.05 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "143efd4a-53f2-4c79-aa53-fb3ffe395d9d")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 434.34 49.53 0)
 		(unit 1)
@@ -40705,6 +40774,85 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 312.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7d487b-c780-44db-9501-7b273d4107c5")
+		(property "Reference" "TP6"
+			(at 262.89 314.4519 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "S_SENSE"
+			(at 262.89 316.9919 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 255.27 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9da1021c-3226-4fac-9498-2dc13418f8cf")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
