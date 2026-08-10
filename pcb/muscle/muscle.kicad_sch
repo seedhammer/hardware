@@ -36084,7 +36084,7 @@
 				)
 			)
 		)
-		(property "Value" "50m,1%,1W"
+		(property "Value" "50m,1W"
 			(at 322.58 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38468,7 +38468,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50m,1%,1W"
+		(property "Value" "50m,1W"
 			(at 328.93 190.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40579,7 +40579,7 @@
 				)
 			)
 		)
-		(property "Value" "5m,1%"
+		(property "Value" "5m,3W"
 			(at 340.36 334.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40589,7 +40589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 342.9 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -40600,7 +40600,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/ta_iTech-RLP25FEGMR005/C393074"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RLP25FEGMR005/C393074"
 			(at 342.9 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -40622,7 +40622,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C728267"
+		(property "LCSC" "C393074"
 			(at 342.9 334.01 90)
 			(hide yes)
 			(show_name no)
