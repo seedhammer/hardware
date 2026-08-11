@@ -26294,7 +26294,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ZX-SH1.0-3PLT"
+		(property "Value" "WAFER-SH1.0-3PWB"
 			(at 223.52 61.3155 0)
 			(hide yes)
 			(show_name no)
@@ -26306,7 +26306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 219.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -26317,7 +26317,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Megastar-ZX_SH1_03PLT/C7430452"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Xunpu-WAFER_SH1_03PWB/C3029342"
 			(at 219.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -26339,7 +26339,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7430452"
+		(property "LCSC" "C3029342"
 			(at 219.71 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -30702,9 +30702,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b749d13-a31e-4866-9e25-daad70ec1e3a")
@@ -32394,7 +32394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ZX-SH1.0-3PLT"
+		(property "Value" "WAFER-SH1.0-3PWB"
 			(at 223.52 101.9555 0)
 			(hide yes)
 			(show_name no)
@@ -32406,7 +32406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal"
 			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -32417,7 +32417,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Megastar-ZX_SH1_03PLT/C7430452"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Xunpu-WAFER_SH1_03PWB/C3029342"
 			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -32439,7 +32439,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C7430452"
+		(property "LCSC" "C3029342"
 			(at 219.71 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -40785,9 +40785,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da7d487b-c780-44db-9501-7b273d4107c5")
