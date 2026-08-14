@@ -78,7 +78,8 @@ Machining/CNC services (all global): [JLCCNC](https://jlccnc.com) · [PCBWay CNC
 | Part Name | Description / Spec | Qty | UK | US | EU |
 |---|---|---|---|---|---|
 | Screw assortment | M3 + M4 socket-head (motor mounts 4× M3 each, ≥4.5 mm engagement; clamp M4×0.7; frame M3/M4 per STEP threads). ⚠️ Exact list TBD. | 1 kit | [Amazon UK — VIGRUE 1080-pc M2/M3/M4](https://www.amazon.co.uk/dp/B081SGZ2C4) | [Amazon US — VIGRUE 1290-pc](https://www.amazon.com/dp/B071KBVZVV) | [Amazon DE — VIGRUE 1080-pc](https://www.amazon.de/dp/B081SGZ2C4) |
-| Steel plates | 85 × 85 mm, 316 marine-grade stainless (SeedHammer II / SH02 pattern) | n | [seedhammer.com/shop](https://seedhammer.com/shop) (global) | [seedhammer.com/shop](https://seedhammer.com/shop) (global) | [seedhammer.com/shop](https://seedhammer.com/shop) (global) |
+| Steel plates | 85 × 85 mm, **316L** marine-grade stainless, 2–3 mm thick (SeedHammer II / SH02 pattern — per SeedHammer's plate article) | n | [seedhammer.com/shop](https://seedhammer.com/shop) (global) · DIY: [Lasered UK](https://www.lasered.co.uk) | [seedhammer.com/shop](https://seedhammer.com/shop) (global) · DIY: [SendCutSend — 316 stainless](https://sendcutsend.com/materials/stainless-steel/) | [seedhammer.com/shop](https://seedhammer.com/shop) (global) · DIY: [Fractory](https://fractory.com/online-laser-cutting/) |
+| Steel plates (DIY notes) | Any laser-cutting service can cut 85 × 85 mm 316L blanks. Must be flat and deburred (the needle gap is small and the plate sits in a printed jig); brushed finish engraves most legibly. ⚠️ Confirm exact thickness (2 vs 3 mm) and corner radius/holes against an original plate. | — | — | — | — |
 
 ## NIP-99 / bitcoin-native sourcing
 
