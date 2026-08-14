@@ -33,7 +33,7 @@ no end bearings in the motion path.
 
 | Part Name | Part Number | Description / Spec | Qty | UK | US | EU |
 |---|---|---|---|---|---|---|
-| Solenoid impact head | — (OEM, per `specs/hammerhead.pdf`) | Ø40 × 71 mm, M26 threaded neck, 90° carbide tip, 16 cm cable → JST XH 2-pin female. Driven 20–28 V DC, 25 ms cycle (≈40 Hz), 4–5 ms on-time. ⚠️ The drawing is an interface spec for an OEM commodity marking-machine head — **exact OEM/source unknown; input from the SeedHammer team wanted.** DIY fallback: harvest the head from a 400 W desktop electric marking machine and verify the coil at 20–28 V pulsed drive. | 1 | Candidate spare head (global): [AliExpress — "electromechanical marking head", ~£59](https://www.aliexpress.com/item/1005012679957256.html) — ⚠️ confirm Ø40/M26/coil voltage with seller before buying | Donor machine: [Amazon US — 400 W desktop marking machine](https://www.amazon.com/Electric-Marking-Engraving-Nameplate-Industrial/dp/B0CQM15DMF) · [eBay — "Electromagnetic Marking Head"](https://www.ebay.com/itm/394579043426) (listing may expire) | Same AliExpress candidate (ships EU) — or quote the [`hammerhead.pdf`](specs/hammerhead.pdf) drawing to a marking-machine OEM on Alibaba |
+| Solenoid impact head | — (OEM, per `specs/hammerhead.pdf`) | Ø40 × 71 mm, M26 threaded neck, 90° carbide tip, 16 cm cable → JST XH 2-pin female. Driven 20–28 V DC, 25 ms cycle (≈40 Hz), 4–5 ms on-time. ⚠️ The drawing is an interface spec for an OEM commodity marking-machine head. The SeedHammer team report the OEM is unknown even to them (the original supplier withheld manufacturer details and later ceased trading) and a redesign/reverse-engineering of the head is planned; Alibaba/AliExpress listings surface intermittently for single buys — image search recommended. DIY fallback: harvest the head from a 400 W desktop electric marking machine and verify the coil at 20–28 V pulsed drive. | 1 | Candidate spare head (global): [AliExpress — "electromechanical marking head", ~£59](https://www.aliexpress.com/item/1005012679957256.html) — ⚠️ confirm Ø40/M26/coil voltage with seller before buying | Donor machine: [Amazon US — 400 W desktop marking machine](https://www.amazon.com/Electric-Marking-Engraving-Nameplate-Industrial/dp/B0CQM15DMF) · [eBay — "Electromagnetic Marking Head"](https://www.ebay.com/itm/394579043426) (listing may expire) | Same AliExpress candidate (ships EU) — or quote the [`hammerhead.pdf`](specs/hammerhead.pdf) drawing to a marking-machine OEM on Alibaba |
 | Spare carbide tips | 90° included angle | Consumable dot-peen/marking styli, tungsten carbide. | n | [Amazon UK](https://www.amazon.co.uk/dp/B09M7VHW26) | [Amazon US](https://www.amazon.com/dp/B09M7VHW26) · [2L Inc](https://www.2linc.com/product/dot-peen-marking-toolbit/) | [Amazon DE](https://www.amazon.de/dp/B09M7VHW26) · [AliExpress — tungsten needle + brass bushing consumables](https://www.aliexpress.com/item/1005007912316101.html) · [Alibaba (Zixu)](https://www.alibaba.com/product-detail/ZIXU-Manufacture-Price-6MM-Carbide-Pins_60253271680.html) (global) |
 
 ## 3. Electronics
@@ -64,7 +64,7 @@ drawing (possibly a machined insert behind the printed carriage — to confirm).
 
 | Group | Files | Process (inferred) |
 |---|---|---|
-| Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | Folded sheet metal, black textured finish (per exploded diagram/photos); ≈186 mm wide × 237 mm deep |
+| Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | ⚠️ 3D-printed or folded sheet metal (diagram reads as flanged plates; photos show print-like texture); ≈186 mm wide × 237 mm deep |
 | X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | Carriage appears 3D-printed (orange) in photos, yet the drawing carries Ø14.03 ±0.05 / M4×0.7 6H machining callouts — ⚠️ to confirm |
 | Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | Orange cam lever & plate jig are 3D-printed (confirmed from product photos); sled internals unconfirmed |
 | PCB mounting | [`pcb-clip`](cad/pcb-clip.step), [`pcb-nipple`](cad/pcb-nipple.step) | ⚠️ 3D print (or injection-moulded in production) |
@@ -90,9 +90,9 @@ welcome.
 
 ## Open questions for the SeedHammer team
 
-1. **Hammerhead** — who manufactures the solenoid head (or what should we search for)?
-   Is it the same family as the AliExpress/eBay "electromagnetic marking heads"? What
-   are the coil specs (resistance/voltage), and would you sell it as a spare part?
+1. **Hammerhead** — does the [AliExpress "electromagnetic marking head"](https://www.aliexpress.com/item/1005012679957256.html)
+   we found look right (silver body, red cone)? If component sourcing is
+   re-established, would you consider selling all spare parts?
 2. **Guide rails** — is Ø14 correct? What material/finish and exact length per axis?
    Does the carriage bore ride the shaft directly, or is there a pressed bushing?
    (Photos hint at a bushing ring.)
@@ -104,14 +104,13 @@ welcome.
    photos correct?
 5. **608 bearings** — are they only for the `608-tool` assembly jig, or used in the
    machine itself (and how many)?
-6. **Frame** — what material and thickness is the folded sheet metal, and what's the
-   black textured finish (powder coat?)? Any fab drawings beyond the STEP files?
-7. **Printed parts** — which parts are printed in production, what material
-   (PETG/ASA/PA?), and would you publish print settings/orientation?
+6. **Frame** — is it 3D-printed or folded sheet metal? (The exploded diagram reads
+   as flanged plates, but the photos show print-like texture.) What material and
+   finish?
+7. **Printed parts** — we assume PETG; is that right? Which parts are printed in
+   production, and would you publish print settings/orientation?
 8. **Fasteners** — could you share the full screw/nut list with counts?
 9. **LCD ribbon** — what FFC length/orientation is needed, and does the buydisplay
    panel ship with a suitable one?
 10. **Plate thickness** — does SeedHammer II accept both 2 mm and 3 mm plates, or
     2 mm only?
-11. **Upstream interest** — would you accept an assembly guide + confirmed BOM into
-    this repo if the community drafts them?
