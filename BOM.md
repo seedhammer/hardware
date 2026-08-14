@@ -14,15 +14,20 @@ gantry, the plate clamps into a sled travelling on Y beneath it. Depth comes fro
 solenoid head striking at up to 40 Hz. Homing is sensorless (TMC2209 StallGuard) — no
 endstop switches. Approximate frame footprint 240 × 240 × 200 mm.
 
+Published machine photos suggest an unusual drive layout: the motor rides on the
+moving carriage and the leadscrew travels with it, threading through a **brass hex
+nut fixed to the frame** (visible on both axes). The screw ends appear unsupported —
+no end bearings in the motion path.
+
 ## 1. Motion
 
 | Part Name | Part Number | Description / Spec | Qty | UK | US | EU |
 |---|---|---|---|---|---|---|
 | Stepper motor, NEMA 17 | `42DND0155B-22` (Kaihong) | 42 mm frame, 40 mm body, 1.8°/step, 1.65 A, 2.72 V, ≥0.4 N·m, Ø5 D-shaft ×22 mm, JST PH-6P connector. Spec: `cad/nema17-stepper.pdf`. Generic 17HS4401-class motors are near-identical substitutes. | 2 | [StepperOnline UK — 17HS16-2004S1](https://www.stepperonline.co.uk/nema-17-bipolar-45ncm-63-74oz-in-2a-42x42x40mm-4-wires-w-1m-cable-connector-17hs16-2004s1.html) | [StepperOnline — 17HS16-2004S1](https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-64oz-in-2a-42x42x40mm-4-wires-w-1m-cable-connector-17hs16-2004s1) | [AliExpress — 17HS4401](https://www.aliexpress.com/item/3256802822821809.html) (global) |
 | Leadscrew | Tr8×8 (T8, 4-start, 8 mm lead) | Firmware: 8 mm travel/rev (`mmPerRevolution = 8`). ⚠️ Length ~175 mm inferred from ~186 mm frame width — cut 200 mm stock to length. | 2 | [Amazon UK — Kwweeoo 200 mm Tr8×8, 2 pcs](https://www.amazon.co.uk/dp/B0CK29R5R4) | [Amazon US — Kwweeoo](https://www.amazon.com/dp/B0CK29R5R4) · [Amazon US — FKG + nut](https://www.amazon.com/FKG-200mm-Lead-Screw-Brass/dp/B08JP2ZPWF) | [Motedis — TR8×8 spindle, cut to length](https://www.motedis.com/en/Trapezoidal-thread-spindle-TR8x8) |
-| Leadscrew nut, brass | Tr8×8 | Brass nut per axis (hex-style nut visible in CAD render). ⚠️ Exact style (hex vs flange vs anti-backlash) to confirm. | 2 | (included with the Kwweeoo set) | [Amazon US — T8×8 brass flange nut](https://www.amazon.com/Screw-T8x8mm-Flange-Printer-Accessories/dp/B089G5C8TN) | [Motedis — spindle accessories](https://www.motedis.com/en/Trapezoidal-threaded-spindle-and-accessories-Shop) |
-| Guide rail, smooth | Ø14 h6 linear shaft | ⚠️ Ø14 inferred from Ø14.03 ±0.05 bores in `cad/clampsled.pdf` and Ø14.05 in `y-sled-bottom.step`; sleds appear to ride the shafts directly (plain bore — no linear ball bearings found in CAD). Hardened + hard-chromed, ~175 mm, 2 per axis. | 4 | [Motedis — Ø14 h6 hardened+ground, cut to length](https://www.motedis.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) (ships UK) | [Motedis USA](https://www.motedis-usa.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) · [Misumi](https://us.misumi-ec.com/vona2/detail/110302634310/) · [McMaster](https://www.mcmaster.com/products/metric-steel-precision-shafts) | [Motedis](https://www.motedis.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) |
-| Bearing, 608 | 608-2RS / 608ZZ | 8×22×7 mm. ⚠️ Implied by `cad/608-tool-grip.step` / `608-tool-tip.step` — usage (leadscrew end support vs. assembly tool) and quantity to confirm. | 2+ | [Amazon UK — NSK 608-2RS ×10](https://www.amazon.co.uk/dp/B084LZYZWQ) | [Amazon US — NSK 608-2RS ×10](https://www.amazon.com/dp/B084LZYZWQ) · [Amazon US — ANCIRS ×20](https://www.amazon.com/dp/B07C6FL8TW) | [Amazon DE — NSK 608-2RS ×10](https://www.amazon.de/dp/B084LZYZWQ) |
+| Leadscrew nut, brass | Tr8×8 | Brass **hex** nut per axis, fixed to the frame (confirmed in product photos — motor and screw travel through it). ⚠️ Linked vendors sell flange/round styles; the hex profile may be custom-held in a printed pocket. | 2 | (included with the Kwweeoo set) | [Amazon US — T8×8 brass flange nut](https://www.amazon.com/Screw-T8x8mm-Flange-Printer-Accessories/dp/B089G5C8TN) | [Motedis — spindle accessories](https://www.motedis.com/en/Trapezoidal-threaded-spindle-and-accessories-Shop) |
+| Guide rail, smooth | Ø14 h6 linear shaft | ⚠️ Ø14 inferred from Ø14.03 ±0.05 bores in `cad/clampsled.pdf` and Ø14.05 in `y-sled-bottom.step`; sleds ride the shafts via plain bores; product photos hint at a pressed bushing ring in the carriage bore — no linear ball bearings anywhere. Hardened + hard-chromed, ~175 mm, 2 per axis. | 4 | [Motedis — Ø14 h6 hardened+ground, cut to length](https://www.motedis.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) (ships UK) | [Motedis USA](https://www.motedis-usa.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) · [Misumi](https://us.misumi-ec.com/vona2/detail/110302634310/) · [McMaster](https://www.mcmaster.com/products/metric-steel-precision-shafts) | [Motedis](https://www.motedis.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) |
+| Bearing, 608 | 608-2RS / 608ZZ | 8×22×7 mm. ⚠️ Implied by `cad/608-tool-grip.step` / `608-tool-tip.step` — product photos show no screw-end bearings in the motion path, so these are likely for the `608-tool` assembly jig only. | 2+ | [Amazon UK — NSK 608-2RS ×10](https://www.amazon.co.uk/dp/B084LZYZWQ) | [Amazon US — NSK 608-2RS ×10](https://www.amazon.com/dp/B084LZYZWQ) · [Amazon US — ANCIRS ×20](https://www.amazon.com/dp/B07C6FL8TW) | [Amazon DE — NSK 608-2RS ×10](https://www.amazon.de/dp/B084LZYZWQ) |
 
 ## 2. Engraver ("hammerhead")
 
@@ -51,16 +56,17 @@ endstop switches. Approximate frame footprint 240 × 240 × 200 mm.
 
 ## 5. Custom fabricated parts (STEP files in `cad/`)
 
-The README calls these "custom machine parts" without naming a process. ⚠️ Processes
-below are inferred — only `clampsled` (toleranced machining drawing) and `faceplate`
-(shipped as 3MF, a print format) are certain; the rest could equally be cast, folded
-sheet, injection-moulded, or off-the-shelf depending on how SeedHammer produce them.
+The README calls these "custom machine parts" without naming a process. Processes
+below combine the repo files with SeedHammer's published machine photos and exploded
+diagram: the frame panels are folded sheet metal, the orange parts (carriage, covers,
+cam lever, plate jig) appear 3D-printed, and `clampsled` has a toleranced machining
+drawing (possibly a machined insert behind the printed carriage — to confirm).
 
 | Group | Files | Process (inferred) |
 |---|---|---|
-| Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | ⚠️ aluminium plates ≈186 mm wide × 237 mm deep — machined billet or folded sheet |
-| X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | Machined — drawing carries Ø14.03 ±0.05 and M4×0.7 6H callouts |
-| Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | ⚠️ sleds likely machined; orange lever parts could be anodised aluminium or printed |
+| Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | Folded sheet metal, black textured finish (per exploded diagram/photos); ≈186 mm wide × 237 mm deep |
+| X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | Carriage appears 3D-printed (orange) in photos, yet the drawing carries Ø14.03 ±0.05 / M4×0.7 6H machining callouts — ⚠️ to confirm |
+| Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | Orange cam lever & plate jig appear 3D-printed in photos; sled internals unconfirmed |
 | PCB mounting | [`pcb-clip`](cad/pcb-clip.step), [`pcb-nipple`](cad/pcb-nipple.step) | ⚠️ 3D print (or injection-moulded in production) |
 | Likely off-the-shelf | [`foot`](cad/foot.step) ×4 (rubber foot), [`M4-cnurled-Nut`](cad/M4-cnurled-Nut.step) (knurled brass finger screw, visible in machine photos) | Buy, not fabricate |
 | Accessories / tooling | [`faceplate`](cad/faceplate.3mf) (3MF — 3D print), [`motor-cable-clip`](cad/motor-cable-clip.step) ([×2](cad/motor-cable-clip-2x.step), [M3 variant](cad/motor%20cable%20clip%20M3.step)), [`608-tool-grip`](cad/608-tool-grip.step)/[`608-tool-tip`](cad/608-tool-tip.step), [`parametric-sh-plate-box`](cad/parametric-sh-plate-box.step) ([f3d](cad/parametric-sh-plate-box.f3d)) | 3D print |
