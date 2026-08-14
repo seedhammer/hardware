@@ -78,7 +78,7 @@ Machining/CNC services (all global): [JLCCNC](https://jlccnc.com) · [PCBWay CNC
 | Part Name | Description / Spec | Qty | UK | US | EU |
 |---|---|---|---|---|---|
 | Screw assortment | M3 + M4 socket-head (motor mounts 4× M3 each, ≥4.5 mm engagement; clamp M4×0.7; frame M3/M4 per STEP threads). ⚠️ Exact list TBD. | 1 kit | [Amazon UK — VIGRUE 1080-pc M2/M3/M4](https://www.amazon.co.uk/dp/B081SGZ2C4) | [Amazon US — VIGRUE 1290-pc](https://www.amazon.com/dp/B071KBVZVV) | [Amazon DE — VIGRUE 1080-pc](https://www.amazon.de/dp/B081SGZ2C4) |
-| Steel plates | 85 × 85 mm, 316L stainless, 2 mm (SH02 / SeedHammer II; 3 mm variants also sold) | n | [seedhammer.com/shop](https://seedhammer.com/shop) (global) · [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) (global) · cut-to-size: [Lasered UK](https://www.lasered.co.uk) | [MineRacks — plate kits](https://www.mineracks.com/shop/p/seedhammer-steel-plate-back-up-kit-for-2-of-3-multisig-sx36a-zpsll) · cut-to-size: [SendCutSend](https://sendcutsend.com/materials/stainless-steel/) · [Cut2Size](https://cut2sizemetals.com/products/stainless-steel-sheet/) | [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) · cut-to-size: [Fractory](https://fractory.com/online-laser-cutting/) |
+| Steel plates | 85 × 85 mm, 316L stainless, 2 mm (SH02 / SeedHammer II — LNbits plates state SH-I & II compatibility; 3 mm variants exist but SH-II fit unconfirmed) | n | [seedhammer.com/shop](https://seedhammer.com/shop) (global) · [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) (global) · cut-to-size: [Lasered UK](https://www.lasered.co.uk) | [MineRacks — plate kits](https://www.mineracks.com/shop/p/seedhammer-steel-plate-back-up-kit-for-2-of-3-multisig-sx36a-zpsll) (⚠️ 3 mm — SH-II compatibility unstated) · cut-to-size: [SendCutSend](https://sendcutsend.com/materials/stainless-steel/) · [Cut2Size](https://cut2sizemetals.com/products/stainless-steel-sheet/) | [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) · cut-to-size: [Fractory](https://fractory.com/online-laser-cutting/) |
 
 ## NIP-99 / bitcoin-native sourcing
 
@@ -111,5 +111,7 @@ welcome.
 8. **Fasteners** — could you share the full screw/nut list with counts?
 9. **LCD ribbon** — what FFC length/orientation is needed, and does the buydisplay
    panel ship with a suitable one?
-10. **Upstream interest** — would you accept an assembly guide + confirmed BOM into
+10. **Plate thickness** — does SeedHammer II accept both 2 mm and 3 mm plates, or
+    2 mm only?
+11. **Upstream interest** — would you accept an assembly guide + confirmed BOM into
     this repo if the community drafts them?
