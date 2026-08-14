@@ -33,8 +33,8 @@ no end bearings in the motion path.
 
 | Part Name | Part Number | Description / Spec | Qty | UK | US | EU |
 |---|---|---|---|---|---|---|
-| Solenoid impact head | — (OEM, per `specs/hammerhead.pdf`) | Ø40 × 71 mm, M26 threaded neck, 90° carbide tip, 16 cm cable → JST XH 2-pin female. Driven 20–28 V DC, 25 ms cycle (≈40 Hz), 4–5 ms on-time. ⚠️ The drawing is an interface spec for an OEM commodity marking-machine head — **exact OEM/source unknown; input from the SeedHammer team wanted.** DIY fallback: harvest the head from a 400 W desktop electric marking machine and verify the coil at 20–28 V pulsed drive. | 1 | ⚠️ no stable UK listing found — search AliExpress/eBay for "desktop electric marking machine" | Donor machine: [Amazon US — 400 W desktop marking machine](https://www.amazon.com/Electric-Marking-Engraving-Nameplate-Industrial/dp/B0CQM15DMF) | ⚠️ no stable EU listing found — search AliExpress for "desktop electric marking machine" |
-| Spare carbide tips | 90° included angle | Consumable dot-peen/marking styli, tungsten carbide. | n | [Amazon UK](https://www.amazon.co.uk/dp/B09M7VHW26) | [Amazon US](https://www.amazon.com/dp/B09M7VHW26) · [2L Inc](https://www.2linc.com/product/dot-peen-marking-toolbit/) | [Amazon DE](https://www.amazon.de/dp/B09M7VHW26) · [Alibaba (Zixu)](https://www.alibaba.com/product-detail/ZIXU-Manufacture-Price-6MM-Carbide-Pins_60253271680.html) (global) |
+| Solenoid impact head | — (OEM, per `specs/hammerhead.pdf`) | Ø40 × 71 mm, M26 threaded neck, 90° carbide tip, 16 cm cable → JST XH 2-pin female. Driven 20–28 V DC, 25 ms cycle (≈40 Hz), 4–5 ms on-time. ⚠️ The drawing is an interface spec for an OEM commodity marking-machine head — **exact OEM/source unknown; input from the SeedHammer team wanted.** DIY fallback: harvest the head from a 400 W desktop electric marking machine and verify the coil at 20–28 V pulsed drive. | 1 | Candidate spare head (global): [AliExpress — "electromechanical marking head", ~£59](https://www.aliexpress.com/item/1005012679957256.html) — ⚠️ confirm Ø40/M26/coil voltage with seller before buying | Donor machine: [Amazon US — 400 W desktop marking machine](https://www.amazon.com/Electric-Marking-Engraving-Nameplate-Industrial/dp/B0CQM15DMF) · [eBay — "Electromagnetic Marking Head"](https://www.ebay.com/itm/394579043426) (listing may expire) | Same AliExpress candidate (ships EU) — or quote the [`hammerhead.pdf`](specs/hammerhead.pdf) drawing to a marking-machine OEM on Alibaba |
+| Spare carbide tips | 90° included angle | Consumable dot-peen/marking styli, tungsten carbide. | n | [Amazon UK](https://www.amazon.co.uk/dp/B09M7VHW26) | [Amazon US](https://www.amazon.com/dp/B09M7VHW26) · [2L Inc](https://www.2linc.com/product/dot-peen-marking-toolbit/) | [Amazon DE](https://www.amazon.de/dp/B09M7VHW26) · [AliExpress — tungsten needle + brass bushing consumables](https://www.aliexpress.com/item/1005007912316101.html) · [Alibaba (Zixu)](https://www.alibaba.com/product-detail/ZIXU-Manufacture-Price-6MM-Carbide-Pins_60253271680.html) (global) |
 
 ## 3. Electronics
 
@@ -42,7 +42,7 @@ no end bearings in the motion path.
 |---|---|---|---|---|---|---|
 | Mainboard | `pcb/mainboard.kicad_pcb` | Custom 4-layer PCB — RP2350, 3× TMC2209-LA, ST25R3916 NFC, AP33772S USB-PD sink, W25Q128 flash, 5× 2200 µF bulk. Fab settings (README): ENIG, FR4 TG155, stackup JLC04161H-7628. Gerber/BOM/CPL generate via `cd pcb && go run .` for assembly. | 1 | [JLCPCB](https://jlcpcb.com) (global) | [JLCPCB](https://jlcpcb.com) (global) | [JLCPCB](https://jlcpcb.com) (global) |
 | LCD + touch panel | `ER-TFT035IPS-6` | 3.5″ IPS 320×480, **capacitive** touch (FT6x36), ILI9488, 50-pin 0.5 mm FFC. Resistive variant is NOT supported by firmware. | 1 | [buydisplay.com](https://www.buydisplay.com/3-5-inch-ips-320x480-tft-lcd-display-capacitive-touch-screen) (global) | [buydisplay.com](https://www.buydisplay.com/3-5-inch-ips-320x480-tft-lcd-display-capacitive-touch-screen) (global) | [buydisplay.com](https://www.buydisplay.com/3-5-inch-ips-320x480-tft-lcd-display-capacitive-touch-screen) (global) |
-| Power supply | USB-C PD 3.1 | 100 W minimum, **140 W (28 V EPR) recommended**; single-port preferred. | 1 | [Anker 717 — EU store, ships UK](https://www.anker.com/eu-en/products/a2341) | [Anker 717 (A2341)](https://www.anker.com/products/a2341) · [Anker 140 W 4-port (A2697)](https://www.anker.com/products/a2697-anker-charger-140w-4-port) | [Anker 717 — EU store](https://www.anker.com/eu-en/products/a2341) |
+| Power supply | USB-C PD 3.1 | 100 W minimum, **140 W (28 V EPR) recommended**; single-port preferred. UK models listed have UK 3-pin plugs. | 1 | [Amazon UK — UGREEN Nexode 140 W](https://www.amazon.co.uk/dp/B09YQ374LF) · [Amazon UK — Anker 140 W 4-port](https://www.amazon.co.uk/dp/B0DPKP7RD8) · [Anker UK store](https://www.anker.com/uk/products/a2697-anker-charger-140w-4-port) | [Anker 717 (A2341)](https://www.anker.com/products/a2341) · [Amazon US — UGREEN Nexode 140 W](https://www.amazon.com/dp/B0B129DM9T) | [Anker 717 — EU store](https://www.anker.com/eu-en/products/a2341) · [Amazon DE — UGREEN Nexode 140 W](https://www.amazon.de/dp/B09YQ374LF) |
 | USB-C cable | 240 W / EPR-rated | Must be EPR e-marked or the supply falls back to 100 W / 20 V. | 1 | [Amazon UK — Anker 240 W](https://www.amazon.co.uk/dp/B0BHQH89ZQ) | [Anker 240 W cable](https://www.anker.com/products/a82e2-240w-usb-c-to-usb-c-cable) · [Amazon US](https://www.amazon.com/Anker-Bio-Nylon-Charging-MacBook-Samsung/dp/B0BHQH89ZQ) | [Amazon DE — Anker 240 W](https://www.amazon.de/dp/B0BHQH89ZQ) |
 
 ## 4. Cables & connectors
@@ -66,7 +66,7 @@ drawing (possibly a machined insert behind the printed carriage — to confirm).
 |---|---|---|
 | Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | Folded sheet metal, black textured finish (per exploded diagram/photos); ≈186 mm wide × 237 mm deep |
 | X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | Carriage appears 3D-printed (orange) in photos, yet the drawing carries Ø14.03 ±0.05 / M4×0.7 6H machining callouts — ⚠️ to confirm |
-| Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | Orange cam lever & plate jig appear 3D-printed in photos; sled internals unconfirmed |
+| Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | Orange cam lever & plate jig are 3D-printed (confirmed from product photos); sled internals unconfirmed |
 | PCB mounting | [`pcb-clip`](cad/pcb-clip.step), [`pcb-nipple`](cad/pcb-nipple.step) | ⚠️ 3D print (or injection-moulded in production) |
 | Likely off-the-shelf | [`foot`](cad/foot.step) ×4 (rubber foot), [`M4-cnurled-Nut`](cad/M4-cnurled-Nut.step) (knurled brass finger screw, visible in machine photos) | Buy, not fabricate |
 | Accessories / tooling | [`faceplate`](cad/faceplate.3mf) (3MF — 3D print), [`motor-cable-clip`](cad/motor-cable-clip.step) ([×2](cad/motor-cable-clip-2x.step), [M3 variant](cad/motor%20cable%20clip%20M3.step)), [`608-tool-grip`](cad/608-tool-grip.step)/[`608-tool-tip`](cad/608-tool-tip.step), [`parametric-sh-plate-box`](cad/parametric-sh-plate-box.step) ([f3d](cad/parametric-sh-plate-box.f3d)) | 3D print |
@@ -90,12 +90,26 @@ welcome.
 
 ## Open questions for the SeedHammer team
 
-- [ ] Guide rails: confirm Ø14, material/finish, and exact lengths per axis
-- [ ] Sled bearing arrangement: plain machined bore directly on shaft, or pressed bushings?
-- [ ] Leadscrew: confirmed Tr8×8? Length per axis? Nut part number?
-- [ ] 608 bearings: where used, and how many?
-- [ ] Hammerhead: OEM/supplier or purchasable equivalent?
-- [ ] Frame parts: material/alloy and finish (anodising?)
-- [ ] Fabrication processes: which parts are machined vs cast vs folded sheet vs 3D-printed/injection-moulded — and which (foot, knurled nut) are bought in?
-- [ ] Full fastener list with counts
-- [ ] FFC length/type for the LCD
+1. **Hammerhead** — who manufactures the solenoid head (or what should we search for)?
+   Is it the same family as the AliExpress/eBay "electromagnetic marking heads"? What
+   are the coil specs (resistance/voltage), and would you sell it as a spare part?
+2. **Guide rails** — is Ø14 correct? What material/finish and exact length per axis?
+   Does the carriage bore ride the shaft directly, or is there a pressed bushing?
+   (Photos hint at a bushing ring.)
+3. **Carriage (clampsled)** — the machining drawing has toleranced callouts but the
+   photos show an orange printed part: is there a machined insert inside a printed
+   shell, or did the design move fully to print?
+4. **Leadscrews** — Tr8×8 confirmed? What length per axis, and where do you source
+   the brass hex nuts? Is the motor-and-screw-travelling / fixed-nut reading of the
+   photos correct?
+5. **608 bearings** — are they only for the `608-tool` assembly jig, or used in the
+   machine itself (and how many)?
+6. **Frame** — what material and thickness is the folded sheet metal, and what's the
+   black textured finish (powder coat?)? Any fab drawings beyond the STEP files?
+7. **Printed parts** — which parts are printed in production, what material
+   (PETG/ASA/PA?), and would you publish print settings/orientation?
+8. **Fasteners** — could you share the full screw/nut list with counts?
+9. **LCD ribbon** — what FFC length/orientation is needed, and does the buydisplay
+   panel ship with a suitable one?
+10. **Upstream interest** — would you accept an assembly guide + confirmed BOM into
+    this repo if the community drafts them?
