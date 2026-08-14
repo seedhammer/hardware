@@ -51,15 +51,21 @@ endstop switches. Approximate frame footprint 240 × 240 × 200 mm.
 
 ## 5. Custom fabricated parts (STEP files in `cad/`)
 
-| Group | Files | Process |
-|---|---|---|
-| Frame | `left`, `right`, `front`, `back` | CNC aluminium (≈186 mm wide × 237 mm deep plates) |
-| X axis | `clampsled` (+ `clampsled.pdf`), `x-house`, `x-motor-hodlr`, `M4-cnurled-Nut` | CNC |
-| Y axis / plate clamp | `y-sled-top`, `y-sled-bottom`, `y-motor-hodlr`, `jaw`, `lever`, `centerpiece-lever` | CNC |
-| PCB mounting | `pcb-clip`, `pcb-nipple` | 3D print |
-| Misc | `faceplate` (3MF — 3D print), `foot` ×4, `motor-cable-clip` ×2 + M3 variant, `608-tool-grip`/`608-tool-tip`, `parametric-sh-plate-box` | 3D print / CNC |
+The README calls these "custom machine parts" without naming a process. ⚠️ Processes
+below are inferred — only `clampsled` (toleranced machining drawing) and `faceplate`
+(shipped as 3MF, a print format) are certain; the rest could equally be cast, folded
+sheet, injection-moulded, or off-the-shelf depending on how SeedHammer produce them.
 
-CNC services (all global): [JLCCNC](https://jlccnc.com) · [PCBWay CNC](https://www.pcbway.com/rapid-prototyping/manufacture/) · [Xometry EU](https://xometry.eu).
+| Group | Files | Process (inferred) |
+|---|---|---|
+| Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | ⚠️ aluminium plates ≈186 mm wide × 237 mm deep — machined billet or folded sheet |
+| X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | Machined — drawing carries Ø14.03 ±0.05 and M4×0.7 6H callouts |
+| Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | ⚠️ sleds likely machined; orange lever parts could be anodised aluminium or printed |
+| PCB mounting | [`pcb-clip`](cad/pcb-clip.step), [`pcb-nipple`](cad/pcb-nipple.step) | ⚠️ 3D print (or injection-moulded in production) |
+| Likely off-the-shelf | [`foot`](cad/foot.step) ×4 (rubber foot), [`M4-cnurled-Nut`](cad/M4-cnurled-Nut.step) (knurled brass finger screw, visible in machine photos) | Buy, not fabricate |
+| Accessories / tooling | [`faceplate`](cad/faceplate.3mf) (3MF — 3D print), [`motor-cable-clip`](cad/motor-cable-clip.step) ([×2](cad/motor-cable-clip-2x.step), [M3 variant](cad/motor%20cable%20clip%20M3.step)), [`608-tool-grip`](cad/608-tool-grip.step)/[`608-tool-tip`](cad/608-tool-tip.step), [`parametric-sh-plate-box`](cad/parametric-sh-plate-box.step) ([f3d](cad/parametric-sh-plate-box.f3d)) | 3D print |
+
+Machining/CNC services (all global): [JLCCNC](https://jlccnc.com) · [PCBWay CNC](https://www.pcbway.com/rapid-prototyping/manufacture/) · [Xometry EU](https://xometry.eu).
 
 ## 6. Fasteners & consumables
 
@@ -84,5 +90,6 @@ welcome.
 - [ ] 608 bearings: where used, and how many?
 - [ ] Hammerhead: OEM/supplier or purchasable equivalent?
 - [ ] Frame parts: material/alloy and finish (anodising?)
+- [ ] Fabrication processes: which parts are machined vs cast vs folded sheet vs 3D-printed/injection-moulded — and which (foot, knurled nut) are bought in?
 - [ ] Full fastener list with counts
 - [ ] FFC length/type for the LCD
