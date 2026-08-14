@@ -16,8 +16,8 @@ endstop switches. Approximate frame footprint 240 × 240 × 200 mm.
 
 Published machine photos suggest an unusual drive layout: the motor rides on the
 moving carriage and the leadscrew travels with it, threading through a **brass hex
-nut fixed to the frame** (visible on both axes). The screw ends appear unsupported —
-no end bearings in the motion path.
+nut fixed to the frame** (visible on both axes). The Tr8 spindle rotates in 608
+bearings (per the team — use good ones).
 
 ## 1. Motion
 
@@ -25,15 +25,16 @@ no end bearings in the motion path.
 |---|---|---|---|---|---|---|
 | Stepper motor, NEMA 17 | `42DND0155B-22` (Kaihong) | 42 mm frame, 40 mm body, 1.8°/step, 1.65 A, 2.72 V, ≥0.4 N·m, Ø5 D-shaft ×22 mm, JST PH-6P connector. Spec: `cad/nema17-stepper.pdf`. Generic 17HS4401-class motors are near-identical substitutes. | 2 | [StepperOnline UK — 17HS16-2004S1](https://www.stepperonline.co.uk/nema-17-bipolar-45ncm-63-74oz-in-2a-42x42x40mm-4-wires-w-1m-cable-connector-17hs16-2004s1.html) | [StepperOnline — 17HS16-2004S1](https://www.omc-stepperonline.com/nema-17-bipolar-45ncm-64oz-in-2a-42x42x40mm-4-wires-w-1m-cable-connector-17hs16-2004s1) | [AliExpress — 17HS4401](https://www.aliexpress.com/item/3256802822821809.html) (global) |
 | Leadscrew | Tr8×8 (T8, 4-start, 8 mm lead) | Firmware: 8 mm travel/rev (`mmPerRevolution = 8`). ⚠️ Length ~175 mm inferred from ~186 mm frame width — cut 200 mm stock to length. | 2 | [Amazon UK — Kwweeoo 200 mm Tr8×8, 2 pcs](https://www.amazon.co.uk/dp/B0CK29R5R4) | [Amazon US — Kwweeoo](https://www.amazon.com/dp/B0CK29R5R4) · [Amazon US — FKG + nut](https://www.amazon.com/FKG-200mm-Lead-Screw-Brass/dp/B08JP2ZPWF) | [Motedis — TR8×8 spindle, cut to length](https://www.motedis.com/en/Trapezoidal-thread-spindle-TR8x8) |
-| Leadscrew nut, brass | Tr8×8 | Brass **hex** nut per axis, fixed to the frame (confirmed in product photos — motor and screw travel through it). ⚠️ Linked vendors sell flange/round styles; the hex profile may be custom-held in a printed pocket. | 2 | (included with the Kwweeoo set) | [Amazon US — T8×8 brass flange nut](https://www.amazon.com/Screw-T8x8mm-Flange-Printer-Accessories/dp/B089G5C8TN) | [Motedis — spindle accessories](https://www.motedis.com/en/Trapezoidal-threaded-spindle-and-accessories-Shop) |
-| Guide rail, smooth | Ø14 h6 linear shaft | ⚠️ Ø14 inferred from Ø14.03 ±0.05 bores in `cad/clampsled.pdf` and Ø14.05 in `y-sled-bottom.step`; sleds ride the shafts via plain bores; product photos hint at a pressed bushing ring in the carriage bore — no linear ball bearings anywhere. Hardened + hard-chromed, ~175 mm, 2 per axis. | 4 | [Motedis — Ø14 h6 hardened+ground, cut to length](https://www.motedis.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) (ships UK) | [Motedis USA](https://www.motedis-usa.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) · [Misumi](https://us.misumi-ec.com/vona2/detail/110302634310/) · [McMaster](https://www.mcmaster.com/products/metric-steel-precision-shafts) | [Motedis](https://www.motedis.com/en/Precision-shaft-14-mm-h6-steel-hardened-and-ground) |
-| Bearing, 608 | 608-2RS / 608ZZ | 8×22×7 mm. ⚠️ Implied by `cad/608-tool-grip.step` / `608-tool-tip.step` — product photos show no screw-end bearings in the motion path, so these are likely for the `608-tool` assembly jig only. | 2+ | [Amazon UK — NSK 608-2RS ×10](https://www.amazon.co.uk/dp/B084LZYZWQ) | [Amazon US — NSK 608-2RS ×10](https://www.amazon.com/dp/B084LZYZWQ) · [Amazon US — ANCIRS ×20](https://www.amazon.com/dp/B07C6FL8TW) | [Amazon DE — NSK 608-2RS ×10](https://www.amazon.de/dp/B084LZYZWQ) |
+| Leadscrew nut, brass | Tr8×8 | Brass **hex** nut per axis, fixed to the frame (confirmed in product photos — motor and screw travel through it). Team confirm Tr8×8 and that they buy the brass nuts on AliExpress. | 2 | (included with the Kwweeoo set) | [Amazon US — T8×8 brass flange nut](https://www.amazon.com/Screw-T8x8mm-Flange-Printer-Accessories/dp/B089G5C8TN) | [Motedis — spindle accessories](https://www.motedis.com/en/Trapezoidal-threaded-spindle-and-accessories-Shop) |
+| Guide rail, smooth | Ø12 h6 linear shaft | **Ø12, confirmed by the team.** Hardened + ground, ~175 mm, 2 per axis; ⚠️ exact lengths TBC. (The Ø14.03/Ø14.05 sled bores are the bushing seats.) | 4 | [Motedis — Ø12 h6 hardened+ground, cut to length](https://www.motedis.com/en/Precision-shaft-12-mm-h6-steel-hardened-and-ground) (ships UK) | [Motedis USA](https://www.motedis-usa.com/en/Precision-shaft-12-mm-h6-steel-hardened-and-ground) · [Misumi](https://us.misumi-ec.com/vona2/detail/110302634310/) · [McMaster](https://www.mcmaster.com/products/metric-steel-precision-shafts) | [Motedis](https://www.motedis.com/en/Precision-shaft-12-mm-h6-steel-hardened-and-ground) |
+| Sleeve bushing | 12 mm ID × 14 mm OD (e.g. igus iglidur J `JSM-1214-15`) | **Bushings in the sleds, confirmed by the team** — press-fit into the Ø14.03 ±0.05 seats. ⚠️ Exact part/material (polymer vs bronze) and length TBC. | 4+ | [Misumi UK — JSM-1214-15](https://uk.misumi-ec.com/vona2/detail/221000103504/?HissuCode=JSM-1214-15) | [igus — iglidur sleeve bearings](https://www.igus.eu/iglidur-ibh/sleeve-bearings) | [igus — iglidur sleeve bearings](https://www.igus.eu/iglidur-ibh/sleeve-bearings) |
+| Bearing, 608 | 608-2RS / 608ZZ | 8×22×7 mm. **Used to rotate the Tr8 spindle (confirmed by the team) — use high-quality bearings: NSK or SKF.** ⚠️ Count per axis TBC. (`608-tool-grip`/`608-tool-tip` are the fitting tools.) | 2+ | [Amazon UK — NSK 608-2RS ×10](https://www.amazon.co.uk/dp/B084LZYZWQ) | [Amazon US — NSK 608-2RS ×10](https://www.amazon.com/dp/B084LZYZWQ) · [Amazon US — ANCIRS ×20](https://www.amazon.com/dp/B07C6FL8TW) | [Amazon DE — NSK 608-2RS ×10](https://www.amazon.de/dp/B084LZYZWQ) |
 
 ## 2. Engraver ("hammerhead")
 
 | Part Name | Part Number | Description / Spec | Qty | UK | US | EU |
 |---|---|---|---|---|---|---|
-| Solenoid impact head | — (OEM, per `specs/hammerhead.pdf`) | Ø40 × 71 mm, M26 threaded neck, 90° carbide tip, 16 cm cable → JST XH 2-pin female. Driven 20–28 V DC, 25 ms cycle (≈40 Hz), 4–5 ms on-time. ⚠️ The drawing is an interface spec for an OEM commodity marking-machine head. The SeedHammer team report the OEM is unknown even to them (the original supplier withheld manufacturer details and later ceased trading) and a redesign/reverse-engineering of the head is planned; Alibaba/AliExpress listings surface intermittently for single buys — image search recommended. DIY fallback: harvest the head from a 400 W desktop electric marking machine and verify the coil at 20–28 V pulsed drive. | 1 | Candidate spare head (global): [AliExpress — "electromechanical marking head", ~£59](https://www.aliexpress.com/item/1005012679957256.html) — ⚠️ confirm Ø40/M26/coil voltage with seller before buying | Donor machine: [Amazon US — 400 W desktop marking machine](https://www.amazon.com/Electric-Marking-Engraving-Nameplate-Industrial/dp/B0CQM15DMF) · [eBay — "Electromagnetic Marking Head"](https://www.ebay.com/itm/394579043426) (listing may expire) | Same AliExpress candidate (ships EU) — or quote the [`hammerhead.pdf`](specs/hammerhead.pdf) drawing to a marking-machine OEM on Alibaba |
+| Solenoid impact head | — (OEM, per `specs/hammerhead.pdf`) | Ø40 × 71 mm, M26 threaded neck, 90° carbide tip, 16 cm cable → JST XH 2-pin female. Driven 20–28 V DC, 25 ms cycle (≈40 Hz), 4–5 ms on-time. ⚠️ The drawing is an interface spec for an OEM commodity marking-machine head. The SeedHammer team report the OEM is unknown even to them (the original supplier withheld manufacturer details and later ceased trading) and a redesign/reverse-engineering of the head is planned; Alibaba/AliExpress listings surface intermittently for single buys — image search recommended. DIY fallback: harvest the head from a 400 W desktop electric marking machine and verify the coil at 20–28 V pulsed drive. | 1 | Candidate spare head (global): [AliExpress — "electromechanical marking head", ~£59](https://www.aliexpress.com/item/1005012679957256.html) — **the team confirm it looks right**; still verify Ø40/M26/coil voltage with the seller | Donor machine: [Amazon US — 400 W desktop marking machine](https://www.amazon.com/Electric-Marking-Engraving-Nameplate-Industrial/dp/B0CQM15DMF) · [eBay — "Electromagnetic Marking Head"](https://www.ebay.com/itm/394579043426) (listing may expire) | Same AliExpress candidate (ships EU) — or quote the [`hammerhead.pdf`](specs/hammerhead.pdf) drawing to a marking-machine OEM on Alibaba |
 | Spare carbide tips | 90° included angle | Consumable dot-peen/marking styli, tungsten carbide. | n | [Amazon UK](https://www.amazon.co.uk/dp/B09M7VHW26) | [Amazon US](https://www.amazon.com/dp/B09M7VHW26) · [2L Inc](https://www.2linc.com/product/dot-peen-marking-toolbit/) | [Amazon DE](https://www.amazon.de/dp/B09M7VHW26) · [AliExpress — tungsten needle + brass bushing consumables](https://www.aliexpress.com/item/1005007912316101.html) · [Alibaba (Zixu)](https://www.alibaba.com/product-detail/ZIXU-Manufacture-Price-6MM-Carbide-Pins_60253271680.html) (global) |
 
 ## 3. Electronics
@@ -56,18 +57,18 @@ no end bearings in the motion path.
 
 ## 5. Custom fabricated parts (STEP files in `cad/`)
 
-The README calls these "custom machine parts" without naming a process. Processes
-below combine the repo files with SeedHammer's published machine photos and exploded
-diagram: the frame panels are folded sheet metal, the orange parts (carriage, covers,
-cam lever, plate jig) appear 3D-printed, and `clampsled` has a toleranced machining
-drawing (possibly a machined insert behind the printed carriage — to confirm).
+Processes confirmed by the SeedHammer team: **black parts are 3D-printed PETG**
+(including the frame), **orange parts are ASA** (temperature near the hammerhead),
+and the **carriage (clampsled) moved to CNC** in production — printing it works for
+occasional single-plate use with cooling time between plates, in ASA or glass-fibre
+reinforced PA.
 
 | Group | Files | Process (inferred) |
 |---|---|---|
-| Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | ⚠️ 3D-printed or folded sheet metal (diagram reads as flanged plates; photos show print-like texture); ≈186 mm wide × 237 mm deep |
-| X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | Carriage appears 3D-printed (orange) in photos, yet the drawing carries Ø14.03 ±0.05 / M4×0.7 6H machining callouts — ⚠️ to confirm |
-| Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | Orange cam lever & plate jig are 3D-printed (confirmed from product photos); sled internals unconfirmed |
-| PCB mounting | [`pcb-clip`](cad/pcb-clip.step), [`pcb-nipple`](cad/pcb-nipple.step) | ⚠️ 3D print (or injection-moulded in production) |
+| Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | 3D-printed, PETG, black (confirmed); ≈186 mm wide × 237 mm deep |
+| X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | CNC in production (drawing carries Ø14.03 ±0.05 / M4×0.7 6H callouts); print in ASA or PA-GF for light use |
+| Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | 3D-printed — orange parts in ASA, black in PETG (confirmed) |
+| PCB mounting | [`pcb-clip`](cad/pcb-clip.step), [`pcb-nipple`](cad/pcb-nipple.step) | 3D-printed, PETG (confirmed) |
 | Likely off-the-shelf | [`foot`](cad/foot.step) ×4 (rubber foot), [`M4-cnurled-Nut`](cad/M4-cnurled-Nut.step) (knurled brass finger screw, visible in machine photos) | Buy, not fabricate |
 | Accessories / tooling | [`faceplate`](cad/faceplate.3mf) (3MF — 3D print), [`motor-cable-clip`](cad/motor-cable-clip.step) ([×2](cad/motor-cable-clip-2x.step), [M3 variant](cad/motor%20cable%20clip%20M3.step)), [`608-tool-grip`](cad/608-tool-grip.step)/[`608-tool-tip`](cad/608-tool-tip.step), [`parametric-sh-plate-box`](cad/parametric-sh-plate-box.step) ([f3d](cad/parametric-sh-plate-box.f3d)) | 3D print |
 
@@ -78,7 +79,7 @@ Machining/CNC services (all global): [JLCCNC](https://jlccnc.com) · [PCBWay CNC
 | Part Name | Description / Spec | Qty | UK | US | EU |
 |---|---|---|---|---|---|
 | Screw assortment | M3 + M4 socket-head (motor mounts 4× M3 each, ≥4.5 mm engagement; clamp M4×0.7; frame M3/M4 per STEP threads). ⚠️ Exact list TBD. | 1 kit | [Amazon UK — VIGRUE 1080-pc M2/M3/M4](https://www.amazon.co.uk/dp/B081SGZ2C4) | [Amazon US — VIGRUE 1290-pc](https://www.amazon.com/dp/B071KBVZVV) | [Amazon DE — VIGRUE 1080-pc](https://www.amazon.de/dp/B081SGZ2C4) |
-| Steel plates | 85 × 85 mm, 316L stainless, 2 mm (SH02 / SeedHammer II — LNbits plates state SH-I & II compatibility; 3 mm variants exist but SH-II fit unconfirmed) | n | [seedhammer.com/shop](https://seedhammer.com/shop) (global) · [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) (global) · cut-to-size: [Lasered UK](https://www.lasered.co.uk) | [MineRacks — plate kits](https://www.mineracks.com/shop/p/seedhammer-steel-plate-back-up-kit-for-2-of-3-multisig-sx36a-zpsll) (⚠️ 3 mm — SH-II compatibility unstated) · cut-to-size: [SendCutSend](https://sendcutsend.com/materials/stainless-steel/) · [Cut2Size](https://cut2sizemetals.com/products/stainless-steel-sheet/) | [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) · cut-to-size: [Fractory](https://fractory.com/online-laser-cutting/) |
+| Steel plates | 85 × 85 mm; 2 mm and 3 mm both work, **3 mm recommended by the team**; laser-cut; material **1.4404 (316L) or 1.4571 (316Ti), warm-rolled preferred** | n | [seedhammer.com/shop](https://seedhammer.com/shop) (global) · [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) (global) · cut-to-size: [Lasered UK](https://www.lasered.co.uk) | [MineRacks — plate kits](https://www.mineracks.com/shop/p/seedhammer-steel-plate-back-up-kit-for-2-of-3-multisig-sx36a-zpsll) (3 mm — the team-recommended thickness) · cut-to-size: [SendCutSend](https://sendcutsend.com/materials/stainless-steel/) · [Cut2Size](https://cut2sizemetals.com/products/stainless-steel-sheet/) | [LNbits Shop](https://shop.lnbits.com/product/seedhammer-steel-plates) · cut-to-size: [Fractory](https://fractory.com/online-laser-cutting/) |
 
 ## NIP-99 / bitcoin-native sourcing
 
@@ -88,29 +89,28 @@ bitcoin-only ethos, listings on [shopstr.store](https://shopstr.store),
 (sats-priced motors, rails, heads — or complete kits) would be a great fit; sellers
 welcome.
 
-## Open questions for the SeedHammer team
+## Answers from the SeedHammer team (2026-08-14)
 
-1. **Hammerhead** — does the [AliExpress "electromagnetic marking head"](https://www.aliexpress.com/item/1005012679957256.html)
-   we found look right (silver body, red cone)? If component sourcing is
-   re-established, would you consider selling all spare parts?
-2. **Guide rails** — is Ø14 correct? What material/finish and exact length per axis?
-   Does the carriage bore ride the shaft directly, or is there a pressed bushing?
-   (Photos hint at a bushing ring.)
-3. **Carriage (clampsled)** — the machining drawing has toleranced callouts but the
-   photos show an orange printed part: is there a machined insert inside a printed
-   shell, or did the design move fully to print?
-4. **Leadscrews** — Tr8×8 confirmed? What length per axis, and where do you source
-   the brass hex nuts? Is the motor-and-screw-travelling / fixed-nut reading of the
-   photos correct?
-5. **608 bearings** — are they only for the `608-tool` assembly jig, or used in the
-   machine itself (and how many)?
-6. **Frame** — is it 3D-printed or folded sheet metal? (The exploded diagram reads
-   as flanged plates, but the photos show print-like texture.) What material and
-   finish?
-7. **Printed parts** — we assume PETG; is that right? Which parts are printed in
-   production, and would you publish print settings/orientation?
-8. **Fasteners** — could you share the full screw/nut list with counts?
-9. **LCD ribbon** — what FFC length/orientation is needed, and does the buydisplay
-   panel ship with a suitable one?
-10. **Plate thickness** — does SeedHammer II accept both 2 mm and 3 mm plates, or
-    2 mm only?
+Via the SeedHammer Community group (thanks Nick):
+
+1. The AliExpress spare-head candidate **looks right**; OEM still unknown (original
+   supplier withheld details and ceased trading) — a head redesign is planned, and
+   findings on the OEM are welcome.
+2. Guide rails are **Ø12 with bushings in the sleds**.
+3. Carriage **moved to CNC**; printing works for single plates with cooling time —
+   use ASA or glass-fibre-reinforced PA.
+4. Leadscrew **Tr8×8 confirmed**; brass nuts bought on AliExpress.
+5. 608 bearings **rotate the Tr8 spindle** — use high quality (NSK or SKF).
+6. Frame and black parts printed in **PETG**; orange parts **ASA** (temperature).
+7. Fastener list: the team will share one.
+8. Display ships with what's needed — order the **capacitive touch** variant.
+9. Plates: 2 mm and 3 mm both work, **3 mm recommended**; laser-cut;
+   **1.4404 or 1.4571, warm-rolled preferred**.
+
+## Remaining open questions
+
+- [ ] Exact rail and leadscrew lengths per axis
+- [ ] Bushing part number/material (polymer like igus JSM-1214, or bronze?) and length
+- [ ] 608 bearing count and arrangement per axis
+- [ ] Fastener list with counts (promised)
+- [ ] Confirmation of the moving-motor / frame-fixed-nut drive layout reading
