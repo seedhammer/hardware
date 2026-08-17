@@ -109,7 +109,7 @@ Via the SeedHammer Community group (thanks Nick):
 
 ## Remaining open questions
 
-- [ ] Exact rail and leadscrew lengths per axis
+- [ ] Exact rail and leadscrew lengths per axis — or better, a published assembly STEP/f3d (individual STEPs measure fine, but rail spans need the assembly; CAD gives X-rail spacing 55 mm, seats ~29.5 mm deep in the side plates, Y-rail spacing 66 mm)
 - [ ] Bushing part number/material (polymer like igus JSM-1214, or bronze?) and length
 - [ ] 608 bearing count and arrangement per axis
 - [ ] Fastener list with counts (promised)
