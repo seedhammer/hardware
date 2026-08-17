@@ -66,7 +66,7 @@ reinforced PA.
 | Group | Files | Process (inferred) |
 |---|---|---|
 | Frame | [`left`](cad/left.step), [`right`](cad/right.step), [`front`](cad/front.step), [`back`](cad/back.step) | 3D-printed, PETG, black (confirmed); ≈186 mm wide × 237 mm deep |
-| X axis | [`clampsled`](cad/clampsled.step) ([`clampsled-raw`](cad/clampsled-raw.step), [drawing](cad/clampsled.pdf)), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | CNC in production (drawing carries Ø14.03 ±0.05 / M4×0.7 6H callouts); print in ASA or PA-GF for light use |
+| X axis | [`clampsled-raw`](cad/clampsled-raw.step) (+ [machining drawing](cad/clampsled.pdf) — no separate final STEP; the drawing carries the tolerances/threads), [`x-house`](cad/x-house.step), [`x-motor-hodlr`](cad/x-motor-hodlr.step) | CNC in production (drawing carries Ø14.03 ±0.05 / M4×0.7 6H callouts); print in ASA or PA-GF for light use |
 | Y axis / plate clamp | [`y-sled-top`](cad/y-sled-top.step), [`y-sled-bottom`](cad/y-sled-bottom.step), [`y-motor-hodlr`](cad/y-motor-hodlr.step), [`jaw`](cad/jaw.step), [`lever`](cad/lever.step), [`centerpiece-lever`](cad/centerpiece-lever.step) | 3D-printed — orange parts in ASA, black in PETG (confirmed) |
 | PCB mounting | [`pcb-clip`](cad/pcb-clip.step), [`pcb-nipple`](cad/pcb-nipple.step) | 3D-printed, PETG (confirmed) |
 | Likely off-the-shelf | [`foot`](cad/foot.step) ×4 (rubber foot), [`M4-cnurled-Nut`](cad/M4-cnurled-Nut.step) (knurled brass finger screw, visible in machine photos) | Buy, not fabricate |
