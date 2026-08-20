@@ -1,6 +1,6 @@
 # SeedHammer II hardware
 
-![PCB 3D render](/cad/screenshot/cad.jpg)
+![PCB 3D render](/shii/screenshot/cad.jpg)
 ![PCB 3D render](/pcb/screenshot/pcb.jpg)
 
 This repository contains the design files for the [SeedHammer II](https://seedhammer.com)

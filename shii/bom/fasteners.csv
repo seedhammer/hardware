@@ -1,0 +1,12 @@
+Item,Qty,Category,Standard,Material,Dimensions,Features,Finish,Notes
+M4x16 countersunk hex,1,Screw,DIN 912 / ISO 4762,,,"Grade 10.9, socket head cap screw",black,
+M4 threaded rods,1,Threaded rod,DIN 976 Form B,,M4x120mm,8.8,,
+M4x120 grub screw,1,Screw,DIN 976-1,,,Grade 8.8,black,
+M3 self-locking Nut,8,Nut,ISO 10511,,,Grade 8.8,black,
+M4 self-locking Nut,3,Nut,ISO 10511,,,Grade 8.8,black,
+M5 self-locking Nut,16,Nut,ISO 10511,,,Grade 10.8,black,
+M4x25 countersunk hex,2,Screw,ISO 10642,,,Grade 10.8,black,
+M5x20 countersunk hex,2,Screw,ISO 10642,,,Grade 10.8,black,
+M5x30 countersunk hex,8,Screw,ISO 10642,,,Grade 10.8,black,
+M3x12 cyl. hex,12,Screw,ISO4762,,,Grade 12.9,black,
+M3x30 cyl.hex,4,Screw,ISO4762,,,Grade 12.9,black,
