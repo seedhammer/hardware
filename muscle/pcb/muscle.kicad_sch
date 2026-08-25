@@ -10360,7 +10360,7 @@
 		)
 		(uuid "1a8dc6e1-5f48-4b38-a87e-95ba69df6a4a")
 	)
-	(text "V_{O(OV)} = 13-43V\nV_{OV(HYS)} = XX V\nI_{LED} = 0-1.5A\nt_{SS} = 38ms"
+	(text "V_{O(OV)} = 13-43V\nV_{OV(HYS)} = XX V\nI_{LED} = 0-3.5A\nt_{SS} = 38ms"
 		(exclude_from_sim no)
 		(at 256.794 164.084 0)
 		(effects
