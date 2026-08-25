@@ -14619,7 +14619,7 @@
 		(descr "HTSSOP, 20 Pin (http://www.ti.com/lit/ds/symlink/tlc5971.pdf#page=37&zoom=160,-90,3)")
 		(tags "HTSSOP SO Texas_PWP0020U")
 		(property "Reference" "U4"
-			(at 0.35 -4.125 0)
+			(at 0.85 -4.125 0)
 			(layer "F.SilkS")
 			(uuid "d6aeb21e-4ca4-4bdf-929a-b3d446d13ac0")
 			(effects
