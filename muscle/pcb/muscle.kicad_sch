@@ -41602,7 +41602,7 @@
 				)
 			)
 		)
-		(property "Value" "5m,3W"
+		(property "Value" "5m,1.5W"
 			(at 340.36 334.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41612,7 +41612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 342.9 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -41623,7 +41623,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RLP25FEGMR005/C393074"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/2802681-SME12ABFR005T/C2692048"
 			(at 342.9 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -41645,7 +41645,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C393074"
+		(property "LCSC" "C2692048"
 			(at 342.9 334.01 90)
 			(hide yes)
 			(show_name no)
