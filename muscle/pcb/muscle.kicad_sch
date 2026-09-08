@@ -42904,7 +42904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 342.9 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -42915,7 +42915,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2802681-SME12ABFR005T/C2692048"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/TA_ITech-RLM20FEDR005/C912931"
 			(at 342.9 334.01 0)
 			(hide yes)
 			(show_name no)
@@ -42937,7 +42937,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2692048"
+		(property "LCSC" "C912931"
 			(at 342.9 334.01 90)
 			(hide yes)
 			(show_name no)
