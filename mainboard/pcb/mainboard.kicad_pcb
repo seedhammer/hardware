@@ -51598,33 +51598,27 @@
 		(path "/4cf6a331-824f-40df-a007-5b01b098353e")
 		(sheetname "/")
 		(sheetfile "mainboard.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "4" "5" "1" "2" "3")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -3 -2.61)
-			(end 3 -2.61)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d96866b5-4ba2-4dd2-84f4-c0c1fce51572")
-		)
-		(fp_line
-			(start -3 2.61)
-			(end 3 2.61)
+			(start -3 -2.71)
+			(end 3 -2.71)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
 			(uuid "90dd0ace-4927-4fb2-8b7b-4e87071d063e")
+		)
+		(fp_line
+			(start -3 2.71)
+			(end 3 2.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d96866b5-4ba2-4dd2-84f4-c0c1fce51572")
 		)
 		(fp_poly
 			(pts
@@ -51649,7 +51643,7 @@
 			(uuid "8e3a4e46-bc5b-423a-b1ef-47204a67087b")
 		)
 		(fp_line
-			(start -3.7 2.8)
+			(start -3.7 2.9)
 			(end -3.7 -2.9)
 			(stroke
 				(width 0.05)
@@ -51660,7 +51654,7 @@
 		)
 		(fp_line
 			(start 3.7 -2.9)
-			(end 3.7 2.8)
+			(end 3.7 2.9)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -51669,8 +51663,8 @@
 			(uuid "6fcac264-a4f6-4a7a-8939-325f013f725a")
 		)
 		(fp_line
-			(start 3.7 2.8)
-			(end -3.7 2.8)
+			(start 3.7 2.9)
+			(end -3.7 2.9)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -51940,6 +51934,13 @@
 			(pintype "passive")
 			(uuid "415cf5bb-f623-4a50-9a15-41fbad65cb17")
 		)
+		(pad "5" smd rect
+			(at 0.806275 0.05 270)
+			(size 4.3 4.05)
+			(layers "B.Cu")
+			(net "VM")
+			(uuid "f13dd9ed-1def-4e6d-b64c-44786585a2ed")
+		)
 		(pad "5" thru_hole circle
 			(at 2.5 -1.8)
 			(size 0.6 0.6)
@@ -52025,29 +52026,7 @@
 			(uuid "cf03ef82-f652-4f64-97b1-9c5295731f6d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_6x5mm_Pitch1.27mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/AO_DFN-8-1EP_5.55x5.2mm_P1.27mm_EP4.12x4.6mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_6x5mm_P1.27mm_EP4x4mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
