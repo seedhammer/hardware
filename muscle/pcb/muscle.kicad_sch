@@ -11006,13 +11006,14 @@
 		)
 		(uuid "8085dded-c050-417b-b675-f23f285c3a91")
 	)
-	(text "V_{ref} = 1.66V\nI_{rms} = 0.9A"
+	(text "V_{ref} = 1.66V\nI_{rms} = 0-1.6A"
 		(exclude_from_sim no)
-		(at 253.492 39.624 0)
+		(at 246.126 39.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "8a4896ef-4b50-4598-bb24-38e637ab0859")
 	)
@@ -11169,12 +11170,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a630b20-e9ea-4008-8964-7614c08ca4f7")
-	)
-	(junction
-		(at 302.26 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b577b54-2e29-43d5-977e-a7751644d040")
 	)
 	(junction
 		(at 163.83 257.81)
@@ -11711,12 +11706,6 @@
 		(uuid "e344f44a-0fff-4cb8-ae9d-c5e9cc83535f")
 	)
 	(junction
-		(at 386.08 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3dad215-4684-41ea-a2e4-9ebbcae48795")
-	)
-	(junction
 		(at 213.36 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12126,7 +12115,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 66.04) (xy 302.26 64.77)
+			(xy 302.26 63.5) (xy 302.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -12583,6 +12572,16 @@
 			(type default)
 		)
 		(uuid "182d048f-06c0-4793-b3b8-6ef6b70b934d")
+	)
+	(wire
+		(pts
+			(xy 295.91 66.04) (xy 295.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18dd7acd-681e-4c43-b06a-7e45b61a71fb")
 	)
 	(wire
 		(pts
@@ -13536,6 +13535,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 69.85) (xy 378.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a5e26d-6035-4c33-ab35-d509fd8f7491")
+	)
+	(wire
+		(pts
 			(xy 203.2 57.15) (xy 214.63 57.15)
 		)
 		(stroke
@@ -13713,16 +13722,6 @@
 			(type default)
 		)
 		(uuid "4d428149-bb40-4436-8805-96f2c0bedbbe")
-	)
-	(wire
-		(pts
-			(xy 295.91 66.04) (xy 295.91 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e00de1d-57dc-430d-b402-4ed8e5b2d746")
 	)
 	(wire
 		(pts
@@ -14023,16 +14022,6 @@
 			(type default)
 		)
 		(uuid "5c11a59a-6836-421d-9bdd-9b5aaa56d66f")
-	)
-	(wire
-		(pts
-			(xy 302.26 64.77) (xy 302.26 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cbe4706-1980-4f93-ad6a-b788d22cc193")
 	)
 	(wire
 		(pts
@@ -15676,16 +15665,6 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 64.77) (xy 302.26 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4853271-93dd-4c5d-a757-451a07d862f7")
-	)
-	(wire
-		(pts
 			(xy 330.2 311.15) (xy 330.2 309.88)
 		)
 		(stroke
@@ -15733,6 +15712,16 @@
 			(type default)
 		)
 		(uuid "a6ba30c8-81b9-4e40-adc0-fac519b6419d")
+	)
+	(wire
+		(pts
+			(xy 295.91 68.58) (xy 299.72 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e87830-1d90-49b9-87bf-5d02a8a0f0c7")
 	)
 	(wire
 		(pts
@@ -15993,6 +15982,16 @@
 			(type default)
 		)
 		(uuid "ae7a42fa-b618-43f3-8327-1008bbced184")
+	)
+	(wire
+		(pts
+			(xy 378.46 66.04) (xy 372.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af688d3c-f7e4-4290-9007-9a616459a55e")
 	)
 	(wire
 		(pts
@@ -16416,16 +16415,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 66.04) (xy 386.08 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2fc76ca-2e7e-4132-b01d-1c8038f0edd2")
-	)
-	(wire
-		(pts
 			(xy 361.95 287.02) (xy 361.95 289.56)
 		)
 		(stroke
@@ -16456,7 +16445,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 66.04) (xy 386.08 67.31)
+			(xy 386.08 64.77) (xy 386.08 67.31)
 		)
 		(stroke
 			(width 0)
@@ -16563,16 +16552,6 @@
 			(type default)
 		)
 		(uuid "ca3726bc-2eb3-40e5-9853-0db36a184d98")
-	)
-	(wire
-		(pts
-			(xy 386.08 64.77) (xy 386.08 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6872c6-01f4-485b-8a02-73bc25aa6365")
 	)
 	(wire
 		(pts
@@ -16903,6 +16882,16 @@
 			(type default)
 		)
 		(uuid "d6c9ca58-4030-40fb-b744-a55888f45d5b")
+	)
+	(wire
+		(pts
+			(xy 383.54 69.85) (xy 378.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6fa32db-9249-44fc-885a-21550654820a")
 	)
 	(wire
 		(pts
@@ -21269,7 +21258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "10k"
 			(at 304.8 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21291,7 +21280,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR07180KL/C138046"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 302.26 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -21313,7 +21302,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138046"
+		(property "LCSC" "C25744"
 			(at 302.26 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -22666,99 +22655,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 302.26 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12a8fc97-ba77-4b0d-af22-67443b045a21")
-		(property "Reference" "R10"
-			(at 304.8 67.3099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68k"
-			(at 304.8 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 302.26 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
-			(at 302.26 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 302.26 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23231"
-			(at 302.26 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d1c60b43-4b08-4347-a7a9-01bfbbec44e1")
-		)
-		(pin "2"
-			(uuid "fb558d32-dd03-4323-bcb5-9bfac36c0e37")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -27111,6 +27007,135 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 302.26 68.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36a65a6f-2bc5-4b68-bc93-6c12b13d7ff3")
+		(property "Reference" "RV6"
+			(at 304.8 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "I_X"
+			(at 304.8 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-TC33X_2103E/C719176"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C719176"
+			(at 302.26 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "899fe468-e88b-47f0-89a8-c06a71c0f3e7")
+		)
+		(pin "2"
+			(uuid "5eaac8e5-5e11-40e1-aee7-6e21c3daa7f9")
+		)
+		(pin "3"
+			(uuid "7d4cbe9f-4acc-4473-ae58-61ce8f08c672")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "RV6")
 					(unit 1)
 				)
 			)
@@ -37601,6 +37626,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 386.08 69.85 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c19e3c8-f1cd-487d-81c6-5c836fd5d328")
+		(property "Reference" "RV7"
+			(at 388.62 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "I_Y"
+			(at 388.62 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
+			(at 386.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-TC33X_2103E/C719176"
+			(at 386.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 386.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 386.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 386.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 386.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C719176"
+			(at 386.08 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee8ae494-1cc5-42da-9f19-08dd05783a67")
+		)
+		(pin "2"
+			(uuid "33ce958a-af16-45e1-9aed-fc116c6f3ab1")
+		)
+		(pin "3"
+			(uuid "b2579206-5d54-47fd-9b67-9bcffd290701")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 349.25 46.99 180)
 		(unit 1)
@@ -40977,7 +41131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180k"
+		(property "Value" "10k"
 			(at 388.62 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40999,7 +41153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR07180KL/C138046"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
 			(at 386.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -41021,7 +41175,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C138046"
+		(property "LCSC" "C25744"
 			(at 386.08 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -45729,99 +45883,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 386.08 69.85 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f36ffb6d-cf6c-435b-b8e8-0318d5d4406d")
-		(property "Reference" "R20"
-			(at 388.62 68.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68k"
-			(at 388.62 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 386.08 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
-			(at 386.08 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 386.08 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23231"
-			(at 386.08 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41f02930-a73b-4c18-9631-d3819298c11d")
-		)
-		(pin "2"
-			(uuid "c3f0e37a-7c66-45ec-af65-139948ed3cb1")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R20")
 					(unit 1)
 				)
 			)
