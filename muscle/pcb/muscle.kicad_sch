@@ -2140,7 +2140,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2190,7 +2190,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -21643,6 +21643,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C541711"
+			(at 187.96 238.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "27bd490c-fd71-4dca-a425-d0e326882ee4")
 		)
@@ -32787,6 +32798,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C15127"
+			(at 177.8 260.35 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "3a1a9db5-29cf-4780-a826-1ac60945a607")
 		)
@@ -33833,6 +33855,17 @@
 		)
 		(property "Description" "-24A Id, -30V Vds, P-Channel MOSFET, DFN-8"
 			(at 162.56 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C541711"
+			(at 162.56 238.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38231,6 +38264,17 @@
 		)
 		(property "Description" "65V Wide Vin non-synchronous Boost/SEPIC/Flyback controller, WSON-12"
 			(at 287.02 211.836 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3187944"
+			(at 287.02 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45621,7 +45665,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "I_{SINK_COARSE}"
+		(property "Value" "I_{SNK_COARSE}"
 			(at 58.42 273.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
