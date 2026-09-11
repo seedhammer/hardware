@@ -1,0 +1,128 @@
+(footprint "0806"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "SparkFun")
+	(property "Reference" "REF**"
+		(at 0 -1.4 0)
+		(layer "F.Fab")
+		(uuid "f967eddb-805c-4867-832b-1d7cdf04096b")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0806"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "2bbd5616-9e5b-4870-b0cd-7e85be146efd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab89025f-9a0e-4749-8242-5691181dc2e3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "029cc497-fbfc-4388-aa3b-53306ee73e7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4 -1)
+		(end 1.4 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "73dd0605-b068-4c08-94cc-e2c1b489b2ec")
+	)
+	(fp_rect
+		(start -1.01 -0.8)
+		(end 1 0.81)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eec1bf49-ec17-434e-98fd-6d246f7fdf57")
+	)
+	(fp_poly
+		(pts
+			(xy -1.01 0.81) (xy -0.48 0.81) (xy -0.48 -0.81) (xy -1.01 -0.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "29f2f21f-51bb-49e7-91d9-08f063e3fc62")
+	)
+	(fp_poly
+		(pts
+			(xy 0.48 0.81) (xy 1.01 0.81) (xy 1.01 -0.82) (xy 0.48 -0.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "290f75dd-889e-4a2b-a4be-5a02c2b8d6e0")
+	)
+	(pad "1" smd rect
+		(at -0.9 0 90)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9a9658d4-412b-407d-b4f8-1d282ae21701")
+	)
+	(pad "2" smd rect
+		(at 0.9 0 90)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "be0f8a34-92bb-4c0a-8962-f5ca30e8de6f")
+	)
+	(embedded_fonts no)
+	(model "${MEGA_KICAD_LIB}/3dmodels/SparkFun/Coil.3dshapes/Inductor_0806.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
