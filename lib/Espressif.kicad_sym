@@ -20613,7 +20613,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 13.97 0)
+				(at -40.64 -1.27 0)
 				(length 2.54)
 				(name "FLASH_CS"
 					(effects
@@ -20631,7 +20631,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 11.43 0)
+				(at -40.64 -8.89 0)
 				(length 2.54)
 				(name "FLASH_Q"
 					(effects
@@ -20649,7 +20649,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 8.89 0)
+				(at -40.64 -11.43 0)
 				(length 2.54)
 				(name "FLASH_WP"
 					(effects
@@ -20685,7 +20685,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 6.35 0)
+				(at -40.64 -13.97 0)
 				(length 2.54)
 				(name "FLASH_HOLD"
 					(effects
@@ -20703,7 +20703,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 3.81 0)
+				(at -40.64 -3.81 0)
 				(length 2.54)
 				(name "FLASH_CK"
 					(effects
@@ -20721,7 +20721,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 1.27 0)
+				(at -40.64 -6.35 0)
 				(length 2.54)
 				(name "FLASH_D"
 					(effects
@@ -20739,7 +20739,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -10.16 0)
+				(at -40.64 -33.02 0)
 				(length 2.54)
 				(name "DSI_REXT"
 					(effects
@@ -20757,7 +20757,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -12.7 0)
+				(at -40.64 -35.56 0)
 				(length 2.54)
 				(name "DSI_DATAP1"
 					(effects
@@ -20775,7 +20775,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -15.24 0)
+				(at -40.64 -38.1 0)
 				(length 2.54)
 				(name "DSI_DATAN1"
 					(effects
@@ -20793,7 +20793,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -17.78 0)
+				(at -40.64 -40.64 0)
 				(length 2.54)
 				(name "DSI_CLKN"
 					(effects
@@ -20811,7 +20811,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -20.32 0)
+				(at -40.64 -43.18 0)
 				(length 2.54)
 				(name "DSI_CLKP"
 					(effects
@@ -20829,7 +20829,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -22.86 0)
+				(at -40.64 -45.72 0)
 				(length 2.54)
 				(name "DSI_DATAP0"
 					(effects
@@ -20847,7 +20847,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -25.4 0)
+				(at -40.64 -48.26 0)
 				(length 2.54)
 				(name "DSI_DATAN0"
 					(effects
@@ -20883,7 +20883,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -30.48 0)
+				(at -40.64 -53.34 0)
 				(length 2.54)
 				(name "CSI_DATAN0"
 					(effects
@@ -20901,7 +20901,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -33.02 0)
+				(at -40.64 -55.88 0)
 				(length 2.54)
 				(name "CSI_DATAP0"
 					(effects
@@ -20919,7 +20919,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -35.56 0)
+				(at -40.64 -58.42 0)
 				(length 2.54)
 				(name "CSI_CLKP"
 					(effects
@@ -20937,7 +20937,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -38.1 0)
+				(at -40.64 -60.96 0)
 				(length 2.54)
 				(name "CSI_CLKN"
 					(effects
@@ -20955,7 +20955,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -40.64 0)
+				(at -40.64 -63.5 0)
 				(length 2.54)
 				(name "CSI_DATAN1"
 					(effects
@@ -20973,7 +20973,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -43.18 0)
+				(at -40.64 -66.04 0)
 				(length 2.54)
 				(name "CSI_DATAP1"
 					(effects
@@ -20991,7 +20991,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -45.72 0)
+				(at -40.64 -68.58 0)
 				(length 2.54)
 				(name "CSI_REXT"
 					(effects
@@ -21009,7 +21009,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -52.07 0)
+				(at -40.64 -21.59 0)
 				(length 2.54)
 				(name "USB-DM"
 					(effects
@@ -21027,7 +21027,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -54.61 0)
+				(at -40.64 -24.13 0)
 				(length 2.54)
 				(name "USB-DP"
 					(effects
@@ -21045,7 +21045,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 77.47 270)
+				(at -5.08 77.47 270)
 				(length 2.54)
 				(name "VDD_USBPHY"
 					(effects
@@ -21980,7 +21980,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 77.47 270)
+				(at -10.16 77.47 270)
 				(length 2.54)
 				(name "VDD_BAT"
 					(effects
@@ -22220,7 +22220,7 @@
 				(alternate "LP_GPIO8" bidirectional line)
 			)
 			(pin power_in line
-				(at -10.16 77.47 270)
+				(at -7.62 77.47 270)
 				(length 2.54)
 				(name "VDD_LP"
 					(effects

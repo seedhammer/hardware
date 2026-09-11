@@ -435,7 +435,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "U1-2",
+    "used_designators": "J9-10,L1,R1-4,R18-21,R44,R55,D6,C1-28,C67,#PWR1-38,#PWR40,#PWR116-117,#PWR121,Y1,U1-3",
     "variants": []
   },
   "sheets": [
@@ -444,7 +444,9 @@
       "seed"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "TITLE": "Seed I"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
