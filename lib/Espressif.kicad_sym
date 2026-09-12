@@ -20501,9 +20501,9 @@
 				(alternate "ADC1_CHANNEL3" bidirectional line)
 			)
 			(pin power_in line
-				(at 0 77.47 270)
+				(at -3.81 77.47 270)
 				(length 2.54)
-				(name "VDD_IO"
+				(name "VDD_IO_0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -20595,7 +20595,7 @@
 				(alternate "ADC1_CHANNEL7" bidirectional line)
 			)
 			(pin power_in line
-				(at 10.16 77.47 270)
+				(at 16.51 77.47 270)
 				(length 2.54)
 				(name "VDD_HP"
 					(effects
@@ -20667,7 +20667,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 77.47 270)
+				(at 8.89 77.47 270)
 				(length 2.54)
 				(name "VDD_FLASH_IO"
 					(effects
@@ -20739,7 +20739,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -33.02 0)
+				(at -40.64 -31.75 0)
 				(length 2.54)
 				(name "DSI_REXT"
 					(effects
@@ -20757,7 +20757,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -35.56 0)
+				(at -40.64 -44.45 0)
 				(length 2.54)
 				(name "DSI_DATAP1"
 					(effects
@@ -20775,7 +20775,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -38.1 0)
+				(at -40.64 -46.99 0)
 				(length 2.54)
 				(name "DSI_DATAN1"
 					(effects
@@ -20793,7 +20793,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -40.64 0)
+				(at -40.64 -36.83 0)
 				(length 2.54)
 				(name "DSI_CLKN"
 					(effects
@@ -20811,7 +20811,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -43.18 0)
+				(at -40.64 -34.29 0)
 				(length 2.54)
 				(name "DSI_CLKP"
 					(effects
@@ -20829,7 +20829,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -45.72 0)
+				(at -40.64 -39.37 0)
 				(length 2.54)
 				(name "DSI_DATAP0"
 					(effects
@@ -20847,7 +20847,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -48.26 0)
+				(at -40.64 -41.91 0)
 				(length 2.54)
 				(name "DSI_DATAN0"
 					(effects
@@ -20865,7 +20865,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 77.47 270)
+				(at 21.59 77.47 270)
 				(length 2.54)
 				(name "VDD_MIPI_DPHY"
 					(effects
@@ -20883,7 +20883,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -53.34 0)
+				(at -40.64 -63.5 0)
 				(length 2.54)
 				(name "CSI_DATAN0"
 					(effects
@@ -20901,7 +20901,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -55.88 0)
+				(at -40.64 -60.96 0)
 				(length 2.54)
 				(name "CSI_DATAP0"
 					(effects
@@ -20919,7 +20919,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -58.42 0)
+				(at -40.64 -55.88 0)
 				(length 2.54)
 				(name "CSI_CLKP"
 					(effects
@@ -20937,7 +20937,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -60.96 0)
+				(at -40.64 -58.42 0)
 				(length 2.54)
 				(name "CSI_CLKN"
 					(effects
@@ -20955,7 +20955,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -63.5 0)
+				(at -40.64 -66.04 0)
 				(length 2.54)
 				(name "CSI_DATAN1"
 					(effects
@@ -20973,7 +20973,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -66.04 0)
+				(at -40.64 -68.58 0)
 				(length 2.54)
 				(name "CSI_DATAP1"
 					(effects
@@ -20991,7 +20991,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -40.64 -68.58 0)
+				(at -40.64 -53.34 0)
 				(length 2.54)
 				(name "CSI_REXT"
 					(effects
@@ -21045,7 +21045,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 77.47 270)
+				(at -11.43 77.47 270)
 				(length 2.54)
 				(name "VDD_USBPHY"
 					(effects
@@ -21101,7 +21101,7 @@
 				(alternate "USB1P1_P0" bidirectional line)
 			)
 			(pin power_in line
-				(at 10.16 77.47 270)
+				(at 16.51 77.47 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD_HP"
@@ -21194,7 +21194,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 77.47 270)
+				(at 11.43 77.47 270)
 				(length 2.54)
 				(name "VDD_PSRAM"
 					(effects
@@ -21248,10 +21248,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 77.47 270)
+				(at -1.27 77.47 270)
 				(length 2.54)
-				(hide yes)
-				(name "VDD_IO"
+				(name "VDD_IO_4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21339,7 +21338,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 77.47 270)
+				(at 11.43 77.47 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD_PSRAM"
@@ -21484,7 +21483,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 77.47 270)
+				(at -21.59 77.47 270)
 				(length 2.54)
 				(name "VDD_LDO"
 					(effects
@@ -21502,7 +21501,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 77.47 270)
+				(at 16.51 77.47 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD_HP"
@@ -21521,7 +21520,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 77.47 270)
+				(at -19.05 77.47 270)
 				(length 2.54)
 				(name "VDD_DCDCC"
 					(effects
@@ -21665,10 +21664,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 77.47 270)
+				(at 1.27 77.47 270)
 				(length 2.54)
-				(hide yes)
-				(name "VDD_IO"
+				(name "VDD_IO_5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21774,7 +21772,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 77.47 270)
+				(at 16.51 77.47 270)
 				(length 2.54)
 				(hide yes)
 				(name "VDD_HP"
@@ -21869,10 +21867,9 @@
 				(alternate "ADC2_CHANNEL3" bidirectional line)
 			)
 			(pin power_in line
-				(at 0 77.47 270)
+				(at 3.81 77.47 270)
 				(length 2.54)
-				(hide yes)
-				(name "VDD_IO"
+				(name "VDD_IO_6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21962,7 +21959,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 77.47 270)
+				(at -16.51 77.47 270)
 				(length 2.54)
 				(name "VDD_ANA"
 					(effects
@@ -21980,7 +21977,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 77.47 270)
+				(at -13.97 77.47 270)
 				(length 2.54)
 				(name "VDD_BAT"
 					(effects
@@ -22220,7 +22217,7 @@
 				(alternate "LP_GPIO8" bidirectional line)
 			)
 			(pin power_in line
-				(at -7.62 77.47 270)
+				(at -6.35 77.47 270)
 				(length 2.54)
 				(name "VDD_LP"
 					(effects
