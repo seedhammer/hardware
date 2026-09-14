@@ -2852,6 +2852,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 2.54 -13.97 90)
+				(length 2.54)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -9350,7 +9368,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm_ThermalVias"
-			(at 0 0 0)
+			(at 44.958 -36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -9492,7 +9510,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -2.54 0)
+				(at -16.51 -1.27 0)
 				(length 2.54)
 				(name "GPIO5"
 					(effects
@@ -9510,7 +9528,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -5.08 0)
+				(at -16.51 -3.81 0)
 				(length 2.54)
 				(name "GPIO6"
 					(effects
@@ -9528,7 +9546,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -7.62 0)
+				(at -16.51 -6.35 0)
 				(length 2.54)
 				(name "GPIO7"
 					(effects
@@ -9546,7 +9564,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -10.16 0)
+				(at -16.51 -8.89 0)
 				(length 2.54)
 				(name "GPIO8"
 					(effects
@@ -9600,7 +9618,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -12.7 0)
+				(at -16.51 -11.43 0)
 				(length 2.54)
 				(name "GPIO9"
 					(effects
@@ -9618,7 +9636,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -15.24 0)
+				(at -16.51 -13.97 0)
 				(length 2.54)
 				(name "GPIO10"
 					(effects
@@ -9636,7 +9654,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -17.78 0)
+				(at -16.51 -16.51 0)
 				(length 2.54)
 				(name "GPIO11"
 					(effects
@@ -9654,7 +9672,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 -20.32 0)
+				(at -16.51 -19.05 0)
 				(length 2.54)
 				(name "GPIO12"
 					(effects
@@ -9726,7 +9744,7 @@
 				)
 			)
 			(pin output line
-				(at -16.51 7.62 0)
+				(at -16.51 6.35 0)
 				(length 2.54)
 				(name "IRQ"
 					(effects
@@ -9744,7 +9762,7 @@
 				)
 			)
 			(pin input line
-				(at -16.51 2.54 0)
+				(at -16.51 3.81 0)
 				(length 2.54)
 				(name "SEN"
 					(effects
@@ -10138,7 +10156,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 10.16 0)
+				(at -16.51 11.43 0)
 				(length 2.54)
 				(name "HIF4"
 					(effects
@@ -10197,7 +10215,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 12.7 0)
+				(at -16.51 13.97 0)
 				(length 2.54)
 				(name "HIF3"
 					(effects
@@ -10237,7 +10255,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 15.24 0)
+				(at -16.51 16.51 0)
 				(length 2.54)
 				(name "HIF2"
 					(effects
@@ -10296,7 +10314,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -16.51 17.78 0)
+				(at -16.51 19.05 0)
 				(length 2.54)
 				(name "HIF1"
 					(effects
@@ -12851,7 +12869,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mainboard:UQFN-4_0.8x0.9mm_P0.4mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15997,11 +16015,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 -31.75 90)
+			(pin passive line
+				(at 2.54 -31.75 90)
 				(length 3.81)
-				(hide yes)
-				(name "GND"
+				(name "MP"
 					(effects
 						(font
 							(size 1.27 1.27)
