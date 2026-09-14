@@ -2037,7 +2037,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2087,7 +2087,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -12176,7 +12176,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mainboard:TPS16630RGE"
+		(symbol "mainboard:TPS16630PWP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -12192,7 +12192,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS16630RGE"
+			(property "Value" "TPS16630PWP"
 				(at 7.62 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12202,7 +12202,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+			(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
 				(at 0 -31.75 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12225,7 +12225,7 @@
 				)
 			)
 			(property "Description" "4.5-V to 60-V, 31mΩ, 0.6-6A eFuse"
-				(at 0 0 0)
+				(at 23.114 -17.272 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12257,7 +12257,7 @@
 					)
 				)
 			)
-			(symbol "TPS16630RGE_0_1"
+			(symbol "TPS16630PWP_0_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -13.97)
@@ -12270,28 +12270,7 @@
 					)
 				)
 			)
-			(symbol "TPS16630RGE_1_0"
-				(pin free line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPS16630RGE_1_1"
+			(symbol "TPS16630PWP_1_1"
 				(pin power_in line
 					(at -12.7 10.16 0)
 					(length 2.54)
@@ -12329,11 +12308,11 @@
 						)
 					)
 				)
-				(pin free line
-					(at 10.16 -5.08 180)
+				(pin passive line
+					(at -12.7 10.16 0)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12348,8 +12327,8 @@
 						)
 					)
 				)
-				(pin free line
-					(at 10.16 -3.81 180)
+				(pin no_connect line
+					(at 3.81 -11.43 90)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -12360,6 +12339,25 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 -11.43 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12378,7 +12376,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12396,7 +12394,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12414,7 +12412,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12432,7 +12430,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12450,7 +12448,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12468,7 +12466,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12486,7 +12484,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12504,7 +12502,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12522,7 +12520,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12540,7 +12538,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12566,6 +12564,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 3.81 -11.43 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 12.7 10.16 180)
 					(length 2.54)
@@ -12576,7 +12593,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12595,25 +12612,6 @@
 							)
 						)
 					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "19"
 						(effects
 							(font
@@ -12622,11 +12620,11 @@
 						)
 					)
 				)
-				(pin free line
-					(at 0 -16.51 90)
+				(pin passive line
+					(at 12.7 10.16 180)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12634,82 +12632,6 @@
 						)
 					)
 					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12728,7 +12650,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -29223,7 +29145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AP33772S"
+		(property "Value" "AP33772SDKZ-13-FA01"
 			(at 107.6041 250.19 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29267,7 +29189,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C9900152998"
+		(property "LCSC" "C24374260"
 			(at 105.41 270.51 0)
 			(hide yes)
 			(show_name no)
@@ -39530,7 +39452,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/516711-BSS138W/C504052"
 			(at 267.97 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -39553,7 +39475,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28646265"
+		(property "LCSC" "C504052"
 			(at 273.05 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -40763,7 +40685,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/516711-BSS138W/C504052"
 			(at 387.35 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -40786,7 +40708,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28646265"
+		(property "LCSC" "C504052"
 			(at 382.27 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -40881,7 +40803,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/516711-BSS138W/C504052"
 			(at 347.98 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -40904,7 +40826,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28646265"
+		(property "LCSC" "C504052"
 			(at 342.9 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -42854,7 +42776,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/516711-BSS138W/C504052"
 			(at 387.35 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -42877,7 +42799,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28646265"
+		(property "LCSC" "C504052"
 			(at 382.27 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -43203,7 +43125,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:TPS16630RGE")
+		(lib_id "mainboard:TPS16630PWP")
 		(at 308.61 314.96 0)
 		(unit 1)
 		(body_style 1)
@@ -43224,7 +43146,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS16630RGE"
+		(property "Value" "TPS16630PWPR"
 			(at 308.61 299.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43234,7 +43156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
 			(at 308.61 346.71 0)
 			(hide yes)
 			(show_name no)
@@ -43257,7 +43179,7 @@
 			)
 		)
 		(property "Description" "4.5-V to 60-V, 31mΩ, 0.6-6A eFuse"
-			(at 308.61 314.96 0)
+			(at 331.724 332.232 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43267,7 +43189,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1850279"
+		(property "LCSC" "C1849461"
 			(at 308.61 314.96 0)
 			(hide yes)
 			(show_name no)
@@ -43299,9 +43221,6 @@
 		(pin "21"
 			(uuid "c59c5e4b-59a4-401f-ae5d-8c42a5e01c48")
 		)
-		(pin "22"
-			(uuid "455cc344-6a42-4fbb-9c3f-346ebd8dbade")
-		)
 		(pin "15"
 			(uuid "7b0a3835-3a92-432e-b797-6a5d2a3806bf")
 		)
@@ -43313,15 +43232,6 @@
 		)
 		(pin "5"
 			(uuid "a0a40e4b-16fb-4d0a-a9b4-b937e0601be8")
-		)
-		(pin "23"
-			(uuid "a9429dcf-2edc-4b71-92e7-8ac2a79cf33d")
-		)
-		(pin "24"
-			(uuid "0edb7299-9dd9-43c8-b045-15e508b313c9")
-		)
-		(pin "25"
-			(uuid "875c2e9d-1ae1-44ed-8806-6556b1f0c8de")
 		)
 		(pin "8"
 			(uuid "d596ac0e-0dd2-4f44-a195-a2d37d9f20a0")
@@ -56556,7 +56466,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-BSS138W/C28646265"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/516711-BSS138W/C504052"
 			(at 387.35 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -56579,7 +56489,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28646265"
+		(property "LCSC" "C504052"
 			(at 382.27 142.24 0)
 			(hide yes)
 			(show_name no)
