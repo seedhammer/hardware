@@ -53448,7 +53448,7 @@
 				)
 			)
 		)
-		(property "Value" "TUSB320"
+		(property "Value" "TUSB320LI"
 			(at 0.05 1.025 0)
 			(layer "F.Fab")
 			(uuid "5ee64a08-a8f5-4092-9055-a8177928e268")
@@ -53459,7 +53459,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tusb320.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tusb320li.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -53486,6 +53486,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "888923d6-f05a-4b2d-b2f4-d99c4e6902ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2836598"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ffd5f6b-4440-409e-babb-626004022c04")
 			(effects
 				(font
 					(size 1 1)
