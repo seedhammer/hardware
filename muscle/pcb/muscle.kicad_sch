@@ -25871,7 +25871,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TUSB320"
+		(property "Value" "TUSB320LI"
 			(at 107.0767 308.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25893,7 +25893,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tusb320.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tusb320li.pdf"
 			(at 109.22 321.31 0)
 			(hide yes)
 			(show_name no)
@@ -25905,6 +25905,17 @@
 			)
 		)
 		(property "Description" "USB Type-C Configuration Channel Logic and Port Control, X2QFN-12"
+			(at 109.22 321.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2836598"
 			(at 109.22 321.31 0)
 			(hide yes)
 			(show_name no)
