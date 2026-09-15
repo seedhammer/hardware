@@ -28040,7 +28040,7 @@
 				)
 			)
 		)
-		(property "Value" "TS3425BA"
+		(property "Value" "TS24CA"
 			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -28051,7 +28051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
 			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -28062,7 +28062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/ShouHan-TS3425BA/C2681476"
+		(property "Datasheet" "https://industry.panasonic.com/global/en/downloads?part_no=EVQPUC02K"
 			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -28084,7 +28084,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2681476"
+		(property "LCSC" "C79174"
 			(at 73.66 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -42961,7 +42961,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TS3425BA"
+		(property "Value" "TS24CA"
 			(at 80.645 111.7601 90)
 			(hide yes)
 			(show_name no)
@@ -42973,7 +42973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_Vertical_Wuerth_434133025816"
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
 			(at 72.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -42984,7 +42984,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/ShouHan-TS3425BA/C2681476"
+		(property "Datasheet" "https://industry.panasonic.com/global/en/downloads?part_no=EVQPUC02K"
 			(at 72.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -42995,7 +42995,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Small-sized Side-operational SMD"
 			(at 77.47 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -43006,7 +43006,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2681476"
+		(property "LCSC" "C79174"
 			(at 77.47 113.03 90)
 			(hide yes)
 			(show_name no)
