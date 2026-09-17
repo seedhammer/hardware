@@ -2398,7 +2398,7 @@
 			(pin power_in line
 				(at 0 -13.97 90)
 				(length 2.54)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2576,7 +2576,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2595,7 +2595,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2669,7 +2669,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2688,7 +2688,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2743,7 +2743,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2762,7 +2762,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2799,7 +2799,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2818,7 +2818,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2837,7 +2837,7 @@
 				(at 0 -13.97 90)
 				(length 2.54)
 				(hide yes)
-				(name "DGND"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -16077,7 +16077,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -31.75 90)
 				(length 3.81)
 				(hide yes)
