@@ -4,7 +4,7 @@
 	(layer "F.Cu")
 	(descr "WLCSP-35, 3.0775x2.3775mm, 35 Ball, 7x5 Layout, 0.419x0.44mm Pitch, https://www.nordicsemi.com/Products/nPM1300/Documentation")
 	(tags "CSP 35 0.419x0.44")
-	(solder_mask_margin 0.02)
+	(solder_mask_margin 0.0375)
 	(property "Reference" "REF**"
 		(at 0 -2.18875 0)
 		(layer "F.SilkS")
