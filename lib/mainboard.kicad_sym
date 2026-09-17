@@ -15298,7 +15298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:TE_5-1734839-0_1x50-1MP_P0.5mm_Horizontal"
+		(property "Footprint" ""
 			(at 41.148 -58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15320,7 +15320,7 @@
 				)
 			)
 		)
-		(property "Description" "50 Pin connector, ICNA3312 2.4\" AMOLED 450x600, GTW623 Capacitive Touch"
+		(property "Description" "51 Pin connector, ICNA3312 2.4\" AMOLED 450x600, GTW623 Capacitive Touch"
 			(at 41.148 -58.166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16254,6 +16254,25 @@
 					)
 				)
 				(number "50"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -30.48 90)
+				(length 2.54)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "51"
 					(effects
 						(font
 							(size 1.27 1.27)
