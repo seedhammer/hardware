@@ -39250,7 +39250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_CSP:WLCSP-16_4x4_B2.17x2.32mm_P0.5mm"
+		(property "Footprint" "mainboard:Richtek_WLCSP-16_2.34x2.34mm_Layout4x4_P0.44mm"
 			(at 406.908 113.284 0)
 			(hide yes)
 			(show_name no)
