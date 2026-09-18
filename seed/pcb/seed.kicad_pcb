@@ -2673,6 +2673,177 @@
 			)
 		)
 	)
+	(footprint "Inductor_SMD:L_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "365da6c3-efe7-4230-9e0f-c3ca0f0d921d")
+		(at 115.05 116.05)
+		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "inductor")
+		(property "Reference" "L5"
+			(at 0 -1.55 0)
+			(layer "F.SilkS")
+			(uuid "e1fc79a3-a38c-4615-bb66-aaed8172e944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "cb494b1e-0868-466f-8ffa-81d892dfa491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-DFE21CCN1R0MELL/C3221768"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2da2f3e1-4821-4cba-a498-e20d85f33167")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06ea2383-6e90-4e02-b780-f1a57532d7e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7f258b30-963a-450b-aefa-c4104e0de830")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3221768"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e7e6225-62f3-4cc5-aea9-aa18fb64e6f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/50c2a80c-33b0-435c-bb56-eb4f8ef82de3")
+		(sheetname "/")
+		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.399622 -0.56)
+			(end 0.399622 -0.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f978634c-4e2a-4482-a589-f035323530f1")
+		)
+		(fp_line
+			(start -0.399622 0.56)
+			(end 0.399622 0.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "510e7c26-6816-4797-90ed-ab08ef9ebd68")
+		)
+		(fp_rect
+			(start -1.75 -0.85)
+			(end 1.75 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a2061ae3-af2e-4ebd-88ea-0b3cfa1c9f6f")
+		)
+		(fp_rect
+			(start -1 -0.45)
+			(end 1 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "918fba8b-819e-4eac-9716-18f3b165ed7b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "5be66f27-9b93-4579-b76e-81b6bcac7e13")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.0625 0)
+			(size 0.875 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U7-LX2)")
+			(pintype "passive")
+			(uuid "43c0032b-d814-426b-830a-c6194c85f9e1")
+		)
+		(pad "2" smd roundrect
+			(at 1.0625 0)
+			(size 0.875 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U7-LX1)")
+			(pintype "passive")
+			(uuid "87ae7093-1f6f-4d03-85ef-1c0ecab0766f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "396d4af9-a9ed-4a2c-987e-7501936e42b6")
@@ -3253,6 +3424,177 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Inductor_SMD:L_0805_2012Metric"
+		(layer "F.Cu")
+		(uuid "3f64e4a5-3eca-44d6-8902-f0e2a31781b2")
+		(at 138.925 98.525)
+		(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+		(tags "inductor")
+		(property "Reference" "L6"
+			(at 0 -1.55 0)
+			(layer "F.SilkS")
+			(uuid "573b4a73-97af-493d-8cc3-b1d08eeb987b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 0 1.55 0)
+			(layer "F.Fab")
+			(uuid "c9f3f220-2471-4b9b-9270-cc651db8e0bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-DFE21CCN1R0MELL/C3221768"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa4b8899-df70-4db9-9068-5152e9cf7908")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b590037-eb39-411b-9c50-db768b5a3a55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9e84cd0e-d711-4025-9d3c-25155ae4ced0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3221768"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6efd6315-48b8-4c51-a6cc-93d5e6e19420")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/150c9040-a41a-4cda-8bf4-02c78e500565")
+		(sheetname "/")
+		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.399622 -0.56)
+			(end 0.399622 -0.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c95bec94-9959-4f27-8ef4-b83c7970b8a2")
+		)
+		(fp_line
+			(start -0.399622 0.56)
+			(end 0.399622 0.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b501d810-afb7-40bb-bad7-f9d1af58e1ab")
+		)
+		(fp_rect
+			(start -1.75 -0.85)
+			(end 1.75 0.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "51d0e746-d058-46e4-a07e-55f0718b507a")
+		)
+		(fp_rect
+			(start -1 -0.45)
+			(end 1 0.45)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d407c4e5-ccc1-4733-a87c-f2c7a8230f3c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1fdb7516-0f1c-4926-8afd-571878052eb8")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.08)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.0625 0)
+			(size 0.875 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U2-SW)")
+			(pintype "passive")
+			(uuid "dc210323-9a75-4bf1-8fcd-350f5ec63047")
+		)
+		(pad "2" smd roundrect
+			(at 1.0625 0)
+			(size 0.875 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "VDD_HP")
+			(pintype "passive")
+			(uuid "14f9ceb0-b189-4279-a7b5-295a1b473970")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7831,6 +8173,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "../../lib/UQFN-4_0.8x0.9mm_P0.4mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -9538,161 +9891,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "mainboard:0806"
-		(layer "F.Cu")
-		(uuid "7fb670be-c06f-417d-b8ce-8dbaad1c6da9")
-		(at 115.05 115.95)
-		(tags "SparkFun")
-		(property "Reference" "L3"
-			(at 0 -1.4 0)
-			(layer "F.Fab")
-			(uuid "5c35e90b-eca8-413b-8b12-12fc5d91f148")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(uuid "846a8eda-df86-4859-a58b-d5a07175e502")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291302-CIGT201610LM1R0MNE/C307628"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de4f817d-7c6e-41c7-b998-82d7eeed7a4e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0ae535da-536a-45e0-8584-17fc25620b10")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C307628"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76365282-4aac-4088-a325-e82bedf6f0b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/81f28423-8b83-42c6-951e-56dcc2d401f6")
-		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.4 -1)
-			(end 1.4 1)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "374cae7f-d73a-41cb-8183-98c0726bb7af")
-		)
-		(fp_rect
-			(start -1.01 -0.8)
-			(end 1 0.81)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "0d0c9652-c3d5-466e-aa73-9a2300f52fad")
-		)
-		(fp_poly
-			(pts
-				(xy -1.01 0.81) (xy -0.48 0.81) (xy -0.48 -0.81) (xy -1.01 -0.81)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "aca94f41-68c2-4d3f-af92-d0b3cbe9ec22")
-		)
-		(fp_poly
-			(pts
-				(xy 0.48 0.81) (xy 1.01 0.81) (xy 1.01 -0.82) (xy 0.48 -0.82)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "e7c7ccdd-d821-41a2-9141-de84a56fd932")
-		)
-		(pad "1" smd rect
-			(at -0.9 0 90)
-			(size 1.8 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U7-LX2)")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "7ebd29f8-df79-4f1f-b796-54c0b3723325")
-		)
-		(pad "2" smd rect
-			(at 0.9 0 90)
-			(size 1.8 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U7-LX1)")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "f2c7eb87-316e-47ed-b292-8ca59124cf81")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15270,161 +15468,6 @@
 			)
 		)
 	)
-	(footprint "mainboard:0806"
-		(layer "F.Cu")
-		(uuid "990ff517-0f4b-49aa-8049-e246d5bab070")
-		(at 138.1 98.95)
-		(tags "SparkFun")
-		(property "Reference" "L1"
-			(at 0 -1.4 0)
-			(layer "F.Fab")
-			(uuid "b77aaf02-adfe-459d-9d58-7ea4c39b5e04")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 0 1.5 0)
-			(layer "F.Fab")
-			(uuid "8ee2cc46-bd23-4513-800e-120722659c96")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291302-CIGT201610LM1R0MNE/C307628"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9f4a1668-ceb3-4fb5-ac1d-353eb449999e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e971b4e-a0f5-445f-89cc-f2115ea8b446")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C307628"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a2cf16b-9400-4e80-b1e9-cd856951e67a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
-		(path "/203e17c4-30fc-4a17-9c4c-a76c18d8a232")
-		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -1.4 -1)
-			(end 1.4 1)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "32264b19-e968-4208-b8a3-dffbcdadcc66")
-		)
-		(fp_rect
-			(start -1.01 -0.8)
-			(end 1 0.81)
-			(stroke
-				(width 0.05)
-				(type default)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "03ce9a07-2307-46c0-9179-d4625df30dcb")
-		)
-		(fp_poly
-			(pts
-				(xy -1.01 0.81) (xy -0.48 0.81) (xy -0.48 -0.81) (xy -1.01 -0.81)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "0f607e08-796a-4377-8e0f-ee50e30d564b")
-		)
-		(fp_poly
-			(pts
-				(xy 0.48 0.81) (xy 1.01 0.81) (xy 1.01 -0.82) (xy 0.48 -0.82)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "F.Fab")
-			(uuid "895ddcd0-82ba-49a0-9120-2938582a3c8f")
-		)
-		(pad "1" smd rect
-			(at -0.9 0 90)
-			(size 1.8 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U2-SW)")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "0a702edc-e609-44fb-a991-948076dbb36b")
-		)
-		(pad "2" smd rect
-			(at 0.9 0 90)
-			(size 1.8 0.8)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "VDD_HP")
-			(pintype "passive")
-			(thermal_bridge_angle 45)
-			(uuid "fec14c01-c99b-4146-8878-dce018489086")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "9beb0947-e9bf-4aa3-946b-2afb0d8841da")
@@ -18414,6 +18457,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "../../lib/SOT883-3.step"
+			(offset
+				(xyz 0.77 -0.4 0.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -90)
 			)
 		)
 	)
@@ -22388,6 +22442,15 @@
 		(path "/46e9d0ca-1c37-4ba1-b8fe-93991f7d0dfa")
 		(sheetname "/")
 		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "B2" "B1" "C3" "D5" "B3" "E5" "E3" "D6" "E6" "C5" "C4" "A3" "A2"
+					"A1" "D4" "A6" "E4" "A7" "E7" "C1" "C2" "C7" "B6" "B7" "E2" "C6" "D7"
+					"E1" "B4" "A4" "B5" "A5" "D1" "D2" "D3"
+				)
+			)
+		)
 		(solder_mask_margin 0.0375)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
@@ -25058,6 +25121,14 @@
 		(path "/fba0ef84-31ba-42a0-81c0-cefeae4602a0")
 		(sheetname "/")
 		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "D1" "C4" "B1" "C1" "A4" "B4" "B3" "A1" "B2" "A2" "A3" "D3" "D4"
+					"D2" "C3" "C2"
+				)
+			)
+		)
 		(solder_mask_margin 0.05)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
