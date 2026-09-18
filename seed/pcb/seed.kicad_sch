@@ -17376,7 +17376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Espressif:ESP32-P4"
+		(property "Footprint" "mainboard:Espressif_QFN-104-1EP_10x10mm_P0.35mm_EP7.5x7.5mm_ThermalVias"
 			(at 166.624 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -23320,6 +23320,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 119.38 303.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "DATA"
+			(at 119.38 303.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39438,6 +39449,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 119.38 369.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "DEBUG"
+			(at 119.38 369.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
