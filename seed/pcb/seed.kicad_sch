@@ -23587,7 +23587,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A-120"
+		(property "Value" "USB4110-GF-A"
 			(at 119.38 283.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23597,7 +23597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4135-GF-A_6P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 123.19 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -23608,7 +23608,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://gct.co/connector/usb4105"
+		(property "Datasheet" ""
 			(at 123.19 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -23630,7 +23630,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5184243"
+		(property "LCSC" ""
 			(at 119.38 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -25609,7 +25609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:Pogo_SMD_D2.5mm"
+		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
 			(at 427.99 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -36980,7 +36980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:Pogo_SMD_D2.5mm"
+		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
 			(at 427.99 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -39794,7 +39794,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A-120"
+		(property "Value" "USB4110-GF-A"
 			(at 119.38 349.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39804,7 +39804,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 123.19 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -39815,7 +39815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://gct.co/connector/usb4105"
+		(property "Datasheet" ""
 			(at 123.19 369.57 0)
 			(hide yes)
 			(show_name no)
@@ -39837,7 +39837,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5184243"
+		(property "LCSC" ""
 			(at 119.38 369.57 0)
 			(hide yes)
 			(show_name no)
