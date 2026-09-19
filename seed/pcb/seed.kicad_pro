@@ -610,7 +610,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -622,31 +622,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -753,7 +753,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG1-4,H1-4,R1-15,R18-26,R44-45,R55-56,BT1,U1-14,C1-65,C67,SW1-2,L1-6,J1-5,J9-10,D1-3,D6,#PWR1-146,Y1-2",
+    "used_designators": "#FLG1-4,H1-4,R1-15,R18-26,R44-45,R55-56,BT1,U1-14,C1-78,SW1-2,L1-6,J1-5,J9-10,D1-3,D6,#PWR1-148,Y1-2",
     "variants": []
   },
   "sheets": [
