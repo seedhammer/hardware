@@ -747,7 +747,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG1-4,BT1,SW1-2,L1-6,J1-5,J9-10,R1-15,R18-26,R44-45,R55-56,D1-3,D6,C1-65,C67,#PWR1-146,Y1-2,U1-14",
+    "used_designators": "#FLG1-4,H1-4,R1-15,R18-26,R44-45,R55-56,BT1,U1-14,C1-65,C67,SW1-2,L1-6,J1-5,J9-10,D1-3,D6,#PWR1-146,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -757,7 +757,7 @@
     ]
   ],
   "text_variables": {
-    "TITLE": "Seed I",
+    "TITLE": "Brain",
     "VERSION": ""
   },
   "tuning_profiles": {
