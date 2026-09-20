@@ -26663,8 +26663,8 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 157.8 43.975)
-		(end 157.8 45.475)
+		(start 157.8 41.9)
+		(end 157.8 43.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26673,8 +26673,8 @@
 		(uuid "d763dacb-647c-431c-ae15-92b5784d2dbb")
 	)
 	(gr_line
-		(start 158.35 43.975)
-		(end 158.35 45.475)
+		(start 158.35 41.9)
+		(end 158.35 43.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26683,8 +26683,8 @@
 		(uuid "149934d0-3535-4307-b213-87ba508d5362")
 	)
 	(gr_line
-		(start 158.85 43.975)
-		(end 158.85 45.475)
+		(start 158.85 41.9)
+		(end 158.85 43.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26693,8 +26693,8 @@
 		(uuid "98f3d061-0249-4a93-a094-334f4c632968")
 	)
 	(gr_line
-		(start 159.3 43.975)
-		(end 159.3 45.475)
+		(start 159.3 41.9)
+		(end 159.3 43.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26703,8 +26703,8 @@
 		(uuid "538696fd-e70a-4ca3-a582-9985f5b89c73")
 	)
 	(gr_line
-		(start 159.725 43.975)
-		(end 159.725 45.475)
+		(start 159.725 41.9)
+		(end 159.725 43.4)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26713,8 +26713,8 @@
 		(uuid "7768bc9a-fff1-474d-9f49-96eaf88df659")
 	)
 	(gr_rect
-		(start 160.25 43.975)
-		(end 157.25 51.975)
+		(start 160.25 41.9)
+		(end 157.25 51.9)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26758,8 +26758,21 @@
 		(layer "Edge.Cuts")
 		(uuid "ea84b500-a167-4606-b5d3-e3c7f7684d64")
 	)
+	(gr_text "5       1"
+		(at 159.925 44.375 0)
+		(layer "Eco1.User")
+		(uuid "10acc437-0595-4818-84a3-8fa89017ecf2")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.075)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "- -  + +"
-		(at 160.05 45.95 0)
+		(at 160.05 43.875 0)
 		(layer "Eco1.User")
 		(uuid "6df1bdbb-1cd9-4f1b-8295-f521789985e4")
 		(effects
@@ -26772,7 +26785,7 @@
 		)
 	)
 	(gr_text "NTC"
-		(at 158.675 45.575 270)
+		(at 158.675 43.5 270)
 		(layer "Eco1.User")
 		(uuid "37e897c7-1846-46b6-982b-7a6b64da4bd6")
 		(effects
@@ -26797,7 +26810,7 @@
 		)
 	)
 	(gr_text "Double-sided\ngold-plated FPC\npitch: 0.5mm"
-		(at 163.975 40.8 0)
+		(at 163.975 38.375 0)
 		(layer "Eco1.User")
 		(uuid "a1d4c16b-ffd2-4292-9166-229729989246")
 		(effects
@@ -26911,7 +26924,7 @@
 		(layer "Eco1.User")
 		(uuid "6e04995f-725f-4a8c-8a19-8e234a82c756")
 		(pts
-			(xy 157.2 50.5) (xy 156.7 50.45)
+			(xy 157.2 48.075) (xy 156.7 48.025)
 		)
 		(height -7.475)
 		(orientation 0)
@@ -26933,7 +26946,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "0.5"
-			(at 156.95 41.875 0)
+			(at 156.95 39.45 0)
 			(layer "Eco1.User")
 			(uuid "6e04995f-725f-4a8c-8a19-8e234a82c756")
 			(effects
@@ -26947,11 +26960,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "Eco1.User")
-		(uuid "948ce6ed-920f-4bdd-8e88-a44b7db9c8e4")
+		(uuid "9481290b-8517-4fe1-8834-5b3b87a4987f")
 		(pts
-			(xy 156.75 51.95) (xy 156.75 43.95)
+			(xy 157.25 51.9) (xy 157.25 41.9)
 		)
-		(height -2)
+		(height -2.075)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -26970,10 +26983,10 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "8"
-			(at 153.6 47.95 90)
+		(gr_text "10"
+			(at 154.025 46.9 90)
 			(layer "Eco1.User")
-			(uuid "948ce6ed-920f-4bdd-8e88-a44b7db9c8e4")
+			(uuid "9481290b-8517-4fe1-8834-5b3b87a4987f")
 			(effects
 				(font
 					(size 1 1)
@@ -26985,11 +26998,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "Eco1.User")
-		(uuid "f5b212cd-e224-491a-a67e-cdf579482e5b")
+		(uuid "be389204-cad7-4531-afcd-712172774e29")
 		(pts
-			(xy 155.775 81.975) (xy 155.775 51.975)
+			(xy 156.75 51.95) (xy 156.75 81.95)
 		)
-		(height 2.975)
+		(height -1.575)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -27009,9 +27022,9 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "30"
-			(at 157.6 66.975 90)
+			(at 154.025 66.95 90)
 			(layer "Eco1.User")
-			(uuid "f5b212cd-e224-491a-a67e-cdf579482e5b")
+			(uuid "be389204-cad7-4531-afcd-712172774e29")
 			(effects
 				(font
 					(size 1 1)
