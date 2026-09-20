@@ -15344,8 +15344,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -15362,8 +15362,8 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 31.75 270)
-				(length 3.81)
+				(at -6.35 30.48 270)
+				(length 2.54)
 				(name "ELVSS"
 					(effects
 						(font
@@ -15380,8 +15380,8 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 31.75 270)
-				(length 3.81)
+				(at -6.35 30.48 270)
+				(length 2.54)
 				(hide yes)
 				(name "ELVSS"
 					(effects
@@ -15399,8 +15399,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15418,8 +15418,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 31.75 270)
-				(length 3.81)
+				(at -8.89 30.48 270)
+				(length 2.54)
 				(name "ELVDD"
 					(effects
 						(font
@@ -15436,8 +15436,8 @@
 				)
 			)
 			(pin power_in line
-				(at -8.89 31.75 270)
-				(length 3.81)
+				(at -8.89 30.48 270)
+				(length 2.54)
 				(hide yes)
 				(name "ELVDD"
 					(effects
@@ -15455,8 +15455,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15474,8 +15474,8 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 31.75 270)
-				(length 3.81)
+				(at -2.54 30.48 270)
+				(length 2.54)
 				(name "VCI"
 					(effects
 						(font
@@ -15492,8 +15492,8 @@
 				)
 			)
 			(pin power_in line
-				(at 1.27 31.75 270)
-				(length 3.81)
+				(at 1.27 30.48 270)
+				(length 2.54)
 				(name "VDDIO"
 					(effects
 						(font
@@ -15510,8 +15510,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15529,8 +15529,8 @@
 				)
 			)
 			(pin output line
-				(at 24.13 6.35 180)
-				(length 3.81)
+				(at 22.86 6.35 180)
+				(length 2.54)
 				(name "TE1"
 					(effects
 						(font
@@ -15547,8 +15547,8 @@
 				)
 			)
 			(pin output line
-				(at -24.13 22.86 0)
-				(length 3.81)
+				(at -22.86 22.86 0)
+				(length 2.54)
 				(name "SWIRE"
 					(effects
 						(font
@@ -15565,8 +15565,8 @@
 				)
 			)
 			(pin output line
-				(at 24.13 8.89 180)
-				(length 3.81)
+				(at 22.86 8.89 180)
+				(length 2.54)
 				(name "TE"
 					(effects
 						(font
@@ -15583,8 +15583,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15602,8 +15602,8 @@
 				)
 			)
 			(pin input line
-				(at 24.13 0 180)
-				(length 3.81)
+				(at 22.86 0 180)
+				(length 2.54)
 				(name "RESX"
 					(effects
 						(font
@@ -15620,8 +15620,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15639,8 +15639,8 @@
 				)
 			)
 			(pin output line
-				(at 24.13 -13.97 180)
-				(length 3.81)
+				(at 22.86 -13.97 180)
+				(length 2.54)
 				(name "SDO"
 					(effects
 						(font
@@ -15657,8 +15657,8 @@
 				)
 			)
 			(pin input line
-				(at 24.13 -16.51 180)
-				(length 3.81)
+				(at 22.86 -16.51 180)
+				(length 2.54)
 				(name "SDI"
 					(effects
 						(font
@@ -15676,8 +15676,8 @@
 				(alternate "RDX" input line)
 			)
 			(pin input line
-				(at 24.13 -7.62 180)
-				(length 3.81)
+				(at 22.86 -7.62 180)
+				(length 2.54)
 				(name "DCX"
 					(effects
 						(font
@@ -15694,8 +15694,8 @@
 				)
 			)
 			(pin input line
-				(at 24.13 -19.05 180)
-				(length 3.81)
+				(at 22.86 -19.05 180)
+				(length 2.54)
 				(name "SCL"
 					(effects
 						(font
@@ -15713,8 +15713,8 @@
 				(alternate "WRX" input line)
 			)
 			(pin input line
-				(at 24.13 -21.59 180)
-				(length 3.81)
+				(at 22.86 -21.59 180)
+				(length 2.54)
 				(name "CSX"
 					(effects
 						(font
@@ -15731,8 +15731,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15750,8 +15750,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -3.81 0)
-				(length 3.81)
+				(at -22.86 -3.81 0)
+				(length 2.54)
 				(name "D0"
 					(effects
 						(font
@@ -15768,8 +15768,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -6.35 0)
-				(length 3.81)
+				(at -22.86 -6.35 0)
+				(length 2.54)
 				(name "D1"
 					(effects
 						(font
@@ -15786,8 +15786,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -8.89 0)
-				(length 3.81)
+				(at -22.86 -8.89 0)
+				(length 2.54)
 				(name "D2"
 					(effects
 						(font
@@ -15804,8 +15804,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -11.43 0)
-				(length 3.81)
+				(at -22.86 -11.43 0)
+				(length 2.54)
 				(name "D3"
 					(effects
 						(font
@@ -15822,8 +15822,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -13.97 0)
-				(length 3.81)
+				(at -22.86 -13.97 0)
+				(length 2.54)
 				(name "D4"
 					(effects
 						(font
@@ -15840,8 +15840,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -16.51 0)
-				(length 3.81)
+				(at -22.86 -16.51 0)
+				(length 2.54)
 				(name "D5"
 					(effects
 						(font
@@ -15858,8 +15858,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -19.05 0)
-				(length 3.81)
+				(at -22.86 -19.05 0)
+				(length 2.54)
 				(name "D6"
 					(effects
 						(font
@@ -15876,8 +15876,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 -21.59 0)
-				(length 3.81)
+				(at -22.86 -21.59 0)
+				(length 2.54)
 				(name "D7"
 					(effects
 						(font
@@ -15894,8 +15894,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15913,8 +15913,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 20.32 0)
-				(length 3.81)
+				(at -22.86 20.32 0)
+				(length 2.54)
 				(name "IM1"
 					(effects
 						(font
@@ -15931,8 +15931,8 @@
 				)
 			)
 			(pin input line
-				(at -24.13 17.78 0)
-				(length 3.81)
+				(at -22.86 17.78 0)
+				(length 2.54)
 				(name "IM0"
 					(effects
 						(font
@@ -15949,8 +15949,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -15968,8 +15968,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 11.43 0)
-				(length 3.81)
+				(at -22.86 11.43 0)
+				(length 2.54)
 				(name "DSI_CLKP"
 					(effects
 						(font
@@ -15986,8 +15986,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 8.89 0)
-				(length 3.81)
+				(at -22.86 8.89 0)
+				(length 2.54)
 				(name "DSI_CLKN"
 					(effects
 						(font
@@ -16004,8 +16004,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -16023,8 +16023,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 6.35 0)
-				(length 3.81)
+				(at -22.86 6.35 0)
+				(length 2.54)
 				(name "DSI_D0P"
 					(effects
 						(font
@@ -16041,8 +16041,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at -24.13 3.81 0)
-				(length 3.81)
+				(at -22.86 3.81 0)
+				(length 2.54)
 				(name "DSI_D0N"
 					(effects
 						(font
@@ -16059,8 +16059,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -16078,8 +16078,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "MTP_PWR"
 					(effects
@@ -16097,8 +16097,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -16116,8 +16116,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -16135,8 +16135,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 20.32 180)
-				(length 3.81)
+				(at 22.86 20.32 180)
+				(length 2.54)
 				(name "TSP_SDA"
 					(effects
 						(font
@@ -16153,8 +16153,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 17.78 180)
-				(length 3.81)
+				(at 22.86 17.78 180)
+				(length 2.54)
 				(name "TSP_SCL"
 					(effects
 						(font
@@ -16171,8 +16171,8 @@
 				)
 			)
 			(pin bidirectional line
-				(at 24.13 15.24 180)
-				(length 3.81)
+				(at 22.86 15.24 180)
+				(length 2.54)
 				(name "TSP_INT"
 					(effects
 						(font
@@ -16189,8 +16189,8 @@
 				)
 			)
 			(pin input line
-				(at 24.13 -2.54 180)
-				(length 3.81)
+				(at 22.86 -2.54 180)
+				(length 2.54)
 				(name "TSP_RST"
 					(effects
 						(font
@@ -16207,8 +16207,8 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -31.75 90)
-				(length 3.81)
+				(at 0 -30.48 90)
+				(length 2.54)
 				(hide yes)
 				(name "GND"
 					(effects
@@ -16226,8 +16226,8 @@
 				)
 			)
 			(pin power_in line
-				(at 3.81 31.75 270)
-				(length 3.81)
+				(at 3.81 30.48 270)
+				(length 2.54)
 				(name "TSP_VDDIO"
 					(effects
 						(font
@@ -16244,8 +16244,8 @@
 				)
 			)
 			(pin power_in line
-				(at 6.35 31.75 270)
-				(length 3.81)
+				(at 6.35 30.48 270)
+				(length 2.54)
 				(name "TSP_AVDD"
 					(effects
 						(font
@@ -16281,8 +16281,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -31.75 90)
-				(length 3.81)
+				(at 2.54 -30.48 90)
+				(length 2.54)
 				(name "MP"
 					(effects
 						(font
