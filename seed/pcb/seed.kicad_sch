@@ -6971,7 +6971,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mainboard:RT4730"
+		(symbol "mainboard:SGM38046"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6987,7 +6987,7 @@
 					)
 				)
 			)
-			(property "Value" "RT4730"
+			(property "Value" "SGM38046"
 				(at 9.398 -19.304 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6997,7 +6997,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_CSP:WLCSP-16_4x4_B2.17x2.32mm_P0.5mm"
+			(property "Footprint" "Connector_CSP:SGMICRO_WLCSP-16_2x2mm_Layout4x4_P0.5mm"
 				(at 34.798 -24.384 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7008,8 +7008,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Datasheet" "https://www.sg-micro.com/rect/assets/9954e6d1-935c-482f-8466-1c5cac38fcaa/SGM38046.pdf"
+				(at 53.34 -24.892 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7020,7 +7020,7 @@
 				)
 			)
 			(property "Description" "AMOLED power driver"
-				(at 16.002 -22.098 0)
+				(at 14.478 -22.098 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7030,7 +7030,7 @@
 					)
 				)
 			)
-			(symbol "RT4730_0_0"
+			(symbol "SGM38046_0_0"
 				(pin power_in line
 					(at -1.27 19.05 270)
 					(length 2.54)
@@ -7106,7 +7106,7 @@
 				(pin output line
 					(at -13.97 2.54 0)
 					(length 2.54)
-					(name "LX1"
+					(name "SW1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7178,7 +7178,7 @@
 				(pin output line
 					(at -13.97 0 0)
 					(length 2.54)
-					(name "LX2"
+					(name "SW2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7320,7 +7320,7 @@
 					)
 				)
 			)
-			(symbol "RT4730_0_1"
+			(symbol "SGM38046_0_1"
 				(rectangle
 					(start -11.43 16.51)
 					(end 11.43 -16.51)
@@ -13029,7 +13029,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 67.31) (xy 386.08 78.74)
+			(xy 393.7 67.31) (xy 393.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13376,6 +13376,16 @@
 			(type default)
 		)
 		(uuid "7cd91f75-1eee-4afb-97e0-47bd701c3fea")
+	)
+	(wire
+		(pts
+			(xy 393.7 78.74) (xy 386.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfcec43-37d9-4596-824a-1c1d79509e76")
 	)
 	(wire
 		(pts
@@ -15549,7 +15559,7 @@
 	)
 	(wire
 		(pts
-			(xy 386.08 67.31) (xy 439.42 67.31)
+			(xy 393.7 67.31) (xy 439.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -27900,6 +27910,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 353.06 87.63 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bbcce4f-cca7-4f55-950b-743aee949995")
+		(property "Reference" "L7"
+			(at 349.25 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2u"
+			(at 347.218 89.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 353.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Sunlord-MWTC160808S2R2MT/C19713854"
+			(at 353.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 353.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19713854"
+			(at 353.06 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "909424bd-d553-487e-8f94-03332f3d28f5")
+		)
+		(pin "2"
+			(uuid "f0f32769-b759-4b6a-894c-42ff0efa2db9")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 429.26 81.28 0)
 		(unit 1)
@@ -28803,99 +28905,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 353.06 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8ae4705d-00f8-477f-b3db-ab4f339f640e")
-		(property "Reference" "L2"
-			(at 351.79 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 351.79 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
-			(at 353.06 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-DFE21CCN1R0MELL/C3221768"
-			(at 353.06 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 353.06 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3221768"
-			(at 353.06 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4cfa438-dab5-4b25-b14c-c7219859297a")
-		)
-		(pin "2"
-			(uuid "c38a568a-1a23-4e72-bb88-5a643e6334a5")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -32834,6 +32843,130 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:SGM38046")
+		(at 372.11 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be689aa3-1970-4e01-b360-ece448e76805")
+		(property "Reference" "U8"
+			(at 375.5233 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SGM38046"
+			(at 375.5233 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mainboard:SGMICRO_WLCSP-16_2x2mm_Layout4x4_P0.5mm"
+			(at 406.908 113.284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.sg-micro.com/rect/assets/9954e6d1-935c-482f-8466-1c5cac38fcaa/SGM38046.pdf"
+			(at 425.45 113.792 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AMOLED power driver"
+			(at 386.588 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B2"
+			(uuid "efa1e8c8-5736-43cb-8648-0f875d1fea62")
+		)
+		(pin "B3"
+			(uuid "4aad5a7a-c611-497b-b44c-6d9e0a615c6b")
+		)
+		(pin "D3"
+			(uuid "c1e51be2-236b-46ca-915d-044228dd21ff")
+		)
+		(pin "D2"
+			(uuid "677181b2-3358-4db0-b465-3c7c1e4a3867")
+		)
+		(pin "B4"
+			(uuid "624d495b-3d1e-47b7-af71-9d94e0ea40cc")
+		)
+		(pin "A2"
+			(uuid "7646119c-6a99-4781-a76e-c6a435428ff4")
+		)
+		(pin "A3"
+			(uuid "bf019f32-e04b-4533-80bb-541c1b61e338")
+		)
+		(pin "A4"
+			(uuid "5dff2e25-9ca6-4182-b456-bd98f0a01e16")
+		)
+		(pin "D4"
+			(uuid "50454dee-4604-4033-af65-644fb23c54aa")
+		)
+		(pin "C2"
+			(uuid "f2af9590-a648-4e22-9499-ae985b543e9d")
+		)
+		(pin "B1"
+			(uuid "a84ba479-ac52-42db-8f34-9ebeea16a9d7")
+		)
+		(pin "C1"
+			(uuid "38321897-0953-4f77-8bcd-9e5335952d7d")
+		)
+		(pin "A1"
+			(uuid "d27d9fee-911f-48dd-8936-4542b8667a80")
+		)
+		(pin "C4"
+			(uuid "5849fe0e-cedb-4381-973b-8c5229f99d40")
+		)
+		(pin "D1"
+			(uuid "59ff55a7-1374-4c1c-8e6e-048d3ceffdb3")
+		)
+		(pin "C3"
+			(uuid "68934cf2-62cf-46c3-a87e-1d98b15fe04b")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -38679,141 +38812,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:RT4730")
-		(at 372.11 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fba0ef84-31ba-42a0-81c0-cefeae4602a0")
-		(property "Reference" "U5"
-			(at 375.5233 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RT4730"
-			(at 375.5233 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mainboard:Richtek_WLCSP-16_2.34x2.34mm_Layout4x4_P0.44mm"
-			(at 406.908 113.284 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "AMOLED power driver"
-			(at 388.112 110.998 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C425170"
-			(at 372.11 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "D4"
-			(uuid "75e66ead-679a-4a6d-a442-63533671abd3")
-		)
-		(pin "D1"
-			(uuid "3a785375-75f6-43cd-8547-b329fd8082d4")
-		)
-		(pin "C2"
-			(uuid "81c5f93b-457f-417a-82f1-2717e3ea04c8")
-		)
-		(pin "C4"
-			(uuid "2f89b5e1-f79e-432d-89f3-5bd654c08187")
-		)
-		(pin "C3"
-			(uuid "5f87dba4-f8ed-4462-b955-3c25579653ce")
-		)
-		(pin "D2"
-			(uuid "8baf6f53-84bf-4012-a9db-833b7cb3d33b")
-		)
-		(pin "D3"
-			(uuid "c91cad5f-5928-46f9-af63-98a5d972e129")
-		)
-		(pin "B3"
-			(uuid "7926d7ec-ddc4-4d65-83ff-598ee31415e8")
-		)
-		(pin "B4"
-			(uuid "b41f01d8-cea7-4e4d-939e-c3cb38192de7")
-		)
-		(pin "C1"
-			(uuid "f164819b-94fe-4684-92f0-7852c1dbd39b")
-		)
-		(pin "B2"
-			(uuid "df3c4452-f6ee-4256-a332-c7c86887c3bf")
-		)
-		(pin "A4"
-			(uuid "2bd3d4f9-1ce8-4deb-930e-74d1e80d9bb1")
-		)
-		(pin "A3"
-			(uuid "0a2bc869-56fc-4fe9-8560-ffa594b49e44")
-		)
-		(pin "A1"
-			(uuid "e6e00acb-6762-4179-bcab-fc844c26e90c")
-		)
-		(pin "A2"
-			(uuid "f87e9bc6-cdc2-46d7-a4bb-9bf456a0338a")
-		)
-		(pin "B1"
-			(uuid "d6324a6f-6353-497e-92ec-81366127317a")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U5")
 					(unit 1)
 				)
 			)
