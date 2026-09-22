@@ -6971,7 +6971,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mainboard:SGM38046"
+		(symbol "mainboard:RT4730"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6987,7 +6987,7 @@
 					)
 				)
 			)
-			(property "Value" "SGM38046"
+			(property "Value" "RT4730"
 				(at 9.398 -19.304 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6997,7 +6997,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Connector_CSP:SGMICRO_WLCSP-16_2x2mm_Layout4x4_P0.5mm"
+			(property "Footprint" "Package_CSP:Richtek_WLCSP-16_2.34x2.34mm_Layout4x4_P0.5mm"
 				(at 34.798 -24.384 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7008,8 +7008,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.sg-micro.com/rect/assets/9954e6d1-935c-482f-8466-1c5cac38fcaa/SGM38046.pdf"
-				(at 53.34 -24.892 0)
+			(property "Datasheet" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7020,7 +7020,7 @@
 				)
 			)
 			(property "Description" "AMOLED power driver"
-				(at 14.478 -22.098 0)
+				(at 16.002 -22.098 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -7030,7 +7030,7 @@
 					)
 				)
 			)
-			(symbol "SGM38046_0_0"
+			(symbol "RT4730_0_0"
 				(pin power_in line
 					(at -1.27 19.05 270)
 					(length 2.54)
@@ -7106,7 +7106,7 @@
 				(pin output line
 					(at -13.97 2.54 0)
 					(length 2.54)
-					(name "SW1"
+					(name "LX1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7178,7 +7178,7 @@
 				(pin output line
 					(at -13.97 0 0)
 					(length 2.54)
-					(name "SW2"
+					(name "LX2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7320,7 +7320,7 @@
 					)
 				)
 			)
-			(symbol "SGM38046_0_1"
+			(symbol "RT4730_0_1"
 				(rectangle
 					(start -11.43 16.51)
 					(end 11.43 -16.51)
@@ -29944,6 +29944,130 @@
 		)
 	)
 	(symbol
+		(lib_id "mainboard:RT4730")
+		(at 372.11 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b535c60-1f4c-4674-b7ef-1194560c7b76")
+		(property "Reference" "U5"
+			(at 375.5233 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RT4730"
+			(at 375.5233 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mainboard:Richtek_WLCSP-16_2.34x2.34mm_Layout4x4_P0.5mm"
+			(at 406.908 113.284 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "AMOLED power driver"
+			(at 388.112 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B4"
+			(uuid "3e7ce650-d88f-4f8d-8b94-3e0a39127da1")
+		)
+		(pin "B2"
+			(uuid "f25e5fd1-9a4a-411e-9786-fe152ccabddf")
+		)
+		(pin "B3"
+			(uuid "921a0edb-9e2d-4178-9dc7-95c719d84c4e")
+		)
+		(pin "A4"
+			(uuid "db494033-038a-44e2-8d2c-a504798c6b8f")
+		)
+		(pin "A3"
+			(uuid "82a5134d-5a0d-48e9-8b08-55521b4434d9")
+		)
+		(pin "B1"
+			(uuid "33043642-6a79-485b-9aa1-6fc9c92ad60b")
+		)
+		(pin "A1"
+			(uuid "4f7064b0-1379-4ec7-8922-355a7db5c2ea")
+		)
+		(pin "C3"
+			(uuid "64bc27e5-a8ff-4cfc-82d3-45baff03140e")
+		)
+		(pin "A2"
+			(uuid "36c35a55-d177-4fed-982c-3c17435dc7cf")
+		)
+		(pin "C2"
+			(uuid "da29dce0-136c-441e-8e26-4240afec97b8")
+		)
+		(pin "C1"
+			(uuid "feb7174a-da29-4d38-a36d-dcb25f197c66")
+		)
+		(pin "D3"
+			(uuid "f4656cd0-53d1-4fb4-95e9-f060211ba83f")
+		)
+		(pin "D2"
+			(uuid "dba00490-3710-4908-a359-4d7f276e87f5")
+		)
+		(pin "C4"
+			(uuid "024db7f0-b064-4de5-8b34-aeb4498b92c1")
+		)
+		(pin "D4"
+			(uuid "77736fdc-d372-4ba5-ab18-95ae53407f56")
+		)
+		(pin "D1"
+			(uuid "c5562b24-3f73-4e0f-800f-e8eac0d908e6")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 73.66 81.28 0)
 		(unit 1)
@@ -32418,130 +32542,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:SGM38046")
-		(at 372.11 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be689aa3-1970-4e01-b360-ece448e76805")
-		(property "Reference" "U8"
-			(at 375.5233 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SGM38046"
-			(at 375.5233 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "mainboard:SGMICRO_WLCSP-16_2x2mm_Layout4x4_P0.5mm"
-			(at 406.908 113.284 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.sg-micro.com/rect/assets/9954e6d1-935c-482f-8466-1c5cac38fcaa/SGM38046.pdf"
-			(at 425.45 113.792 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "AMOLED power driver"
-			(at 386.588 110.998 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B2"
-			(uuid "efa1e8c8-5736-43cb-8648-0f875d1fea62")
-		)
-		(pin "B3"
-			(uuid "4aad5a7a-c611-497b-b44c-6d9e0a615c6b")
-		)
-		(pin "D3"
-			(uuid "c1e51be2-236b-46ca-915d-044228dd21ff")
-		)
-		(pin "D2"
-			(uuid "677181b2-3358-4db0-b465-3c7c1e4a3867")
-		)
-		(pin "B4"
-			(uuid "624d495b-3d1e-47b7-af71-9d94e0ea40cc")
-		)
-		(pin "A2"
-			(uuid "7646119c-6a99-4781-a76e-c6a435428ff4")
-		)
-		(pin "A3"
-			(uuid "bf019f32-e04b-4533-80bb-541c1b61e338")
-		)
-		(pin "A4"
-			(uuid "5dff2e25-9ca6-4182-b456-bd98f0a01e16")
-		)
-		(pin "D4"
-			(uuid "50454dee-4604-4033-af65-644fb23c54aa")
-		)
-		(pin "C2"
-			(uuid "f2af9590-a648-4e22-9499-ae985b543e9d")
-		)
-		(pin "B1"
-			(uuid "a84ba479-ac52-42db-8f34-9ebeea16a9d7")
-		)
-		(pin "C1"
-			(uuid "38321897-0953-4f77-8bcd-9e5335952d7d")
-		)
-		(pin "A1"
-			(uuid "d27d9fee-911f-48dd-8936-4542b8667a80")
-		)
-		(pin "C4"
-			(uuid "5849fe0e-cedb-4381-973b-8c5229f99d40")
-		)
-		(pin "D1"
-			(uuid "59ff55a7-1374-4c1c-8e6e-048d3ceffdb3")
-		)
-		(pin "C3"
-			(uuid "68934cf2-62cf-46c3-a87e-1d98b15fe04b")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U8")
 					(unit 1)
 				)
 			)
