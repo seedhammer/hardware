@@ -1467,7 +1467,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1d0a3e64-8cee-485f-88a2-8c2b14304918")
-		(at 108.5 54.575 180)
+		(at 108.45 54.575 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C32"
@@ -8732,7 +8732,7 @@
 	(footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 		(layer "F.Cu")
 		(uuid "78655139-7949-4eff-a2ad-548470a05078")
-		(at 99.85 63.75 180)
+		(at 99.7 63.75 180)
 		(descr "SMD2016/4, Crystal, 2.0x1.6mm package, SMD, http://www.q-crystal.com/upload/5/2015552223166229.pdf")
 		(property "Reference" "Y2"
 			(at 0 -2 0)
@@ -11021,7 +11021,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "80babcdc-9603-4bcd-bbac-3f357d136854")
-		(at 114.525 54.225)
+		(at 114.575 54.225)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -25546,14 +25546,14 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+	(footprint "mainboard:USB_C_Receptacle_GCT_USB4505-xx-A_16P_MidMnt_Horizontal"
 		(layer "B.Cu")
 		(uuid "2e8f5ad8-d7bc-4441-b3cd-0985aa784582")
 		(at 78.67 66.15 90)
-		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
-		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
+		(descr "USB 2.0 Type C Receptacle, GCT, 16P, middle mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
+		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4505-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J9"
-			(at -6.15 0.03 0)
+			(at 0 5.5 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "7420e9d0-ed39-4b86-8624-216f72826831")
@@ -25565,7 +25565,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "USB4105-GF-A-060"
+		(property "Value" "USB4505-03-0-A"
 			(at 0 -5 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25578,7 +25578,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4105.pdf"
+		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4505.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25606,12 +25606,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3025063"
+		(property "LCSC" "C6582300"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d8d06ac0-8046-4aa0-bae5-066cc559e3a0")
+			(uuid "fc01b51f-a9ae-485c-ba17-a30c6b24b341")
 			(effects
 				(font
 					(size 1 1)
@@ -25625,7 +25625,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ac68fefc-c57f-4280-b504-ba60200e4f55")
+			(uuid "4282b6c6-fb3c-4d3f-92dc-84c823d632ee")
 			(effects
 				(font
 					(size 1 1)
@@ -25639,7 +25639,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9a2df4b2-0ded-4da3-b14f-8b2c850a2dd5")
+			(uuid "93def784-2ee5-4b61-98f7-701bd00dc3a6")
 			(effects
 				(font
 					(size 1 1)
@@ -25649,10 +25649,11 @@
 			)
 		)
 		(property "Label" "DATA"
-			(at 0 5.43 90)
+			(at 0 0 90)
 			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "b444b341-5f1f-457c-a344-631d687a37cd")
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cae5f613-633e-47e5-b1ca-ae97ebf085cf")
 			(effects
 				(font
 					(size 1 1)
@@ -25704,6 +25705,17 @@
 			)
 			(layer "Dwgs.User")
 			(uuid "fc466f77-643b-4b8c-91d6-9a52e398aabf")
+		)
+		(fp_rect
+			(start -3.7 3.1)
+			(end 3.5 -3.7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "84b222be-03f6-4d2a-8556-9adac51562f4")
 		)
 		(fp_rect
 			(start -5.32 4.76)
@@ -25975,7 +25987,7 @@
 			(uuid "50aeb92c-a6a7-40d2-a9b8-29a681cfff8d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4505-xx-A_16P_MidMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25984,6 +25996,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/a/proj/seedhammer/hardware/lib/USB4510-03-1-A.stp"
+			(offset
+				(xyz 0 -3.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -28630,6 +28653,46 @@
 		(layer "F.Cu")
 		(net "Net-(U1-XTAL_N)")
 		(uuid "8714f086-e95c-43c8-898f-946cf63945a9")
+	)
+	(segment
+		(start 100.08 62.88)
+		(end 100.08 61.7125)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(U9-XIN)")
+		(uuid "38705c40-004d-4e10-bbcd-aebfea61dbad")
+	)
+	(segment
+		(start 100.4 63.2)
+		(end 100.08 62.88)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(U9-XIN)")
+		(uuid "84da0aad-d7ed-4b14-893a-04b4afd55aba")
+	)
+	(segment
+		(start 99 64.3)
+		(end 99.15 64.3)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(U9-XOUT)")
+		(uuid "b6f3774c-6290-47af-b740-a0e4dfc4440e")
+	)
+	(segment
+		(start 99.15 64.3)
+		(end 99.68 63.77)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(U9-XOUT)")
+		(uuid "ce1fa010-75d2-4590-8551-1da564ed4c50")
+	)
+	(segment
+		(start 99.68 63.77)
+		(end 99.68 61.7125)
+		(width 0.15)
+		(layer "F.Cu")
+		(net "Net-(U9-XOUT)")
+		(uuid "f25ace81-28cd-4261-88db-292e962bba43")
 	)
 	(segment
 		(start 103.9 57.25)
