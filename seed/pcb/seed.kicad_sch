@@ -23332,7 +23332,7 @@
 				)
 			)
 		)
-		(property "Value" "USB4105-GF-A-060"
+		(property "Value" "USB4505-03-0-A"
 			(at 119.38 283.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23342,7 +23342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "mainboard:USB_C_Receptacle_GCT_USB4505-xx-A_16P_MidMnt_Horizontal"
 			(at 123.19 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -23353,7 +23353,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4105.pdf"
+		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4505.pdf"
 			(at 123.19 303.53 0)
 			(hide yes)
 			(show_name no)
@@ -23375,7 +23375,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C3025063"
+		(property "LCSC" "C6582300"
 			(at 119.38 303.53 0)
 			(hide yes)
 			(show_name no)
