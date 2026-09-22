@@ -10404,6 +10404,12 @@
 		(uuid "1f783f7f-92c3-4a3b-8fc2-19ba44c565ec")
 	)
 	(junction
+		(at 335.28 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fc3d511-94ea-4d6d-89b2-40d57fcea8d5")
+	)
+	(junction
 		(at 134.62 368.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10528,6 +10534,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b0485be-e4e0-4170-bee8-a797c76a77a2")
+	)
+	(junction
+		(at 386.08 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ba4ecd0-3147-40ed-833d-c75c5d87b837")
 	)
 	(junction
 		(at 370.84 57.15)
@@ -10756,6 +10768,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c398f00d-db08-4af6-abda-25b4739866d9")
+	)
+	(junction
+		(at 345.44 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c45fff0c-8d67-4482-9eb0-edcdc4f1576e")
 	)
 	(junction
 		(at 279.4 45.72)
@@ -11519,7 +11537,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 165.1) (xy 355.6 167.64)
+			(xy 335.28 166.37) (xy 335.28 167.64)
 		)
 		(stroke
 			(width 0)
@@ -12179,6 +12197,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 167.64) (xy 375.92 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ed4fd6-42ef-4eec-9bf6-72a6e54e5403")
+	)
+	(wire
+		(pts
 			(xy 355.6 167.64) (xy 355.6 168.91)
 		)
 		(stroke
@@ -12206,6 +12234,16 @@
 			(type default)
 		)
 		(uuid "3659144b-6989-4d13-b7ed-f99fea964925")
+	)
+	(wire
+		(pts
+			(xy 345.44 167.64) (xy 345.44 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381b8200-76b0-4181-89c2-ceb34b4bb75c")
 	)
 	(wire
 		(pts
@@ -13039,7 +13077,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 165.1) (xy 375.92 167.64)
+			(xy 386.08 165.1) (xy 386.08 167.64)
 		)
 		(stroke
 			(width 0)
@@ -14319,6 +14357,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 168.91) (xy 386.08 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b082ecf6-7713-4ae8-b2bb-149934798853")
+	)
+	(wire
+		(pts
 			(xy 372.11 289.56) (xy 372.11 290.83)
 		)
 		(stroke
@@ -14959,6 +15007,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 167.64) (xy 335.28 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ecccd2-029b-4cba-a765-69cc44d31223")
+	)
+	(wire
+		(pts
 			(xy 132.08 68.58) (xy 138.43 68.58)
 		)
 		(stroke
@@ -15156,6 +15214,16 @@
 			(type default)
 		)
 		(uuid "ded793d5-409e-4a58-87c9-7cba8058cecb")
+	)
+	(wire
+		(pts
+			(xy 335.28 167.64) (xy 355.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6e1684-58b3-47fb-978a-d427dc8122a7")
 	)
 	(wire
 		(pts
@@ -16910,6 +16978,96 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 410.21 231.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0983a35a-1b76-419f-9141-35ff3cc9f501")
+		(property "Reference" "C59"
+			(at 403.86 231.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "56p"
+			(at 406.4 231.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 410.21 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/173494-GRM1555C1H560FA01D/C162113"
+			(at 410.21 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 410.21 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C162113"
+			(at 410.21 231.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ce96fc54-5099-4d63-a041-c77403a51b76")
+		)
+		(pin "1"
+			(uuid "5352545c-255e-4b99-bc71-8066109eac7e")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -18800,6 +18958,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 386.08 171.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14b9d413-a423-4a65-81df-190c02ffe534")
+		(property "Reference" "C84"
+			(at 383.159 170.2816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 383.159 172.593 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 386.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/181538-CL03A105MP3NSNC/C170153"
+			(at 386.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 386.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C170153"
+			(at 386.08 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 386.08 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 386.08 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3356ddde-4c55-4727-ace7-31b99fb8ba60")
+		)
+		(pin "2"
+			(uuid "0e743367-a944-4c9f-aef0-b7d9ede558ee")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 279.4 133.35 0)
 		(unit 1)
@@ -18971,7 +19242,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 375.92 165.1 0)
+		(at 386.08 165.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18982,7 +19253,7 @@
 		(fields_autoplaced yes)
 		(uuid "15bdb094-1d58-4165-ac82-7ec2e91fe9e3")
 		(property "Reference" "#PWR075"
-			(at 375.92 168.91 0)
+			(at 386.08 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18993,7 +19264,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 375.92 160.02 0)
+			(at 386.08 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19003,7 +19274,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 375.92 165.1 0)
+			(at 386.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19014,7 +19285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 375.92 165.1 0)
+			(at 386.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19025,7 +19296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 375.92 165.1 0)
+			(at 386.08 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19749,7 +20020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 410.21 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -19760,7 +20031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/358705-GRM0335C1H560FA01D/C384999"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/173494-GRM1555C1H560FA01D/C162113"
 			(at 410.21 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -19782,7 +20053,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C384999"
+		(property "LCSC" "C162113"
 			(at 410.21 215.9 90)
 			(hide yes)
 			(show_name no)
@@ -20476,7 +20747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 396.24 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -20487,7 +20758,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/358674-GRM0335C1H181FA01D/C384968"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/435890-GCM1555C1H181FA16D/C437435"
 			(at 396.24 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -20509,7 +20780,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C384968"
+		(property "LCSC" "C437435"
 			(at 396.24 219.71 90)
 			(hide yes)
 			(show_name no)
@@ -20893,6 +21164,99 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 417.83 231.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b270738-dcab-4ae2-8f9b-c70c53ad3361")
+		(property "Reference" "R15"
+			(at 420.37 229.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8k"
+			(at 420.37 232.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 417.83 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/FOJAN-FRC0402F1801TS/C2909310"
+			(at 417.83 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 417.83 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2909310"
+			(at 417.83 231.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3e3acd71-0f42-4fe2-886a-720383e4790e")
+		)
+		(pin "1"
+			(uuid "809e265c-9ba1-4fa9-8ea5-6fdaf76c6d50")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -22522,118 +22886,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 375.92 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3afdc380-3083-4045-a072-03098318e19d")
-		(property "Reference" "C50"
-			(at 378.841 170.2816 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 378.841 172.593 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 375.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/397154-GRM155R61A106ME11D/C408132"
-			(at 375.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 375.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C408132"
-			(at 375.92 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 375.92 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 375.92 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4de35f7b-6a57-4fe2-ac16-4733cad16779")
-		)
-		(pin "2"
-			(uuid "e45c0559-21f2-4b55-9166-8898a2579fe7")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -25772,6 +26024,119 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 375.92 171.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "605b48bc-95af-483e-82bf-348c05d7260c")
+		(property "Reference" "C78"
+			(at 372.999 170.2816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 372.999 172.593 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 375.92 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/181538-CL03A105MP3NSNC/C170153"
+			(at 375.92 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 375.92 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C170153"
+			(at 375.92 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 375.92 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 375.92 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c2ba0f1-57e5-42ce-9e6d-ad5f43ed880f")
+		)
+		(pin "2"
+			(uuid "19080959-66cc-42f0-b3cb-1d2f2e82800c")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 410.21 87.63 0)
 		(unit 1)
 		(body_style 1)
@@ -25935,6 +26300,97 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 396.24 227.33 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "672ae6d1-149d-4875-86b8-86ee071cd4f4")
+		(property "Reference" "C56"
+			(at 396.24 233.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "181p"
+			(at 396.24 231.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 396.24 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/435890-GCM1555C1H181FA16D/C437435"
+			(at 396.24 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 406.4 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C437435"
+			(at 396.24 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e91239ee-a82f-41ac-9b67-932f8c8bb508")
+		)
+		(pin "1"
+			(uuid "c8afb62b-d915-4ab2-bde8-01a359c435b9")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -27114,7 +27570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 410.21 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -27125,7 +27581,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0201FRNPO9BN330/C541263"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/173477-GRM1555C1H330FA01D/C162096"
 			(at 410.21 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -27147,7 +27603,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C541263"
+		(property "LCSC" "C162096"
 			(at 410.21 223.52 90)
 			(hide yes)
 			(show_name no)
@@ -28599,97 +29055,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 396.24 227.33 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8aed6eea-35eb-44df-85dc-d2fe260eefc1")
-		(property "Reference" "C56"
-			(at 396.24 233.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "181p"
-			(at 396.24 231.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 396.24 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/358674-GRM0335C1H181FA01D/C384968"
-			(at 396.24 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 406.4 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C384968"
-			(at 396.24 227.33 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d1922bd0-aeca-4827-87ab-8bf0f8a8dc7b")
-		)
-		(pin "1"
-			(uuid "5a9504fd-47ef-4f40-aaab-df0571c55b3c")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 314.96 311.15 0)
 		(unit 1)
 		(body_style 1)
@@ -29256,8 +29621,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 335.28 171.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f6083f6-ae3b-4e8f-9231-6fa41fd55900")
+		(property "Reference" "C57"
+			(at 332.359 170.2816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 332.359 172.593 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 335.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/397154-GRM155R61A106ME11D/C408132"
+			(at 335.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 335.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C408132"
+			(at 335.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 335.28 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 335.28 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e03f557b-71ea-4014-91c5-b6592d2b8f75")
+		)
+		(pin "2"
+			(uuid "1952c3e7-de88-4ccc-b96e-212442a599f9")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 355.6 165.1 0)
+		(at 335.28 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29268,7 +29746,7 @@
 		(fields_autoplaced yes)
 		(uuid "9010c1ed-2db8-4ce4-b82e-8b9612a813fc")
 		(property "Reference" "#PWR074"
-			(at 355.6 168.91 0)
+			(at 335.28 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29279,7 +29757,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 355.6 160.02 0)
+			(at 335.28 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29289,7 +29767,7 @@
 			)
 		)
 		(property "Footprint" "Espressif:ESP32-P4"
-			(at 355.6 165.1 0)
+			(at 335.28 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29300,7 +29778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 355.6 165.1 0)
+			(at 335.28 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29311,7 +29789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 355.6 165.1 0)
+			(at 335.28 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32055,6 +32533,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 335.28 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6afae3f-9331-4274-9fd7-a427392dde9c")
+		(property "Reference" "#PWR086"
+			(at 335.28 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Espressif:ESP32-P4"
+			(at 335.28 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 335.28 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5497059f-d7a3-43a7-a5af-bb86c4d4a56c")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 222.25 309.88 0)
 		(unit 1)
 		(body_style 1)
@@ -32204,6 +32760,84 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 386.08 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb9d19a3-ab1d-4b58-a116-77679b4ff6e9")
+		(property "Reference" "#PWR087"
+			(at 386.08 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 386.08 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Espressif:ESP32-P4"
+			(at 386.08 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f8781d0-db8f-4537-a85e-728930213306")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -32374,96 +33008,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0119")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 410.21 231.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc852b60-dee3-4afc-ad6f-3702ff2d76cc")
-		(property "Reference" "C57"
-			(at 403.86 231.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56p"
-			(at 406.4 231.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 410.21 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/358705-GRM0335C1H560FA01D/C384999"
-			(at 410.21 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 410.21 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C384999"
-			(at 410.21 231.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6e63c992-486c-4504-8375-32c702152823")
-		)
-		(pin "1"
-			(uuid "8faa86eb-5416-4b6d-983a-b45717e27eaf")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -34750,6 +35294,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 345.44 171.45 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d42d5097-3823-4720-a20c-6bc31ef69858")
+		(property "Reference" "C53"
+			(at 342.519 170.2816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 342.519 172.593 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 345.44 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/397154-GRM155R61A106ME11D/C408132"
+			(at 345.44 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 345.44 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C408132"
+			(at 345.44 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 345.44 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 345.44 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5df9bc77-bccf-4204-923e-a4a8dc08dfe8")
+		)
+		(pin "2"
+			(uuid "d3c92544-8124-4819-a791-7c238c97bef7")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 257.81 274.32 0)
 		(unit 1)
@@ -35575,99 +36232,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 417.83 231.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbf23682-9a7c-40b8-b410-b54c2eac4b9a")
-		(property "Reference" "R9"
-			(at 420.37 229.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.8k"
-			(at 420.37 232.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 417.83 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/479931-0201WMJ0182TEE/C473538"
-			(at 417.83 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 417.83 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C473538"
-			(at 417.83 231.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cf9f5c9e-39f4-414c-b299-97a83121c213")
-		)
-		(pin "1"
-			(uuid "c21adb25-9b60-46b0-9b39-c28472680044")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -37867,7 +38431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 417.83 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -37878,7 +38442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/479931-0201WMJ0182TEE/C473538"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/FOJAN-FRC0402F1801TS/C2909310"
 			(at 417.83 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -37900,7 +38464,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C473538"
+		(property "LCSC" "C2909310"
 			(at 417.83 215.9 0)
 			(hide yes)
 			(show_name no)
@@ -38946,6 +39510,84 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 345.44 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe560878-b427-4aa8-9e7e-80da50a562b6")
+		(property "Reference" "#PWR085"
+			(at 345.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Espressif:ESP32-P4"
+			(at 345.44 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35d4c469-89e0-4ed3-83a6-fc9c79abd258")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
