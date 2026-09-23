@@ -12462,6 +12462,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 312.42) (xy 287.02 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab0a546-8170-471c-a639-217fc545486f")
+	)
+	(wire
+		(pts
 			(xy 238.76 93.98) (xy 255.27 93.98)
 		)
 		(stroke
@@ -20344,6 +20354,84 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 312.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25054f6c-4bd3-491e-8406-ad72561eeb38")
+		(property "Reference" "#PWR0145"
+			(at 298.45 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 310.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 292.1 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbeaa16c-375f-40a4-be33-3a49e8e7f8d2")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -29141,85 +29229,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 278.13 312.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dda2ca7-4f1e-4973-9c88-3a6623538849")
-		(property "Reference" "#PWR0145"
-			(at 284.48 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 312.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 312.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25c91a80-e583-4974-93d7-fadaf65ccb7f")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 170.18 67.31 0)
 		(unit 1)
@@ -32549,6 +32558,97 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 289.56 312.42 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbd27ae6-3fb8-4890-b041-9b66d5d8990f")
+		(property "Reference" "R9"
+			(at 289.56 317.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 289.56 314.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 289.56 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/53304359-PF01WMF4702TEE/C50670294"
+			(at 289.56 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 289.56 312.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C50670294"
+			(at 289.56 312.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aeae874e-2d46-4b96-8c3e-e465df568b86")
+		)
+		(pin "1"
+			(uuid "ec007ef0-c946-4497-982f-1836de90c3d3")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R9")
 					(unit 1)
 				)
 			)
