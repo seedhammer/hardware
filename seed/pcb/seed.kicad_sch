@@ -5121,10 +5121,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Switch:SW_Push_Shielded"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5135,7 +5132,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 4.318 2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5145,8 +5142,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "SW_Push_Shielded"
+				(at 0 4.572 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5177,7 +5174,7 @@
 					)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5188,7 +5185,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "ki_keywords" "switch normally-open pushbutton momentary"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5199,7 +5196,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(symbol "SW_Push_Shielded_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -5217,6 +5214,30 @@
 					)
 					(stroke
 						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 3.048 2.54) (xy 3.048 -1.143) (xy -3.048 -1.143) (xy -3.048 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -5275,6 +5296,37 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SW_Push_Shielded_1_1"
+				(rectangle
+					(start -3.048 2.54)
+					(end 3.048 -1.27)
+					(stroke
+						(width -0.0254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -25761,6 +25813,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 368.3 332.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f00ba4c-2d2d-4f81-a13d-a02d859614e3")
+		(property "Reference" "#PWR0135"
+			(at 368.3 339.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.3 337.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.3 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.3 332.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "283af7ee-68ca-4bac-9e6c-ee73be7173b7")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 72.39 147.32 90)
 		(unit 1)
@@ -37947,7 +38077,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Switch:SW_Push_Shielded")
 		(at 368.3 328.93 0)
 		(unit 1)
 		(body_style 1)
@@ -37978,7 +38108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUL_EVQPUC"
+		(property "Footprint" "mainboard:Panasonic_EVQP4"
 			(at 368.3 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -37989,7 +38119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industry.panasonic.com/global/en/downloads?part_no=EVQPUC02K"
+		(property "Datasheet" "https://industry.panasonic.com/global/en/downloads?tab=catalog&series_cd=3463"
 			(at 368.3 323.85 0)
 			(hide yes)
 			(show_name no)
@@ -38000,7 +38130,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic push-button switch, two contact pins and shield pin(s)"
 			(at 368.3 328.93 0)
 			(hide yes)
 			(show_name no)
@@ -38057,6 +38187,9 @@
 		)
 		(pin "2"
 			(uuid "ec4fe122-4161-4062-b8fe-1343ee5545c1")
+		)
+		(pin "SH"
+			(uuid "0bddaa4b-5fee-4f49-adcc-82351f89a503")
 		)
 		(instances
 			(project "seed"
