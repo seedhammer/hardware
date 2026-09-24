@@ -301,6 +301,14 @@
         ""
       ],
       [
+        "multiple_net_names|4318000|1816100|5c06b722-e22c-4ea8-b5ae-7b4dcca74a15|51afb758-f25a-4455-9ae9-9509a0ca903e|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680",
+        ""
+      ],
+      [
+        "multiple_net_names|4356100|1816100|da361177-ae34-4e73-a65a-2d5a6fcdcaaa|06eabe7f-21e4-4985-8883-3c486448a98f|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680",
+        ""
+      ],
+      [
         "pin_to_pin|1130300|850900|944f3be3-9423-40a2-89a4-c47c9f085952|38017022-4310-4268-aef5-e6c3cd5797b4|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680",
         "According to datasheet"
       ],
@@ -598,7 +606,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/seed_wip1.step",
+      "step": "../../../../../Downloads/seed_wip3.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -777,7 +785,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "L1-7,H1-4,BT1,R1-15,R18-26,R44-46,R55-57,#FLG1-4,U1-14,C1-84,SW1-2,D1-3,D6,#PWR1-151,Y1-2,J1-5,J9-10",
+    "used_designators": "L1-7,#FLG1-4,BT1,R1-29,R44-46,R55-57,H1-4,U1-15,C1-86,SW1-2,D1-3,D6,#PWR1-153,Y1-2,J1-5,J9-10",
     "variants": []
   },
   "sheets": [
