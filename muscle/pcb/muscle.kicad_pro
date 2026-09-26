@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.5,
+          "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -305,6 +305,10 @@
       [
         "pin_to_pin|1320800|2933700|1eff54e3-66e7-46df-8d14-cd7a4b1039d7|65513b14-03f1-44ab-94a5-e12c17a9e969|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680",
         "VDC_OUT wrongly marked as output"
+      ],
+      [
+        "power_pin_not_driven|3149600|635000|da7a382c-c2cc-4ba2-8140-7aa2980a434d|00000000-0000-0000-0000-000000000000|/e4f777a6-82c9-4514-a2d3-4bfa04299680|/e4f777a6-82c9-4514-a2d3-4bfa04299680|",
+        ""
       ]
     ],
     "meta": {
@@ -620,7 +624,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "muscle2-light.step",
+      "step": "../../../../../Downloads/muscle-nopd1.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -793,7 +797,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "J3,J10,RV1-7,Q1-2,Q4,Q6-11,D1-9,#PWR5,#PWR9,#PWR15-16,#PWR18,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-92,#PWR94-96,#PWR99,#PWR109-110,#PWR112,#PWR114-117,#PWR120-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-154,U3-5,U7-9,U11-12,C5,C8,C31-38,C40-44,C47-52,C55,C61-63,C66-74,JP8-14,R1,R9-11,R14-15,R20-21,R24-26,R28-36,R38-39,R43-50,R54-60,H1-5,L2-3,#FLG3-9,TP3-6",
+    "used_designators": "J3,J10,RV1-7,Q1-2,Q4,Q6-11,D1-9,#PWR5,#PWR9,#PWR15-16,#PWR18,#PWR44,#PWR46,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR109-110,#PWR112,#PWR114-117,#PWR120-124,#PWR126,#PWR128-130,#PWR134,#PWR136-144,#PWR146-148,#PWR150-158,U3-5,U7-9,U11-12,U17,C5,C8,C31-38,C40-44,C47-52,C55,C60-63,C66-74,C79-81,JP5-6,JP8-14,R1,R9-11,R14-15,R20-21,R24-26,R28-36,R38-39,R41,R43-51,R54-60,H1-6,L2-3,#FLG3-11,TP3-7,TP10-11",
     "variants": []
   },
   "sheets": [

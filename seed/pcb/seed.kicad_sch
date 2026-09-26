@@ -23363,7 +23363,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://file.x-semi.com/xtx_file/2025/09/628259510226038784/XTX_SPI_NOR_XT25F128F-W_Rev 1.5.pdf"
 			(at 78.74 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -23385,7 +23385,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2441427"
+		(property "LCSC" "C3202839"
 			(at 78.74 184.15 0)
 			(hide yes)
 			(show_name no)
