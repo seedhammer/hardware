@@ -4337,7 +4337,7 @@
 				)
 			)
 		)
-		(property "Value" "D_TVS_Small"
+		(property "Value" "~"
 			(at 0 1.4 0)
 			(layer "F.Fab")
 			(uuid "04c0947e-8579-436c-b87a-6c6e78283e4e")
@@ -13403,6 +13403,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3235557"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "444c1ee8-63a0-49d7-85a0-111e9838ee3c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -23998,7 +24011,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+		(property "Datasheet" "https://file.x-semi.com/xtx_file/2025/09/628259510226038784/XTX_SPI_NOR_XT25F128F-W_Rev 1.5.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24032,7 +24045,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2441427"
+		(property "LCSC" "C3202839"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
