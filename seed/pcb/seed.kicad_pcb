@@ -4782,7 +4782,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "38b266a1-0b9d-483f-8c0b-7f12dd832db8")
-		(at 120.55 67.565)
+		(at 120.55 64.675)
 		(descr "Hirose 0.30mm Pitch FFC/FPC, FH26-31S-0.3SHW, 31 Circuits (https://www.hirose.com/en/product/document?clcode=&productname=&series=FH26&documenttype=Catalog&lang=en&documentid=D49355_en)")
 		(tags "connector Hirose  horizontal")
 		(property "Reference" "U10"
@@ -13354,7 +13354,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-583-8"
 		(layer "F.Cu")
 		(uuid "93624f8e-06d6-44a7-82e8-7eff52ad680b")
-		(at 84.46 53.95)
+		(at 84.46 51.15)
 		(descr "https://www.ti.com/lit/ds/symlink/tps62933.pdf")
 		(tags "SOT-583-8")
 		(property "Reference" "U8"
@@ -23251,7 +23251,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "fd5d7629-e317-45a0-95b8-6e7282e0fef0")
-		(at 106.52 54.92 90)
+		(at 106.52 77.095 90)
 		(descr "0.5mm Pitch, 1.0mm Height, Top and Bottom Contact Back Flip FPC/FFC Connector (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=FH34SRJ&documenttype=Catalog&lang=en&documentid=en_FH34_CAT)")
 		(tags "conn hirose top and bottom")
 		(property "Reference" "U6"
@@ -24428,7 +24428,7 @@
 			(at 0 5.5 270)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "68530947-289b-4433-a97b-e6ce7649d67b")
+			(uuid "13cdf1dc-d2ca-43dc-b5b3-3d25dbe62790")
 			(effects
 				(font
 					(size 1 1)
@@ -24441,7 +24441,7 @@
 			(at 0 -5 270)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "5131d623-bace-4565-b097-399ff1208d91")
+			(uuid "2016e021-fb92-426e-9a68-5c37eaf9b277")
 			(effects
 				(font
 					(size 1 1)
@@ -24455,7 +24455,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b8bba3aa-6495-4e85-bd0e-c24079e5413f")
+			(uuid "a7b8c5c3-f921-4d06-9df0-acba1b9e5165")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24469,7 +24469,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9b219bd5-1f5b-43fb-ba1d-0d1d0cbf7291")
+			(uuid "c419aba8-3681-4266-abd4-37ea12470adb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24538,14 +24538,6 @@
 		(path "/406be197-5403-446e-9694-db91d0365bf5")
 		(sheetname "/")
 		(sheetfile "seed.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
-					"A6" "B6" "A8" "B8"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24579,8 +24571,8 @@
 			(uuid "fc466f77-643b-4b8c-91d6-9a52e398aabf")
 		)
 		(fp_line
-			(start 4.62 -3.7)
-			(end -4.62 -3.7)
+			(start 4.62 -4)
+			(end -4.62 -4)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -24589,7 +24581,7 @@
 			(uuid "d3ba14fe-4d12-45b8-83cf-807218f6e268")
 		)
 		(fp_line
-			(start 4.62 -3.7)
+			(start 4.62 -4)
 			(end 4.62 3.1)
 			(stroke
 				(width 0.05)
@@ -24610,7 +24602,7 @@
 		)
 		(fp_line
 			(start -4.62 3.1)
-			(end -4.62 -3.7)
+			(end -4.62 -4)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -24941,17 +24933,17 @@
 			)
 		)
 	)
-	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+	(footprint "mainboard:USB_C_Receptacle_GCT_USB4505-xx-A_16P_MidMnt_Horizontal"
 		(layer "B.Cu")
-		(uuid "7ac2e417-36c5-472f-a3ab-1c600affdee2")
-		(at 119.8 80.905 180)
-		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
-		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
+		(uuid "81f407f1-b240-4e62-a84c-3af4179cce30")
+		(at 118.225 50.975)
+		(descr "USB 2.0 Type C Receptacle, GCT, 16P, middle mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
+		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4505-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J10"
-			(at -6.1 0.005 90)
+			(at 0 5.5 180)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "55b05f99-d050-4544-bf40-b6be8bb593b1")
+			(uuid "30527bdf-f53d-4a5b-ae6a-25a3d2b5744a")
 			(effects
 				(font
 					(size 1 1)
@@ -24960,11 +24952,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "USB4105-GF-A-060"
-			(at 0 -5 0)
+		(property "Value" "USB4505-03-0-A"
+			(at 0 -5 180)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "d05e9516-b1f1-4146-abe2-3a72ca2a5c76")
+			(uuid "6bceb12f-6ae0-43ba-b26d-2b7084e3d779")
 			(effects
 				(font
 					(size 1 1)
@@ -24973,12 +24965,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4105.pdf"
-			(at 0 0 0)
+		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4505.pdf"
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c094dbb1-044b-4eba-9180-4e684c825872")
+			(uuid "7c192fd2-3475-4ed2-8aa6-d99595e7149a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24988,11 +24980,11 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1308c3a5-da8a-4a79-90cf-afaf0bf39ed4")
+			(uuid "00a04de1-9737-4250-91c2-c82a98698451")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25001,12 +24993,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3025063"
+		(property "LCSC" "C6582300"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e6af4ab6-1135-4a2c-9d95-3ab5b9336bed")
+			(uuid "d8319323-154d-428a-9dd8-8c4524a2b64c")
 			(effects
 				(font
 					(size 1 1)
@@ -25020,7 +25012,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "09ce7bce-b879-4710-8457-be72fdce3885")
+			(uuid "8370b2cd-5296-495d-b957-4ee824755c2d")
 			(effects
 				(font
 					(size 1 1)
@@ -25034,7 +25026,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6b9997ca-06d0-42ab-94d3-a19a00c93726")
+			(uuid "d5cdea01-1b83-4d56-9cd5-e1ff89c15177")
 			(effects
 				(font
 					(size 1 1)
@@ -25043,11 +25035,12 @@
 				(justify mirror)
 			)
 		)
-		(property "Label" "DEBUG"
-			(at 0 5.405 180)
+		(property "Label" "DATA"
+			(at 0 0 180)
 			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "6e45cb5d-82e5-4b0c-a56d-05e3bf02dbf6")
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "93b504ab-7f3b-4b55-ab5c-224af653ea9e")
 			(effects
 				(font
 					(size 1 1)
@@ -25057,29 +25050,11 @@
 			)
 		)
 		(property ki_fp_filters "USB*C*Receptacle*")
-		(path "/fc644a15-3f6d-45fa-8cb4-f422a95adb16")
+		(path "/45ef0118-ac7f-4a21-ba31-67b6c5fb665d")
 		(sheetname "/")
 		(sheetfile "seed.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
-					"A6" "B6" "A8" "B8"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 4.67 0.1)
-			(end 4.67 1.8)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "43821928-f0b9-40a5-8099-f8de0c26a743")
-		)
 		(fp_line
 			(start -4.67 0.1)
 			(end -4.67 1.8)
@@ -25088,45 +25063,139 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b4691639-670d-47d6-91ab-8cfd99b12062")
+			(uuid "9ad16b25-d540-448d-80fe-e301de0864c0")
 		)
 		(fp_line
-			(start 5 -3.675)
-			(end -5 -3.675)
+			(start 4.67 0.1)
+			(end 4.67 1.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "03d6b7cd-07b9-49f6-924d-d17a3dec5ac6")
+		)
+		(fp_line
+			(start 5 -3.545)
+			(end -5 -3.545)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "4ed39c2e-f73c-4e37-b362-96b4c05014ae")
+			(uuid "a8b9999f-ad3b-46e8-bdcd-bbc154da81f8")
+		)
+		(fp_line
+			(start -4.62 3.1)
+			(end -4.62 -4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2868c09a-8837-4ae5-a2da-a30c49794bf7")
+		)
+		(fp_line
+			(start -3.5 3.1)
+			(end 3.5 3.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c8a7a8cb-ef73-472d-8284-0c2009b3dcae")
+		)
+		(fp_line
+			(start 4.62 -4)
+			(end -4.62 -4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3e519433-0e27-478c-8b32-5586388e7486")
+		)
+		(fp_line
+			(start 4.62 -4)
+			(end 4.62 3.1)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3230bc02-750e-470b-a639-fb075dbeacd3")
+		)
+		(fp_curve
+			(pts
+				(xy -4.62 3.1) (xy -4.62 3.8) (xy -4.1 3.7) (xy -4 3.5)
+			)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d0d077a-3dc0-4958-a3bd-c4c8e453a4f8")
+		)
+		(fp_curve
+			(pts
+				(xy -4 3.5) (xy -3.9 3.3) (xy -3.9 3.1) (xy -3.5 3.1)
+			)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c58d45a0-65cd-4b62-b1be-488e380ac90c")
+		)
+		(fp_curve
+			(pts
+				(xy 4 3.5) (xy 3.9 3.3) (xy 3.9 3.1) (xy 3.5 3.1)
+			)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d183d541-c14a-4b3f-8056-42bf4a0555cf")
+		)
+		(fp_curve
+			(pts
+				(xy 4.62 3.1) (xy 4.62 3.8) (xy 4.1 3.7) (xy 4 3.5)
+			)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "85f3d111-c431-4aee-aee6-e1e202d210c0")
 		)
 		(fp_rect
-			(start -5.32 4.76)
-			(end 5.32 -4.18)
+			(start -6.6 4.76)
+			(end 6.6 -4.045)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "927097ea-7354-488d-93bb-097f9cb87a06")
+			(uuid "ea6ac315-59d3-4978-9fe8-0b4f4bbe7a4c")
 		)
 		(fp_rect
-			(start -4.47 3.675)
-			(end 4.47 -3.675)
+			(start -4.47 2.955)
+			(end 4.47 -3.545)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "B.Fab")
-			(uuid "431f7dba-4fb9-4da0-a58c-921d739efe38")
+			(uuid "8906130e-ed33-4def-825c-f18b92b1a182")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 -3.1 0)
+			(at 0 -3.1 180)
 			(unlocked yes)
 			(layer "Dwgs.User")
-			(uuid "fdf23752-7b63-40eb-87c3-fdff59cab17a")
+			(uuid "cd40ab77-bc4a-4b76-aff0-44d600aa6c31")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -25135,10 +25204,10 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "2ca8bbd1-4f09-4cfe-a682-86cd17821d75")
+			(uuid "01517636-9af8-4573-90cf-f9f37e2cebb9")
 			(effects
 				(font
 					(size 1 1)
@@ -25147,182 +25216,180 @@
 				(justify mirror)
 			)
 		)
-		(pad "" np_thru_hole circle
-			(at -2.89 2.605 180)
-			(size 0.65 0.65)
-			(drill 0.65)
-			(layers "*.Cu" "*.Mask")
-			(uuid "1e67cd31-2c36-46c7-9653-dcc335beb292")
-		)
-		(pad "" np_thru_hole circle
-			(at 2.89 2.605 180)
-			(size 0.65 0.65)
-			(drill 0.65)
-			(layers "*.Cu" "*.Mask")
-			(uuid "f6806400-eecc-44c6-8c4c-be75cd6f92f7")
-		)
 		(pad "A1" smd roundrect
-			(at -3.2 3.68 180)
+			(at -3.2 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "GND_A1")
 			(pintype "passive")
-			(uuid "df45de7b-c0b4-4757-98e2-61b6344567c3")
+			(uuid "13f82f75-2db0-415b-a561-929be0ca82c7")
 		)
 		(pad "A4" smd roundrect
-			(at -2.4 3.68 180)
+			(at -2.4 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "VBUS1")
 			(pinfunction "VBUS_A4")
 			(pintype "passive")
-			(uuid "ebaad2de-be22-453e-960e-527a6197fdb2")
+			(uuid "3680b352-a70a-487a-922a-5a164913fb1c")
 		)
 		(pad "A5" smd roundrect
-			(at -1.25 3.68 180)
+			(at -1.25 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J10-CC1)")
 			(pinfunction "CC1_A5")
 			(pintype "bidirectional")
-			(uuid "b050e024-415b-4dc7-931d-9be1dd6760fd")
+			(uuid "fbeacf32-32af-4064-a6b9-d8327d7c1f96")
 		)
 		(pad "A6" smd roundrect
-			(at -0.25 3.68 180)
+			(at -0.25 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/DBG_USB_D+")
 			(pinfunction "D+_A6")
 			(pintype "bidirectional")
-			(uuid "c9c93dc0-ce70-4217-a654-89cd23ca1c32")
+			(uuid "2b2f1e55-c519-417d-913f-b630b8eaa822")
 		)
 		(pad "A7" smd roundrect
-			(at 0.25 3.68 180)
+			(at 0.25 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/DBG_USB_D-")
 			(pinfunction "D-_A7")
 			(pintype "bidirectional")
-			(uuid "8ae8c7d0-ee02-4456-96a3-f49baf328c1a")
+			(uuid "b0980fa0-e37f-4092-90b0-a623b7668d03")
 		)
 		(pad "A8" smd roundrect
-			(at 1.25 3.68 180)
+			(at 1.25 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(J10-SBU1-PadA8)")
 			(pinfunction "SBU1_A8")
 			(pintype "bidirectional+no_connect")
-			(uuid "14f1d0e2-c92a-4bcb-bfae-2f933c8a8773")
+			(uuid "381552cc-a160-4a3c-a217-e229f91eb5e9")
 		)
 		(pad "A9" smd roundrect
-			(at 2.4 3.68 180)
+			(at 2.4 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "VBUS1")
 			(pinfunction "VBUS_A9")
 			(pintype "passive")
-			(uuid "f685a4e9-cc0b-48ee-b4ad-e829a0b2ab0a")
+			(uuid "b481e899-3fcf-4d75-b1e0-9cd10d6c7afa")
 		)
 		(pad "A12" smd roundrect
-			(at 3.2 3.68 180)
+			(at 3.2 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "GND_A12")
 			(pintype "passive")
-			(uuid "a31fc7a7-1ae9-43c2-b31f-695e91857a49")
+			(uuid "9f68cde4-e3fa-42da-9bd8-a6acf20fbca9")
 		)
 		(pad "B1" smd roundrect
-			(at 3.2 3.68 180)
+			(at 3.2 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "GND_B1")
 			(pintype "passive")
-			(uuid "ba49bb19-b4c4-448f-bdec-59b4973cc777")
+			(uuid "b590d4c7-6c7b-4231-9cae-ff5557b26fe0")
 		)
 		(pad "B4" smd roundrect
-			(at 2.4 3.68 180)
+			(at 2.4 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "VBUS1")
 			(pinfunction "VBUS_B4")
 			(pintype "passive")
-			(uuid "35fac980-bb25-4c8d-ae8d-f2570fe46885")
+			(uuid "316fd399-70fe-4b80-9df1-74593c56fd85")
 		)
 		(pad "B5" smd roundrect
-			(at 1.75 3.68 180)
+			(at 1.75 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(J10-CC2)")
 			(pinfunction "CC2_B5")
 			(pintype "bidirectional")
-			(uuid "9f9a254b-10c3-4f9b-a78e-30a1c20956eb")
+			(uuid "238cb681-c96b-4227-8a74-8d0f66a440bb")
 		)
 		(pad "B6" smd roundrect
-			(at 0.75 3.68 180)
+			(at 0.75 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/DBG_USB_D+")
 			(pinfunction "D+_B6")
 			(pintype "bidirectional")
-			(uuid "f39db929-005d-444d-8380-68067555e728")
+			(uuid "9521ca8d-705a-4129-924d-dced9604ddc7")
 		)
 		(pad "B7" smd roundrect
-			(at -0.75 3.68 180)
+			(at -0.75 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "/DBG_USB_D-")
 			(pinfunction "D-_B7")
 			(pintype "bidirectional")
-			(uuid "9d89407e-fa02-451d-99f8-d93b27c5c659")
+			(uuid "693f5ba1-9c58-473e-85b0-822f5f39115e")
 		)
 		(pad "B8" smd roundrect
-			(at -1.75 3.68 180)
+			(at -1.75 3.68)
 			(size 0.3 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "unconnected-(J10-SBU2-PadB8)")
 			(pinfunction "SBU2_B8")
 			(pintype "bidirectional+no_connect")
-			(uuid "f7e7a6f8-3bf2-4f1b-bb4b-0aed89a00531")
+			(uuid "5b3ef5be-b47a-44e1-9871-0fdca12ab7b7")
 		)
 		(pad "B9" smd roundrect
-			(at -2.4 3.68 180)
+			(at -2.4 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "VBUS1")
 			(pinfunction "VBUS_B9")
 			(pintype "passive")
-			(uuid "6a0dbf83-5cba-4a03-a09a-94b77d2312f1")
+			(uuid "c909ef33-0503-48a0-a701-1c970af3a0cc")
 		)
 		(pad "B12" smd roundrect
-			(at -3.2 3.68 180)
+			(at -3.2 3.68)
 			(size 0.6 1.15)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pinfunction "GND_B12")
 			(pintype "passive")
-			(uuid "22070cf2-6a89-4f5e-9a89-f46c93723f1c")
+			(uuid "e68ac596-f0e1-48c5-92f5-cc6736f7876d")
 		)
 		(pad "SH" thru_hole oval
-			(at -4.32 -1.075 180)
+			(at -5.62 -1.445)
+			(size 1 2.2)
+			(drill oval 0.6 1.8)
+			(property pad_prop_mechanical)
+			(layers "*.Cu" "*.Mask" "B.Paste")
+			(remove_unused_layers no)
+			(net "GND")
+			(pinfunction "SHIELD_SH")
+			(pintype "passive")
+			(uuid "23b72679-ca6c-484e-8c6b-bba84b23c15a")
+		)
+		(pad "SH" thru_hole oval
+			(at -5.62 2.555)
 			(size 1 1.8)
 			(drill oval 0.6 1.4)
 			(property pad_prop_mechanical)
@@ -25331,22 +25398,22 @@
 			(net "GND")
 			(pinfunction "SHIELD_SH")
 			(pintype "passive")
-			(uuid "1cd547cb-e8b5-45ad-bdd9-df8321a25fc8")
+			(uuid "4b3b7c41-4661-4bbd-9c3f-5e05b42a8b12")
 		)
 		(pad "SH" thru_hole oval
-			(at -4.32 3.105 180)
-			(size 1 2.1)
-			(drill oval 0.6 1.7)
+			(at 5.62 -1.445)
+			(size 1 2.2)
+			(drill oval 0.6 1.8)
 			(property pad_prop_mechanical)
 			(layers "*.Cu" "*.Mask" "B.Paste")
 			(remove_unused_layers no)
 			(net "GND")
 			(pinfunction "SHIELD_SH")
 			(pintype "passive")
-			(uuid "5d760cfb-5826-485c-88a1-8a39cd529c1e")
+			(uuid "3ad97e4e-7c42-4d86-a573-a68a14511ea9")
 		)
 		(pad "SH" thru_hole oval
-			(at 4.32 -1.075 180)
+			(at 5.62 2.555)
 			(size 1 1.8)
 			(drill oval 0.6 1.4)
 			(property pad_prop_mechanical)
@@ -25355,22 +25422,10 @@
 			(net "GND")
 			(pinfunction "SHIELD_SH")
 			(pintype "passive")
-			(uuid "f257d9b1-a0d2-4336-b6ec-39be30ab4a3e")
-		)
-		(pad "SH" thru_hole oval
-			(at 4.32 3.105 180)
-			(size 1 2.1)
-			(drill oval 0.6 1.7)
-			(property pad_prop_mechanical)
-			(layers "*.Cu" "*.Mask" "B.Paste")
-			(remove_unused_layers no)
-			(net "GND")
-			(pinfunction "SHIELD_SH")
-			(pintype "passive")
-			(uuid "d528ad44-17a1-442c-aacf-eb894de6b256")
+			(uuid "c34bdd8f-20ec-4b96-85f7-9538e625156f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4505-xx-A_16P_MidMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25378,14 +25433,25 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "../../lib/USB4510-03-1-A.stp"
+			(offset
+				(xyz 0 -3.54 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
 	(footprint "mainboard:Pogo_SMD_D2.2mm"
 		(layer "B.Cu")
 		(uuid "90ce04d5-96f1-40d4-aa8a-26f039815f14")
-		(at 100.5 82.7 -90)
+		(at 100.2 49.05 -90)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "J3"
@@ -25524,7 +25590,7 @@
 	(footprint "mainboard:Pogo_SMD_D2.2mm"
 		(layer "B.Cu")
 		(uuid "eb2e0a04-23d1-47b9-9c1b-9afad6397726")
-		(at 103 82.7 -90)
+		(at 102.7 49.05 -90)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "J4"
@@ -25838,9 +25904,31 @@
 		(layer "Edge.Cuts")
 		(uuid "b0ad7f1c-6bb5-4972-989c-e0a3efdddeb2")
 	)
+	(gr_rect
+		(start 112.6 75.2)
+		(end 114.575 85.425)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "fddf3f2c-7bd2-434a-b568-01f7c669dda1")
+	)
+	(gr_rect
+		(start 112.625 59)
+		(end 114.575 70.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "e7639a6f-dd4b-40dc-a66c-e3b2002566da")
+	)
 	(gr_line
-		(start 116.35 50.77)
-		(end 116.35 59.069999)
+		(start 116.35 72.945)
+		(end 116.35 81.244999)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -25849,8 +25937,8 @@
 		(uuid "f3feb342-2d7d-4b4d-b17a-ffe68166f534")
 	)
 	(gr_line
-		(start 116.35 59.069999)
-		(end 124.65 59.069999)
+		(start 116.35 81.244999)
+		(end 124.65 81.244999)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -25859,8 +25947,8 @@
 		(uuid "84786ad1-c308-4d9f-a5d0-fc268e6c2726")
 	)
 	(gr_line
-		(start 124.65 50.77)
-		(end 116.35 50.77)
+		(start 124.65 72.945)
+		(end 116.35 72.945)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -25869,8 +25957,8 @@
 		(uuid "e3f5d952-cdd5-4efe-9a49-6e93d826b528")
 	)
 	(gr_line
-		(start 124.65 59.069999)
-		(end 124.65 50.77)
+		(start 124.65 81.244999)
+		(end 124.65 72.945)
 		(stroke
 			(width 0.1)
 			(type default)

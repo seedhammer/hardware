@@ -20522,6 +20522,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 119.38 369.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45ef0118-ac7f-4a21-ba31-67b6c5fb665d")
+		(property "Reference" "J10"
+			(at 119.38 346.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB4505-03-0-A"
+			(at 119.38 349.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mainboard:USB_C_Receptacle_GCT_USB4505-xx-A_16P_MidMnt_Horizontal"
+			(at 123.19 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4505.pdf"
+			(at 123.19 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 119.38 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C6582300"
+			(at 119.38 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 119.38 369.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 119.38 369.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Label" "DATA"
+			(at 119.38 369.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "B9"
+			(uuid "b0aa1620-4f7b-43cb-9ce7-b2dbbac128f6")
+		)
+		(pin "B5"
+			(uuid "07a96640-16e8-4cca-8fd9-35c450a9b680")
+		)
+		(pin "A9"
+			(uuid "ef9cf359-4812-4720-88ed-7b4184d72946")
+		)
+		(pin "A12"
+			(uuid "7a0f260c-f090-4aca-bada-e7cb4b2aa06c")
+		)
+		(pin "A5"
+			(uuid "9e1a22a2-a892-4fc2-a701-122326885229")
+		)
+		(pin "B12"
+			(uuid "3e4974bb-5662-4e64-aa83-2930c88bcd0a")
+		)
+		(pin "SH"
+			(uuid "0ce75e3e-545e-464b-84d4-afb594ebf9e6")
+		)
+		(pin "A1"
+			(uuid "4f2fd7a6-74ab-435f-90b1-c30cbb186a50")
+		)
+		(pin "A4"
+			(uuid "ee311a8a-3c52-4549-ab03-51881ea46823")
+		)
+		(pin "A7"
+			(uuid "333d0e42-3c10-4490-b634-d08a8300c7af")
+		)
+		(pin "A8"
+			(uuid "6c74af02-48b9-44ae-aa3d-de39603ab157")
+		)
+		(pin "B1"
+			(uuid "780b548e-cef9-4095-9763-2e7af98948b8")
+		)
+		(pin "B4"
+			(uuid "b1eb3582-228d-4a4f-9790-406c2d734591")
+		)
+		(pin "B6"
+			(uuid "1ca2c184-7143-47cd-aca3-ccbf134dcd9c")
+		)
+		(pin "B7"
+			(uuid "0e75a00b-2a5b-4ab1-8da5-55aa9244b234")
+		)
+		(pin "B8"
+			(uuid "12a93935-2cc8-422d-ae94-74f910faedd3")
+		)
+		(pin "A6"
+			(uuid "119989b6-96a0-4e31-bfbd-6cf2c2d3ce47")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 474.98 198.12 0)
 		(unit 1)
@@ -34780,172 +34946,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 119.38 369.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc644a15-3f6d-45fa-8cb4-f422a95adb16")
-		(property "Reference" "J10"
-			(at 119.38 346.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB4105-GF-A-060"
-			(at 119.38 349.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 123.19 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://gct.co/download?type=PDFDrawing&name=USB4105.pdf"
-			(at 123.19 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 119.38 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3025063"
-			(at 119.38 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 119.38 369.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 119.38 369.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Label" "DEBUG"
-			(at 119.38 369.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B9"
-			(uuid "670cad1c-b2eb-4607-bf75-8bf387466f6a")
-		)
-		(pin "B5"
-			(uuid "b73aba4b-9b3b-496f-837d-e2e959cb7a65")
-		)
-		(pin "A9"
-			(uuid "7d5a4616-77da-49c1-84cf-b06d240fd91a")
-		)
-		(pin "A12"
-			(uuid "2aff16d5-b5a9-4c2c-b466-13bbbefa0e68")
-		)
-		(pin "A5"
-			(uuid "53150f07-48a5-4711-b862-4f6a7eed8a00")
-		)
-		(pin "B12"
-			(uuid "2dd94dc6-e744-442e-8090-44245ef019f1")
-		)
-		(pin "SH"
-			(uuid "ae94c37c-591d-4ef9-b697-62ebb94211a5")
-		)
-		(pin "A1"
-			(uuid "7aa42e7c-391b-436f-843a-80c07ffdeb92")
-		)
-		(pin "A4"
-			(uuid "1e566c2c-1987-4f89-bb6e-24f3a7df99c8")
-		)
-		(pin "A7"
-			(uuid "3d578b80-4446-47c8-a47c-f4dafb07cfb1")
-		)
-		(pin "A8"
-			(uuid "b4fc8c18-225f-43ff-8ab5-33a2e1165c2e")
-		)
-		(pin "B1"
-			(uuid "e7fb7944-d8ef-41fc-8ef3-956e05869118")
-		)
-		(pin "B4"
-			(uuid "400c42ec-3f8c-4856-a9f5-abf5bb537197")
-		)
-		(pin "B6"
-			(uuid "725013fc-dcb3-412e-8301-a532a4099cab")
-		)
-		(pin "B7"
-			(uuid "a85d47ad-8868-4949-8c14-f10ebdc29e9d")
-		)
-		(pin "B8"
-			(uuid "952a6f84-d657-4fe3-8dec-ab3d72105fc8")
-		)
-		(pin "A6"
-			(uuid "c2ddaaf9-01a8-490f-973c-1e90010a7270")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "J10")
 					(unit 1)
 				)
 			)
