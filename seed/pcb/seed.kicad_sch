@@ -21341,7 +21341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
+		(property "Footprint" "mainboard:BW0041CG-L2.5W1.0H1.8"
 			(at 495.3 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -21352,7 +21352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/CHINBAN-PG1000_01013P/C49451496"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BATWIRELESS-BW0041CG_L2_5W1_0H18/C2826542"
 			(at 495.3 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -21374,7 +21374,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49451496"
+		(property "LCSC" "C2826542"
 			(at 495.3 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -32471,7 +32471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
+		(property "Footprint" "mainboard:BW0041CG-L2.5W1.0H1.8"
 			(at 495.3 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -32482,7 +32482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/CHINBAN-PG1000_01013P/C49451496"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BATWIRELESS-BW0041CG_L2_5W1_0H18/C2826542"
 			(at 495.3 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -32504,7 +32504,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49451496"
+		(property "LCSC" "C2826542"
 			(at 495.3 226.06 0)
 			(hide yes)
 			(show_name no)

@@ -9968,6 +9968,171 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "6b3090b1-1798-4203-9a64-8190558bb8dd")
+		(at 80.725 76.575)
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "resistor")
+		(property "Reference" "R29"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "1aa387fd-d79b-42a5-b2db-bad456fd458d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "499k"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "b17a81ff-7d75-433c-ab66-4fceecc05123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR07499KL/C138138"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36bdd60e-84fe-41e0-a2ff-204ba6a4f0e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6135252-a1a8-4e55-9475-34864dcd5c05")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b5ab5757-af2d-465b-aff8-4fdffa755153")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C138138"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcb4158c-c40e-4f75-b24d-da912299ee9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/f02a4459-7381-4495-abd9-f6e3423a1007")
+		(sheetname "/")
+		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5e47ea76-5e69-4ba5-b1aa-67e3de601d12")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "99607e38-1e29-4dae-b6e3-6e27c1fa653a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "e32102ee-3334-494d-9a0f-eadad30a6e9a")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "99665fb3-4d3e-4996-b05c-25b8f31013bb")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "9aff4d09-8687-4cb6-b84d-77ade0e9eda9")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "/LCD_RESET")
+			(pintype "passive")
+			(uuid "4d865a21-fb12-4f72-b44e-ac2e50fa8f2d")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "70518078-ccff-4aa2-96e9-e4968edd6850")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "6fb6cfff-e897-45f9-acee-ffe337d6adde")
@@ -16548,6 +16713,171 @@
 			)
 		)
 	)
+	(footprint "Resistor_SMD:R_0201_0603Metric"
+		(layer "F.Cu")
+		(uuid "bd0dce2f-e694-478c-b715-7ceb653a0173")
+		(at 80.725 78.325)
+		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
+		(tags "resistor")
+		(property "Reference" "R31"
+			(at 0 -1.05 0)
+			(layer "F.SilkS")
+			(uuid "6fbdf5f3-17d7-4e2a-b8e9-c3193eb6d53e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "499k"
+			(at 0 1.05 0)
+			(layer "F.Fab")
+			(uuid "32388e0d-1b90-4740-aa70-f3e19d1528d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR07499KL/C138138"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86a6c473-9837-49c3-a80c-3d09ac44d2b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7d6bd6c-25f3-4377-b471-b33eaa11525b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eaab1fa7-7697-472a-9a25-e698f7632633")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C138138"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43a4e85c-e611-4d31-bd82-1d5f46294fc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/88592b42-6ece-4b94-a777-66db4c3db27a")
+		(sheetname "/")
+		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.7 -0.35)
+			(end 0.7 0.35)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "d90a254d-bb94-413c-9335-a6fdcf91d80c")
+		)
+		(fp_rect
+			(start -0.3 -0.15)
+			(end 0.3 0.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "7be8bae3-1b9d-414d-985c-caddfd288e73")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -0.68 0)
+			(layer "F.Fab")
+			(uuid "ecd69c0b-4cae-4893-ba36-c21a2c0d977a")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(pad "" smd roundrect
+			(at -0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "9f28108c-83dd-4aee-83de-ed7a1940d636")
+		)
+		(pad "" smd roundrect
+			(at 0.345 0)
+			(size 0.318 0.36)
+			(layers "F.Paste")
+			(roundrect_rratio 0.25)
+			(uuid "f20ef549-c370-4ce6-8399-ac340fabeeba")
+		)
+		(pad "1" smd roundrect
+			(at -0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "/LCD_EN")
+			(pintype "passive")
+			(uuid "488da5ef-4ad0-43c4-9b9d-bfdc5a8c276f")
+		)
+		(pad "2" smd roundrect
+			(at 0.32 0)
+			(size 0.46 0.4)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "520e8794-349b-4a1c-9579-6ae0e673d0f1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Inductor_SMD:L_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "bd11ea15-16ae-4131-822b-e87ecca37888")
@@ -21534,171 +21864,6 @@
 			)
 		)
 	)
-	(footprint "Resistor_SMD:R_0201_0603Metric"
-		(layer "F.Cu")
-		(uuid "df8ce31b-d016-415d-9db3-9813c5ef4892")
-		(at 79.35 80.82 -90)
-		(descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf)")
-		(tags "resistor")
-		(property "Reference" "R12"
-			(at 0 -1.05 270)
-			(layer "F.SilkS")
-			(uuid "ffaa6231-a9d8-4cdc-b8af-75d717b5b917")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 0 1.05 270)
-			(layer "F.Fab")
-			(uuid "fcf13fbc-81a1-4f9d-bdc7-15e189ee6553")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/RALEC-RTT011003FTH/C102685"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32d0fecd-c4c1-479b-aff2-920647ae14c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 0 0 270)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76e397ab-dee0-4116-a064-43d1351ada70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 270)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "b896cd31-0e71-486b-a498-4d93d9cf07fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C102685"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d3bdbd69-755f-4873-9cbd-6c8a1c03427e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "R_*")
-		(path "/4090adb6-b9a8-4dce-84d3-773d17f001cf")
-		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -0.7 -0.35)
-			(end 0.7 0.35)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d61fb748-7234-4897-b40a-5611216a11a1")
-		)
-		(fp_rect
-			(start -0.3 -0.15)
-			(end 0.3 0.15)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "6a71876f-e616-4943-b6cd-86eb7af6d5b9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -0.68 270)
-			(layer "F.Fab")
-			(uuid "cf02bd99-2741-406c-b7e4-981b92f6ec4e")
-			(effects
-				(font
-					(size 0.25 0.25)
-					(thickness 0.04)
-				)
-			)
-		)
-		(pad "" smd roundrect
-			(at -0.345 0 270)
-			(size 0.318 0.36)
-			(layers "F.Paste")
-			(roundrect_rratio 0.25)
-			(uuid "54677bc4-09c4-4eba-b4a3-e16a343f9346")
-		)
-		(pad "" smd roundrect
-			(at 0.345 0 270)
-			(size 0.318 0.36)
-			(layers "F.Paste")
-			(roundrect_rratio 0.25)
-			(uuid "6e1e3269-1554-48df-85fd-b66564023125")
-		)
-		(pad "1" smd roundrect
-			(at -0.32 0 270)
-			(size 0.46 0.4)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "/LCD_RESET")
-			(pintype "passive")
-			(uuid "0588125b-4150-4709-96dc-c139bf919baa")
-		)
-		(pad "2" smd roundrect
-			(at 0.32 0 270)
-			(size 0.46 0.4)
-			(layers "F.Cu" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net "GND")
-			(pintype "passive")
-			(uuid "aae06edb-6742-4bce-b681-1bbcb2fb2ce5")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0201_0603Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
 		(layer "F.Cu")
 		(uuid "e64815c3-34f9-40af-a928-84af588f061a")
@@ -24538,6 +24703,14 @@
 		(path "/406be197-5403-446e-9694-db91d0365bf5")
 		(sheetname "/")
 		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25053,6 +25226,14 @@
 		(path "/45ef0118-ac7f-4a21-ba31-67b6c5fb665d")
 		(sheetname "/")
 		(sheetfile "seed.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25448,10 +25629,10 @@
 			)
 		)
 	)
-	(footprint "mainboard:Pogo_SMD_D2.2mm"
+	(footprint "mainboard:BW0041CG-L2.5W1.0H1.8"
 		(layer "B.Cu")
 		(uuid "90ce04d5-96f1-40d4-aa8a-26f039815f14")
-		(at 100.2 49.05 -90)
+		(at 100.2 49.925 -90)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "J3"
@@ -25478,7 +25659,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/CHINBAN-PG1000_01013P/C49451496"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BATWIRELESS-BW0041CG_L2_5W1_0H18/C2826542"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25506,12 +25687,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C49451496"
+		(property "LCSC" "C2826542"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ec80c7ce-c59d-4061-807f-3ece3aa795b7")
+			(uuid "9a26907a-bd60-47dc-a016-4e6657f15a1e")
 			(effects
 				(font
 					(size 1 1)
@@ -25531,38 +25712,38 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.2 0)
+		(fp_rect
+			(start -1.6 0.6)
+			(end 1.2 -0.6)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "acb06a76-1fc0-4150-884d-2385ea9727d9")
+			(uuid "3cb51907-2496-43c0-a96d-a72c344d8b11")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 0.913015 0)
+		(fp_rect
+			(start -0.95 0.4)
+			(end 0.95 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill yes)
 			(layer "B.Paste")
-			(uuid "901cdf97-875b-4675-bfea-db3aff147ae5")
+			(uuid "f165cf28-2521-48ec-8cf2-cfdfec62ce9e")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
+		(fp_rect
+			(start -1.7 0.7)
+			(end 1.3 -0.7)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "8fc545fb-d0d8-4289-acdf-c9e1e61d6436")
+			(uuid "9d8ba4c2-6c18-4fdb-9700-0dac6f6078ac")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.15 90)
@@ -25576,9 +25757,9 @@
 				(justify mirror)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" smd rect
 			(at 0 0 270)
-			(size 2.2 2.2)
+			(size 2.1 1)
 			(layers "B.Cu" "B.Mask")
 			(net "Net-(J3-Pin_1)")
 			(pinfunction "Pin_1_1")
@@ -25586,11 +25767,22 @@
 			(uuid "0558c122-12d0-4bf1-afa3-fbfd5685fc79")
 		)
 		(embedded_fonts no)
+		(model "/Users/a/proj/seedhammer/hardware/lib/BW0041CG-L2.5W1.0H1.8.step"
+			(offset
+				(xyz -1.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
-	(footprint "mainboard:Pogo_SMD_D2.2mm"
+	(footprint "mainboard:BW0041CG-L2.5W1.0H1.8"
 		(layer "B.Cu")
 		(uuid "eb2e0a04-23d1-47b9-9c1b-9afad6397726")
-		(at 102.7 49.05 -90)
+		(at 102.7 49.925 -90)
 		(descr "SMD pad as test Point, diameter 2.5mm")
 		(tags "test point SMD pad")
 		(property "Reference" "J4"
@@ -25617,7 +25809,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/CHINBAN-PG1000_01013P/C49451496"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BATWIRELESS-BW0041CG_L2_5W1_0H18/C2826542"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -25645,12 +25837,12 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C49451496"
+		(property "LCSC" "C2826542"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "31274e58-f788-4ceb-a6fd-c412b3a464df")
+			(uuid "e5e63a46-872a-4034-ab87-c16b3eb80347")
 			(effects
 				(font
 					(size 1 1)
@@ -25670,38 +25862,38 @@
 			)
 		)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_circle
-			(center 0 0)
-			(end 1.2 0)
+		(fp_rect
+			(start -1.6 0.6)
+			(end 1.2 -0.6)
 			(stroke
-				(width 0.12)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
 			(fill no)
 			(layer "B.SilkS")
-			(uuid "60a6e089-6e18-466a-af33-45e487fb6c49")
+			(uuid "05c475ce-5047-4a7a-8a31-0782e579abd0")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 0.913015 0)
+		(fp_rect
+			(start -0.95 0.4)
+			(end 0.95 -0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill yes)
 			(layer "B.Paste")
-			(uuid "6a0b7073-fc07-4a89-b76a-680b90299d55")
+			(uuid "9726a9bf-f27a-4426-83c6-b3ae3e3b2d78")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1.25 0)
+		(fp_rect
+			(start -1.7 0.7)
+			(end 1.3 -0.7)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "1475be17-d7a2-46e2-887c-e3a6ee51517b")
+			(uuid "be5b79b4-0e7d-47f8-8d0d-37b4a26c8afb")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.15 90)
@@ -25715,9 +25907,9 @@
 				(justify mirror)
 			)
 		)
-		(pad "1" smd circle
+		(pad "1" smd rect
 			(at 0 0 270)
-			(size 2.2 2.2)
+			(size 2.1 1)
 			(layers "B.Cu" "B.Mask")
 			(net "Net-(J4-Pin_1)")
 			(pinfunction "Pin_1_1")
@@ -25725,6 +25917,17 @@
 			(uuid "8a0d9296-7e9c-42c5-833c-0c84c1653ddc")
 		)
 		(embedded_fonts no)
+		(model "/Users/a/proj/seedhammer/hardware/lib/BW0041CG-L2.5W1.0H1.8.step"
+			(offset
+				(xyz -1.5 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(gr_poly
 		(pts
