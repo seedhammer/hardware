@@ -9105,7 +9105,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "mainboard:TPS16630RGE"
+		(symbol "mainboard:TPS16630PWP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -9121,7 +9121,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS16630RGE"
+			(property "Value" "TPS16630PWP"
 				(at 7.62 16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9131,7 +9131,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+			(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
 				(at 0 -31.75 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -9154,7 +9154,7 @@
 				)
 			)
 			(property "Description" "4.5-V to 60-V, 31mΩ, 0.6-6A eFuse"
-				(at 0 0 0)
+				(at 23.114 -17.272 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9186,7 +9186,7 @@
 					)
 				)
 			)
-			(symbol "TPS16630RGE_0_1"
+			(symbol "TPS16630PWP_0_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 10.16 -13.97)
@@ -9199,28 +9199,7 @@
 					)
 				)
 			)
-			(symbol "TPS16630RGE_1_0"
-				(pin free line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPS16630RGE_1_1"
+			(symbol "TPS16630PWP_1_1"
 				(pin power_in line
 					(at -12.7 10.16 0)
 					(length 2.54)
@@ -9258,11 +9237,11 @@
 						)
 					)
 				)
-				(pin free line
-					(at 10.16 -5.08 180)
+				(pin passive line
+					(at -12.7 10.16 0)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9277,8 +9256,8 @@
 						)
 					)
 				)
-				(pin free line
-					(at 10.16 -3.81 180)
+				(pin no_connect line
+					(at 3.81 -11.43 90)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -9289,6 +9268,25 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 3.81 -11.43 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9307,7 +9305,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9325,7 +9323,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9343,7 +9341,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9361,7 +9359,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9379,7 +9377,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9397,7 +9395,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9415,7 +9413,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9433,7 +9431,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9451,7 +9449,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9469,7 +9467,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9495,6 +9493,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 3.81 -11.43 90)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 12.7 10.16 180)
 					(length 2.54)
@@ -9505,7 +9522,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9524,25 +9541,6 @@
 							)
 						)
 					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "19"
 						(effects
 							(font
@@ -9551,11 +9549,11 @@
 						)
 					)
 				)
-				(pin free line
-					(at 0 -16.51 90)
+				(pin passive line
+					(at 12.7 10.16 180)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9563,82 +9561,6 @@
 						)
 					)
 					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin free line
-					(at 0 -16.51 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9657,7 +9579,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -26936,7 +26858,7 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:TPS16630RGE")
+		(lib_id "mainboard:TPS16630PWP")
 		(at 330.2 262.89 0)
 		(unit 1)
 		(body_style 1)
@@ -26967,7 +26889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGE0024H_VQFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.96x2.96mm_ThermalVias"
 			(at 330.2 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -26990,7 +26912,7 @@
 			)
 		)
 		(property "Description" "4.5-V to 60-V, 31mΩ, 0.6-6A eFuse"
-			(at 330.2 262.89 0)
+			(at 353.314 280.162 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27032,9 +26954,6 @@
 		(pin "21"
 			(uuid "ea2f46d1-0e71-4f40-b47a-5198a45c165a")
 		)
-		(pin "22"
-			(uuid "0a01b4a7-bd74-40ac-a4af-4e8f8644bfd5")
-		)
 		(pin "15"
 			(uuid "30102815-f5ce-434f-8ea5-9be715e2b6da")
 		)
@@ -27046,15 +26965,6 @@
 		)
 		(pin "5"
 			(uuid "9a3e8f8d-8a7d-42a0-a896-944a14de8d63")
-		)
-		(pin "23"
-			(uuid "faefcbe2-67ab-4652-bc67-2720a68cf2f6")
-		)
-		(pin "24"
-			(uuid "3ad84dcf-3620-48b6-b6cd-adac3e12a96d")
-		)
-		(pin "25"
-			(uuid "9e062ddb-a81f-4213-9eb9-9d5efd32a05f")
 		)
 		(pin "8"
 			(uuid "18455d8c-5bb7-4fdb-a6a9-18ce7769dbd5")
