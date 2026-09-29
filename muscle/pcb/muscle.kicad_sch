@@ -11964,16 +11964,12 @@
 		(uuid "ffbf4f10-2d21-422e-9d57-38e0f3857dcb")
 	)
 	(no_connect
-		(at 158.75 105.41)
+		(at 158.75 146.05)
 		(uuid "177032eb-f49f-4b76-ab79-8422e5960469")
 	)
 	(no_connect
-		(at 158.75 107.95)
+		(at 158.75 148.59)
 		(uuid "1a8ae01d-53e5-4c17-9f46-e2ed13cd1252")
-	)
-	(no_connect
-		(at 158.75 97.79)
-		(uuid "1cd7187b-998b-4aee-97c1-894ce4dc8215")
 	)
 	(no_connect
 		(at 109.22 262.89)
@@ -12028,7 +12024,7 @@
 		(uuid "7400c42c-2687-4fb1-a8a3-878ec334e882")
 	)
 	(no_connect
-		(at 158.75 95.25)
+		(at 158.75 107.95)
 		(uuid "88521b20-b53d-4c5c-a09c-1997647ad55d")
 	)
 	(no_connect
@@ -12068,8 +12064,8 @@
 		(uuid "9e8a8ab3-ae36-4636-ac77-021a15121065")
 	)
 	(no_connect
-		(at 342.9 260.35)
-		(uuid "a7bb27b2-824c-4847-a787-42e6cd90785b")
+		(at 158.75 110.49)
+		(uuid "a61ff65d-0226-4d3d-ab3d-8a093c09765a")
 	)
 	(no_connect
 		(at 158.75 82.55)
@@ -12100,7 +12096,7 @@
 		(uuid "c209fed5-524f-4e5b-9ea3-cfc5878a7667")
 	)
 	(no_connect
-		(at 158.75 92.71)
+		(at 158.75 105.41)
 		(uuid "cd528517-6978-4752-b2cb-d6533a660a7e")
 	)
 	(no_connect
@@ -13843,6 +13839,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 260.35) (xy 342.9 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c73d026-75fa-4ae9-8271-af02b65aed01")
+	)
+	(wire
+		(pts
 			(xy 144.78 265.43) (xy 144.78 262.89)
 		)
 		(stroke
@@ -14423,7 +14429,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 110.49) (xy 173.99 110.49)
+			(xy 158.75 97.79) (xy 173.99 97.79)
 		)
 		(stroke
 			(width 0)
@@ -15973,7 +15979,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 148.59) (xy 173.99 148.59)
+			(xy 158.75 95.25) (xy 173.99 95.25)
 		)
 		(stroke
 			(width 0)
@@ -17053,7 +17059,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 146.05) (xy 173.99 146.05)
+			(xy 158.75 92.71) (xy 173.99 92.71)
 		)
 		(stroke
 			(width 0)
@@ -17512,7 +17518,7 @@
 		(uuid "21d0e6ec-d330-4305-a420-0899595181b8")
 	)
 	(label "S_SENSE_COMP"
-		(at 173.99 148.59 180)
+		(at 173.99 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17962,7 +17968,7 @@
 		(uuid "752ab5f3-0473-4c2d-87cd-915547164501")
 	)
 	(label "DATA_CC1"
-		(at 97.79 255.27 0)
+		(at 97.79 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18022,7 +18028,7 @@
 		(uuid "88fadac4-4363-48f6-b577-d642b8d71471")
 	)
 	(label "USB_ROLE"
-		(at 173.99 110.49 180)
+		(at 173.99 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18152,7 +18158,7 @@
 		(uuid "a3f88f58-946e-4d38-8c41-99879ea90355")
 	)
 	(label "S_SENSE_PWM"
-		(at 173.99 146.05 180)
+		(at 173.99 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18232,7 +18238,7 @@
 		(uuid "b69558e5-753e-444d-b799-b59d5ffbe94a")
 	)
 	(label "DATA_CC2"
-		(at 97.79 257.81 0)
+		(at 97.79 255.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20518,7 +20524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "2200u"
 			(at 297.18 175.9838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20540,7 +20546,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hrk-CD2882281VM1325VFL/C7493874"
 			(at 299.72 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20562,7 +20568,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C7493874"
 			(at 299.72 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -25992,7 +25998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "2200u"
 			(at 285.75 175.9838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26014,7 +26020,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hrk-CD2882281VM1325VFL/C7493874"
 			(at 288.29 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -26036,7 +26042,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C7493874"
 			(at 288.29 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -27897,6 +27903,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 344.17 260.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57396436-bbfa-45bb-91f7-01a76f9cec8c")
+		(property "Reference" "#PWR090"
+			(at 350.52 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 347.98 260.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 344.17 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 344.17 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 344.17 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e1794b7-605b-4fb6-888c-9bf7fc65e9f6")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 144.78 265.43 0)
 		(unit 1)
 		(body_style 1)
@@ -28932,7 +29017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "2200u"
 			(at 273.05 175.9838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28954,7 +29039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hrk-CD2882281VM1325VFL/C7493874"
 			(at 275.59 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -28976,7 +29061,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C7493874"
 			(at 275.59 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -33960,7 +34045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm_ThermalVias"
 			(at 133.35 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -39156,7 +39241,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "2200u"
 			(at 261.62 175.9838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39178,7 +39263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hrk-CD2882281VM1325VFL/C7493874"
 			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -39200,7 +39285,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C7493874"
 			(at 264.16 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -42471,6 +42556,84 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 124.46 238.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea25d170-6c0a-4d2a-9605-1b0c0197918b")
+		(property "Reference" "#PWR0148"
+			(at 124.46 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 124.46 233.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 124.46 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0e11d43e-cbed-4ce7-9f12-9bb43a097bc4")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 326.39 321.31 0)
 		(unit 1)
 		(body_style 1)
@@ -43938,83 +44101,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 124.46 238.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fcc45acd-5a09-4d2c-a53b-73400fbee7b6")
-		(property "Reference" "#PWR0139"
-			(at 124.46 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 124.841 234.3658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 124.46 238.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bb63b44f-4ec2-40e0-9f6a-8069b3464d5e")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 175.26 175.26 0)
 		(mirror y)
 		(unit 1)
@@ -44114,7 +44200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000u"
+		(property "Value" "2200u"
 			(at 248.92 175.9838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44136,7 +44222,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Hrk-CD2882281VM1325VFL/C7493874"
 			(at 251.46 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -44158,7 +44244,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C7493874"
 			(at 251.46 175.26 0)
 			(hide yes)
 			(show_name no)
