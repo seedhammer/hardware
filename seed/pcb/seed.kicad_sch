@@ -8873,6 +8873,10 @@
 		(uuid "31f26678-a6d8-4bc5-b5f6-95d17f435acd")
 	)
 	(no_connect
+		(at 105.41 219.71)
+		(uuid "34ca934e-1e48-44e8-bcb4-beef77233c51")
+	)
+	(no_connect
 		(at 186.69 243.84)
 		(uuid "35bbdce0-9637-4089-814e-bd51d7f1c4fa")
 	)
@@ -8945,6 +8949,10 @@
 		(uuid "75cb8498-0129-424c-91c6-c5ab32ec26c1")
 	)
 	(no_connect
+		(at 255.27 219.71)
+		(uuid "7a256244-7a63-4c38-9576-4f32d28a07cf")
+	)
+	(no_connect
 		(at 417.83 224.79)
 		(uuid "8284bf00-bd95-4416-bb79-2d732db0d3b4")
 	)
@@ -9005,12 +9013,20 @@
 		(uuid "aea980ee-2d1d-474e-aeb8-2ee0dcaa7f82")
 	)
 	(no_connect
+		(at 105.41 222.25)
+		(uuid "b87487e1-80c9-4ac6-ad8f-44a19d0a18b4")
+	)
+	(no_connect
 		(at 290.83 212.09)
 		(uuid "bad71cdc-d04b-45cd-a44f-af5f07ca250a")
 	)
 	(no_connect
 		(at 417.83 222.25)
 		(uuid "bd4b75b6-46a1-457a-9ff2-af406257bb13")
+	)
+	(no_connect
+		(at 255.27 217.17)
+		(uuid "bfe227ce-7102-4c9e-8d36-90b431cc66fb")
 	)
 	(no_connect
 		(at 186.69 106.68)
@@ -9243,16 +9259,6 @@
 			(type default)
 		)
 		(uuid "0c358b93-d159-420d-ad2f-e5c59f994717")
-	)
-	(wire
-		(pts
-			(xy 90.17 219.71) (xy 105.41 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c9a5fe5-d399-4e71-b15e-0f8a5c78d62b")
 	)
 	(wire
 		(pts
@@ -10446,16 +10452,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 222.25) (xy 105.41 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "500db157-0f46-4664-9eb1-3a0db8994930")
-	)
-	(wire
-		(pts
 			(xy 186.69 111.76) (xy 213.36 111.76)
 		)
 		(stroke
@@ -11516,16 +11512,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 219.71) (xy 255.27 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "915d3404-860c-49fe-9758-042595d1027f")
-	)
-	(wire
-		(pts
 			(xy 92.71 100.33) (xy 92.71 106.68)
 		)
 		(stroke
@@ -12243,16 +12229,6 @@
 			(type default)
 		)
 		(uuid "b6326ea0-ebac-4c7c-b241-c2529b024404")
-	)
-	(wire
-		(pts
-			(xy 238.76 217.17) (xy 255.27 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ce8274-b32e-4f6e-b9b8-03b32bea4647")
 	)
 	(wire
 		(pts
@@ -13554,16 +13530,6 @@
 		)
 		(uuid "56292ca2-71b5-426b-a43f-4450a61b5ab0")
 	)
-	(label "DSI_DATA1N"
-		(at 238.76 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cc5446d-86ea-4a64-a03b-af3ea73de6af")
-	)
 	(label "NFC_INT"
 		(at 203.2 121.92 180)
 		(effects
@@ -13844,16 +13810,6 @@
 		)
 		(uuid "bd6e0fed-c9c8-45e6-b1f8-2d446abbf34a")
 	)
-	(label "DSI_DATA1P"
-		(at 90.17 219.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4f2f1bc-b31f-4ded-b880-8aa39fd66a2c")
-	)
 	(label "LCD_TE"
 		(at 240.03 199.39 0)
 		(effects
@@ -13873,16 +13829,6 @@
 			(justify right bottom)
 		)
 		(uuid "ca945231-622e-4426-a20d-b02abbae5278")
-	)
-	(label "DSI_DATA1P"
-		(at 238.76 217.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cace9615-2599-4f63-a668-077dc91d965c")
 	)
 	(label "DBG_USB_D+"
 		(at 224.79 170.18 180)
@@ -13953,16 +13899,6 @@
 			(justify right bottom)
 		)
 		(uuid "e5eeda89-212e-462e-aaa7-88247cca69e9")
-	)
-	(label "DSI_DATA1N"
-		(at 90.17 222.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e70a4e65-7123-42cd-9fba-3e58064862bd")
 	)
 	(label "USB_D-"
 		(at 90.17 196.85 0)
@@ -21975,84 +21911,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 260.35 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5853d0da-d090-434f-be42-2df04fda0154")
-		(property "Reference" "#PWR0115"
-			(at 260.35 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VLCD"
-			(at 260.35 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
-			(at 260.35 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 260.35 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a4c062b-b127-4a86-bae9-348744f7cb33")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 72.39 0)
 		(mirror y)
@@ -23211,7 +23069,7 @@
 				)
 			)
 		)
-		(property "Value" "VLCD"
+		(property "Value" "+4V"
 			(at 419.1 313.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23948,6 +23806,84 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 260.35 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7f3c9c-a37a-4e26-ae67-b57f7bf5cd71")
+		(property "Reference" "#PWR0122"
+			(at 260.35 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+4V"
+			(at 260.35 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+			(at 260.35 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83eaa100-6fd4-473e-aeda-f5fa560efa35")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -26736,6 +26672,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 402.59 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f17db97-3f36-4922-b475-1719f41a4830")
+		(property "Reference" "#PWR0121"
+			(at 402.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+4V"
+			(at 402.59 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+			(at 402.59 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 402.59 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 402.59 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "264913f3-258a-4878-b765-739ec4dab965")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 402.59 172.72 0)
 		(mirror y)
@@ -26843,84 +26857,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 402.59 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9010c1ed-2db8-4ce4-b82e-8b9612a813fc")
-		(property "Reference" "#PWR074"
-			(at 402.59 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 402.59 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Espressif:ESP32-P4"
-			(at 402.59 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 402.59 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 402.59 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5c06b722-e22c-4ea8-b5ae-7b4dcca74a15")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)

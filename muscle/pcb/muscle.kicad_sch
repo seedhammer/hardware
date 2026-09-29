@@ -9475,7 +9475,7 @@
 						)
 					)
 				)
-				(pin open_emitter line
+				(pin open_collector line
 					(at 12.7 2.54 180)
 					(length 2.54)
 					(name "PGOOD"
@@ -11292,7 +11292,7 @@
 		)
 		(uuid "ccbf1aed-7ec3-4bdb-86b9-f3f776f74260")
 	)
-	(text "I_{LIMIT}=4.6A\nI_{inrush}=0.5A\nV_{OVP}=28V\nV_{UVLO}=15V\n"
+	(text "I_{LIMIT}=4.6A\nI_{inrush}=0.5A\nV_{OVP}=30V\nV_{UVLO}=15V\n"
 		(exclude_from_sim no)
 		(at 344.17 246.126 0)
 		(effects
@@ -11454,12 +11454,6 @@
 		(uuid "28b6c651-c5e7-4c41-8660-c69d393a04ac")
 	)
 	(junction
-		(at 303.53 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "292db8e9-740d-412d-9509-47adb9cd2a0a")
-	)
-	(junction
 		(at 309.88 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11500,12 +11494,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "355380b8-2783-4724-b79d-cc3d01060986")
-	)
-	(junction
-		(at 391.16 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3978f03d-11b0-4da2-8009-8a31e5da1b24")
 	)
 	(junction
 		(at 76.2 243.84)
@@ -12601,16 +12589,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 158.75) (xy 264.16 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d8212d-a219-4055-a958-f9b199f152fa")
-	)
-	(wire
-		(pts
 			(xy 372.11 71.12) (xy 374.65 71.12)
 		)
 		(stroke
@@ -12888,16 +12866,6 @@
 			(type default)
 		)
 		(uuid "265ed2ab-dc3d-416f-b384-b7d673747458")
-	)
-	(wire
-		(pts
-			(xy 288.29 158.75) (xy 288.29 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26a78594-27ae-43d4-8717-5277c0856c91")
 	)
 	(wire
 		(pts
@@ -13451,16 +13419,6 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 171.45) (xy 299.72 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e3078c-dd11-4d2d-a01b-5033c3a59bd1")
-	)
-	(wire
-		(pts
 			(xy 384.81 104.14) (xy 384.81 99.06)
 		)
 		(stroke
@@ -13558,16 +13516,6 @@
 			(type default)
 		)
 		(uuid "4d332015-c084-4d85-9358-bb1f1b3f2785")
-	)
-	(wire
-		(pts
-			(xy 292.1 38.1) (xy 303.53 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d428149-bb40-4436-8805-96f2c0bedbbe")
 	)
 	(wire
 		(pts
@@ -14541,7 +14489,7 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 35.56) (xy 303.53 38.1)
+			(xy 292.1 35.56) (xy 292.1 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14761,16 +14709,6 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 158.75) (xy 275.59 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8861c2f7-cfac-4384-b727-b7509eedbf23")
-	)
-	(wire
-		(pts
 			(xy 408.94 191.77) (xy 408.94 189.23)
 		)
 		(stroke
@@ -14788,16 +14726,6 @@
 			(type default)
 		)
 		(uuid "88cadc7b-88a8-4678-a5fa-9e16cf2ed2e7")
-	)
-	(wire
-		(pts
-			(xy 391.16 38.1) (xy 391.16 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89070fbb-bc89-42f5-bab3-b061a4e157cf")
 	)
 	(wire
 		(pts
@@ -15221,7 +15149,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 171.45) (xy 275.59 172.72)
+			(xy 275.59 158.75) (xy 275.59 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15561,16 +15489,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 39.37) (xy 303.53 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a856056e-5df5-40d6-8f40-755e5fc14d97")
-	)
-	(wire
-		(pts
 			(xy 64.77 71.12) (xy 57.15 71.12)
 		)
 		(stroke
@@ -15871,7 +15789,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 171.45) (xy 264.16 172.72)
+			(xy 264.16 158.75) (xy 264.16 172.72)
 		)
 		(stroke
 			(width 0)
@@ -15901,7 +15819,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 35.56) (xy 391.16 38.1)
+			(xy 379.73 35.56) (xy 379.73 38.1)
 		)
 		(stroke
 			(width 0)
@@ -16021,7 +15939,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 158.75) (xy 299.72 161.29)
+			(xy 299.72 158.75) (xy 299.72 172.72)
 		)
 		(stroke
 			(width 0)
@@ -17221,7 +17139,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 171.45) (xy 288.29 172.72)
+			(xy 288.29 158.75) (xy 288.29 172.72)
 		)
 		(stroke
 			(width 0)
@@ -17358,16 +17276,6 @@
 			(type default)
 		)
 		(uuid "fef05a70-6d8e-4486-9fc9-345e8458fac2")
-	)
-	(wire
-		(pts
-			(xy 379.73 38.1) (xy 391.16 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff330186-aa53-49a0-8ff4-57cc1d8bc45a")
 	)
 	(wire
 		(pts
@@ -20152,85 +20060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 391.16 44.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a811ad9-8639-490a-99fe-0f4370549f3f")
-		(property "Reference" "#PWR057"
-			(at 391.16 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 391.16 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 391.16 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e12e31da-b16b-4587-8b5c-6f6855b77522")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 57.15 76.2 0)
 		(unit 1)
@@ -21497,7 +21326,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD6070DN56"
+		(property "Value" "WSD4070DN33"
 			(at 425.45 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21543,7 +21372,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5772651"
+		(property "LCSC" "C719095"
 			(at 419.1 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -21670,7 +21499,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 303.53 35.56 0)
+		(at 292.1 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21680,7 +21509,7 @@
 		(dnp no)
 		(uuid "17b88c73-71c2-4686-b180-c074204e2c9c")
 		(property "Reference" "#PWR03"
-			(at 303.53 39.37 0)
+			(at 292.1 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21691,7 +21520,7 @@
 			)
 		)
 		(property "Value" "VM"
-			(at 302.514 30.988 0)
+			(at 291.084 30.988 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21702,7 +21531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 303.53 35.56 0)
+			(at 292.1 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21713,7 +21542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.53 35.56 0)
+			(at 292.1 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21724,7 +21553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 303.53 35.56 0)
+			(at 292.1 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22253,87 +22082,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 299.72 166.37 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "2095e265-74d0-492a-8fad-66c7cdf1bd4e")
-		(property "Reference" "JP14"
-			(at 296.926 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 295.91 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 299.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 299.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c99cbeb-88cb-43e3-882c-fca78082c3d6")
-		)
-		(pin "2"
-			(uuid "21ea39dd-f25a-494a-9c80-f9f9417c46df")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "JP14")
 					(unit 1)
 				)
 			)
@@ -23900,7 +23648,7 @@
 				)
 			)
 		)
-		(property "Value" "TS24CA"
+		(property "Value" "GT-TC041B-H036-L1N"
 			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -23922,7 +23670,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industry.panasonic.com/global/en/downloads?part_no=EVQPUC02K"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/GSwitch-GT_TC041B_H036L1N/C2686893"
 			(at 68.58 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -23944,7 +23692,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C79174"
+		(property "LCSC" "C2686893"
 			(at 73.66 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -24219,7 +23967,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD6070DN56"
+		(property "Value" "WSD4070DN33"
 			(at 425.45 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24265,7 +24013,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5772651"
+		(property "LCSC" "C719095"
 			(at 419.1 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -25795,87 +25543,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 275.59 166.37 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "40db6f9a-f346-4ab1-829d-772fff8e1f11")
-		(property "Reference" "JP12"
-			(at 272.796 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 271.78 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 275.59 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 275.59 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "defd6e79-cc85-4aa1-a0c7-e2ae01bb1ed7")
-		)
-		(pin "2"
-			(uuid "a37d01a6-ea01-486b-9abd-c5f084bfcf5c")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "JP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Schottky_Small")
 		(at 317.5 322.58 180)
 		(unit 1)
@@ -26873,7 +26540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD6070DN56"
+		(property "Value" "WSD4070DN33"
 			(at 444.5 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26919,7 +26586,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5772651"
+		(property "LCSC" "C719095"
 			(at 438.15 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -26988,7 +26655,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS16630RGE"
+		(property "Value" "TPS16630PWP"
 			(at 330.2 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27031,7 +26698,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1850279"
+		(property "LCSC" "C1849461"
 			(at 330.2 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -28478,85 +28145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 303.53 44.45 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b5a3b43-f438-4885-8e13-e69957b1a396")
-		(property "Reference" "#PWR013"
-			(at 303.53 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 303.53 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 303.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 303.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 303.53 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f79912e-befe-44a7-a55a-b2d6391baa8a")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 372.11 326.39 0)
 		(unit 1)
@@ -28670,7 +28258,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 391.16 35.56 0)
+		(at 379.73 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28680,7 +28268,7 @@
 		(dnp no)
 		(uuid "5f4d3dcd-430e-4ead-9382-e87e4d1b5487")
 		(property "Reference" "#PWR049"
-			(at 391.16 39.37 0)
+			(at 379.73 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28691,7 +28279,7 @@
 			)
 		)
 		(property "Value" "VM"
-			(at 390.144 31.496 0)
+			(at 378.714 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28702,7 +28290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 391.16 35.56 0)
+			(at 379.73 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28713,7 +28301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 391.16 35.56 0)
+			(at 379.73 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28724,7 +28312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 391.16 35.56 0)
+			(at 379.73 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30537,7 +30125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 439.42 51.435 0)
 			(hide yes)
 			(show_name no)
@@ -30550,7 +30138,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/ElecSuper-BSS138W_7_FES/C5224279"
 			(at 439.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -30573,7 +30161,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C28646265"
+		(property "LCSC" "C5224279"
 			(at 434.34 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -30884,118 +30472,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 303.53 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7740b829-da82-4c6b-9ac1-38e84be532c5")
-		(property "Reference" "C15"
-			(at 303.784 40.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 303.784 43.942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 303.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/DMBJ-RVT1V221M0810_220UF35V/C970697"
-			(at 303.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 303.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C970697"
-			(at 303.53 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 303.53 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 303.53 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b09b0b88-1cc2-49fc-9485-aa16b84555c0")
-		)
-		(pin "1"
-			(uuid "2495fc80-10ea-4b16-94e2-7a5c569470f6")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -31728,7 +31204,8 @@
 	)
 	(symbol
 		(lib_id "mainboard:WSD4070DN33")
-		(at 396.24 255.27 90)
+		(at 396.24 255.27 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31736,10 +31213,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ecf7958-65e6-41ee-baa6-e29bf2fb1f4d")
 		(property "Reference" "Q2"
-			(at 396.2401 246.38 90)
+			(at 396.2399 246.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31749,7 +31225,7 @@
 			)
 		)
 		(property "Value" "WSD4070DN33"
-			(at 396.2401 248.92 90)
+			(at 396.2399 248.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31759,7 +31235,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
-			(at 398.145 250.19 0)
+			(at 394.335 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31771,7 +31247,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
-			(at 400.05 250.19 0)
+			(at 392.43 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32360,87 +31836,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 264.16 166.37 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "87b029f0-c561-441d-b98a-ce73454944b9")
-		(property "Reference" "JP11"
-			(at 261.366 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 260.35 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 264.16 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 264.16 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e79db24-3fda-42bd-bb54-8f58bd21e490")
-		)
-		(pin "2"
-			(uuid "a230bb40-b6a0-4809-b20c-f95c5f26d783")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -34187,87 +33582,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 288.29 166.37 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "8f77f61e-ff0d-4e77-8708-79efbae520ea")
-		(property "Reference" "JP13"
-			(at 285.496 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Bridged"
-			(at 284.48 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 288.29 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 288.29 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e61cef3c-54fb-419e-80b6-d5ab604399d6")
-		)
-		(pin "2"
-			(uuid "27d5a16b-4858-418f-969a-bc7e226b184d")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "JP13")
 					(unit 1)
 				)
 			)
@@ -37362,6 +36676,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C473393"
+			(at 396.24 270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "29972140-45c9-4bc6-8644-3514a8ac1c00")
 		)
@@ -37491,7 +36816,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TS24CA"
+		(property "Value" "GT-TC041B-H036-L1N"
 			(at 80.645 111.7601 90)
 			(hide yes)
 			(show_name no)
@@ -37514,7 +36839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://industry.panasonic.com/global/en/downloads?part_no=EVQPUC02K"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/GSwitch-GT_TC041B_H036L1N/C2686893"
 			(at 72.39 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -37536,7 +36861,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C79174"
+		(property "LCSC" "C2686893"
 			(at 77.47 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -38881,6 +38206,17 @@
 			)
 		)
 		(property "Description" "1A Current limited power switch, single channel, output discharge, reverse blocking, SOT-23-5"
+			(at 184.15 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C265129"
 			(at 184.15 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -43300,7 +42636,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/97651-CL10A106MA8NRNC/C96446"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 254 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -43322,7 +42658,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
+		(property "LCSC" "C194427"
 			(at 254 320.04 0)
 			(hide yes)
 			(show_name no)
@@ -43643,7 +42979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD6070DN56"
+		(property "Value" "WSD4070DN33"
 			(at 444.5 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43689,7 +43025,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5772651"
+		(property "LCSC" "C719095"
 			(at 438.15 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -43731,118 +43067,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 391.16 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f602e929-eae7-4a41-a32a-6552749ace82")
-		(property "Reference" "C26"
-			(at 391.414 40.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 391.414 43.942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
-			(at 391.16 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/DMBJ-RVT1V221M0810_220UF35V/C970697"
-			(at 391.16 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 391.16 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C970697"
-			(at 391.16 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 391.16 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 391.16 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dfb9f54f-0420-4551-bb5f-070bbe1c5ccb")
-		)
-		(pin "1"
-			(uuid "7bb2ad31-7ff7-4bff-8277-373d4069768e")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -44267,7 +43491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 335.28 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -44278,7 +43502,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/14236-CL31A106KBHNNNE/C13585"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/235742-GRM188R6YA106MA73D/C194427"
 			(at 335.28 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -44300,7 +43524,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C13585"
+		(property "LCSC" "C194427"
 			(at 335.28 157.48 0)
 			(hide yes)
 			(show_name no)

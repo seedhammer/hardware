@@ -578,7 +578,7 @@
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.15,
+        "diff_pair_width": 0.2134,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -591,6 +591,15 @@
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.1565,
+        "name": "MIPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -598,7 +607,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "MIPI",
+        "pattern": "/DSI_*"
+      },
+      {
+        "netclass": "MIPI",
+        "pattern": "/CSI_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -785,7 +803,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "L1-9,H1-4,BT1,R1-31,R44-46,R55-57,#FLG1-5,U1-15,C1-86,SW1-2,D1-3,D6,#PWR1-153,Y1-2,J1-5,J9-10",
+    "used_designators": "L1-9,#FLG1-5,BT1,R1-31,R44-46,R55-57,H1-4,U1-15,C1-86,SW1-2,D1-3,D6,#PWR1-153,Y1-2,J1-5,J9-10",
     "variants": []
   },
   "sheets": [

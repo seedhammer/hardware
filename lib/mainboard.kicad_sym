@@ -13775,7 +13775,7 @@
 					)
 				)
 			)
-			(pin open_emitter line
+			(pin open_collector line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "PGOOD"
@@ -14262,7 +14262,7 @@
 					)
 				)
 			)
-			(pin open_emitter line
+			(pin open_collector line
 				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "PGOOD"
