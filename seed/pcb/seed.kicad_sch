@@ -8873,10 +8873,6 @@
 		(uuid "31f26678-a6d8-4bc5-b5f6-95d17f435acd")
 	)
 	(no_connect
-		(at 105.41 219.71)
-		(uuid "34ca934e-1e48-44e8-bcb4-beef77233c51")
-	)
-	(no_connect
 		(at 186.69 243.84)
 		(uuid "35bbdce0-9637-4089-814e-bd51d7f1c4fa")
 	)
@@ -8949,10 +8945,6 @@
 		(uuid "75cb8498-0129-424c-91c6-c5ab32ec26c1")
 	)
 	(no_connect
-		(at 255.27 219.71)
-		(uuid "7a256244-7a63-4c38-9576-4f32d28a07cf")
-	)
-	(no_connect
 		(at 417.83 224.79)
 		(uuid "8284bf00-bd95-4416-bb79-2d732db0d3b4")
 	)
@@ -9013,20 +9005,12 @@
 		(uuid "aea980ee-2d1d-474e-aeb8-2ee0dcaa7f82")
 	)
 	(no_connect
-		(at 105.41 222.25)
-		(uuid "b87487e1-80c9-4ac6-ad8f-44a19d0a18b4")
-	)
-	(no_connect
 		(at 290.83 212.09)
 		(uuid "bad71cdc-d04b-45cd-a44f-af5f07ca250a")
 	)
 	(no_connect
 		(at 417.83 222.25)
 		(uuid "bd4b75b6-46a1-457a-9ff2-af406257bb13")
-	)
-	(no_connect
-		(at 255.27 217.17)
-		(uuid "bfe227ce-7102-4c9e-8d36-90b431cc66fb")
 	)
 	(no_connect
 		(at 186.69 106.68)
@@ -10482,7 +10466,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 236.22) (xy 105.41 236.22)
+			(xy 90.17 236.22) (xy 105.41 236.22)
 		)
 		(stroke
 			(width 0)
@@ -10509,6 +10493,16 @@
 			(type default)
 		)
 		(uuid "52a84e41-1366-485e-900b-68686e17cdf7")
+	)
+	(wire
+		(pts
+			(xy 238.76 217.17) (xy 255.27 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5324872a-e787-4fd6-be1d-5d368fbbd9a0")
 	)
 	(wire
 		(pts
@@ -10902,6 +10896,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 219.71) (xy 105.41 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68f260ed-55f8-4a70-b290-31b7b81c3177")
+	)
+	(wire
+		(pts
 			(xy 290.83 194.31) (xy 307.34 194.31)
 		)
 		(stroke
@@ -10982,7 +10986,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 233.68) (xy 105.41 233.68)
+			(xy 90.17 233.68) (xy 105.41 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11349,6 +11353,16 @@
 			(type default)
 		)
 		(uuid "87f43f60-f583-4a5a-91a6-d2246fdc46c0")
+	)
+	(wire
+		(pts
+			(xy 238.76 219.71) (xy 255.27 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880cdaaa-6fd2-4b86-9cba-696375ea8b26")
 	)
 	(wire
 		(pts
@@ -12022,7 +12036,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 231.14) (xy 105.41 231.14)
+			(xy 90.17 231.14) (xy 105.41 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12882,7 +12896,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 238.76) (xy 105.41 238.76)
+			(xy 90.17 238.76) (xy 105.41 238.76)
 		)
 		(stroke
 			(width 0)
@@ -13202,6 +13216,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 222.25) (xy 105.41 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfd106f-ff71-4fa4-93eb-31a7bbe6a675")
+	)
+	(wire
+		(pts
 			(xy 109.22 83.82) (xy 118.11 83.82)
 		)
 		(stroke
@@ -13260,6 +13284,16 @@
 		)
 		(uuid "0026e90e-4268-48d6-8cfc-2be037d422cc")
 	)
+	(label "DSI_DATA1P"
+		(at 238.76 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03c80507-8ffe-4af3-834a-d502b5b04dbc")
+	)
 	(label "FB_DCDC"
 		(at 398.78 285.75 180)
 		(effects
@@ -13271,7 +13305,7 @@
 		(uuid "076fb729-12cd-426f-946c-3e2631f0b123")
 	)
 	(label "CSI_CLKN"
-		(at 91.44 233.68 0)
+		(at 90.17 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13339,6 +13373,16 @@
 			(justify right bottom)
 		)
 		(uuid "1ffcb0eb-ab57-4a79-9505-31b29de0b65e")
+	)
+	(label "DSI_DATA1P"
+		(at 90.17 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "296e141c-d769-43a2-8459-2fdbf9344dc7")
 	)
 	(label "NFC_SEN"
 		(at 203.2 147.32 180)
@@ -13451,7 +13495,7 @@
 		(uuid "4602191d-c49e-4119-b4ac-36459a8602c1")
 	)
 	(label "CSI_CLKP"
-		(at 91.44 231.14 0)
+		(at 90.17 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13461,7 +13505,7 @@
 		(uuid "482acd44-9b92-4bd9-bbba-1daa0367ab88")
 	)
 	(label "CSI_DATA0N"
-		(at 91.44 238.76 0)
+		(at 90.17 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13770,6 +13814,16 @@
 		)
 		(uuid "ac0d9103-b8a3-49b4-b228-86539b5bb531")
 	)
+	(label "DSI_DATA1N"
+		(at 90.17 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad4f49c8-4cbd-4231-afa9-fc68f2e7a694")
+	)
 	(label "CAM_RESET"
 		(at 203.2 149.86 180)
 		(effects
@@ -13799,6 +13853,16 @@
 			(justify right bottom)
 		)
 		(uuid "bb17350f-a6c6-47c4-acb4-793e8f16d7ba")
+	)
+	(label "DSI_DATA1N"
+		(at 238.76 219.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd6cd15b-c430-42c5-97c6-fcf5352cb7a2")
 	)
 	(label "TOUCH_SDA"
 		(at 203.2 111.76 180)
@@ -13921,7 +13985,7 @@
 		(uuid "f0293e65-8da4-4b82-9538-6a7866460a65")
 	)
 	(label "CSI_DATA0P"
-		(at 91.44 236.22 0)
+		(at 90.17 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
