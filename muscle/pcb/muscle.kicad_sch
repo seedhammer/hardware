@@ -7535,7 +7535,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Switching:TPS563300"
+		(symbol "Regulator_Switching:TPS62933"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7551,7 +7551,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS563300"
+			(property "Value" "TPS62933"
 				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7572,7 +7572,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps563300.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62933.pdf"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7583,7 +7583,7 @@
 					)
 				)
 			)
-			(property "Description" "3.8-28V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8"
+			(property "Description" "3.8-30V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -7616,7 +7616,7 @@
 					)
 				)
 			)
-			(symbol "TPS563300_0_1"
+			(symbol "TPS62933_0_1"
 				(rectangle
 					(start -5.08 10.16)
 					(end 5.08 -10.16)
@@ -7629,12 +7629,11 @@
 					)
 				)
 			)
-			(symbol "TPS563300_1_1"
-				(pin no_connect line
-					(at -5.08 -5.08 0)
+			(symbol "TPS62933_1_1"
+				(pin passive line
+					(at -7.62 -5.08 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "RT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7739,11 +7738,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
+				(pin passive line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "SS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11700,7 +11698,7 @@
 		(uuid "9e3686da-8788-404f-9627-3a34a0f2c844")
 	)
 	(junction
-		(at 370.84 252.73)
+		(at 374.65 252.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ed6e570-bce7-43d5-a6c4-cc8a947cab68")
@@ -11808,7 +11806,7 @@
 		(uuid "cb935bac-07c2-48de-81e0-1b711996c785")
 	)
 	(junction
-		(at 370.84 264.16)
+		(at 374.65 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbb2511f-d227-4916-863d-692fe746912f")
@@ -12116,6 +12114,10 @@
 	(no_connect
 		(at 317.5 270.51)
 		(uuid "fa13ce9f-d6b8-4521-a0fe-c95a6df81e65")
+	)
+	(no_connect
+		(at 269.24 327.66)
+		(uuid "fe857c03-304f-4686-b631-df6061e40720")
 	)
 	(wire
 		(pts
@@ -12919,7 +12921,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 252.73) (xy 370.84 252.73)
+			(xy 342.9 252.73) (xy 387.35 252.73)
 		)
 		(stroke
 			(width 0)
@@ -13026,6 +13028,16 @@
 			(type default)
 		)
 		(uuid "2f73fc60-78a6-4c0b-91ee-e12a83b0fc77")
+	)
+	(wire
+		(pts
+			(xy 264.16 326.39) (xy 264.16 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307e0db6-4d4d-4385-8839-12f40c723a3a")
 	)
 	(wire
 		(pts
@@ -13789,7 +13801,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 260.35) (xy 342.9 260.35)
+			(xy 342.9 260.35) (xy 353.06 260.35)
 		)
 		(stroke
 			(width 0)
@@ -14069,7 +14081,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 264.16) (xy 370.84 266.7)
+			(xy 374.65 264.16) (xy 374.65 266.7)
 		)
 		(stroke
 			(width 0)
@@ -14266,16 +14278,6 @@
 			(type default)
 		)
 		(uuid "75b020e0-ae4e-43fa-becf-29b7f15eb901")
-	)
-	(wire
-		(pts
-			(xy 370.84 252.73) (xy 387.35 252.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "762b79d0-1bee-4cb2-847c-ce55a841489f")
 	)
 	(wire
 		(pts
@@ -14579,7 +14581,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 260.35) (xy 370.84 264.16)
+			(xy 374.65 260.35) (xy 374.65 264.16)
 		)
 		(stroke
 			(width 0)
@@ -15236,6 +15238,16 @@
 			(type default)
 		)
 		(uuid "9d399789-9216-4fc7-a85a-87002d2d4fc7")
+	)
+	(wire
+		(pts
+			(xy 264.16 325.12) (xy 269.24 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4e23ff-92de-4e79-b4cc-a5b127240c50")
 	)
 	(wire
 		(pts
@@ -16029,7 +16041,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 264.16) (xy 382.27 264.16)
+			(xy 374.65 264.16) (xy 365.76 264.16)
 		)
 		(stroke
 			(width 0)
@@ -16619,7 +16631,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 252.73) (xy 370.84 255.27)
+			(xy 374.65 252.73) (xy 374.65 255.27)
 		)
 		(stroke
 			(width 0)
@@ -16969,7 +16981,7 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 273.05) (xy 370.84 271.78)
+			(xy 374.65 273.05) (xy 374.65 271.78)
 		)
 		(stroke
 			(width 0)
@@ -18177,7 +18189,7 @@
 		)
 		(uuid "b98e8923-a598-4af2-8d48-68c9548d0ada")
 	)
-	(label "PWR_EN"
+	(label "PGOOD"
 		(at 260.35 317.5 0)
 		(effects
 			(font
@@ -18217,13 +18229,13 @@
 		)
 		(uuid "c8df5605-d9cc-41c3-9820-7a312b73b048")
 	)
-	(label "PWR_EN"
-		(at 382.27 264.16 180)
+	(label "PGOOD"
+		(at 365.76 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c9efc480-7801-40bf-a1a5-fbf692a8c83e")
 	)
@@ -18286,6 +18298,16 @@
 			(justify right bottom)
 		)
 		(uuid "e860c662-5cf6-43f2-acca-9c1cdef981a1")
+	)
+	(label "PGOOD"
+		(at 353.06 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8c1974c-bdb7-41da-b6b3-4f32337c2e89")
 	)
 	(label "Y_B1"
 		(at 393.7 76.2 0)
@@ -19830,115 +19852,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:TPS563300")
-		(at 276.86 322.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09cd311c-102b-4487-af4e-1f15765c5294")
-		(property "Reference" "U11"
-			(at 276.86 307.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS563300"
-			(at 276.86 309.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
-			(at 276.86 347.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps563300.pdf"
-			(at 276.86 345.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3.8-28V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8"
-			(at 276.86 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5219249"
-			(at 276.86 322.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "a420588c-05d5-4015-bcfe-d010a6ec5d6c")
-		)
-		(pin "8"
-			(uuid "fd32f189-7116-401b-ae82-5873e3f54fb2")
-		)
-		(pin "5"
-			(uuid "509a665a-3a4b-4023-9bff-929cd9447007")
-		)
-		(pin "6"
-			(uuid "100662ba-800a-418c-aef3-b5e0651b91ff")
-		)
-		(pin "2"
-			(uuid "66d5cb4b-c1f2-489b-acab-17488f869865")
-		)
-		(pin "1"
-			(uuid "e172919c-d4a8-460b-9044-b147bf03d014")
-		)
-		(pin "4"
-			(uuid "88c48117-2012-4517-b2d5-5626282c8fc0")
-		)
-		(pin "3"
-			(uuid "70fc3234-569f-4b5c-ad40-68c0c5e9a291")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:TLV75733PDBV")
 		(at 359.41 325.12 0)
 		(unit 1)
@@ -20982,6 +20895,119 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 264.16 328.93 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13a61896-7bf1-4194-bc18-069c5f8a5102")
+		(property "Reference" "C61"
+			(at 261.239 327.7616 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22n"
+			(at 261.239 330.073 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 264.16 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1884-0402B223K500NT/C1532"
+			(at 264.16 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 264.16 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1532"
+			(at 264.16 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 264.16 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 264.16 328.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a655659-c0fa-4ac0-9c19-3d9522b28dfe")
+		)
+		(pin "2"
+			(uuid "ee345730-0028-4928-afa6-b544d44dfe0f")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -27673,85 +27699,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 260.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57396436-bbfa-45bb-91f7-01a76f9cec8c")
-		(property "Reference" "#PWR090"
-			(at 350.52 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 347.98 260.3499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 344.17 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 344.17 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 344.17 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e1794b7-605b-4fb6-888c-9bf7fc65e9f6")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 144.78 265.43 0)
 		(unit 1)
 		(body_style 1)
@@ -30211,6 +30158,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:TPS62933")
+		(at 276.86 322.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "707060ea-6b58-4f28-a740-14cd81dab1fc")
+		(property "Reference" "U9"
+			(at 276.86 307.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62933"
+			(at 276.86 309.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-583-8"
+			(at 276.86 347.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62933.pdf"
+			(at 276.86 345.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3.8-30V, 3A Synchronous Buck Converters with pulse frequency modulation (PFM), SOT583-8"
+			(at 276.86 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3200405"
+			(at 276.86 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "dbe1c506-1a0c-464f-badf-972bf969f084")
+		)
+		(pin "5"
+			(uuid "03d4905d-a9e2-486f-a08b-9c03ae50634b")
+		)
+		(pin "6"
+			(uuid "ae146746-b5a2-48e3-98d6-f91c589f2c42")
+		)
+		(pin "3"
+			(uuid "c4e1f9c6-66dc-4818-9268-0b83133527f2")
+		)
+		(pin "2"
+			(uuid "9b639973-6714-40d3-8cea-aa56c9e08b96")
+		)
+		(pin "7"
+			(uuid "01482947-cb48-4666-af65-4afae9f69c97")
+		)
+		(pin "8"
+			(uuid "331f2580-409a-47bc-be7b-61e5fed1da90")
+		)
+		(pin "1"
+			(uuid "1205ab86-5fcb-4f4d-8636-ace71b8bd7bb")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 292.1 41.91 0)
 		(unit 1)
@@ -31694,7 +31750,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "81df8874-c315-4d41-9891-323c1bda9671")
 		(property "Reference" "#PWR088"
 			(at 350.52 257.81 0)
@@ -31708,7 +31763,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 347.98 257.8099 90)
+			(at 345.186 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35298,7 +35353,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 370.84 273.05 0)
+		(at 374.65 273.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35309,7 +35364,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cffea71-9e97-422a-a50c-67d7827c7c23")
 		(property "Reference" "#PWR0123"
-			(at 370.84 279.4 0)
+			(at 374.65 279.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35320,7 +35375,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 370.84 278.13 0)
+			(at 374.65 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35330,7 +35385,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 370.84 273.05 0)
+			(at 374.65 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35341,7 +35396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 273.05 0)
+			(at 374.65 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35352,7 +35407,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 273.05 0)
+			(at 374.65 273.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35449,6 +35504,84 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 331.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dae3014-b888-4741-becc-96d7b8c794d9")
+		(property "Reference" "#PWR0112"
+			(at 264.16 337.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 336.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 331.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54455686-4c55-4ac4-9738-86d3e6bda2f6")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -37233,7 +37366,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 370.84 257.81 0)
+		(at 374.65 257.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37243,7 +37376,7 @@
 		(dnp no)
 		(uuid "b36b6a97-d5bc-4dfc-8ff9-a3798b7197f9")
 		(property "Reference" "R36"
-			(at 373.38 256.5399 0)
+			(at 377.19 256.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37254,7 +37387,7 @@
 			)
 		)
 		(property "Value" "348k"
-			(at 373.38 259.0799 0)
+			(at 377.19 259.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37265,7 +37398,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 370.84 257.81 0)
+			(at 374.65 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37276,7 +37409,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/26523-0402WGF3483TCE/C25780"
-			(at 370.84 257.81 0)
+			(at 374.65 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37287,7 +37420,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 370.84 257.81 0)
+			(at 374.65 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37298,7 +37431,7 @@
 			)
 		)
 		(property "LCSC" "C25780"
-			(at 370.84 257.81 0)
+			(at 374.65 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39496,7 +39629,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 370.84 269.24 0)
+		(at 374.65 269.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39506,7 +39639,7 @@
 		(dnp no)
 		(uuid "d0a986c4-6b02-4415-a4ae-043161eeb60c")
 		(property "Reference" "R51"
-			(at 374.65 267.9699 0)
+			(at 377.19 267.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39517,7 +39650,7 @@
 			)
 		)
 		(property "Value" "68k"
-			(at 374.65 270.5099 0)
+			(at 377.19 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39528,7 +39661,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 370.84 269.24 0)
+			(at 374.65 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39539,7 +39672,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
-			(at 370.84 269.24 0)
+			(at 374.65 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39550,7 +39683,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 370.84 269.24 0)
+			(at 374.65 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39561,7 +39694,7 @@
 			)
 		)
 		(property "LCSC" "C23231"
-			(at 370.84 269.24 0)
+			(at 374.65 269.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39572,7 +39705,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 370.84 269.24 0)
+			(at 374.65 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39582,7 +39715,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 370.84 269.24 0)
+			(at 374.65 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
