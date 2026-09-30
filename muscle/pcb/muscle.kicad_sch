@@ -20428,7 +20428,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 461.01 185.42 180)
+		(at 461.01 182.88 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20438,7 +20439,7 @@
 		(dnp no)
 		(uuid "0f946891-001b-47d5-ab24-4f0d83a37ac5")
 		(property "Reference" "J8"
-			(at 463.804 185.42 0)
+			(at 463.804 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20448,7 +20449,7 @@
 			)
 		)
 		(property "Value" "B2B-XH-A(LF)(SN)"
-			(at 460.375 187.96 0)
+			(at 460.375 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20458,8 +20459,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 461.01 185.42 0)
+		(property "Footprint" "Connector_JST:JST_VH_S2P-VH_1x02_P3.96mm_Horizontal"
+			(at 461.01 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20469,8 +20470,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/24933-XH2ABlack/C24193"
-			(at 461.01 185.42 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-S2P_VH_LF_SN/C160355"
+			(at 461.01 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20481,7 +20482,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 461.01 185.42 0)
+			(at 461.01 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20491,8 +20492,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C24193"
-			(at 461.01 185.42 0)
+		(property "LCSC" "C160355"
+			(at 461.01 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20503,7 +20504,7 @@
 			)
 		)
 		(property "Label" "SOLENOID"
-			(at 467.36 182.88 0)
+			(at 467.36 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20513,7 +20514,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 461.01 185.42 0)
+			(at 461.01 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20523,7 +20524,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 461.01 185.42 0)
+			(at 461.01 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21015,8 +21016,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 317.5 77.47 0)
-		(mirror y)
+		(at 317.5 80.01 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21026,7 +21026,7 @@
 		(dnp no)
 		(uuid "146418db-901b-4573-9389-de7206f5183b")
 		(property "Reference" "J1"
-			(at 318.77 78.486 90)
+			(at 318.77 78.994 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21046,8 +21046,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_Motor"
-			(at 317.5 77.47 0)
+		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+			(at 317.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21057,8 +21057,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/58883-XH4ABlack/C57846"
-			(at 317.5 77.47 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-S4B_XH_A_LF_SN/C157925"
+			(at 317.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21069,7 +21069,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 317.5 77.47 0)
+			(at 317.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21079,8 +21079,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C57846"
-			(at 317.5 77.47 0)
+		(property "LCSC" "C157925"
+			(at 317.5 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21101,7 +21101,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 317.5 77.47 0)
+			(at 317.5 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21111,7 +21111,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 317.5 77.47 0)
+			(at 317.5 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38156,8 +38156,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 403.86 76.2 0)
-		(mirror y)
+		(at 403.86 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38167,7 +38166,7 @@
 		(dnp no)
 		(uuid "bdea0f44-7fa3-4181-84cf-c0de2d1180df")
 		(property "Reference" "J5"
-			(at 405.638 77.724 90)
+			(at 405.638 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38177,7 +38176,7 @@
 			)
 		)
 		(property "Value" "B4B-XH-2(LF)(SN)"
-			(at 408.94 77.216 90)
+			(at 408.94 77.724 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38187,8 +38186,8 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical_Motor"
-			(at 403.86 76.2 0)
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
+			(at 403.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38198,8 +38197,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/58883-XH4ABlack/C57846"
-			(at 403.86 76.2 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/JST-B4B_XH_A_LF_SN/C144395"
+			(at 403.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38210,7 +38209,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 403.86 76.2 0)
+			(at 403.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38220,8 +38219,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C57846"
-			(at 403.86 76.2 0)
+		(property "LCSC" "C144395"
+			(at 403.86 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38242,7 +38241,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 403.86 76.2 0)
+			(at 403.86 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38252,7 +38251,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 403.86 76.2 0)
+			(at 403.86 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
