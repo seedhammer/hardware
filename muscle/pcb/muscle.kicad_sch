@@ -12092,6 +12092,10 @@
 		(uuid "d882ca30-8ab0-431e-93b9-c229e65ce1f6")
 	)
 	(no_connect
+		(at 361.95 276.86)
+		(uuid "e58d301e-6203-44e8-88b2-a703fe16171c")
+	)
+	(no_connect
 		(at 44.45 294.64)
 		(uuid "ec45a035-fc27-4f5e-9984-b6980e2fa803")
 	)
@@ -13311,7 +13315,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 279.4) (xy 358.14 280.67)
+			(xy 361.95 288.29) (xy 361.95 289.56)
 		)
 		(stroke
 			(width 0)
@@ -13961,6 +13965,16 @@
 	)
 	(wire
 		(pts
+			(xy 359.41 279.4) (xy 358.14 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63283ef7-0020-4038-9388-6abe38b2860f")
+	)
+	(wire
+		(pts
 			(xy 209.55 132.08) (xy 209.55 134.62)
 		)
 		(stroke
@@ -14318,6 +14332,16 @@
 			(type default)
 		)
 		(uuid "7850428c-a0c4-4b9f-ba29-c192912c7449")
+	)
+	(wire
+		(pts
+			(xy 361.95 283.21) (xy 361.95 281.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785bd164-bcfc-456c-bb6b-4932c306bfc3")
 	)
 	(wire
 		(pts
@@ -14761,7 +14785,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 270.51) (xy 358.14 274.32)
+			(xy 358.14 270.51) (xy 358.14 279.4)
 		)
 		(stroke
 			(width 0)
@@ -30615,6 +30639,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Potentiometer_Small")
+		(at 361.95 279.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "781d95ee-78e1-47fe-82e1-c4278f61cef9")
+		(property "Reference" "RV3"
+			(at 364.49 278.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "I_{LIM}"
+			(at 364.49 280.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_SMD:Potentiometer_Bourns_TC33X_Vertical"
+			(at 361.95 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOURNS-TC33X_2103E/C719176"
+			(at 361.95 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 361.95 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 361.95 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 361.95 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 361.95 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C719176"
+			(at 361.95 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1c1ed64-497b-42b9-bfb6-6318f7743b1a")
+		)
+		(pin "2"
+			(uuid "9972666e-0772-48ac-82b8-b349f9b6d211")
+		)
+		(pin "3"
+			(uuid "5419ba59-119b-4a04-bbca-a9cac99a1864")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 361.95 269.24 0)
 		(unit 1)
@@ -31820,7 +31973,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 358.14 280.67 0)
+		(at 361.95 289.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31831,7 +31984,7 @@
 		(fields_autoplaced yes)
 		(uuid "8550f87e-244d-49b3-8bd7-067ae9bfd325")
 		(property "Reference" "#PWR0117"
-			(at 358.14 287.02 0)
+			(at 361.95 295.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31842,7 +31995,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 358.14 285.75 0)
+			(at 361.95 294.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31852,7 +32005,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 358.14 280.67 0)
+			(at 361.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31863,7 +32016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 280.67 0)
+			(at 361.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31874,7 +32027,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 358.14 280.67 0)
+			(at 361.95 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37648,7 +37801,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 358.14 276.86 0)
+		(at 361.95 285.75 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -37659,7 +37812,7 @@
 		(dnp no)
 		(uuid "b90348d6-915d-4692-b41d-030c1c6b9ef5")
 		(property "Reference" "R44"
-			(at 355.6 275.5899 0)
+			(at 359.41 284.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37669,8 +37822,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
-			(at 355.6 278.1299 0)
+		(property "Value" "3k"
+			(at 359.41 287.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37680,8 +37833,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 358.14 276.86 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 361.95 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37691,8 +37844,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23745-0603WAF3901T5E/C23018"
-			(at 358.14 276.86 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/FOJAN-FRC0402F3001TS/C2909355"
+			(at 361.95 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37703,7 +37856,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 358.14 276.86 0)
+			(at 361.95 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37713,8 +37866,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C23018"
-			(at 358.14 276.86 0)
+		(property "LCSC" "C2909355"
+			(at 361.95 285.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
