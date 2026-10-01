@@ -12781,7 +12781,7 @@
 			(uuid "0558c122-12d0-4bf1-afa3-fbfd5685fc79")
 		)
 		(embedded_fonts no)
-		(model "/Users/a/proj/seedhammer/hardware/lib/BW0041CG-L2.5W1.0H1.8.step"
+		(model "../../lib/BW0041CG-L2.5W1.0H1.8.step"
 			(offset
 				(xyz -1.5 0 0)
 			)
@@ -21401,7 +21401,7 @@
 			(uuid "8a0d9296-7e9c-42c5-833c-0c84c1653ddc")
 		)
 		(embedded_fonts no)
-		(model "/Users/a/proj/seedhammer/hardware/lib/BW0041CG-L2.5W1.0H1.8.step"
+		(model "../../lib/BW0041CG-L2.5W1.0H1.8.step"
 			(offset
 				(xyz -1.5 0 0)
 			)
