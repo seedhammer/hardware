@@ -11288,12 +11288,6 @@
 		(uuid "790cb674-4b8c-49b3-adee-247f61cb8d94")
 	)
 	(junction
-		(at 185.42 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7aa89319-ea57-48e8-9be1-ef44f7594787")
-	)
-	(junction
 		(at 421.64 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11400,12 +11394,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aef1bb79-f9ae-4d2c-b0c8-3ddd8412ff98")
-	)
-	(junction
-		(at 185.42 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b25bd3a7-7bde-4c11-9780-3ab5971455f8")
 	)
 	(junction
 		(at 411.48 270.51)
@@ -12765,16 +12753,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 143.51) (xy 185.42 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3893a1a4-17df-4dab-bffb-80f4d7f88d26")
-	)
-	(wire
-		(pts
 			(xy 295.91 57.15) (xy 302.26 57.15)
 		)
 		(stroke
@@ -13065,16 +13043,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 153.67) (xy 190.5 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48f9f56d-aa33-4540-b314-1c146efa905f")
-	)
-	(wire
-		(pts
 			(xy 411.48 269.24) (xy 411.48 270.51)
 		)
 		(stroke
@@ -13355,16 +13323,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 143.51) (xy 185.42 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8ecde1-6402-49ae-8373-81709eb03a1d")
-	)
-	(wire
-		(pts
 			(xy 396.24 168.91) (xy 393.7 168.91)
 		)
 		(stroke
@@ -13572,16 +13530,6 @@
 			(type default)
 		)
 		(uuid "63f010e9-53bb-4a18-82ea-05b2af11635d")
-	)
-	(wire
-		(pts
-			(xy 190.5 146.05) (xy 190.5 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64486105-30e0-4992-9caa-1a497347cd35")
 	)
 	(wire
 		(pts
@@ -14165,16 +14113,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 154.94) (xy 185.42 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "821b0ce3-667e-42f3-ab4e-eec79f3223b1")
-	)
-	(wire
-		(pts
 			(xy 52.07 119.38) (xy 62.23 119.38)
 		)
 		(stroke
@@ -14182,16 +14120,6 @@
 			(type default)
 		)
 		(uuid "8369e480-025b-4cbe-9086-2c61d012b116")
-	)
-	(wire
-		(pts
-			(xy 185.42 151.13) (xy 185.42 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83797c05-f383-48bc-b6e3-e1b813a855ef")
 	)
 	(wire
 		(pts
@@ -14502,16 +14430,6 @@
 			(type default)
 		)
 		(uuid "911490cc-4cf2-4102-b06a-98a257769774")
-	)
-	(wire
-		(pts
-			(xy 185.42 140.97) (xy 185.42 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91d20bcf-5f5f-425b-93e4-a1c12c5fc89f")
 	)
 	(wire
 		(pts
@@ -14852,6 +14770,16 @@
 			(type default)
 		)
 		(uuid "a07d256a-8fae-4952-8e6b-60070fce469f")
+	)
+	(wire
+		(pts
+			(xy 158.75 143.51) (xy 173.99 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11f83ba-3d57-494b-8cfc-abe0b4680ad0")
 	)
 	(wire
 		(pts
@@ -15395,16 +15323,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 143.51) (xy 185.42 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7fee2d1-43c3-422c-9ce1-7b6a5a4b9877")
-	)
-	(wire
-		(pts
 			(xy 393.7 196.85) (xy 403.86 196.85)
 		)
 		(stroke
@@ -15432,16 +15350,6 @@
 			(type default)
 		)
 		(uuid "b92b7b84-3687-4a5c-8080-56eeabcd52fe")
-	)
-	(wire
-		(pts
-			(xy 185.42 153.67) (xy 190.5 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b98fb140-c685-42f4-a411-728e82eb0106")
 	)
 	(wire
 		(pts
@@ -17573,7 +17481,7 @@
 		)
 		(uuid "ae649494-7cbf-48e9-8e41-ec9ac17541dd")
 	)
-	(label "VM_SENSE"
+	(label "PGOOD"
 		(at 173.99 143.51 180)
 		(effects
 			(font
@@ -25701,84 +25609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 185.42 135.89 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bd4d695-cf63-42b2-99b0-dcc19bdcb1ef")
-		(property "Reference" "#PWR0136"
-			(at 185.42 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VM"
-			(at 185.42 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 185.42 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8db09c61-eded-48b7-a172-42e6dca272a2")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mainboard:WSD4070DN33")
 		(at 438.15 157.48 0)
 		(unit 1)
@@ -26814,119 +26644,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 185.42 148.59 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "532b51bd-e8a9-4c12-b41c-32d7aa908b73")
-		(property "Reference" "R29"
-			(at 182.88 147.3199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 182.88 149.8599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.42 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 185.42 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 185.42 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 185.42 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 185.42 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 185.42 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "73eaeb0f-62c5-4e96-8b09-3ddaf5b7bf62")
-		)
-		(pin "1"
-			(uuid "7a33cd7d-c844-4d12-b354-5145a81a48bb")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -30241,98 +29958,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#FLG09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 190.5 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "814bf33b-5163-438a-be92-364717a2a7f1")
-		(property "Reference" "C66"
-			(at 193.04 147.3262 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 193.04 149.8662 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 190.5 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/1898-0402CG101J500NT/C1546"
-			(at 190.5 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 190.5 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C1546"
-			(at 190.5 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4bf30dc1-1668-4969-bdda-7116742c716a")
-		)
-		(pin "1"
-			(uuid "e0665fd5-9b11-452f-81a5-c258adab2dbb")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -37548,83 +37173,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cc464ab1-abab-4b29-b27a-45305bee29f1")
-		(property "Reference" "#PWR067"
-			(at 185.42 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.547 159.3342 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8667952f-f65c-4a97-88b9-e9b8ea715160")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 46.99 104.14 0)
 		(mirror y)
 		(unit 1)
@@ -37997,7 +37545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68k"
+		(property "Value" "33k"
 			(at 377.19 270.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38008,7 +37556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 374.65 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -38019,7 +37567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26522-0402WGF3302TCE/C25779"
 			(at 374.65 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -38041,7 +37589,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23231"
+		(property "LCSC" "C25779"
 			(at 374.65 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -39040,119 +38588,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 185.42 138.43 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc455682-f576-49ba-a66d-c346245bce79")
-		(property "Reference" "R48"
-			(at 181.61 137.1599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68k"
-			(at 181.61 139.6999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 185.42 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23958-0603WAF6802T5E/C23231"
-			(at 185.42 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 185.42 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C23231"
-			(at 185.42 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 185.42 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 185.42 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cda40768-9f7c-4f25-a90c-dea4a9a34df0")
-		)
-		(pin "2"
-			(uuid "c903b153-72eb-4d99-9205-754073b23c71")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R48")
 					(unit 1)
 				)
 			)
