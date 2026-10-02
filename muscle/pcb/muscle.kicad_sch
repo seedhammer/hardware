@@ -32429,7 +32429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "mainboard:DC_Jack_CAX_DC-0112-10A-AU-2.0_Vertical"
 			(at 253.238 260.096 0)
 			(hide yes)
 			(show_name no)
