@@ -8817,6 +8817,10 @@
 		(uuid "103386eb-26fd-4ecd-ab3c-cd59e011ad85")
 	)
 	(no_connect
+		(at 186.69 137.16)
+		(uuid "1067d790-c48d-455a-aafb-ff2cab1d174e")
+	)
+	(no_connect
 		(at 186.69 203.2)
 		(uuid "134f2ec7-10d6-442b-90ff-b34011a3c7fc")
 	)
@@ -8839,6 +8843,10 @@
 	(no_connect
 		(at 186.69 223.52)
 		(uuid "1f412618-d052-464f-aaed-e08c050cc457")
+	)
+	(no_connect
+		(at 186.69 134.62)
+		(uuid "2052343e-8f56-4664-b09d-b7226d54087d")
 	)
 	(no_connect
 		(at 105.41 241.3)
@@ -9796,16 +9804,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 134.62) (xy 217.17 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f3d445-5cb7-4498-903f-2212c8978499")
-	)
-	(wire
-		(pts
 			(xy 466.09 228.6) (xy 477.52 228.6)
 		)
 		(stroke
@@ -9923,16 +9921,6 @@
 			(type default)
 		)
 		(uuid "2fe6b7a3-bc87-4d5e-bd25-c7afd95bc92f")
-	)
-	(wire
-		(pts
-			(xy 222.25 135.89) (xy 222.25 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ff0adec-3b3a-489b-9019-3600244a0193")
 	)
 	(wire
 		(pts
@@ -10356,16 +10344,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 133.35) (xy 217.17 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1431b3-a84f-4363-8cba-4b7a73ed7bd5")
-	)
-	(wire
-		(pts
 			(xy 147.32 340.36) (xy 151.13 340.36)
 		)
 		(stroke
@@ -10386,7 +10364,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 142.24) (xy 231.14 142.24)
+			(xy 186.69 142.24) (xy 212.09 142.24)
 		)
 		(stroke
 			(width 0)
@@ -11716,7 +11694,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 144.78) (xy 240.03 144.78)
+			(xy 186.69 144.78) (xy 217.17 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12246,7 +12224,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 144.78) (xy 240.03 143.51)
+			(xy 217.17 144.78) (xy 217.17 143.51)
 		)
 		(stroke
 			(width 0)
@@ -12326,7 +12304,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 140.97) (xy 231.14 142.24)
+			(xy 212.09 140.97) (xy 212.09 142.24)
 		)
 		(stroke
 			(width 0)
@@ -13196,16 +13174,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 137.16) (xy 222.25 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f904a0-5178-42c4-bf50-ae9fe3430414")
-	)
-	(wire
-		(pts
 			(xy 302.26 320.04) (xy 306.07 320.04)
 		)
 		(stroke
@@ -13404,16 +13372,6 @@
 		)
 		(uuid "310df06a-8497-44a7-9f85-0b4b221a8647")
 	)
-	(label "BAT_SDA"
-		(at 203.2 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "31361cb6-a558-4d1a-988a-a652f6a0030f")
-	)
 	(label "DBG_USB_D+"
 		(at 143.51 382.27 0)
 		(effects
@@ -13523,16 +13481,6 @@
 			(justify right bottom)
 		)
 		(uuid "4f6fb206-827f-427c-8af3-4bbff664bcf4")
-	)
-	(label "BAT_SCL"
-		(at 203.2 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "51b0db48-1ec6-4b4e-9b6c-37d4472eb9d9")
 	)
 	(label "CAM_SDA"
 		(at 320.04 181.61 0)
@@ -15537,118 +15485,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 222.25 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "10175e26-ad0a-4d1f-a3b1-de64b8fdbc9c")
-		(property "Reference" "R22"
-			(at 224.79 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 224.79 134.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 222.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
-			(at 222.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 222.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106225"
-			(at 222.25 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 222.25 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 222.25 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7609b321-85ad-453e-bebf-d7ed14346a4c")
-		)
-		(pin "1"
-			(uuid "075ef5c2-8090-4748-8aa0-5d6ae681230f")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19682,119 +19518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 217.17 130.81 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3b0b5549-9347-4991-8f26-d51e6048e876")
-		(property "Reference" "R21"
-			(at 214.63 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 214.63 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C106225"
-			(at 217.17 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 217.17 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 217.17 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6d811c36-76ee-4967-91d5-6722cf0781d3")
-		)
-		(pin "1"
-			(uuid "5341120c-320d-45bd-98b3-8e45934db5de")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Crystal_GND24")
 		(at 459.74 201.93 90)
 		(unit 1)
@@ -20761,7 +20484,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 231.14 138.43 0)
+		(at 212.09 138.43 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20771,7 +20495,7 @@
 		(dnp no)
 		(uuid "4a8cfe7f-899f-4cd5-9686-b13a49b496c3")
 		(property "Reference" "R23"
-			(at 233.68 137.1599 0)
+			(at 209.55 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20782,7 +20506,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 233.68 139.6999 0)
+			(at 209.55 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20793,7 +20517,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 231.14 138.43 0)
+			(at 212.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20804,7 +20528,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
-			(at 231.14 138.43 0)
+			(at 212.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20815,7 +20539,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 231.14 138.43 0)
+			(at 212.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20826,7 +20550,7 @@
 			)
 		)
 		(property "LCSC" "C106225"
-			(at 231.14 138.43 0)
+			(at 212.09 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20837,7 +20561,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 231.14 138.43 0)
+			(at 212.09 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20847,7 +20571,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 231.14 138.43 0)
+			(at 212.09 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27442,7 +27166,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 240.03 138.43 0)
+		(at 217.17 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27453,7 +27177,7 @@
 		(fields_autoplaced yes)
 		(uuid "9832f9b3-023c-4c30-9555-7db693d3afdc")
 		(property "Reference" "#PWR0112"
-			(at 240.03 142.24 0)
+			(at 217.17 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27464,7 +27188,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 240.03 133.35 0)
+			(at 217.17 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27474,7 +27198,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 240.03 138.43 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27485,7 +27209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 138.43 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27496,7 +27220,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 240.03 138.43 0)
+			(at 217.17 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29519,84 +29243,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V8")
-		(at 217.17 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b274ea07-601a-4b3a-953b-7b6222509d8a")
-		(property "Reference" "#PWR0110"
-			(at 217.17 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 217.17 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 217.17 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 217.17 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "95b2d7d1-6217-4139-9db7-ba793b3f63b2")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 403.86 323.85 0)
 		(mirror y)
@@ -30538,7 +30184,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 231.14 135.89 0)
+		(at 212.09 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30549,7 +30195,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2706f66-1c74-4717-b391-5d1fdcd4c4d8")
 		(property "Reference" "#PWR0111"
-			(at 231.14 139.7 0)
+			(at 212.09 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30560,7 +30206,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 231.14 130.81 0)
+			(at 212.09 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30570,7 +30216,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 231.14 135.89 0)
+			(at 212.09 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30581,7 +30227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 135.89 0)
+			(at 212.09 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30592,7 +30238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 231.14 135.89 0)
+			(at 212.09 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30878,84 +30524,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+1V8")
-		(at 222.25 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c66263d2-adf4-4850-8f9b-e0f520c2acc4")
-		(property "Reference" "#PWR0109"
-			(at 222.25 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+1V8"
-			(at 222.25 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Renesas_UQFN-16_2x2mm_P0.4mm"
-			(at 222.25 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 222.25 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2507ace8-1a8d-4837-a978-014d8aac0770")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -31855,7 +31423,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 240.03 140.97 0)
+		(at 217.17 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31865,7 +31433,7 @@
 		(dnp no)
 		(uuid "d22bd59a-e476-4cbd-8f15-7b106f57b86b")
 		(property "Reference" "R24"
-			(at 242.57 139.6999 0)
+			(at 219.71 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31876,7 +31444,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 242.57 142.2399 0)
+			(at 219.71 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31887,7 +31455,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 240.03 140.97 0)
+			(at 217.17 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31898,7 +31466,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
-			(at 240.03 140.97 0)
+			(at 217.17 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31909,7 +31477,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 240.03 140.97 0)
+			(at 217.17 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31920,7 +31488,7 @@
 			)
 		)
 		(property "LCSC" "C106225"
-			(at 240.03 140.97 0)
+			(at 217.17 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31931,7 +31499,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 240.03 140.97 0)
+			(at 217.17 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31941,7 +31509,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 240.03 140.97 0)
+			(at 217.17 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
