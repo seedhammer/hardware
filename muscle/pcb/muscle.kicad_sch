@@ -3012,7 +3012,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:TUSB320"
+		(symbol "Interface_USB:TUSB321"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3028,7 +3028,7 @@
 					)
 				)
 			)
-			(property "Value" "TUSB320"
+			(property "Value" "TUSB321"
 				(at 7.62 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3049,7 +3049,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tusb320.pdf"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tusb321.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3060,7 +3060,7 @@
 					)
 				)
 			)
-			(property "Description" "USB Type-C Configuration Channel Logic and Port Control, X2QFN-12"
+			(property "Description" "USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3071,7 +3071,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "USB PD CC"
+			(property "ki_keywords" "USB CC PD VCONN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3093,7 +3093,7 @@
 					)
 				)
 			)
-			(symbol "TUSB320_0_1"
+			(symbol "TUSB321_1_1"
 				(rectangle
 					(start -12.7 10.16)
 					(end 12.7 -10.16)
@@ -3105,8 +3105,6 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "TUSB320_1_1"
 				(pin bidirectional line
 					(at 15.24 2.54 180)
 					(length 2.54)
@@ -3144,6 +3142,24 @@
 					)
 				)
 				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "CURRENT_MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 15.24 -5.08 180)
 					(length 2.54)
 					(name "PORT"
@@ -3153,7 +3169,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3171,24 +3187,6 @@
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -7.62 180)
-					(length 2.54)
-					(name "ADDR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "5"
 						(effects
 							(font
@@ -3200,7 +3198,7 @@
 				(pin open_collector line
 					(at -15.24 2.54 0)
 					(length 2.54)
-					(name "~{INT}/OUT3"
+					(name "~{VCONN_FAULT}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3215,10 +3213,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin open_collector line
 					(at -15.24 7.62 0)
 					(length 2.54)
-					(name "SDA/OUT1"
+					(name "OUT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3233,10 +3231,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin open_collector line
 					(at -15.24 5.08 0)
 					(length 2.54)
-					(name "SCL/OUT2"
+					(name "OUT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3287,10 +3285,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -5.08 0)
+				(pin open_collector line
+					(at -15.24 -7.62 0)
 					(length 2.54)
-					(name "~{EN}"
+					(name "DIR"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3598,6 +3596,196 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Management:AP22804BW5"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AP22804BW5"
+				(at -7.62 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22804_14.pdf"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Current limited 2.5A power switch, single channel, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Limit USB Active Low"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AP22804BW5_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP22804BW5_1_1"
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~{FLG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "~{EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -6150,198 +6338,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mainboard:TPS2061CDBV"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "TPS2061CDBV"
-				(at -7.62 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-				(at 1.27 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2061c.pdf"
-				(at 1.27 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "1A Current limited power switch, single channel, output discharge, reverse blocking, SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Limit USB Active Low"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TPS2061CDBV_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPS2061CDBV_1_1"
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "~{FLT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "~{EN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -9220,10 +9216,6 @@
 		(uuid "26129f6a-4d1f-4d91-8fcb-5a7c871dc19f")
 	)
 	(no_connect
-		(at 115.57 144.78)
-		(uuid "268a2d94-458d-4a85-ae30-a21950cc4458")
-	)
-	(no_connect
 		(at 48.26 73.66)
 		(uuid "31e1f4f5-2eff-4e0b-8e99-6a926ef2b677")
 	)
@@ -9240,7 +9232,7 @@
 		(uuid "50f4d289-3ae4-4de6-948e-105675b990d5")
 	)
 	(no_connect
-		(at 115.57 147.32)
+		(at 115.57 144.78)
 		(uuid "58311aa1-765f-4afb-a7cd-c1c5eb4176a5")
 	)
 	(no_connect
@@ -9290,6 +9282,10 @@
 	(no_connect
 		(at 431.8 190.5)
 		(uuid "c209fed5-524f-4e5b-9ea3-cfc5878a7667")
+	)
+	(no_connect
+		(at 146.05 147.32)
+		(uuid "c8ea4974-a20b-4910-a371-009e8139ff0e")
 	)
 	(no_connect
 		(at 48.26 76.2)
@@ -10743,16 +10739,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 147.32) (xy 151.13 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc335c7-436e-451a-be5c-055c5894ec2e")
-	)
-	(wire
-		(pts
 			(xy 257.81 59.69) (xy 275.59 59.69)
 		)
 		(stroke
@@ -11503,7 +11489,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 144.78) (xy 146.05 144.78)
+			(xy 146.05 144.78) (xy 154.94 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12323,6 +12309,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 153.67) (xy 162.56 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfea1e12-d56d-4cfd-9e8c-a4481ce52571")
+	)
+	(wire
+		(pts
 			(xy 393.7 100.33) (xy 393.7 92.71)
 		)
 		(stroke
@@ -12390,6 +12386,16 @@
 			(type default)
 		)
 		(uuid "c3a36222-8ad6-4cb6-84ef-c1f45adccd07")
+	)
+	(wire
+		(pts
+			(xy 162.56 154.94) (xy 154.94 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d16be3-1654-49dc-b387-76787a6ad307")
 	)
 	(wire
 		(pts
@@ -13040,6 +13046,16 @@
 			(type default)
 		)
 		(uuid "ead1fa5d-8c89-4f1e-b508-29c27207a3c7")
+	)
+	(wire
+		(pts
+			(xy 154.94 154.94) (xy 154.94 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec5a6232-2c8c-4d76-a53d-173d869f9e71")
 	)
 	(wire
 		(pts
@@ -15108,6 +15124,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aea6868-8509-4012-b41e-ec5554698ffc")
+		(property "Reference" "#PWR0111"
+			(at 130.81 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS_SW"
+			(at 130.81 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69edd00d-8da4-4607-8a55-4bbd1dc615cf")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 373.38 207.01 0)
 		(unit 1)
@@ -16141,6 +16235,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19987bb1-6fc4-4871-8dcd-fb265b78cdfb")
+		(property "Reference" "#PWR0113"
+			(at 162.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS_SW"
+			(at 162.56 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "901699e6-2235-4637-a3fd-26ccfef53ba1")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 238.76 95.25 0)
 		(unit 1)
@@ -16710,129 +16882,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "JP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_USB:TUSB320")
-		(at 130.81 139.7 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1fadea4f-9759-41b9-bc3f-18fba809ef59")
-		(property "Reference" "U8"
-			(at 128.6667 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TUSB320LI"
-			(at 128.6667 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm"
-			(at 125.73 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tusb320.pdf"
-			(at 130.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "USB Type-C Configuration Channel Logic and Port Control, X2QFN-12"
-			(at 130.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2836598"
-			(at 130.81 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "5b4ae922-d782-48a1-b9b0-73c056576352")
-		)
-		(pin "9"
-			(uuid "f9d31dc0-478f-48f7-bbd9-dcb66320fc38")
-		)
-		(pin "7"
-			(uuid "7899f08e-0b22-42e3-b55b-715136270362")
-		)
-		(pin "2"
-			(uuid "b3d6e151-0e31-42d3-b1b5-03c38a2b54e9")
-		)
-		(pin "4"
-			(uuid "1db4000a-ed66-48e7-992b-a306011aa8a0")
-		)
-		(pin "3"
-			(uuid "fd643078-5d01-4019-931b-ce31f84316d5")
-		)
-		(pin "8"
-			(uuid "c6b79001-5432-45e7-a64a-69f5a19c0c78")
-		)
-		(pin "6"
-			(uuid "3431afa8-1e9e-4b45-b9c4-b2bead8af124")
-		)
-		(pin "11"
-			(uuid "062c4bd1-ea82-4bb0-a36c-3d03802af456")
-		)
-		(pin "5"
-			(uuid "a437460b-b1d3-4f8b-a99b-3d9efaa03088")
-		)
-		(pin "1"
-			(uuid "b0f767d0-7dbe-4909-88fc-a3e48aa0de45")
-		)
-		(pin "12"
-			(uuid "9dcbb4e5-ef73-421e-9ef9-c0e320134114")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -19950,6 +19999,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Management:AP22804BW5")
+		(at 190.5 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f83063f-acd1-4848-9711-a879e10e899f")
+		(property "Reference" "U8"
+			(at 190.5 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP22804BW5"
+			(at 190.5 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 190.5 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP22804_14.pdf"
+			(at 190.5 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Current limited 2.5A power switch, single channel, SOT-23-5"
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "4b2b1977-1717-4cf3-bb40-da586d63eb9a")
+		)
+		(pin "5"
+			(uuid "ca889fd5-f8d1-475a-bb26-ecadc47a0681")
+		)
+		(pin "2"
+			(uuid "643791a7-5610-4f61-9fc3-65ebba2690cd")
+		)
+		(pin "1"
+			(uuid "1cd7c9fc-7bdc-4261-82db-e62e4db9b233")
+		)
+		(pin "3"
+			(uuid "2b8c758d-8b93-44ac-bb02-fb33b55bcfc8")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 90.17 198.12 0)
 		(mirror y)
@@ -20319,84 +20457,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57fd9535-771e-433c-bca0-21f158078ab5")
-		(property "Reference" "#PWR0142"
-			(at 151.13 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b01b6d5c-c1a5-46e1-9c20-a3ed69ad8177")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -25918,6 +25978,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b61d7176-85a7-4b6a-939f-73700220e23e")
+		(property "Reference" "R9"
+			(at 165.1 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "499k"
+			(at 165.1 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/FOJAN-FRC0402F4993TS/C2998054"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2998054"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c47e48f8-bc10-488e-bed8-22f1d3d39949")
+		)
+		(pin "2"
+			(uuid "5febd354-9fdf-48c8-8825-2d0b38309f01")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 373.38 182.88 0)
 		(unit 1)
@@ -26454,6 +26607,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_USB:TUSB321")
+		(at 130.81 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bdaa188c-dce9-44d7-afe3-498cc8eb8de3")
+		(property "Reference" "U2"
+			(at 128.6667 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TUSB321"
+			(at 128.6667 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm"
+			(at 125.73 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tusb321.pdf"
+			(at 130.81 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB Type-C Configuration Channel Logic and Port Control with VCONN, X2QFN-12"
+			(at 130.81 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C139392"
+			(at 130.81 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b58222ad-05ca-4bfa-8701-7069773c7b48")
+		)
+		(pin "10"
+			(uuid "f0b14bcf-1a44-439e-8df0-de4d96d5e8fc")
+		)
+		(pin "9"
+			(uuid "6a3b2b98-45a0-40ef-a29c-da47c6927637")
+		)
+		(pin "1"
+			(uuid "27bef3c6-b584-4769-9495-bd30ef445bf0")
+		)
+		(pin "11"
+			(uuid "249ae112-5957-4db1-971e-7b12edea4405")
+		)
+		(pin "12"
+			(uuid "c777b8bb-92ea-441e-97f8-15825e5f7cd0")
+		)
+		(pin "6"
+			(uuid "e58a0cfe-bd8e-475e-8ca7-1f94c391c4c3")
+		)
+		(pin "8"
+			(uuid "e23aa570-d2d5-4d13-a7aa-eeb638a47eb8")
+		)
+		(pin "5"
+			(uuid "6965d6aa-3435-4804-9f4a-8c168f32587c")
+		)
+		(pin "4"
+			(uuid "2530d546-3c3a-4530-b6dc-51c7d389ea59")
+		)
+		(pin "7"
+			(uuid "33f376cf-e3e5-434e-94ad-c125e39b82ea")
+		)
+		(pin "3"
+			(uuid "8d26116b-9c99-48c0-8613-76622089ff2b")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mainboard:LM3409MY")
 		(at 264.16 176.53 0)
 		(unit 1)
@@ -26873,108 +27149,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:TPS2061CDBV")
-		(at 190.5 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf5185a0-856f-464e-8715-3413a463a21f")
-		(property "Reference" "U5"
-			(at 190.5 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS2061CDBV"
-			(at 190.5 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 191.77 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps2061c.pdf"
-			(at 191.77 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "1A Current limited power switch, single channel, output discharge, reverse blocking, SOT-23-5"
-			(at 190.5 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C265129"
-			(at 190.5 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aa84c02f-5350-4298-83e4-cd18620caaa3")
-		)
-		(pin "3"
-			(uuid "3d7d34e8-698c-44ac-80c3-e78da3344653")
-		)
-		(pin "4"
-			(uuid "bcd2addd-5731-4977-92c3-852d0f31415c")
-		)
-		(pin "5"
-			(uuid "1c02dda6-da38-4eb3-91a2-0ae698cf9908")
-		)
-		(pin "1"
-			(uuid "e17dc7bf-aa89-4ca6-943d-b1291b4d8dcb")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -29566,84 +29740,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 130.81 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea25d170-6c0a-4d2a-9605-1b0c0197918b")
-		(property "Reference" "#PWR0148"
-			(at 130.81 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 130.81 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 130.81 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e11d43e-cbed-4ce7-9f12-9bb43a097bc4")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
