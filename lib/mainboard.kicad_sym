@@ -9726,7 +9726,7 @@
 				(at 0 -12.7 90)
 				(length 2.54)
 				(hide yes)
-				(name "PAD"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22850,9 +22850,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -19.05 180)
+				(at 11.43 19.05 180)
 				(length 3.81)
-				(name "GP16"
+				(name "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22868,9 +22868,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -16.51 180)
+				(at 11.43 16.51 180)
 				(length 3.81)
-				(name "GP17"
+				(name "VSYS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22904,9 +22904,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -13.97 180)
+				(at 11.43 13.97 180)
 				(length 3.81)
-				(name "GP18"
+				(name "3V3_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22922,9 +22922,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -11.43 180)
+				(at 11.43 11.43 180)
 				(length 3.81)
-				(name "GP19"
+				(name "3V3(OUT)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22940,9 +22940,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -8.89 180)
+				(at 11.43 8.89 180)
 				(length 3.81)
-				(name "GP20"
+				(name "ADC_VREF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22958,9 +22958,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 -6.35 180)
+				(at 11.43 6.35 180)
 				(length 3.81)
-				(name "GP21"
+				(name "GP28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22968,6 +22968,96 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 -26.67 90)
+				(length 3.81)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 3.81 180)
+				(length 3.81)
+				(name "GP27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 1.27 180)
+				(length 3.81)
+				(name "GP26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -1.27 180)
+				(length 3.81)
+				(name "RUN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 11.43 -3.81 180)
+				(length 3.81)
+				(name "GP22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -22986,96 +23076,6 @@
 						)
 					)
 				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 11.43 -3.81 180)
-				(length 3.81)
-				(name "GP22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 11.43 -1.27 180)
-				(length 3.81)
-				(name "RUN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 11.43 1.27 180)
-				(length 3.81)
-				(name "GP26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 11.43 3.81 180)
-				(length 3.81)
-				(name "GP27"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -26.67 90)
-				(length 3.81)
-				(name "AGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "13"
 					(effects
 						(font
@@ -23085,9 +23085,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 6.35 180)
+				(at 11.43 -6.35 180)
 				(length 3.81)
-				(name "GP28"
+				(name "GP21"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23103,9 +23103,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 8.89 180)
+				(at 11.43 -8.89 180)
 				(length 3.81)
-				(name "ADC_VREF"
+				(name "GP20"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23121,9 +23121,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 11.43 180)
+				(at 11.43 -11.43 180)
 				(length 3.81)
-				(name "3V3(OUT)"
+				(name "GP19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23139,9 +23139,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 13.97 180)
+				(at 11.43 -13.97 180)
 				(length 3.81)
-				(name "3V3_EN"
+				(name "GP18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23176,9 +23176,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 16.51 180)
+				(at 11.43 -16.51 180)
 				(length 3.81)
-				(name "VSYS"
+				(name "GP17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23194,9 +23194,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 11.43 19.05 180)
+				(at 11.43 -19.05 180)
 				(length 3.81)
-				(name "VBUS"
+				(name "GP16"
 					(effects
 						(font
 							(size 1.27 1.27)
