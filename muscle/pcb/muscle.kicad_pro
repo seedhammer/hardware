@@ -527,6 +527,7 @@
       "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -805,7 +806,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "TP3-8,TP10-11,#FLG3-11,L1-3,H1-6,R1-4,R7-12,R14-16,R20-21,R23-26,R28-36,R38-39,R41,R43-51,R54-60,JP5-6,JP8-21,U1-12,U17,C1-3,C5,C8,C11-12,C15-17,C26-27,C31-38,C40-44,C46-53,C55,C60-63,C66-74,C79-81,#PWR5-7,#PWR9,#PWR13-16,#PWR18-21,#PWR24-26,#PWR28,#PWR30-34,#PWR38,#PWR44,#PWR46-49,#PWR59,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR106,#PWR109-117,#PWR120-124,#PWR126,#PWR128-130,#PWR134-148,#PWR150-168,D1-9,Q1-2,Q4,Q6-11,RV1-13,J3-4,J6-7,J9-10",
+    "used_designators": "#FLG3-11,#PWR5-7,#PWR9,#PWR13-16,#PWR18-21,#PWR24-26,#PWR28,#PWR30-34,#PWR38,#PWR44,#PWR46-49,#PWR59-60,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR106,#PWR109-117,#PWR120-126,#PWR128-130,#PWR134-148,#PWR150-168,C1-3,C5,C8,C11-12,C15-17,C26-27,C31-38,C40-44,C46-53,C55,C58,C60-63,C66-74,C79-81,D1-9,H1-6,J2-4,J6-7,J9-19,JP5-6,JP8-21,L1-3,Q1-2,Q4-11,R1-4,R7-18,R20-21,R23-26,R28-36,R38-39,R41,R43-52,R54-60,RV1-13,TP3-8,TP10-11,U1-12,U17",
     "variants": []
   },
   "sheets": [
