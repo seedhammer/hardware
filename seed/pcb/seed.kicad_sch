@@ -19060,7 +19060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 35.56 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -25435,7 +25435,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
 			(at 386.08 29.21 0)
 			(hide yes)
 			(show_name no)
