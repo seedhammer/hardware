@@ -3100,7 +3100,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 7.112 -22.606 0)
+			(at 5.842 -22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3110,7 +3110,7 @@
 			)
 		)
 		(property "Value" "BR201TPV1"
-			(at 11.684 -24.892 0)
+			(at 10.414 -24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3119,7 +3119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mainboard:JMEconn-5014-F024-04-2x12-P05mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3142,7 +3142,7 @@
 			)
 		)
 		(property "Description" "24-pin connector the BR201TPV1 AMOLED and touch module"
-			(at 36.322 -27.178 0)
+			(at 35.052 -27.178 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -3602,7 +3602,64 @@
 						)
 					)
 				)
-				(number "MP"
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 2.54 -22.86 90)
+				(length 2.54)
+				(hide yes)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 2.54 -22.86 90)
+				(length 2.54)
+				(hide yes)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 2.54 -22.86 90)
+				(length 2.54)
+				(hide yes)
+				(name "MP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)

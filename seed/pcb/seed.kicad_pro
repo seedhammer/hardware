@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -158,10 +158,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.25,
-        "min_via_diameter": 0.3,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.1,
         "use_height_for_length_calcs": true
       },
@@ -178,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -189,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -200,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -246,10 +249,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.5,
-          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false
@@ -546,7 +545,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.125,
+        "clearance": 0.15,
         "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.0,
@@ -557,26 +556,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.25,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.15,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.2276,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "LongSig",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -584,40 +568,7 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": [
-      {
-        "netclass": "LongSig",
-        "pattern": "/USB_D+"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/USB_D-"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/SWCLK"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/SWD"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/DBG_RX"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/DBG_TX"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/CC1"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/CC2"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -798,7 +749,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG3-11,#PWR3-6,#PWR9-16,#PWR18-21,#PWR24-26,#PWR28,#PWR30-34,#PWR38,#PWR44,#PWR46,#PWR48-49,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR109-110,#PWR112,#PWR114-117,#PWR120-132,#PWR134,#PWR136-144,#PWR146-159,C5,C8,C11-17,C22,C26-27,C31-38,C40-44,C47-52,C55,C60-63,C66-74,C79-81,D1-9,H1-6,J1,J3,J5-6,J10,JP5-6,JP8-18,L2-3,Q1-2,Q4,Q6-11,R1,R8-11,R14-15,R20-21,R23-36,R38-39,R41,R43-51,R54-60,RV1-13,TP3-7,TP10-11,U1-5,U7-12,U17",
+    "used_designators": "#FLG3-11,#PWR3-6,#PWR9-16,#PWR18-21,#PWR24-26,#PWR28,#PWR30-34,#PWR38,#PWR44,#PWR46,#PWR48-49,#PWR51-53,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR109-110,#PWR112,#PWR114-117,#PWR120-132,#PWR134,#PWR136-144,#PWR146-159,C5,C8,C11-17,C22,C26-27,C31-38,C40-44,C47-52,C55,C60-63,C66-74,C79-81,D1-9,H1-6,J1,J3,J5-7,J10,JP5-6,JP8-18,L2-3,Q1-2,Q4,Q6-11,R1,R8-11,R14-15,R20-21,R23-36,R38-39,R41,R43-51,R54-60,RV1-13,TP3-7,TP10-11,U1-5,U7-12,U17",
     "variants": []
   },
   "sheets": [
