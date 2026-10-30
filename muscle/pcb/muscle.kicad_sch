@@ -2058,6 +2058,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -6083,6 +6249,17 @@
 		)
 		(uuid "8b071e69-1fba-401f-85a3-ba2b2fb9ca19")
 	)
+	(text "Power bridge"
+		(exclude_from_sim no)
+		(at 160.274 205.74 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "9321d66d-328e-471e-9bc7-0e91d2baedf6")
+	)
 	(text "Solenoid capacitor bank"
 		(exclude_from_sim no)
 		(at 233.934 28.956 0)
@@ -6720,6 +6897,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 218.44) (xy 182.88 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068c0b52-4728-4c65-97d2-6ccd7bbb4efe")
+	)
+	(wire
+		(pts
 			(xy 368.3 105.41) (xy 368.3 106.68)
 		)
 		(stroke
@@ -6887,6 +7074,16 @@
 			(type default)
 		)
 		(uuid "16ace6fd-268b-420c-8a8a-f579cf59af38")
+	)
+	(wire
+		(pts
+			(xy 184.15 232.41) (xy 184.15 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ba76b3-25c7-4209-a8fe-d48cf5984217")
 	)
 	(wire
 		(pts
@@ -8060,6 +8257,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 229.87) (xy 168.91 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64425667-a348-4880-98b9-fbc1e786314e")
+	)
+	(wire
+		(pts
 			(xy 182.88 278.13) (xy 182.88 294.64)
 		)
 		(stroke
@@ -8190,6 +8397,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 220.98) (xy 179.07 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eba7161-74c2-4fbf-829c-1248ddfb6146")
+	)
+	(wire
+		(pts
 			(xy 152.4 146.05) (xy 163.83 146.05)
 		)
 		(stroke
@@ -8290,6 +8507,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 220.98) (xy 168.91 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "734aed8c-eb51-4415-85cb-b28ce1ef70ca")
+	)
+	(wire
+		(pts
 			(xy 69.85 121.92) (xy 114.3 121.92)
 		)
 		(stroke
@@ -8377,6 +8604,16 @@
 			(type default)
 		)
 		(uuid "773f4845-545f-4eae-a855-c5402a633aed")
+	)
+	(wire
+		(pts
+			(xy 162.56 232.41) (xy 162.56 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bd5ef3-6231-4a7e-9a9f-8a80ef5ff2a5")
 	)
 	(wire
 		(pts
@@ -8587,6 +8824,16 @@
 			(type default)
 		)
 		(uuid "8749618e-2016-4b5b-8644-92b712bcdca5")
+	)
+	(wire
+		(pts
+			(xy 184.15 229.87) (xy 179.07 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a1a2c7-1c6d-4e06-aefc-c696107a3e3c")
 	)
 	(wire
 		(pts
@@ -9687,6 +9934,16 @@
 			(type default)
 		)
 		(uuid "c96c0dcc-027f-4d1b-8f8a-cb4f19c295af")
+	)
+	(wire
+		(pts
+			(xy 162.56 218.44) (xy 162.56 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c970dfd2-d5d9-4f48-9371-f8b824a6b1c9")
 	)
 	(wire
 		(pts
@@ -15855,6 +16112,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 173.99 220.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f8ee030-b510-404b-9ba4-8b433b0c651b")
+		(property "Reference" "JP2"
+			(at 173.99 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JL_400_25T"
+			(at 173.99 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mainboard:Jumper_Samtec_jl-400-25-t"
+			(at 173.99 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 173.99 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21869072"
+			(at 173.99 220.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e56fdd9e-4cf9-4202-b193-d11b9d13ff01")
+		)
+		(pin "1"
+			(uuid "90cfecb4-d7e2-4dd6-8f8d-6ef84ec1a31e")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 298.45 92.71 90)
 		(mirror x)
@@ -16218,105 +16566,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 278.13 393.7 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46f67bc5-967e-4edc-8211-3be27b8400dd")
-		(property "Reference" "TP3"
-			(at 280.67 395.7319 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "VM"
-			(at 280.67 398.2719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 273.05 393.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 393.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 278.13 393.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 278.13 393.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 278.13 393.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1d4908d-a8bd-4e92-bd45-986c6e8507fb")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -17534,83 +17783,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 278.13 393.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59430417-6956-4d02-b9cf-9e62db28f515")
-		(property "Reference" "#PWR087"
-			(at 278.13 397.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VM"
-			(at 278.13 388.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 393.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 393.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 278.13 393.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6024aa9-823a-41a4-9be1-664baecb9b6d")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -18970,7 +19142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
 			(at 95.25 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -18981,7 +19153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C9135"
 			(at 95.25 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -18993,6 +19165,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9135"
 			(at 95.25 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -19282,6 +19465,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 162.56 218.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7999cbd2-2334-4ac6-847c-8501d89f9fa1")
+		(property "Reference" "#PWR0141"
+			(at 162.56 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 162.56 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 162.56 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "789e9bd9-12de-45a1-8b8d-236b5f462823")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 34.29 157.48 0)
 		(mirror y)
@@ -19406,7 +19667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical"
 			(at 95.25 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -19417,7 +19678,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/C9135"
 			(at 95.25 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -19429,6 +19690,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C9135"
 			(at 95.25 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -20827,6 +21099,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 173.99 229.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5a405e-2a98-4347-9e97-94a225801a4f")
+		(property "Reference" "JP1"
+			(at 173.99 224.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JL_400_25T"
+			(at 173.99 227.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mainboard:Jumper_Samtec_jl-400-25-t"
+			(at 173.99 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 173.99 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21869072"
+			(at 173.99 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "83eff84c-9400-4699-b757-3c469c81cd37")
+		)
+		(pin "1"
+			(uuid "720f20a1-d425-495f-8c89-8d0dd796a1ad")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 124.46 95.25 0)
 		(unit 1)
@@ -20899,6 +21262,84 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 182.88 218.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ea85e1f-86a8-4469-8805-9da3d007406a")
+		(property "Reference" "#PWR0142"
+			(at 182.88 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 182.88 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 182.88 218.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74e96f01-f224-4285-98d9-c2757576548d")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -23488,7 +23929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm"
+		(property "Footprint" "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm_ThermalVias"
 			(at 261.2233 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -25947,6 +26388,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 162.56 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1b6a4bb-cba4-43d0-9b74-c7b8fc5f0103")
+		(property "Reference" "#PWR0125"
+			(at 162.56 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f01cdfa-b716-49d3-b3df-b1d908cdf4ba")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 82.55 162.56 0)
 		(mirror y)
@@ -27225,6 +27744,84 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "RV11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 232.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed89ed4d-fee9-45df-9ebb-c32199e95d71")
+		(property "Reference" "#PWR0128"
+			(at 184.15 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 237.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73468cf1-7cd7-48c6-a95b-f73be85a0227")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
