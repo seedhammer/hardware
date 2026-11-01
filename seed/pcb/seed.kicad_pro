@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|166782887|110238954|3760bd73-05de-47d7-8ae7-6d77c9dffaaf|ad55d224-a33d-4230-9455-d41f59c42684",
+          ""
+        ],
+        [
+          "clearance|166782887|110238954|3760bd73-05de-47d7-8ae7-6d77c9dffaaf|e5e7bf9f-8b57-457c-9eb1-27381d60f2b4",
+          ""
+        ],
+        [
+          "clearance|169161157|109333954|ad55d224-a33d-4230-9455-d41f59c42684|dc3a4c71-1933-45b3-b87b-297a50b96f53",
+          ""
+        ],
+        [
+          "clearance|169161157|109333954|dc3a4c71-1933-45b3-b87b-297a50b96f53|e5e7bf9f-8b57-457c-9eb1-27381d60f2b4",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -150,7 +167,7 @@
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.45,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.19,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -749,7 +766,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG1-11,#PWR1-59,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR109-110,#PWR112,#PWR114-117,#PWR120-132,#PWR134,#PWR136-144,#PWR146-159,C1-27,C31-38,C40-44,C47-52,C55,C60-63,C66-74,C79-81,D1-9,H1-6,J1-8,J10,JP5-6,JP8-18,L1-3,Q1-2,Q4,Q6-11,R1-36,R38-39,R41,R43-51,R54-60,RV1-13,SW1-3,TP3-7,TP10-11,U1-5,U7-12,U17,Y1",
+    "used_designators": "#FLG1-11,#PWR1-59,#PWR66-67,#PWR69-70,#PWR73-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR109-110,#PWR112,#PWR114-117,#PWR120-132,#PWR134,#PWR136-144,#PWR146-159,C1-27,C31-38,C40-44,C47-52,C55,C60-63,C66-74,C79-81,D1-9,H1-6,J1-8,J10,JP5-6,JP8-18,Je1,L1-3,Q1-2,Q4,Q6-11,R1-36,R38-39,R41,R43-51,R54-60,RV1-13,SW1-3,TP3-7,TP10-11,U1-5,U7-12,U17,Y1",
     "variants": []
   },
   "sheets": [
