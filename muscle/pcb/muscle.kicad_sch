@@ -6395,7 +6395,7 @@
 		(uuid "dc22e430-2483-4cc7-9222-8090ebdeab6b")
 	)
 	(junction
-		(at 499.11 62.23)
+		(at 502.92 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02e24e32-398d-452a-9d1f-4ed7eda6ad0f")
@@ -6852,7 +6852,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 62.23) (xy 499.11 64.77)
+			(xy 502.92 62.23) (xy 502.92 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7442,16 +7442,6 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 62.23) (xy 505.46 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a7c8c7e-70d6-4118-b6f1-1a8f9eec895a")
-	)
-	(wire
-		(pts
 			(xy 393.7 52.07) (xy 393.7 57.15)
 		)
 		(stroke
@@ -7472,7 +7462,7 @@
 	)
 	(wire
 		(pts
-			(xy 472.44 62.23) (xy 499.11 62.23)
+			(xy 472.44 62.23) (xy 509.27 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8242,7 +8232,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 74.93) (xy 499.11 101.6)
+			(xy 502.92 74.93) (xy 502.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -8612,7 +8602,7 @@
 	)
 	(wire
 		(pts
-			(xy 467.36 54.61) (xy 491.49 54.61)
+			(xy 467.36 54.61) (xy 495.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9632,7 +9622,7 @@
 	)
 	(wire
 		(pts
-			(xy 454.66 41.91) (xy 499.11 41.91)
+			(xy 454.66 41.91) (xy 502.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -9712,7 +9702,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 59.69) (xy 499.11 62.23)
+			(xy 502.92 59.69) (xy 502.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9862,7 +9852,7 @@
 	)
 	(wire
 		(pts
-			(xy 491.49 69.85) (xy 474.98 69.85)
+			(xy 495.3 69.85) (xy 474.98 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10092,7 +10082,7 @@
 	)
 	(wire
 		(pts
-			(xy 499.11 41.91) (xy 499.11 49.53)
+			(xy 502.92 41.91) (xy 502.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -10342,7 +10332,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 101.6) (xy 499.11 101.6)
+			(xy 480.06 101.6) (xy 502.92 101.6)
 		)
 		(stroke
 			(width 0)
@@ -10571,7 +10561,7 @@
 		(uuid "24ffacb9-3384-44e0-bf74-b4514bf6d877")
 	)
 	(label "S1"
-		(at 505.46 62.23 180)
+		(at 509.27 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12914,7 +12904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN33"
+		(property "Value" "WSD70N06GDN33"
 			(at 483.87 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12937,7 +12927,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
 			(at 482.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12960,7 +12950,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C52034112"
 			(at 477.52 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -14827,7 +14817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN33"
+		(property "Value" "WSD70N06GDN33"
 			(at 483.87 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14850,7 +14840,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
 			(at 482.6 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14873,7 +14863,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C52034112"
 			(at 477.52 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16036,7 +16026,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:WSD4070DN33")
-		(at 496.57 54.61 0)
+		(at 500.38 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16047,7 +16037,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cf6a331-824f-40df-a007-5b01b098353e")
 		(property "Reference" "Q3"
-			(at 502.92 53.34 0)
+			(at 506.73 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16057,8 +16047,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN33"
-			(at 502.92 55.88 0)
+		(property "Value" "WSD70N06GDN33"
+			(at 506.73 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16069,7 +16059,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
-			(at 501.65 56.515 0)
+			(at 505.46 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16080,8 +16070,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
-			(at 501.65 58.42 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
+			(at 505.46 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16093,7 +16083,7 @@
 			)
 		)
 		(property "Description" "68A Id, 40V Vds, N-Channel MOSFET, DFN-8"
-			(at 496.57 54.61 0)
+			(at 500.38 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16103,8 +16093,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C719095"
-			(at 496.57 54.61 0)
+		(property "LCSC" "C52034112"
+			(at 500.38 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19378,7 +19368,7 @@
 				)
 			)
 		)
-		(property "Value" "WSD4070DN33"
+		(property "Value" "WSD70N06GDN33"
 			(at 87.6299 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19400,7 +19390,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
 			(at 83.82 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19423,7 +19413,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C719095"
+		(property "LCSC" "C52034112"
 			(at 87.63 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -20476,7 +20466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ZD015PG-C"
+		(property "Value" "ZE035PG-C"
 			(at 290.83 85.0901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20498,7 +20488,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C53433534.pdf"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/DOINGTER-ZE035PGC/C54796285"
 			(at 315.595 83.947 0)
 			(hide yes)
 			(show_name no)
@@ -20520,7 +20510,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C53433534"
+		(property "LCSC" "C54796285"
 			(at 284.48 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -26591,7 +26581,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:WSD4070DN33")
-		(at 496.57 69.85 0)
+		(at 500.38 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26602,7 +26592,7 @@
 		(fields_autoplaced yes)
 		(uuid "f52c7cc5-4eaf-4e9c-ab82-93a80fae88f4")
 		(property "Reference" "Q8"
-			(at 502.92 68.58 0)
+			(at 506.73 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26612,8 +26602,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WSD4070DN33"
-			(at 502.92 71.12 0)
+		(property "Value" "WSD70N06GDN33"
+			(at 506.73 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26624,7 +26614,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
-			(at 501.65 71.755 0)
+			(at 505.46 71.755 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26635,8 +26625,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
-			(at 501.65 73.66 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
+			(at 505.46 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26648,7 +26638,7 @@
 			)
 		)
 		(property "Description" "68A Id, 40V Vds, N-Channel MOSFET, DFN-8"
-			(at 496.57 69.85 0)
+			(at 500.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26658,8 +26648,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C719095"
-			(at 496.57 69.85 0)
+		(property "LCSC" "C52034112"
+			(at 500.38 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
