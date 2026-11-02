@@ -126,7 +126,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 63 76)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -2930,7 +2929,7 @@
 				(pins "1" "2" "3" "MP")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.61 -1.785)
@@ -3804,7 +3803,7 @@
 				(pins "1" "2" "3" "MP")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.61 -1.785)
@@ -15287,7 +15286,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd dnp)
+		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.35 1.85)
@@ -18102,6 +18101,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C114218"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf537884-b27e-45d7-9197-06e5c7d71702")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)

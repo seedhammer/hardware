@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.148 0)
 		(layer "F.SilkS")
-		(uuid "94573a26-347e-4c27-ac73-482da1849d4d")
+		(uuid "1855de3a-c892-4b22-8439-0d4607e461cf")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Pogo_SMD_D2.2mm"
 		(at 0 2.25 0)
 		(layer "F.Fab")
-		(uuid "b753692f-d850-4407-9350-a6c18539a7a7")
+		(uuid "b72161c3-b8b4-40cf-a57f-aa0b2f052d4a")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "beaa87a0-97d8-45aa-b38c-12fc18e2d8de")
+		(uuid "838350a6-c9be-4200-989b-f7d3d9f76136")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9d3c6c74-d081-4cd6-bad0-59f4dc1ea04c")
+		(uuid "b5087076-862a-49d0-b42e-dd03040d6e44")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,6 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -64,7 +63,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "8a89ec4a-b8d3-4f09-9464-5763174e9b7e")
+		(uuid "cace063f-de27-4eea-abf5-7d7b32ab135f")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "bdf197a9-0466-4adb-a978-8c3bdb8a7d55")
+		(uuid "e0a476e5-7442-4eff-96d8-8c201840a3d8")
 	)
 	(fp_circle
 		(center 0 0)
@@ -86,12 +85,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "13273653-2da9-4f0b-b10a-8df3ed78a5dd")
+		(uuid "2c30c036-292c-4416-80df-d3bb5c4fa739")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.15 0)
 		(layer "F.Fab")
-		(uuid "ea684735-aa25-4321-a47a-2a8ff1b0d1e9")
+		(uuid "e6da8343-ca4d-4d39-9b22-e612515ff060")
 		(effects
 			(font
 				(size 1 1)
@@ -103,7 +102,18 @@
 		(at 0 0)
 		(size 2.2 2.2)
 		(layers "F.Cu" "F.Mask")
-		(uuid "8d348850-cf90-4b29-8c93-61315e5a80e0")
+		(uuid "a322832f-20d4-4113-8025-328c580a84c1")
 	)
 	(embedded_fonts no)
+	(model "/Users/a/proj/seedhammer/hardware/lib/SMD-1_BD2.0-H10.0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
