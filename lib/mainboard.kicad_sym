@@ -21101,7 +21101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 5.08 -1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21344,11 +21344,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 -5.08 90)
+			(pin input line
+				(at -5.08 0 0)
 				(length 2.54)
-				(hide yes)
-				(name "S"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21364,10 +21363,9 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 90)
+				(at 2.54 5.08 270)
 				(length 2.54)
-				(hide yes)
-				(name "S"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21375,118 +21373,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23925,7 +23811,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 30.353 -4.699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24166,11 +24052,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 -5.08 90)
+			(pin input line
+				(at -5.08 0 0)
 				(length 2.54)
-				(hide yes)
-				(name "S"
+				(name "G"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24186,10 +24071,9 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.08 90)
+				(at 2.54 5.08 270)
 				(length 2.54)
-				(hide yes)
-				(name "S"
+				(name "D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -24197,118 +24081,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "G"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
-				(hide yes)
-				(name "D"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)

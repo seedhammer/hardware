@@ -3134,6 +3134,315 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ZE035PG-C_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 5.715 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ZE035PG-C"
+				(at 11.811 -0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+				(at 30.353 -4.699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C53433534.pdf"
+				(at 31.115 -2.413 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-20A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-MOS PMOS single"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*DFN*3.3x3.3mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ZE035PG-C_1_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ZE035PG-C_1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mainboard:DRV8434ARGE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5037,7 +5346,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+			(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 				(at 5.08 -1.905 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5280,11 +5589,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(hide yes)
-					(name "S"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5300,10 +5608,9 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -5.08 90)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(hide yes)
-					(name "S"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5311,118 +5618,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13101,7 +13296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 482.6 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13308,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
+		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
 			(at 482.6 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -13153,26 +13348,8 @@
 		(pin "3"
 			(uuid "0946d617-0472-4479-9dbe-bbeadd9228aa")
 		)
-		(pin "5"
-			(uuid "10d0e09d-e420-4755-82f3-7070345b3949")
-		)
 		(pin "1"
 			(uuid "b561fac5-7a47-4da3-b70a-27e2509417a7")
-		)
-		(pin "4"
-			(uuid "a10c8d14-dfd6-4fdc-a1bc-0163fb3e4b6c")
-		)
-		(pin "6"
-			(uuid "857e03a9-776c-4e5b-952a-c4ddc48ef7ff")
-		)
-		(pin "8"
-			(uuid "41af0219-8dcb-438b-968c-7528793d37c4")
-		)
-		(pin "9"
-			(uuid "b84e21ec-9ff8-47b7-8fed-cd8551ffb5f4")
-		)
-		(pin "7"
-			(uuid "7d4aecb9-28e9-4d30-9196-6405aeba6954")
 		)
 		(instances
 			(project "muscle"
@@ -15094,7 +15271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 482.6 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -15106,7 +15283,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
+		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
 			(at 482.6 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -15146,26 +15323,8 @@
 		(pin "3"
 			(uuid "fa5c812b-7253-47ce-bab2-d8e87b77fd5e")
 		)
-		(pin "5"
-			(uuid "a63aed79-7e47-4048-8991-4e0dd3d4db14")
-		)
 		(pin "1"
 			(uuid "a216440e-8fe9-4e68-90d5-74c0c54aaca5")
-		)
-		(pin "4"
-			(uuid "80feb17d-237f-4c2e-a83a-b42e6f7216ca")
-		)
-		(pin "9"
-			(uuid "e52e504b-4c54-4416-ba5f-68cac3890813")
-		)
-		(pin "8"
-			(uuid "a3db2dda-11d9-46db-825a-7ab5479824d9")
-		)
-		(pin "7"
-			(uuid "af5ef4af-5edc-4b27-9155-7775a50549b1")
-		)
-		(pin "6"
-			(uuid "19435fd4-bd26-4289-ab63-0469be7c25ce")
 		)
 		(instances
 			(project "muscle"
@@ -16322,7 +16481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 505.46 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -16334,7 +16493,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
+		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
 			(at 505.46 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -16374,26 +16533,8 @@
 		(pin "3"
 			(uuid "b9ac81ee-1ade-4094-adcf-fa2eaf7b8ca8")
 		)
-		(pin "5"
-			(uuid "10c7cc38-d2d2-4b7d-89b7-9105868368d8")
-		)
 		(pin "1"
 			(uuid "d432e440-dec9-49cf-becf-9a0bfcc132c9")
-		)
-		(pin "4"
-			(uuid "490e8b64-1498-4807-9946-d8ea6bb69493")
-		)
-		(pin "9"
-			(uuid "f9e5976d-ab25-4d07-82dc-62242164a687")
-		)
-		(pin "7"
-			(uuid "83bf8cc3-97dd-4400-b1f4-df47b955bd3c")
-		)
-		(pin "8"
-			(uuid "9da7e0b4-9aad-4119-b749-ce0e32a12e4b")
-		)
-		(pin "6"
-			(uuid "36f49738-a0ea-41de-bc75-c9767d692a04")
 		)
 		(instances
 			(project "muscle"
@@ -19587,7 +19728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 85.725 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19599,7 +19740,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
+		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
 			(at 83.82 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19641,24 +19782,6 @@
 		)
 		(pin "3"
 			(uuid "c817c6ad-9be3-4272-a3a1-2fd4e714e2b3")
-		)
-		(pin "4"
-			(uuid "6ab35a77-f75b-49df-ac7e-e00d4b8385cc")
-		)
-		(pin "5"
-			(uuid "9fc53ce0-bdc4-4ffd-ae22-0809b7fe262b")
-		)
-		(pin "6"
-			(uuid "ee7a1935-1288-40b5-bb7f-f7f0e8207332")
-		)
-		(pin "7"
-			(uuid "0d64744e-516d-4ee7-af1c-992cbaa26620")
-		)
-		(pin "8"
-			(uuid "d1bb07a3-4ee9-4ee7-a407-bff7d6d7380e")
-		)
-		(pin "9"
-			(uuid "eccfad4f-6a8e-48cf-902e-6b6990c6251a")
 		)
 		(instances
 			(project "muscle"
@@ -21493,6 +21616,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ZE035PG-C_1")
 		(lib_id "mainboard:ZE035PG-C")
 		(at 189.23 166.37 270)
 		(mirror x)
@@ -21526,7 +21650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 184.531 136.017 0)
 			(hide yes)
 			(show_name no)
@@ -21537,7 +21661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C54796285.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C53433534.pdf"
 			(at 186.817 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -21576,26 +21700,8 @@
 		(pin "3"
 			(uuid "847aa712-97fd-408b-b0f6-096f2beeddc6")
 		)
-		(pin "4"
-			(uuid "b5f49039-1623-4941-b7be-3a117b7f432a")
-		)
-		(pin "5"
-			(uuid "eab6fcb8-18cd-4ad9-b04d-e4a6ece7a99f")
-		)
 		(pin "1"
 			(uuid "524ee687-c496-493a-9f36-fad98ad18ac5")
-		)
-		(pin "6"
-			(uuid "dd81f35e-7f2e-4fab-8ced-d8f901df4bfd")
-		)
-		(pin "7"
-			(uuid "3fcd572d-27d4-4b13-b566-3a438c28f01f")
-		)
-		(pin "8"
-			(uuid "8d56a1ed-e145-4549-9d7b-78b94a593394")
-		)
-		(pin "9"
-			(uuid "5a4f2ed0-ab87-4ab5-8202-605edd8e8697")
 		)
 		(instances
 			(project "muscle"
@@ -27521,7 +27627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "mainboard:Winsok_DFN-8-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
 			(at 505.46 71.755 0)
 			(hide yes)
 			(show_name no)
@@ -27533,7 +27639,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/WinsokSemicon-WSD70N06GDN33/C52034112"
+		(property "Datasheet" "https://www.winsok.cn/upload/202405/WSD4070DN33.pdf"
 			(at 505.46 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -27573,26 +27679,8 @@
 		(pin "3"
 			(uuid "fc080794-c3f9-4a07-a626-42bacc354f3c")
 		)
-		(pin "5"
-			(uuid "94dff0be-9213-4090-ba84-7c1af22969b3")
-		)
 		(pin "1"
 			(uuid "07118587-a11f-444f-a501-3c8424f3958d")
-		)
-		(pin "4"
-			(uuid "42f788f4-6a25-4ae8-9a99-1c3945bafc56")
-		)
-		(pin "9"
-			(uuid "2d96c725-9e05-4659-bafd-b671ccf57e2c")
-		)
-		(pin "8"
-			(uuid "cb6ee28e-eda2-4a8b-86bc-3b776e5b7ad7")
-		)
-		(pin "7"
-			(uuid "41d782d6-ebef-4888-ac9f-8c25e750f2ab")
-		)
-		(pin "6"
-			(uuid "14b10751-ebfc-4583-8f2e-48cda1728a6b")
 		)
 		(instances
 			(project "muscle"
