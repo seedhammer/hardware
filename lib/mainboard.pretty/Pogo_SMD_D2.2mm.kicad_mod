@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.148 0)
 		(layer "F.SilkS")
-		(uuid "4a8e7e86-b985-4300-b7f7-5a0e5ae39409")
+		(uuid "11bdc3f4-e502-4682-b6ba-5674e466cc88")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "Pogo_SMD_D2.2mm"
 		(at 0 2.25 0)
 		(layer "F.Fab")
-		(uuid "8ee2ce0e-6814-4e93-af15-6e60372a9669")
+		(uuid "4f2a2145-90b2-4ba2-91b2-768a462956ff")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ba202d7e-3a1c-4e3f-bc4a-4a1593fbe3f9")
+		(uuid "e57e51a5-ac9a-40bc-9848-279c7d638959")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0e20ed34-181b-4a90-b359-479171473453")
+		(uuid "f33a7c95-2e23-4f2f-a353-61b4da3807ce")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,14 +56,14 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
-		(end 1.2 0)
+		(end 1.35 0)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "fb542dea-2704-441b-8b96-d4b4ec3cdb95")
+		(uuid "6d6efbe7-c23d-4cd7-a595-ddeac066256d")
 	)
 	(fp_circle
 		(center 0 0)
@@ -74,23 +74,23 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "b11315af-c4a3-45bb-9027-8c344b88b88b")
+		(uuid "374ae33a-7eb1-4d24-a08e-01fc2068f4da")
 	)
 	(fp_circle
 		(center 0 0)
-		(end 1.25 0)
+		(end 1.4 0)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d6391724-1539-4830-b3fa-4d9258b51055")
+		(uuid "e904e90d-0674-4283-bc2a-1242d2f44eed")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.15 0)
 		(layer "F.Fab")
-		(uuid "6d91500a-78ef-4f46-9812-9f3744a2929c")
+		(uuid "4692e362-920a-40ee-bc9b-54c549e75dad")
 		(effects
 			(font
 				(size 1 1)
@@ -100,9 +100,9 @@
 	)
 	(pad "1" smd circle
 		(at 0 0)
-		(size 2.2 2.2)
+		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask")
-		(uuid "2be98664-9bae-455f-8ae7-3b968a834052")
+		(uuid "fe35dc55-9263-400d-b80a-5bd4679695f0")
 	)
 	(embedded_fonts no)
 	(model "../../lib/SMD-1_BD2.0-H10.0.step"
