@@ -7134,10 +7134,6 @@
 		(uuid "0b4d8f43-20d3-4cef-9fed-2459c5520534")
 	)
 	(no_connect
-		(at 276.86 223.52)
-		(uuid "367fd58e-0b1d-44f9-a3a1-863e30744e93")
-	)
-	(no_connect
 		(at 46.99 254)
 		(uuid "4c1b206c-4e19-4350-810d-0c90b33f5f5c")
 	)
@@ -9363,6 +9359,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 223.52) (xy 276.86 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21a2c4d-4472-4401-8ee4-9c956d3bd561")
+	)
+	(wire
+		(pts
 			(xy 158.75 100.33) (xy 173.99 100.33)
 		)
 		(stroke
@@ -10672,7 +10678,7 @@
 		(uuid "19743f36-e9a6-4e99-a337-4623b7a936ee")
 	)
 	(label "X_DIR"
-		(at 300.99 228.6 180)
+		(at 300.99 223.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10682,7 +10688,7 @@
 		(uuid "1d80687a-6d39-4ee1-956c-324628a818d4")
 	)
 	(label "~{Y_FAULT}"
-		(at 300.99 223.52 180)
+		(at 300.99 231.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10732,7 +10738,7 @@
 		(uuid "23ac6ed8-0e13-40e9-b4a7-ac40ba8c40ca")
 	)
 	(label "Y_DIR"
-		(at 300.99 231.14 180)
+		(at 300.99 228.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18379,6 +18385,83 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 223.52 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8072eb6e-3696-44f5-b606-7f81a64cf3ca")
+		(property "Reference" "#PWR060"
+			(at 259.08 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 261.0358 223.647 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1828a04-1c21-4abb-9497-846c54256cd2")
+		)
+		(instances
+			(project "seed"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
