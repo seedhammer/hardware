@@ -10588,12 +10588,12 @@
 		(uuid "033648ab-f254-4ef5-b660-7622fc38245a")
 	)
 	(label "~{FAULT}"
-		(at 300.99 205.74 180)
+		(at 265.43 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "071784eb-19d9-4a78-a5c9-9545f7ce615c")
 	)
@@ -11148,12 +11148,12 @@
 		(uuid "89ee010f-7240-4198-8559-a8e1b259862f")
 	)
 	(label "S_SENSE"
-		(at 265.43 205.74 0)
+		(at 300.99 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9274a308-1c7e-4dae-9995-e98a9f538232")
 	)
