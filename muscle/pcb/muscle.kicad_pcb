@@ -37620,7 +37620,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37694,7 +37694,7 @@
 			(uuid "f27d7443-0a4d-47cc-a5ca-250fc9949b51")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37765,7 +37765,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37839,7 +37839,7 @@
 			(uuid "08a4b373-d2fe-4027-aa05-43ba0b8ad795")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37910,7 +37910,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37984,7 +37984,7 @@
 			(uuid "7223180e-2a31-459f-813d-0a1a83fe16ca")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38237,7 +38237,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38311,7 +38311,7 @@
 			(uuid "025a0ce3-5b08-4dd5-ac5e-929351e68134")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38564,7 +38564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38638,7 +38638,7 @@
 			(uuid "2d991bda-dc18-4880-9a93-0d7c4fd6fae3")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39246,7 +39246,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39320,7 +39320,7 @@
 			(uuid "1b105460-4049-4523-8808-1ef20e019c32")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39391,7 +39391,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39465,7 +39465,7 @@
 			(uuid "0d15c816-552a-4e12-ba39-a166157465ae")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39536,7 +39536,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39610,7 +39610,7 @@
 			(uuid "9b1ab89a-c9f2-4215-acb5-5d5a6c4e3998")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39681,7 +39681,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39755,7 +39755,7 @@
 			(uuid "6e962765-aff0-4d3b-a938-acf9173548df")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -39826,7 +39826,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39900,7 +39900,7 @@
 			(uuid "879723ca-e9ed-49dd-9158-074696228158")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40131,7 +40131,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40205,7 +40205,7 @@
 			(uuid "8cab53e5-1b0d-4399-9d0c-e59e4317d630")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40276,7 +40276,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40350,7 +40350,7 @@
 			(uuid "8cf38f69-ec23-46b0-a03b-5a1fcd02bbe5")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40421,7 +40421,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40495,7 +40495,7 @@
 			(uuid "204d35dc-5a56-460f-b8ed-93d70f1f6f81")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40566,7 +40566,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40640,7 +40640,7 @@
 			(uuid "744740e9-7819-47e9-a727-9603d8c523ff")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40711,7 +40711,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40785,7 +40785,7 @@
 			(uuid "72f23944-eea5-4311-b6da-9901db8efa85")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40856,7 +40856,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40930,7 +40930,7 @@
 			(uuid "0e104714-245e-4e3c-b917-e1bcf2df43d4")
 		)
 		(embedded_fonts no)
-		(model "../../lib/SMD-1_BD2.0-H10.0.step"
+		(model "../../lib/YTC1P-8020-01.step"
 			(offset
 				(xyz 0 0 0)
 			)

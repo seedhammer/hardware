@@ -7537,7 +7537,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 281.94) (xy 88.9 281.94)
+			(xy 74.93 281.94) (xy 85.09 281.94)
 		)
 		(stroke
 			(width 0)
@@ -7977,7 +7977,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 287.02) (xy 119.38 287.02)
+			(xy 105.41 287.02) (xy 115.57 287.02)
 		)
 		(stroke
 			(width 0)
@@ -8427,7 +8427,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 287.02) (xy 88.9 287.02)
+			(xy 74.93 287.02) (xy 85.09 287.02)
 		)
 		(stroke
 			(width 0)
@@ -8557,7 +8557,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 284.48) (xy 119.38 284.48)
+			(xy 105.41 284.48) (xy 115.57 284.48)
 		)
 		(stroke
 			(width 0)
@@ -9007,7 +9007,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 281.94) (xy 119.38 281.94)
+			(xy 105.41 281.94) (xy 115.57 281.94)
 		)
 		(stroke
 			(width 0)
@@ -9147,7 +9147,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 289.56) (xy 119.38 289.56)
+			(xy 105.41 289.56) (xy 115.57 289.56)
 		)
 		(stroke
 			(width 0)
@@ -9297,7 +9297,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 284.48) (xy 88.9 284.48)
+			(xy 74.93 284.48) (xy 85.09 284.48)
 		)
 		(stroke
 			(width 0)
@@ -9447,7 +9447,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 289.56) (xy 88.9 289.56)
+			(xy 74.93 289.56) (xy 85.09 289.56)
 		)
 		(stroke
 			(width 0)
@@ -11046,7 +11046,7 @@
 		(uuid "0dfc0432-e55b-45d7-8dfa-6e2fb5c1f426")
 	)
 	(label "X_STEP"
-		(at 119.38 284.48 180)
+		(at 115.57 284.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11056,7 +11056,7 @@
 		(uuid "0fc8883b-6bd3-47db-8383-5175c18ea48c")
 	)
 	(label "~{Y_FAULT}"
-		(at 78.74 289.56 0)
+		(at 74.93 289.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11126,7 +11126,7 @@
 		(uuid "22d44a40-a408-4b78-b503-b2f720bb58dc")
 	)
 	(label "Y_STEP"
-		(at 119.38 289.56 180)
+		(at 115.57 289.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11216,7 +11216,7 @@
 		(uuid "3349966e-d835-41f8-a1bf-a026914f2636")
 	)
 	(label "Y_DIR"
-		(at 78.74 287.02 0)
+		(at 74.93 287.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11226,7 +11226,7 @@
 		(uuid "3367bd24-a644-4679-a97a-497de515221f")
 	)
 	(label "~{X_FAULT}"
-		(at 78.74 284.48 0)
+		(at 74.93 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11306,7 +11306,7 @@
 		(uuid "59af01be-e546-405e-afbc-2543b548077b")
 	)
 	(label "X_DIR"
-		(at 78.74 281.94 0)
+		(at 74.93 281.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12702,7 +12702,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 100.33 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -14434,7 +14434,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 104.14 281.94 0)
+		(at 100.33 281.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14444,7 +14444,7 @@
 		(dnp no)
 		(uuid "22b82e04-21a7-4f9b-85cf-a163ebb30a09")
 		(property "Reference" "J23"
-			(at 101.854 281.94 0)
+			(at 98.044 281.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14454,7 +14454,7 @@
 			)
 		)
 		(property "Value" "2"
-			(at 106.934 280.924 0)
+			(at 103.124 280.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14464,7 +14464,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 104.14 281.94 0)
+			(at 100.33 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14475,7 +14475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 281.94 0)
+			(at 100.33 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14486,7 +14486,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 104.14 281.94 0)
+			(at 100.33 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14496,8 +14496,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 104.14 281.94 0)
+		(property "LCSC" "C5221286"
+			(at 100.33 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14847,7 +14847,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 90.17 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -17299,7 +17299,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 93.98 289.56 0)
+		(at 90.17 289.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17310,7 +17310,7 @@
 		(dnp no)
 		(uuid "5108a179-411e-4bb3-a067-1e3c2d0fad7c")
 		(property "Reference" "J12"
-			(at 96.266 289.56 0)
+			(at 92.456 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17320,7 +17320,7 @@
 			)
 		)
 		(property "Value" "7"
-			(at 91.186 288.544 0)
+			(at 87.376 288.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17330,7 +17330,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 93.98 289.56 0)
+			(at 90.17 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17341,7 +17341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 289.56 0)
+			(at 90.17 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17352,7 +17352,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 93.98 289.56 0)
+			(at 90.17 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17362,8 +17362,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 93.98 289.56 0)
+		(property "LCSC" "C5221286"
+			(at 90.17 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18200,7 +18200,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 104.14 289.56 0)
+		(at 100.33 289.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18210,7 +18210,7 @@
 		(dnp no)
 		(uuid "5815bdc8-abb2-4b0d-b9ce-b5d8a6412cae")
 		(property "Reference" "J16"
-			(at 101.854 289.56 0)
+			(at 98.044 289.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18220,7 +18220,7 @@
 			)
 		)
 		(property "Value" "4"
-			(at 106.934 288.544 0)
+			(at 103.124 288.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18230,7 +18230,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 104.14 289.56 0)
+			(at 100.33 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18241,7 +18241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 289.56 0)
+			(at 100.33 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18252,7 +18252,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 104.14 289.56 0)
+			(at 100.33 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18262,8 +18262,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 104.14 289.56 0)
+		(property "LCSC" "C5221286"
+			(at 100.33 289.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18350,7 +18350,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 90.17 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -19427,7 +19427,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 93.98 284.48 0)
+		(at 90.17 284.48 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19438,7 +19438,7 @@
 		(dnp no)
 		(uuid "6ede0dc4-a821-4f7e-ad52-5b61f3a7d61b")
 		(property "Reference" "J10"
-			(at 96.266 284.48 0)
+			(at 92.456 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19448,7 +19448,7 @@
 			)
 		)
 		(property "Value" "3"
-			(at 91.186 283.464 0)
+			(at 87.376 283.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19458,7 +19458,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 93.98 284.48 0)
+			(at 90.17 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19469,7 +19469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 284.48 0)
+			(at 90.17 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19480,7 +19480,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 93.98 284.48 0)
+			(at 90.17 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19490,8 +19490,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 93.98 284.48 0)
+		(property "LCSC" "C5221286"
+			(at 90.17 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19705,7 +19705,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 281.94 90)
+		(at 115.57 281.94 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19715,7 +19715,7 @@
 		(dnp no)
 		(uuid "7995b6fa-f94c-49a1-abc4-c9d49f121426")
 		(property "Reference" "#PWR069"
-			(at 125.73 281.94 0)
+			(at 121.92 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19726,7 +19726,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.7742 281.813 0)
+			(at 119.9642 281.813 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19736,7 +19736,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 281.94 0)
+			(at 115.57 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19747,7 +19747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 281.94 0)
+			(at 115.57 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19758,7 +19758,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 281.94 0)
+			(at 115.57 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23439,7 +23439,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 100.33 226.06 0)
 			(hide yes)
 			(show_name no)
@@ -23980,7 +23980,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 287.02 90)
+		(at 115.57 287.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23990,7 +23990,7 @@
 		(dnp no)
 		(uuid "be506183-8308-41ec-91a4-278d4c60ca65")
 		(property "Reference" "#PWR066"
-			(at 125.73 287.02 0)
+			(at 121.92 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24001,7 +24001,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.7742 286.893 0)
+			(at 119.9642 286.893 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24011,7 +24011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 287.02 0)
+			(at 115.57 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24022,7 +24022,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 287.02 0)
+			(at 115.57 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24033,7 +24033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 287.02 0)
+			(at 115.57 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24057,7 +24057,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 93.98 281.94 0)
+		(at 90.17 281.94 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24068,7 +24068,7 @@
 		(dnp no)
 		(uuid "c0567d2f-55fc-453c-922c-64929d33007b")
 		(property "Reference" "J7"
-			(at 96.266 281.94 0)
+			(at 92.456 281.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24078,7 +24078,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 91.186 280.924 0)
+			(at 87.376 280.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24088,7 +24088,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 93.98 281.94 0)
+			(at 90.17 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24099,7 +24099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 281.94 0)
+			(at 90.17 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24110,7 +24110,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 93.98 281.94 0)
+			(at 90.17 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24120,8 +24120,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 93.98 281.94 0)
+		(property "LCSC" "C5221286"
+			(at 90.17 281.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24848,7 +24848,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 90.17 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -25040,7 +25040,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 100.33 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -25297,7 +25297,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 100.33 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -25415,7 +25415,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 104.14 287.02 0)
+		(at 100.33 287.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25425,7 +25425,7 @@
 		(dnp no)
 		(uuid "d3b37acc-36be-4488-b520-e19144ae220d")
 		(property "Reference" "J15"
-			(at 101.854 287.02 0)
+			(at 98.044 287.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25435,7 +25435,7 @@
 			)
 		)
 		(property "Value" "6"
-			(at 106.934 286.004 0)
+			(at 103.124 286.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25445,7 +25445,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 104.14 287.02 0)
+			(at 100.33 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25456,7 +25456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 287.02 0)
+			(at 100.33 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25467,7 +25467,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 104.14 287.02 0)
+			(at 100.33 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25477,8 +25477,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 104.14 287.02 0)
+		(property "LCSC" "C5221286"
+			(at 100.33 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27487,7 +27487,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 93.98 287.02 0)
+		(at 90.17 287.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27498,7 +27498,7 @@
 		(dnp no)
 		(uuid "ed1c9705-ab44-4774-9a8d-1c60efe55fed")
 		(property "Reference" "J11"
-			(at 96.266 287.02 0)
+			(at 92.456 287.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27508,7 +27508,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at 91.186 286.004 0)
+			(at 87.376 286.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27518,7 +27518,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 93.98 287.02 0)
+			(at 90.17 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27529,7 +27529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 287.02 0)
+			(at 90.17 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27540,7 +27540,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 93.98 287.02 0)
+			(at 90.17 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27550,8 +27550,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 93.98 287.02 0)
+		(property "LCSC" "C5221286"
+			(at 90.17 287.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28573,7 +28573,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
+		(property "LCSC" "C5221286"
 			(at 90.17 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -29200,7 +29200,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 104.14 284.48 0)
+		(at 100.33 284.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29210,7 +29210,7 @@
 		(dnp no)
 		(uuid "fd2d2e63-400b-48d6-a1ae-63d9c3087d07")
 		(property "Reference" "J17"
-			(at 101.854 284.48 0)
+			(at 98.044 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29220,7 +29220,7 @@
 			)
 		)
 		(property "Value" "4"
-			(at 106.934 283.464 0)
+			(at 103.124 283.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29230,7 +29230,7 @@
 			)
 		)
 		(property "Footprint" "mainboard:Pogo_SMD_D2.2mm"
-			(at 104.14 284.48 0)
+			(at 100.33 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29241,7 +29241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 284.48 0)
+			(at 100.33 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29252,7 +29252,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 104.14 284.48 0)
+			(at 100.33 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29262,8 +29262,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C5221283"
-			(at 104.14 284.48 0)
+		(property "LCSC" "C5221286"
+			(at 100.33 284.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

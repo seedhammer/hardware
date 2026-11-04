@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.148 0)
 		(layer "F.SilkS")
-		(uuid "11bdc3f4-e502-4682-b6ba-5674e466cc88")
+		(uuid "35631d50-c2fd-40ad-8131-20f690b352c6")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "Pogo_SMD_D2.2mm"
+	(property "Value" "YTC1P-8020-01"
 		(at 0 2.25 0)
 		(layer "F.Fab")
-		(uuid "4f2a2145-90b2-4ba2-91b2-768a462956ff")
+		(uuid "de26f002-36cc-4891-bc1a-fb4442c70859")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C5221286.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e57e51a5-ac9a-40bc-9848-279c7d638959")
+		(uuid "eb0a4667-a746-44f4-b926-dfb0a0e889df")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f33a7c95-2e23-4f2f-a353-61b4da3807ce")
+		(uuid "02b7fd44-68d1-4a9e-b837-657e63480743")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "6d6efbe7-c23d-4cd7-a595-ddeac066256d")
+		(uuid "5d678960-51cd-46d4-81c9-4b481c2e3b73")
 	)
 	(fp_circle
 		(center 0 0)
@@ -74,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "374ae33a-7eb1-4d24-a08e-01fc2068f4da")
+		(uuid "51310cc2-d031-4c53-bf07-566fc486901d")
 	)
 	(fp_circle
 		(center 0 0)
@@ -85,12 +85,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "e904e90d-0674-4283-bc2a-1242d2f44eed")
+		(uuid "5afd1840-736a-47e3-a748-720d0c5db351")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.15 0)
 		(layer "F.Fab")
-		(uuid "4692e362-920a-40ee-bc9b-54c549e75dad")
+		(uuid "f05f4865-2ea8-461b-bbab-a9dc41628646")
 		(effects
 			(font
 				(size 1 1)
@@ -102,10 +102,10 @@
 		(at 0 0)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask")
-		(uuid "fe35dc55-9263-400d-b80a-5bd4679695f0")
+		(uuid "2afdb11a-1e20-4b76-ae5d-15ded529c651")
 	)
 	(embedded_fonts no)
-	(model "../../lib/SMD-1_BD2.0-H10.0.step"
+	(model "../../lib/YTC1P-8020-01.step"
 		(offset
 			(xyz 0 0 0)
 		)
