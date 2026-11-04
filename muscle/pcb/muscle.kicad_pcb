@@ -4013,7 +4013,7 @@
 				)
 			)
 		)
-		(property "Value" "10u,4.55A"
+		(property "Value" "10u,4.5A"
 			(at 0 4.500001 90)
 			(layer "F.Fab")
 			(uuid "e02a6977-4f3a-444e-8d5d-c06baccd842b")
@@ -4024,7 +4024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C47327207.html"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/178606-FXL0630_100M/C167223"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4050,7 +4050,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C47327207"
+		(property "LCSC" "C167223"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18653,7 +18653,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/51080660-APS322512M100F/C48783465"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/XR-XRTC322512S100MBCA/C39846661"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18687,7 +18687,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C48783465"
+		(property "LCSC" "C39846661"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
