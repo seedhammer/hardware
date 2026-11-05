@@ -11849,6 +11849,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 95.25 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ec184c23-fa03-4e24-a026-f741cd14e9f0")
 		)
@@ -11958,6 +11969,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 95.25 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 95.25 95.25 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12169,6 +12191,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 121.92 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "10504978-2ae4-4b75-b20f-30dc13378930")
 		)
@@ -12280,6 +12313,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 110.49 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 110.49 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12407,6 +12451,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 99.06 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e69e6aae-8fbe-4f81-a203-e74715535b3a")
 		)
@@ -12518,6 +12573,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 87.63 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 87.63 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12861,6 +12927,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 290.83 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "391b1199-9b76-4623-99bf-20c7f58e15ae")
 		)
@@ -13130,6 +13207,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 57.15 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ba449d8e-45e4-466e-900c-012ae39975f6")
 		)
@@ -13320,6 +13408,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 154.94 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b78ca939-293b-4904-bc91-c0f37b04d3a5")
 		)
@@ -13408,6 +13507,17 @@
 		)
 		(property "LCSC" "C25741"
 			(at 340.36 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 340.36 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13597,6 +13707,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 102.87 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 102.87 143.51 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13796,6 +13917,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 320.04 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c9f46797-10cb-4bb8-8521-57458aff22fe")
 		)
@@ -13906,6 +14038,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 73.66 176.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5584006f-2336-4170-865b-a8205b3c7084")
 		)
@@ -13986,6 +14129,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 255.27 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 255.27 276.86 0)
 			(hide yes)
 			(show_name no)
@@ -14266,6 +14420,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 250.19 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "93f04ae3-f271-4f6b-9bd7-e86d00fa8051")
 		)
@@ -14371,6 +14536,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 66.04 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 66.04 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14569,6 +14745,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 76.2 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "411351bd-05ee-4588-9d4a-a804cd70e4d3")
 		)
@@ -14755,6 +14942,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 297.18 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 297.18 72.39 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15034,6 +15232,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 177.8 72.39 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "22ff1433-1940-4dbc-9160-d0fc613552af")
 		)
@@ -15304,6 +15513,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 307.34 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1b1e8b6e-a4f7-41ed-8259-946123217996")
 		)
@@ -15406,6 +15626,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 91.44 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 91.44 105.41 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15572,6 +15803,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 255.27 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 255.27 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -15843,6 +16085,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 64.77 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff9c46cc-bbee-4fbb-b984-7debe52b4d0d")
 		)
@@ -15958,6 +16211,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 229.87 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 229.87 59.69 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16085,6 +16349,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 349.25 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90e1835e-983c-483d-8de8-a95d981a8884")
 		)
@@ -16166,6 +16441,17 @@
 			)
 		)
 		(property "LCSC" "C25905"
+			(at 67.31 227.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 67.31 227.33 90)
 			(hide yes)
 			(show_name no)
@@ -16259,6 +16545,17 @@
 			)
 		)
 		(property "LCSC" "C16772"
+			(at 347.98 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 347.98 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -16465,6 +16762,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 289.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "af61f5cb-66f4-4a86-b1ba-ff2e0176c257")
 		)
@@ -16581,7 +16889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 325.12 231.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16603,7 +16911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1875-0402B102K500NT/C1523"
 			(at 327.66 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -16625,7 +16933,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C1523"
+			(at 327.66 229.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 327.66 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -16752,6 +17071,17 @@
 		)
 		(property "Label" "FIRMWARE"
 			(at 72.39 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 77.47 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17036,6 +17366,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 22.86 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a439b685-086e-40b0-ba50-e067bfacc7a9")
 		)
@@ -17312,6 +17653,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 76.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6f5a75d1-caec-4e77-a6d7-1c1d6f2db623")
 		)
@@ -17502,6 +17854,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 177.8 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "73b699d1-18b9-4ed9-970a-dc2c938e66b5")
 		)
@@ -17572,6 +17935,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 281.94 203.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 281.94 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -17713,6 +18087,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 328.93 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fbbf2e0f-4654-443b-be30-5042216cac46")
 		)
@@ -17806,6 +18191,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 125.73 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84939966-3639-4ed6-91a9-510f01677fa6")
 		)
@@ -17889,6 +18285,17 @@
 			)
 		)
 		(property "LCSC" "C96446"
+			(at 152.4 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 152.4 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -18090,6 +18497,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 90.17 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e275e7a5-2d89-4178-844c-f4539588cd10")
 		)
@@ -18283,6 +18701,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 289.56 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "82c7c9d0-5d48-4ae3-89d2-aee0840fcb61")
 		)
@@ -18366,6 +18795,17 @@
 			)
 		)
 		(property "LCSC" "C7502700"
+			(at 347.98 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 347.98 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -18489,6 +18929,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 289.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "103ee53e-7a13-4380-978f-ccddc96aa5d7")
 		)
@@ -18593,6 +19044,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 313.69 234.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 313.69 234.95 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18800,7 +19262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 247.65 210.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18822,7 +19284,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1875-0402B102K500NT/C1523"
 			(at 250.19 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -18844,7 +19306,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C1523"
+			(at 250.19 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 250.19 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -18936,6 +19409,17 @@
 			)
 		)
 		(property "LCSC" "C3020560"
+			(at 31.75 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 31.75 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -19192,6 +19676,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 229.87 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "320b0b04-4954-488a-932d-6b0ceaebd33a")
 		)
@@ -19309,6 +19804,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 30.48 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19477,6 +19983,17 @@
 			)
 		)
 		(property "LCSC" "C27009"
+			(at 195.58 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 195.58 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -19680,6 +20197,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 62.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "06c676aa-83ce-4b69-a133-0eedec498a48")
 		)
@@ -19784,6 +20312,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 327.66 222.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 327.66 222.25 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19981,6 +20520,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 73.66 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "55c02c2b-400f-4166-b84f-389acd56bc86")
 		)
@@ -20085,6 +20635,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 46.99 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.99 101.6 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20204,6 +20765,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 49.53 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "010a173d-90f1-406a-b06a-7a6c409276d2")
 		)
@@ -20315,6 +20887,17 @@
 			)
 		)
 		(property "LCSC" "C42411118"
+			(at 133.35 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 133.35 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -20612,6 +21195,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 322.58 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0957aa9a-f865-4644-bfce-faf21fd47dae")
 		)
@@ -20686,6 +21280,17 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 255.27 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 255.27 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -20859,6 +21464,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 185.42 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd89d45f-98f4-4421-97e2-c182e673d713")
 		)
@@ -20896,7 +21512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 316.23 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20918,7 +21534,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1875-0402B102K500NT/C1523"
 			(at 313.69 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -20940,7 +21556,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C1523"
+			(at 313.69 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 313.69 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -21277,6 +21904,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 195.58 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9a801b5-b8ee-4079-adfe-4bb8910df1e9")
 		)
@@ -21390,6 +22028,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 55.88 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6de81b1c-dbd2-43d8-81cf-c75ec67f3783")
 		)
@@ -21495,6 +22144,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 177.8 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 177.8 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21778,6 +22438,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 102.87 146.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6b5f97d7-0c80-43bd-a017-68bebbd6007a")
 		)
@@ -22024,6 +22695,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 125.73 229.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b6dfb63-a09e-46e1-840d-bac2b641491c")
 		)
@@ -22131,6 +22813,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 262.89 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 262.89 130.81 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22400,6 +23093,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 166.37 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 33.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22840,6 +23544,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 308.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b42b1c3-f250-4b2e-bb52-4a4328c79bf7")
 		)
@@ -22923,6 +23638,17 @@
 			)
 		)
 		(property "LCSC" "C5157937"
+			(at 168.91 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 168.91 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -23058,6 +23784,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 41.91 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f421abb-7ba8-4db1-9de0-2b4e3e03da91")
 		)
@@ -23174,7 +23911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 317.5 213.3599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23196,7 +23933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/291005-CL05B104KB54PNC/C307331"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/1875-0402B102K500NT/C1523"
 			(at 320.04 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -23218,7 +23955,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C307331"
+		(property "LCSC" "C1523"
+			(at 320.04 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 320.04 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -23311,6 +24059,17 @@
 			)
 		)
 		(property "LCSC" "C1532"
+			(at 336.55 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 336.55 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -23722,6 +24481,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 255.27 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
@@ -23821,6 +24591,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 288.29 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 288.29 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24077,6 +24858,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 334.01 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "10"
 			(uuid "e201adba-4f46-4157-ac22-323ca1506054")
 		)
@@ -24209,6 +25001,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 184.15 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 184.15 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24424,6 +25227,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 73.66 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e201938a-e27d-41a3-9cb1-c72bd835ac10")
 		)
@@ -24537,6 +25351,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 280.67 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "70fb18d6-291e-4ad5-a7dd-f973e373582e")
 		)
@@ -24642,6 +25467,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 318.77 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 318.77 111.76 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24900,6 +25736,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 209.55 238.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "789d84e5-57fe-4b72-8a36-82cfd12a4c2d")
 		)
@@ -24981,6 +25828,17 @@
 			)
 		)
 		(property "LCSC" "C25905"
+			(at 67.31 232.41 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 67.31 232.41 90)
 			(hide yes)
 			(show_name no)
@@ -25103,6 +25961,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 190.5 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d05dae68-4b71-45be-ab73-1e1bcaae23e0")
 		)
@@ -25208,6 +26077,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 41.91 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 119.38 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25341,6 +26221,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 38.1 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 38.1 157.48 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25597,6 +26488,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 281.94 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "56295323-a579-4bd5-857f-4d707703fd91")
 		)
@@ -25798,6 +26700,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 297.18 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 297.18 31.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26075,6 +26988,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 339.09 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b88bc627-35e2-4b11-8035-328238ab3ddf")
 		)
@@ -26343,6 +27267,17 @@
 				)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 267.97 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "045915a4-f89c-459a-ba61-eaed5d030d9d")
 		)
@@ -26526,6 +27461,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 90.17 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 90.17 226.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26878,6 +27824,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 22.86 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 22.86 152.4 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
