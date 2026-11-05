@@ -4804,7 +4804,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/jieerrui-ERG50V1000M13X25/C47344169"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4838,7 +4838,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C47344169"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10763,7 +10763,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/jieerrui-ERG50V1000M13X25/C47344169"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10797,7 +10797,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C47344169"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15582,7 +15582,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/jieerrui-ERG50V1000M13X25/C47344169"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -15616,7 +15616,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C47344169"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19368,7 +19368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/jieerrui-ERG50V1000M13X25/C47344169"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -19402,7 +19402,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C47344169"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21953,7 +21953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18792-KM108M050J25RR0VH2FP0/C18104"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/jieerrui-ERG50V1000M13X25/C47344169"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21987,7 +21987,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C18104"
+		(property "LCSC" "C47344169"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37638,6 +37638,12 @@
 		(path "/087dfa48-1e1e-40ab-a212-3f524acf7311")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37783,6 +37789,12 @@
 		(path "/5bdfc308-43a6-4f29-84ec-02195677db36")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -37928,6 +37940,12 @@
 		(path "/ce4f5c4f-83c0-4637-b058-5bb9827eaac5")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -38255,6 +38273,12 @@
 		(path "/28881bdb-ff07-4b43-84f4-843a0dc30784")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -38582,6 +38606,12 @@
 		(path "/5815bdc8-abb2-4b0d-b9ce-b5d8a6412cae")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39264,6 +39294,12 @@
 		(path "/22b82e04-21a7-4f9b-85cf-a163ebb30a09")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39409,6 +39445,12 @@
 		(path "/f68e2547-b276-4416-88e8-abaf1ea4b5a0")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39554,6 +39596,12 @@
 		(path "/5108a179-411e-4bb3-a067-1e3c2d0fad7c")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39699,6 +39747,12 @@
 		(path "/cb50e58a-db34-456b-bfea-fa776961c4ac")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -39844,6 +39898,12 @@
 		(path "/bb02105c-9b67-4267-bb01-1b9af19a82a3")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -40149,6 +40209,12 @@
 		(path "/c0567d2f-55fc-453c-922c-64929d33007b")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -40294,6 +40360,12 @@
 		(path "/6ede0dc4-a821-4f7e-ad52-5b61f3a7d61b")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -40439,6 +40511,12 @@
 		(path "/d186a6e6-ac32-4e3f-a981-1a2d2651b3b5")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -40584,6 +40662,12 @@
 		(path "/ed1c9705-ab44-4774-9a8d-1c60efe55fed")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -40729,6 +40813,12 @@
 		(path "/fd2d2e63-400b-48d6-a1ae-63d9c3087d07")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -40874,6 +40964,12 @@
 		(path "/d3b37acc-36be-4488-b520-e19144ae220d")
 		(sheetname "/")
 		(sheetfile "muscle.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
