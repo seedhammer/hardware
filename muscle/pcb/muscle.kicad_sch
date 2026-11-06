@@ -316,129 +316,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1827,6 +1704,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Potentiometer_Small"
 			(pin_names
 				(offset 1.016)
@@ -2152,172 +2171,6 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4510,6 +4363,503 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "mainboard:LM339LVRTE"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM339LVRTE"
+				(at 1.27 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+				(at -1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Quad Differential Comparators, WQFN-16"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cmp open collector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "WQFN*3x3mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM339LVRTE_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339LVRTE_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339LVRTE_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339LVRTE_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
+						(xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LM339LVRTE_5_1"
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 0 270)
+					(length 3.81)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "[3,10]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mainboard:LM3409MY"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4804,302 +5154,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "mainboard:LM393LV"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 3.81 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LM393LV"
-				(at 6.35 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cmp open collector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* SOP*5.28x5.23mm*P1.27mm* VSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LM393LV_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393LV_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.508) (xy 2.794 -0.508) (xy 3.302 0) (xy 2.794 0.508) (xy 2.286 0) (xy 2.794 -0.508)
-						(xy 2.286 -0.508)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LM393LV_3_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -6668,6 +6722,18 @@
 		(uuid "2f197375-3f64-4b21-acf0-ba0f2b8f9b55")
 	)
 	(junction
+		(at 204.47 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32491d10-fdd9-4676-b011-60db0d777af4")
+	)
+	(junction
+		(at 34.29 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34ff043f-4998-478e-b6f4-c9185608c530")
+	)
+	(junction
 		(at 215.9 271.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6762,12 +6828,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92afd756-a7a5-4fde-bebd-513527751d7f")
-	)
-	(junction
-		(at 397.51 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9461fb58-1dea-4e84-9776-00b14a344793")
 	)
 	(junction
 		(at 332.74 125.73)
@@ -6876,12 +6936,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce34f975-4e9e-4092-8c1a-945f079c35f6")
-	)
-	(junction
-		(at 224.79 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf5b77a4-ebfa-4fbd-a9e1-89b05e016831")
 	)
 	(junction
 		(at 368.3 92.71)
@@ -7549,6 +7603,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 172.72) (xy 227.33 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23515f85-8439-4f30-b83e-5c8bd1b77e2a")
+	)
+	(wire
+		(pts
 			(xy 215.9 279.4) (xy 228.6 279.4)
 		)
 		(stroke
@@ -7889,6 +7953,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 163.83) (xy 214.63 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aabfaee-621f-4a3f-ac65-a2a6d5e13c9d")
+	)
+	(wire
+		(pts
 			(xy 196.85 345.44) (xy 196.85 346.71)
 		)
 		(stroke
@@ -8159,6 +8233,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 148.59) (xy 111.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514ea431-c47d-4a67-bdfb-00e5de88d889")
+	)
+	(wire
+		(pts
 			(xy 454.66 63.5) (xy 454.66 54.61)
 		)
 		(stroke
@@ -8199,7 +8283,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 157.48) (xy 82.55 160.02)
+			(xy 124.46 135.89) (xy 124.46 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8276,16 +8360,6 @@
 			(type default)
 		)
 		(uuid "572f0c43-27c1-4236-b32c-12d794830465")
-	)
-	(wire
-		(pts
-			(xy 224.79 163.83) (xy 222.25 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573a29af-ac3f-44ee-8661-82a8347e2657")
 	)
 	(wire
 		(pts
@@ -8509,7 +8583,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 172.72) (xy 212.09 172.72)
+			(xy 205.74 172.72) (xy 214.63 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8629,7 +8703,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 163.83) (xy 212.09 163.83)
+			(xy 194.31 163.83) (xy 204.47 163.83)
 		)
 		(stroke
 			(width 0)
@@ -8659,13 +8733,13 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 163.83) (xy 224.79 163.83)
+			(xy 115.57 173.99) (xy 124.46 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6eba7161-74c2-4fbf-829c-1248ddfb6146")
+		(uuid "6e6fecd0-b507-484c-90a5-5cc6cea8dbdb")
 	)
 	(wire
 		(pts
@@ -9019,6 +9093,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 181.61) (xy 96.52 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8064aa6b-6598-4201-8f2e-2eb3bb19fc6e")
+	)
+	(wire
+		(pts
 			(xy 168.91 187.96) (xy 181.61 187.96)
 		)
 		(stroke
@@ -9109,16 +9193,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 172.72) (xy 222.25 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a1a2c7-1c6d-4e06-aefc-c696107a3e3c")
-	)
-	(wire
-		(pts
 			(xy 480.06 88.9) (xy 480.06 90.17)
 		)
 		(stroke
@@ -9146,6 +9220,16 @@
 			(type default)
 		)
 		(uuid "88fcd9ca-86d1-4004-b20e-cc4c4302c0a7")
+	)
+	(wire
+		(pts
+			(xy 82.55 186.69) (xy 82.55 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89323f71-9343-4f83-b9df-2535f9f6c9fd")
 	)
 	(wire
 		(pts
@@ -9459,7 +9543,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 85.09) (xy 421.64 85.09)
+			(xy 382.27 85.09) (xy 421.64 85.09)
 		)
 		(stroke
 			(width 0)
@@ -9596,6 +9680,16 @@
 			(type default)
 		)
 		(uuid "a4855c92-74fc-4557-92d4-e9a234c1c5b5")
+	)
+	(wire
+		(pts
+			(xy 124.46 144.78) (xy 124.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b910b2-650f-4fa8-a714-547774ff4f10")
 	)
 	(wire
 		(pts
@@ -9749,16 +9843,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 152.4) (xy 82.55 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad07e16d-ca2e-41e9-bfa5-9bf96a893fea")
-	)
-	(wire
-		(pts
 			(xy 102.87 60.96) (xy 95.25 60.96)
 		)
 		(stroke
@@ -9809,6 +9893,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 176.53) (xy 124.46 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae812efb-f7e5-41c6-ba54-6f3a975e8331")
+	)
+	(wire
+		(pts
 			(xy 393.7 41.91) (xy 440.69 41.91)
 		)
 		(stroke
@@ -9856,6 +9950,16 @@
 			(type default)
 		)
 		(uuid "b13f4242-2ff3-4ddd-8cf7-91c4e3bf3d45")
+	)
+	(wire
+		(pts
+			(xy 124.46 184.15) (xy 111.76 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a054cc-88ae-489c-8b02-dc48e490c926")
 	)
 	(wire
 		(pts
@@ -9916,16 +10020,6 @@
 			(type default)
 		)
 		(uuid "b639e6fe-4fff-46de-a241-b2ee2ae67e6a")
-	)
-	(wire
-		(pts
-			(xy 382.27 85.09) (xy 397.51 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b65f440d-c10f-4dac-837d-f5d1b25e1f1f")
 	)
 	(wire
 		(pts
@@ -10029,6 +10123,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 146.05) (xy 82.55 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc663396-c183-46c5-8c7d-f333d0f9c9fe")
+	)
+	(wire
+		(pts
 			(xy 179.07 337.82) (xy 184.15 337.82)
 		)
 		(stroke
@@ -10129,13 +10233,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 165.1) (xy 82.55 170.18)
+			(xy 219.71 163.83) (xy 227.33 163.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3c93185-fdb6-469a-8fab-9ab38f11c0cc")
+		(uuid "c3f96e04-dd14-4070-9ea5-857a94cc39bc")
 	)
 	(wire
 		(pts
@@ -10166,6 +10270,16 @@
 			(type default)
 		)
 		(uuid "c4f49ef7-dd99-4f23-8212-68958cbe807c")
+	)
+	(wire
+		(pts
+			(xy 124.46 181.61) (xy 124.46 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5864a25-a2e5-437d-8b3c-9277f17d6e23")
 	)
 	(wire
 		(pts
@@ -10266,6 +10380,16 @@
 			(type default)
 		)
 		(uuid "cb183b41-668b-46c2-b100-2e018f6708bf")
+	)
+	(wire
+		(pts
+			(xy 87.63 151.13) (xy 96.52 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb527e65-2c7a-47ec-98b8-e30f865ea204")
 	)
 	(wire
 		(pts
@@ -10409,6 +10533,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 146.05) (xy 96.52 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63801af-e343-47a8-af3b-1f38dbd7e8a3")
+	)
+	(wire
+		(pts
 			(xy 458.47 64.77) (xy 454.66 64.77)
 		)
 		(stroke
@@ -10456,6 +10590,16 @@
 			(type default)
 		)
 		(uuid "daefcc1a-60dd-4561-b650-aba0dcf549a2")
+	)
+	(wire
+		(pts
+			(xy 96.52 186.69) (xy 82.55 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0c4099-fb12-42c8-8e56-d919cdf338eb")
 	)
 	(wire
 		(pts
@@ -10639,7 +10783,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 148.59) (xy 90.17 148.59)
+			(xy 124.46 135.89) (xy 116.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10869,6 +11013,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 130.81) (xy 36.83 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa872e2c-947d-4b6c-875c-fd4cc9939aa2")
+	)
+	(wire
+		(pts
 			(xy 269.24 49.53) (xy 269.24 52.07)
 		)
 		(stroke
@@ -11016,6 +11170,16 @@
 			(justify left bottom)
 		)
 		(uuid "23ac6ed8-0e13-40e9-b4a7-ac40ba8c40ca")
+	)
+	(label "~{FAULT}"
+		(at 115.57 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24566581-1699-4bdb-903b-6f370bc2dcca")
 	)
 	(label "Y_DIR"
 		(at 287.02 299.72 0)
@@ -11226,6 +11390,16 @@
 			(justify right bottom)
 		)
 		(uuid "6c64cc23-e390-4f93-b379-c7d9bb839996")
+	)
+	(label "VREF"
+		(at 87.63 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e27d8ae-5d65-45d4-9114-36685da78692")
 	)
 	(label "DRV_EN"
 		(at 232.41 74.93 0)
@@ -11617,6 +11791,16 @@
 		)
 		(uuid "eb147fd0-fa1a-47b9-b2c3-cde68e69ca56")
 	)
+	(label "VREF"
+		(at 87.63 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb1b8984-4665-41aa-ae00-e66f4eaecabb")
+	)
 	(label "X_A2"
 		(at 214.63 317.5 180)
 		(effects
@@ -11688,12 +11872,12 @@
 		(uuid "f74a2e63-2784-4e58-8c9a-4657b4accf12")
 	)
 	(label "~{PGOOD}"
-		(at 90.17 148.59 180)
+		(at 116.84 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "fa688199-2c7a-43cb-9bc8-192e4560d258")
 	)
@@ -14634,6 +14818,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 217.17 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24382184-51ba-4e53-87ee-65f81699bc41")
+		(property "Reference" "NT1"
+			(at 217.17 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 217.17 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mainboard:Jumper_Samtec_jl-400-25-t"
+			(at 217.17 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 217.17 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "LCSC"
+			(at 217.17 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "28a5a33a-af16-49ac-ad08-a79b9bb56148")
+		)
+		(pin "1"
+			(uuid "f27ce76a-70f9-4c0d-9403-e0e40e1d30ce")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 332.74 109.22 0)
 		(unit 1)
@@ -16478,12 +16753,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
+		(lib_id "Device:NetTie_2")
 		(at 217.17 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16531,8 +16806,8 @@
 				)
 			)
 		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 217.17 171.45 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 217.17 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21424,97 +21699,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 217.17 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d5a405e-2a98-4347-9e97-94a225801a4f")
-		(property "Reference" "JP3"
-			(at 217.17 167.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JL_400_25T"
-			(at 217.17 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mainboard:Jumper_Samtec_jl-400-25-t"
-			(at 217.17 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 217.17 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C21869072"
-			(at 217.17 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "83eff84c-9400-4699-b757-3c469c81cd37")
-		)
-		(pin "1"
-			(uuid "720f20a1-d425-495f-8c89-8d0dd796a1ad")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 34.29 106.68 0)
 		(unit 1)
@@ -22316,6 +22500,141 @@
 		)
 	)
 	(symbol
+		(lib_id "mainboard:LM339LVRTE")
+		(at 36.83 123.19 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e95a5ea-f871-49b4-b7ec-e92d0f690abd")
+		(property "Reference" "U8"
+			(at 38.1 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM339LVRTE"
+			(at 38.1 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+			(at 35.56 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
+			(at 38.1 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, WQFN-16"
+			(at 36.83 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3658606"
+			(at 36.83 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "f2a5aad6-62e7-40bd-9246-ebe66a45377e")
+		)
+		(pin "4"
+			(uuid "75b8e2a4-e425-4134-abec-753eda0208dc")
+		)
+		(pin "7"
+			(uuid "7494f8c8-c4af-4787-82c9-13aa33dce18a")
+		)
+		(pin "6"
+			(uuid "6cdc7624-7042-42dd-81cd-b326afd856a1")
+		)
+		(pin "15"
+			(uuid "be2fa94d-1f5d-4791-983a-6c646d221ba3")
+		)
+		(pin "2"
+			(uuid "9973dc4f-f104-4d19-9042-24b574688103")
+		)
+		(pin "1"
+			(uuid "81cb3a2f-0123-4637-b1fb-e2642834c6f1")
+		)
+		(pin "13"
+			(uuid "1de0c1ba-2744-402f-bc18-26e4b6963d87")
+		)
+		(pin "5"
+			(uuid "cfa6ff78-1012-4927-9f77-dc9a941a1497")
+		)
+		(pin "8"
+			(uuid "a580df12-c0ab-4374-a696-04d5e2629ff8")
+		)
+		(pin "11"
+			(uuid "0eb34c16-d7b7-4af1-9bb0-23d94dba11e4")
+		)
+		(pin "14"
+			(uuid "45186cd6-f061-4fed-92c2-d6728fdb78df")
+		)
+		(pin "9"
+			(uuid "4f0ddb88-205f-4540-a49a-9797d921343c")
+		)
+		(pin "17"
+			(uuid "f8ee4a7e-da3f-4b43-857f-e470b15ab628")
+		)
+		(pin "[3,10]"
+			(uuid "0d7b191b-cf74-4e0f-ae9a-e8b0055904d7")
+		)
+		(pin "12"
+			(uuid "f58b41d8-d62f-4574-a5a3-582144d491d0")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U8")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "ZE035PG-C_1")
 		(lib_id "mainboard:ZE035PG-C")
 		(at 189.23 166.37 270)
@@ -22942,6 +23261,139 @@
 		)
 	)
 	(symbol
+		(lib_id "mainboard:LM339LVRTE")
+		(at 104.14 184.15 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa06d2b4-f191-4702-b030-fb1636c6d811")
+		(property "Reference" "U8"
+			(at 104.14 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVRTE"
+			(at 104.14 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+			(at 102.87 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
+			(at 105.41 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, WQFN-16"
+			(at 104.14 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3658606"
+			(at 104.14 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "f2a5aad6-62e7-40bd-9246-ebe66a45377f")
+		)
+		(pin "4"
+			(uuid "75b8e2a4-e425-4134-abec-753eda0208dd")
+		)
+		(pin "7"
+			(uuid "7494f8c8-c4af-4787-82c9-13aa33dce18b")
+		)
+		(pin "6"
+			(uuid "6cdc7624-7042-42dd-81cd-b326afd856a2")
+		)
+		(pin "15"
+			(uuid "be2fa94d-1f5d-4791-983a-6c646d221ba4")
+		)
+		(pin "2"
+			(uuid "9973dc4f-f104-4d19-9042-24b574688104")
+		)
+		(pin "1"
+			(uuid "81cb3a2f-0123-4637-b1fb-e2642834c6f2")
+		)
+		(pin "13"
+			(uuid "1de0c1ba-2744-402f-bc18-26e4b6963d88")
+		)
+		(pin "5"
+			(uuid "cfa6ff78-1012-4927-9f77-dc9a941a1498")
+		)
+		(pin "8"
+			(uuid "a580df12-c0ab-4374-a696-04d5e2629ff9")
+		)
+		(pin "11"
+			(uuid "0eb34c16-d7b7-4af1-9bb0-23d94dba11e5")
+		)
+		(pin "14"
+			(uuid "45186cd6-f061-4fed-92c2-d6728fdb78e0")
+		)
+		(pin "9"
+			(uuid "4f0ddb88-205f-4540-a49a-9797d921343d")
+		)
+		(pin "17"
+			(uuid "f8ee4a7e-da3f-4b43-857f-e470b15ab629")
+		)
+		(pin "[3,10]"
+			(uuid "0d7b191b-cf74-4e0f-ae9a-e8b0055904d8")
+		)
+		(pin "12"
+			(uuid "f58b41d8-d62f-4574-a5a3-582144d491d1")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U8")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Management:LM5050-1")
 		(at 87.63 60.96 0)
 		(unit 1)
@@ -23197,115 +23649,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:LM393LV")
-		(at 55.88 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3d52df1-0ada-4e6e-9a59-d64030fa4be0")
-		(property "Reference" "U1"
-			(at 55.88 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393LV"
-			(at 55.88 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 55.88 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
-			(at 55.88 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 55.88 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5213974"
-			(at 55.88 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "e2c6c3f2-b4a4-4ccf-8bc5-c1dd5a5d467a")
-		)
-		(pin "7"
-			(uuid "9434b0a1-6368-4e79-9063-725ddaccbba6")
-		)
-		(pin "5"
-			(uuid "0bd82731-f964-4448-bddc-0638173e3c80")
-		)
-		(pin "1"
-			(uuid "080c2c20-83d6-4426-9b45-3c95cfb1fa14")
-		)
-		(pin "3"
-			(uuid "b90c6c64-931b-4734-84f9-d98608915a45")
-		)
-		(pin "2"
-			(uuid "e5b62ad2-15cf-476e-9763-58098dc2a277")
-		)
-		(pin "8"
-			(uuid "0d6e217d-0479-4f2e-ae79-d20413c5bc20")
-		)
-		(pin "4"
-			(uuid "a90c0aea-fc92-4ddc-9bd4-6434f11a22d9")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -24408,117 +24751,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:LM393LV")
-		(at 36.83 123.19 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4f4195c-691d-4d5b-a2c8-62fcc0808585")
-		(property "Reference" "U1"
-			(at 35.56 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM393LV"
-			(at 35.56 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 36.83 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
-			(at 36.83 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 36.83 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5213974"
-			(at 36.83 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "e2c6c3f2-b4a4-4ccf-8bc5-c1dd5a5d467b")
-		)
-		(pin "7"
-			(uuid "9434b0a1-6368-4e79-9063-725ddaccbba7")
-		)
-		(pin "5"
-			(uuid "0bd82731-f964-4448-bddc-0638173e3c81")
-		)
-		(pin "1"
-			(uuid "080c2c20-83d6-4426-9b45-3c95cfb1fa15")
-		)
-		(pin "3"
-			(uuid "b90c6c64-931b-4734-84f9-d98608915a46")
-		)
-		(pin "2"
-			(uuid "e5b62ad2-15cf-476e-9763-58098dc2a278")
-		)
-		(pin "8"
-			(uuid "0d6e217d-0479-4f2e-ae79-d20413c5bc21")
-		)
-		(pin "4"
-			(uuid "a90c0aea-fc92-4ddc-9bd4-6434f11a22da")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 102.87 40.64 0)
 		(mirror y)
@@ -24748,115 +24980,6 @@
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "H4")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:LM393LV")
-		(at 104.14 167.64 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cab0fd10-5673-41e4-873d-4f0a1887511c")
-		(property "Reference" "U1"
-			(at 104.14 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM393LV"
-			(at 104.14 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-8"
-			(at 104.14 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
-			(at 104.14 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Low-Power, Low-Offset Voltage, Dual Comparators, DIP-8/SOIC-8/TO-99-8"
-			(at 104.14 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C5213974"
-			(at 104.14 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "e2c6c3f2-b4a4-4ccf-8bc5-c1dd5a5d467c")
-		)
-		(pin "7"
-			(uuid "9434b0a1-6368-4e79-9063-725ddaccbba8")
-		)
-		(pin "5"
-			(uuid "0bd82731-f964-4448-bddc-0638173e3c82")
-		)
-		(pin "1"
-			(uuid "080c2c20-83d6-4426-9b45-3c95cfb1fa16")
-		)
-		(pin "3"
-			(uuid "b90c6c64-931b-4734-84f9-d98608915a47")
-		)
-		(pin "2"
-			(uuid "e5b62ad2-15cf-476e-9763-58098dc2a279")
-		)
-		(pin "8"
-			(uuid "0d6e217d-0479-4f2e-ae79-d20413c5bc22")
-		)
-		(pin "4"
-			(uuid "a90c0aea-fc92-4ddc-9bd4-6434f11a22db")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "U1")
-					(unit 2)
 				)
 			)
 		)
@@ -25230,6 +25353,139 @@
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "J4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:LM339LVRTE")
+		(at 104.14 148.59 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce974d44-fa20-43ab-b1e9-04de10b81b86")
+		(property "Reference" "U8"
+			(at 104.14 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVRTE"
+			(at 104.14 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+			(at 102.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
+			(at 105.41 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, WQFN-16"
+			(at 104.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3658606"
+			(at 104.14 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "f2a5aad6-62e7-40bd-9246-ebe66a453780")
+		)
+		(pin "4"
+			(uuid "75b8e2a4-e425-4134-abec-753eda0208de")
+		)
+		(pin "7"
+			(uuid "7494f8c8-c4af-4787-82c9-13aa33dce18c")
+		)
+		(pin "6"
+			(uuid "6cdc7624-7042-42dd-81cd-b326afd856a3")
+		)
+		(pin "15"
+			(uuid "be2fa94d-1f5d-4791-983a-6c646d221ba5")
+		)
+		(pin "2"
+			(uuid "9973dc4f-f104-4d19-9042-24b574688105")
+		)
+		(pin "1"
+			(uuid "81cb3a2f-0123-4637-b1fb-e2642834c6f3")
+		)
+		(pin "13"
+			(uuid "1de0c1ba-2744-402f-bc18-26e4b6963d89")
+		)
+		(pin "5"
+			(uuid "cfa6ff78-1012-4927-9f77-dc9a941a1499")
+		)
+		(pin "8"
+			(uuid "a580df12-c0ab-4374-a696-04d5e2629ffa")
+		)
+		(pin "11"
+			(uuid "0eb34c16-d7b7-4af1-9bb0-23d94dba11e6")
+		)
+		(pin "14"
+			(uuid "45186cd6-f061-4fed-92c2-d6728fdb78e1")
+		)
+		(pin "9"
+			(uuid "4f0ddb88-205f-4540-a49a-9797d921343e")
+		)
+		(pin "17"
+			(uuid "f8ee4a7e-da3f-4b43-857f-e470b15ab62a")
+		)
+		(pin "[3,10]"
+			(uuid "0d7b191b-cf74-4e0f-ae9a-e8b0055904d9")
+		)
+		(pin "12"
+			(uuid "f58b41d8-d62f-4574-a5a3-582144d491d2")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U8")
+					(unit 3)
 				)
 			)
 		)
@@ -26251,85 +26507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 397.51 85.09 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da7d487b-c780-44db-9501-7b273d4107c5")
-		(property "Reference" "TP1"
-			(at 400.05 87.1219 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "S_{sense}"
-			(at 400.05 89.6619 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 392.43 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 392.43 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 397.51 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9da1021c-3226-4fac-9498-2dc13418f8cf")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+24V")
 		(at 480.06 77.47 0)
 		(mirror y)
@@ -27071,8 +27248,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 82.55 162.56 0)
-		(mirror y)
+		(at 124.46 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27082,7 +27258,7 @@
 		(dnp no)
 		(uuid "e2fe033d-2cd0-4a07-be5d-92f010c232d8")
 		(property "Reference" "R7"
-			(at 80.01 161.2899 0)
+			(at 127 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27093,7 +27269,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 80.01 163.8299 0)
+			(at 127 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27104,7 +27280,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 82.55 162.56 0)
+			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27115,7 +27291,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 82.55 162.56 0)
+			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27126,7 +27302,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 82.55 162.56 0)
+			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27137,7 +27313,7 @@
 			)
 		)
 		(property "LCSC" "C25744"
-			(at 82.55 162.56 0)
+			(at 124.46 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27164,7 +27340,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 224.79 163.83 0)
+		(at 204.47 163.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27176,7 +27352,7 @@
 		(fields_autoplaced yes)
 		(uuid "e73f3237-1399-458d-8f44-8aeb3d11dce6")
 		(property "Reference" "#FLG05"
-			(at 224.79 161.925 0)
+			(at 204.47 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27187,7 +27363,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 224.79 158.75 0)
+			(at 204.47 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27198,7 +27374,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 163.83 0)
+			(at 204.47 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27209,7 +27385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 163.83 0)
+			(at 204.47 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27220,7 +27396,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 224.79 163.83 0)
+			(at 204.47 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27662,6 +27838,139 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:LM339LVRTE")
+		(at 55.88 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e977ff0c-559e-4354-b616-e23de327cb59")
+		(property "Reference" "U8"
+			(at 55.88 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVRTE"
+			(at 55.88 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+			(at 54.61 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
+			(at 57.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, WQFN-16"
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3658606"
+			(at 55.88 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "f2a5aad6-62e7-40bd-9246-ebe66a453781")
+		)
+		(pin "4"
+			(uuid "75b8e2a4-e425-4134-abec-753eda0208df")
+		)
+		(pin "7"
+			(uuid "7494f8c8-c4af-4787-82c9-13aa33dce18d")
+		)
+		(pin "6"
+			(uuid "6cdc7624-7042-42dd-81cd-b326afd856a4")
+		)
+		(pin "15"
+			(uuid "be2fa94d-1f5d-4791-983a-6c646d221ba6")
+		)
+		(pin "2"
+			(uuid "9973dc4f-f104-4d19-9042-24b574688106")
+		)
+		(pin "1"
+			(uuid "81cb3a2f-0123-4637-b1fb-e2642834c6f4")
+		)
+		(pin "13"
+			(uuid "1de0c1ba-2744-402f-bc18-26e4b6963d8a")
+		)
+		(pin "5"
+			(uuid "cfa6ff78-1012-4927-9f77-dc9a941a149a")
+		)
+		(pin "8"
+			(uuid "a580df12-c0ab-4374-a696-04d5e2629ffb")
+		)
+		(pin "11"
+			(uuid "0eb34c16-d7b7-4af1-9bb0-23d94dba11e7")
+		)
+		(pin "14"
+			(uuid "45186cd6-f061-4fed-92c2-d6728fdb78e2")
+		)
+		(pin "9"
+			(uuid "4f0ddb88-205f-4540-a49a-9797d921343f")
+		)
+		(pin "17"
+			(uuid "f8ee4a7e-da3f-4b43-857f-e470b15ab62b")
+		)
+		(pin "[3,10]"
+			(uuid "0d7b191b-cf74-4e0f-ae9a-e8b0055904da")
+		)
+		(pin "12"
+			(uuid "f58b41d8-d62f-4574-a5a3-582144d491d3")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -28556,6 +28865,232 @@
 		)
 	)
 	(symbol
+		(lib_id "mainboard:LM339LVRTE")
+		(at 104.14 167.64 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f321b299-a273-4693-aa61-a192a1d1b452")
+		(property "Reference" "U8"
+			(at 104.14 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM339LVRTE"
+			(at 104.14 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm"
+			(at 102.87 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm339lv.pdf"
+			(at 105.41 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Differential Comparators, WQFN-16"
+			(at 104.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3658606"
+			(at 104.14 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "16"
+			(uuid "f2a5aad6-62e7-40bd-9246-ebe66a453782")
+		)
+		(pin "4"
+			(uuid "75b8e2a4-e425-4134-abec-753eda0208e0")
+		)
+		(pin "7"
+			(uuid "7494f8c8-c4af-4787-82c9-13aa33dce18e")
+		)
+		(pin "6"
+			(uuid "6cdc7624-7042-42dd-81cd-b326afd856a5")
+		)
+		(pin "15"
+			(uuid "be2fa94d-1f5d-4791-983a-6c646d221ba7")
+		)
+		(pin "2"
+			(uuid "9973dc4f-f104-4d19-9042-24b574688107")
+		)
+		(pin "1"
+			(uuid "81cb3a2f-0123-4637-b1fb-e2642834c6f5")
+		)
+		(pin "13"
+			(uuid "1de0c1ba-2744-402f-bc18-26e4b6963d8b")
+		)
+		(pin "5"
+			(uuid "cfa6ff78-1012-4927-9f77-dc9a941a149b")
+		)
+		(pin "8"
+			(uuid "a580df12-c0ab-4374-a696-04d5e2629ffc")
+		)
+		(pin "11"
+			(uuid "0eb34c16-d7b7-4af1-9bb0-23d94dba11e8")
+		)
+		(pin "14"
+			(uuid "45186cd6-f061-4fed-92c2-d6728fdb78e3")
+		)
+		(pin "9"
+			(uuid "4f0ddb88-205f-4540-a49a-9797d9213440")
+		)
+		(pin "17"
+			(uuid "f8ee4a7e-da3f-4b43-857f-e470b15ab62c")
+		)
+		(pin "[3,10]"
+			(uuid "0d7b191b-cf74-4e0f-ae9a-e8b0055904db")
+		)
+		(pin "12"
+			(uuid "f58b41d8-d62f-4574-a5a3-582144d491d4")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "U8")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.46 179.07 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f340a821-a475-4828-a4ff-8b0dcdd2c117")
+		(property "Reference" "R28"
+			(at 121.92 177.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.92 180.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 124.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
+			(at 124.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 124.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56a28b39-1f29-4f70-9ec4-9e0190b0add1")
+		)
+		(pin "2"
+			(uuid "02b1b1ec-9eca-4115-81dd-9eaf3e9dc17b")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 171.45 281.94 0)
 		(mirror x)
@@ -29072,99 +29607,6 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 82.55 154.94 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f7541079-8367-4ce4-b3b9-eaaece6ee4cf")
-		(property "Reference" "D1"
-			(at 80.01 154.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" ""
-			(at 80.01 156.4639 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 82.55 154.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-RB751S40/C7502700"
-			(at 82.55 154.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 82.55 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C7502700"
-			(at 82.55 154.94 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b7eb752-e7a9-47cd-8110-1205fcf89617")
-		)
-		(pin "2"
-			(uuid "9bab1dcf-a1a8-422b-b087-f120bdfc8145")
-		)
-		(instances
-			(project "muscle"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "D1")
 					(unit 1)
 				)
 			)
