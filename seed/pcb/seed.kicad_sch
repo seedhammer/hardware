@@ -7333,16 +7333,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 128.27) (xy 262.89 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bcd2f61-0365-44bd-86de-1d1f7a8c7e58")
-	)
-	(wire
-		(pts
 			(xy 176.53 238.76) (xy 184.15 238.76)
 		)
 		(stroke
@@ -7503,7 +7493,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 138.43) (xy 275.59 138.43)
+			(xy 265.43 138.43) (xy 275.59 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10503,16 +10493,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 133.35) (xy 262.89 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f58cce51-f692-4f0a-81bf-50edbb70079e")
-	)
-	(wire
-		(pts
 			(xy 177.8 27.94) (xy 177.8 30.48)
 		)
 		(stroke
@@ -11181,6 +11161,16 @@
 		)
 		(uuid "7b9a4c43-4bba-4b87-9db2-952c7b103501")
 	)
+	(label "RESET"
+		(at 184.15 238.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7bcaa2df-73da-4c2e-ba80-8a3772a6cb9c")
+	)
 	(label "VREG_FB"
 		(at 140.97 52.07 270)
 		(effects
@@ -11230,16 +11220,6 @@
 			(justify left bottom)
 		)
 		(uuid "81c9d234-12a9-4d9c-9947-89b1f494baad")
-	)
-	(label "PGOOD"
-		(at 184.15 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "82a88fb0-d3c0-43de-9fdb-0515c2f3d392")
 	)
 	(label "LCD_CS"
 		(at 317.5 142.24 180)
@@ -11310,6 +11290,16 @@
 			(justify left bottom)
 		)
 		(uuid "95cfbcf4-6c3c-4668-9242-5c191a26667c")
+	)
+	(label "RESET"
+		(at 327.66 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "961ecf0e-1647-4b32-8bf2-3fe3dfc91430")
 	)
 	(label "DBG_TX"
 		(at 190.5 72.39 180)
@@ -11441,6 +11431,16 @@
 		)
 		(uuid "b7c4dcdb-0510-450c-99ac-b7ed33474a52")
 	)
+	(label "RESET"
+		(at 265.43 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb1c23fb-6eba-4c12-a17b-9afc3bf2708b")
+	)
 	(label "LCD_SIO2"
 		(at 173.99 130.81 180)
 		(effects
@@ -11480,16 +11480,6 @@
 			(justify left bottom)
 		)
 		(uuid "c551145f-d6b1-4e1e-9bfd-ff14b3ded8f6")
-	)
-	(label "PGOOD"
-		(at 265.43 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c5dc3d0f-6656-403a-99d7-8eebc1bd399c")
 	)
 	(label "SD_SCK"
 		(at 173.99 77.47 180)
@@ -11550,16 +11540,6 @@
 			(justify left bottom)
 		)
 		(uuid "dca7a6ac-2d5c-4665-80ef-3f2c083d3308")
-	)
-	(label "PGOOD"
-		(at 327.66 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1d62faa-e624-43db-a1c7-514665abb359")
 	)
 	(label "LCD_SIO1"
 		(at 173.99 128.27 180)
@@ -21431,7 +21411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/APV-AFL1608081R0MLH/C55265175"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/Sunlord-MWTC160808S1R0MT/C17701610"
 			(at 185.42 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -21453,7 +21433,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C55265175"
+		(property "LCSC" "C17701610"
 			(at 185.42 233.68 90)
 			(hide yes)
 			(show_name no)
@@ -22543,83 +22523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 262.89 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a9dd44a2-aeb0-4220-9fd0-1e0445c00c5c")
-		(property "Reference" "#PWR034"
-			(at 262.89 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 263.271 122.6058 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 262.89 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6d3ae196-7a56-4acc-9a08-23f3dfbf6436")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Q_PMOS_GSD")
 		(at 125.73 229.87 90)
 		(unit 1)
@@ -22719,129 +22622,6 @@
 			(project "seed"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 262.89 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "acc72c41-4df2-43ec-b806-f3b1f3bbc3bd")
-		(property "Reference" "R20"
-			(at 265.43 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 265.43 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 262.89 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744"
-			(at 262.89 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 262.89 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 262.89 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 262.89 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 262.89 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 262.89 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8d2c9b08-6910-4f16-ae98-1ce64d80d73c")
-		)
-		(pin "1"
-			(uuid "450600aa-8b63-47e0-912d-4a0f2d9d1959")
-		)
-		(instances
-			(project "seed"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "R20")
 					(unit 1)
 				)
 			)
