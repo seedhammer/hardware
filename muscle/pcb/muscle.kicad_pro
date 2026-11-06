@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 3.2,
-          "width": 3.2
+          "drill": 0.0,
+          "height": 1.5,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
@@ -533,7 +533,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.16,
         "diff_pair_gap": 0.0,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.0,
@@ -544,26 +544,11 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.16,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.16,
-        "diff_pair_gap": 0.16,
-        "diff_pair_width": 0.2383,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "LongSig",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -571,40 +556,7 @@
     },
     "net_colors": {},
     "netclass_assignments": {},
-    "netclass_patterns": [
-      {
-        "netclass": "LongSig",
-        "pattern": "/USB_D+"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/USB_D-"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/SWCLK"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/SWD"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/DBG_RX"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/DBG_TX"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/CC1"
-      },
-      {
-        "netclass": "LongSig",
-        "pattern": "/CC2"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -785,7 +737,7 @@
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
-    "used_designators": "#FLG3-12,#PWR5-7,#PWR9,#PWR13-16,#PWR18-21,#PWR24-26,#PWR28,#PWR30-34,#PWR38,#PWR44,#PWR46-49,#PWR59-60,#PWR66-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR106-107,#PWR109-126,#PWR128-130,#PWR134-148,#PWR150-168,C1-5,C8-9,C11-12,C15-17,C26-27,C31-38,C40-44,C46-55,C57-63,C66-74,C79-81,D1-9,H1-9,J1-4,J6-24,JP1-2,JP5-6,JP8-21,L1-3,Q1-2,Q4-11,R1-36,R38-39,R41,R43-52,R54-60,RV1-13,TP3-8,TP10-11,U1-12,U17",
+    "used_designators": "#FLG1-12,#PWR1-76,#PWR79,#PWR81-96,#PWR99,#PWR104,#PWR106-107,#PWR109-126,#PWR128-130,#PWR134-148,#PWR150-168,C1-38,C40-44,C46-55,C57-63,C66-74,C79-81,D1-9,H1-9,J1-24,JP1-21,L1-3,Q1-11,R1-36,R38-39,R41,R43-52,R54-60,RV1-13,TP1,TP3-8,TP10-11,U1-12,U17",
     "variants": []
   },
   "sheets": [

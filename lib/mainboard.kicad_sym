@@ -23791,7 +23791,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
+		(property "Reference" "Q"
 			(at 5.715 1.905 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23811,7 +23811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
+		(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm_ThermalVias"
 			(at 30.353 -4.699 0)
 			(show_name no)
 			(do_not_autoplace no)
