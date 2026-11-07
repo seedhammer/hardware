@@ -14839,7 +14839,7 @@
 				)
 			)
 		)
-		(property "Value" "NetTie_2"
+		(property "Value" "JL_400_25T"
 			(at 217.17 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16764,7 +16764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f8ee030-b510-404b-9ba4-8b433b0c651b")
-		(property "Reference" "JP2"
+		(property "Reference" "NT2"
 			(at 217.17 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16837,7 +16837,7 @@
 		(instances
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "JP2")
+					(reference "NT2")
 					(unit 1)
 				)
 			)
