@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -2.148 0)
 		(layer "F.SilkS")
-		(uuid "35631d50-c2fd-40ad-8131-20f690b352c6")
+		(uuid "040a5351-fa51-4ec3-9c95-f23827bcf76e")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "YTC1P-8020-01"
 		(at 0 2.25 0)
 		(layer "F.Fab")
-		(uuid "de26f002-36cc-4891-bc1a-fb4442c70859")
+		(uuid "ae0109ac-7f69-4cf4-a99d-54f7db7bc39d")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eb0a4667-a746-44f4-b926-dfb0a0e889df")
+		(uuid "288de29a-8a18-4145-967d-ca3103d8ca4e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "02b7fd44-68d1-4a9e-b837-657e63480743")
+		(uuid "3bbad8c8-6b3a-4494-ace0-c52e08a4db5b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 			)
 		)
 	)
+	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -63,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "5d678960-51cd-46d4-81c9-4b481c2e3b73")
+		(uuid "6e529a39-ad28-4148-9574-75262a0ab489")
 	)
 	(fp_circle
 		(center 0 0)
@@ -74,7 +75,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "51310cc2-d031-4c53-bf07-566fc486901d")
+		(uuid "4ac2b1e3-1fe1-4135-9dee-a8397642fed7")
 	)
 	(fp_circle
 		(center 0 0)
@@ -85,12 +86,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "5afd1840-736a-47e3-a748-720d0c5db351")
+		(uuid "06297065-a8c7-4c72-9bf9-779f8174775d")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.15 0)
 		(layer "F.Fab")
-		(uuid "f05f4865-2ea8-461b-bbab-a9dc41628646")
+		(uuid "ef7ca04d-7eda-44d3-8380-edd275b655a1")
 		(effects
 			(font
 				(size 1 1)
@@ -102,7 +103,7 @@
 		(at 0 0)
 		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask")
-		(uuid "2afdb11a-1e20-4b76-ae5d-15ded529c651")
+		(uuid "91924b9f-142d-481c-bddd-04c74cea5ea8")
 	)
 	(embedded_fonts no)
 	(model "../../lib/YTC1P-8020-01.step"

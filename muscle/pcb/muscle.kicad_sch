@@ -2987,315 +2987,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ZE035PG-C_1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 5.715 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ZE035PG-C"
-				(at 11.811 -0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "mainboard:FET_DFN-5-1EP_3x3mm_P0.65mm_EP1.25x2.45mm"
-				(at 30.353 -4.699 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C53433534.pdf"
-				(at 31.115 -2.413 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-20A Id, -60V Vds, P-Channel Power MOSFET, 25mOhm Ron"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "P-MOS PMOS single"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*DFN*3.3x3.3mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ZE035PG-C_1_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ZE035PG-C_1_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "mainboard:DRV8434ARGE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6650,6 +6341,12 @@
 		(uuid "02e24e32-398d-452a-9d1f-4ed7eda6ad0f")
 	)
 	(junction
+		(at 224.79 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04020f3d-56fb-4f71-86cb-3035a8d1731c")
+	)
+	(junction
 		(at 356.87 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6714,12 +6411,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f197375-3f64-4b21-acf0-ba0f2b8f9b55")
-	)
-	(junction
-		(at 204.47 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32491d10-fdd9-4676-b011-60db0d777af4")
 	)
 	(junction
 		(at 34.29 130.81)
@@ -6942,6 +6633,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0d1d144-7988-4e02-b8fb-dc7649a0176f")
+	)
+	(junction
+		(at 224.79 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1d37ccb-11e9-474f-98a6-301505d75caf")
 	)
 	(junction
 		(at 97.79 43.18)
@@ -7623,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 172.72) (xy 227.33 172.72)
+			(xy 219.71 172.72) (xy 224.79 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7970,16 +7667,6 @@
 			(type default)
 		)
 		(uuid "3a5e6e82-e6a4-41d5-b543-2f225103e8ab")
-	)
-	(wire
-		(pts
-			(xy 204.47 163.83) (xy 214.63 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aabfaee-621f-4a3f-ac65-a2a6d5e13c9d")
 	)
 	(wire
 		(pts
@@ -8383,6 +8070,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 163.83) (xy 227.33 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579ebf00-ccdc-4bf1-b9e6-299e51140d59")
+	)
+	(wire
+		(pts
 			(xy 275.59 49.53) (xy 269.24 49.53)
 		)
 		(stroke
@@ -8723,7 +8420,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 163.83) (xy 204.47 163.83)
+			(xy 194.31 163.83) (xy 214.63 163.83)
 		)
 		(stroke
 			(width 0)
@@ -10253,7 +9950,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 163.83) (xy 227.33 163.83)
+			(xy 219.71 163.83) (xy 224.79 163.83)
 		)
 		(stroke
 			(width 0)
@@ -10920,6 +10617,16 @@
 			(type default)
 		)
 		(uuid "f1394de2-ba5e-4daf-83ca-72d610cdc233")
+	)
+	(wire
+		(pts
+			(xy 224.79 172.72) (xy 227.33 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21fd28d-5032-4215-9eea-b6350b2a58df")
 	)
 	(wire
 		(pts
@@ -14937,7 +14644,7 @@
 				)
 			)
 		)
-		(property "Value" "JL_400_25T"
+		(property "Value" "JL-400-25-T"
 			(at 217.17 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14980,7 +14687,7 @@
 				)
 			)
 		)
-		(property "LCSC" "LCSC"
+		(property "LCSC" "C21869072"
 			(at 217.17 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -16854,7 +16561,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -16870,7 +16577,7 @@
 				)
 			)
 		)
-		(property "Value" "JL_400_25T"
+		(property "Value" "JL-400-25-T"
 			(at 217.17 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22885,7 +22592,6 @@
 		)
 	)
 	(symbol
-		(lib_name "ZE035PG-C_1")
 		(lib_id "mainboard:ZE035PG-C")
 		(at 189.23 166.37 270)
 		(mirror x)
@@ -25151,6 +24857,86 @@
 			(project "muscle"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 224.79 172.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9cca3c1-0fc8-4e1e-8ad9-9b5c80f0955e")
+		(property "Reference" "#FLG07"
+			(at 224.79 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 224.79 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 224.79 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70dd5fb0-223d-4887-8715-b577fb0bd56b")
+		)
+		(instances
+			(project "muscle"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -27512,7 +27298,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 204.47 163.83 0)
+		(at 224.79 163.83 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27524,7 +27310,7 @@
 		(fields_autoplaced yes)
 		(uuid "e73f3237-1399-458d-8f44-8aeb3d11dce6")
 		(property "Reference" "#FLG05"
-			(at 204.47 161.925 0)
+			(at 224.79 161.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27535,7 +27321,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 204.47 158.75 0)
+			(at 224.79 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27546,7 +27332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 163.83 0)
+			(at 224.79 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27557,7 +27343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 163.83 0)
+			(at 224.79 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27568,7 +27354,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 204.47 163.83 0)
+			(at 224.79 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
