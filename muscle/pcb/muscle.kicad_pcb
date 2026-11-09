@@ -5026,6 +5026,7 @@
 			(at 0 -0.499999 90)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "775abac0-ec1a-44fe-8b38-e6ea849b2a3e")
 			(effects
 				(font
@@ -24152,14 +24153,15 @@
 		(descr "Shielded Power Inductors (https://www.bourns.com/docs/product-datasheets/srp7028a.pdf)")
 		(tags "Shielded Inductors Bourns SMD SRP7028A")
 		(property "Reference" "L2"
-			(at 4.3 2.96 180)
-			(layer "F.SilkS")
+			(at 4.3 2.96 -180)
+			(layer "B.SilkS")
 			(uuid "ef5630c1-da4d-4e1d-909c-57d9225939d0")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
+				(justify mirror)
 			)
 		)
 		(property "Value" "10u,4.5A"
@@ -42854,13 +42856,14 @@
 		(uuid "168dac8a-9911-413b-bf07-25ed51197012")
 	)
 	(gr_text "${TITLE}\n${REVISION}"
-		(at 120 144 0)
+		(at 113.1 146.6 0)
 		(layer "F.SilkS")
 		(uuid "7e71118b-2fd6-4f4a-9864-e6b14bc3cacc")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 	)
 	(gr_text_box "${TITLE}\n${REVISION}"

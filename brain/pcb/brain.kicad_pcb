@@ -165,7 +165,7 @@
 			(outputdirectory "gerbers")
 		)
 	)
-	(property "TITLE" "seed")
+	(property "TITLE" "brain")
 	(property "VERSION" "")
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -258,7 +258,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/82280586-65de-4caa-b9fc-4b9458bfca8b")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -475,7 +475,7 @@
 		)
 		(path "/57e2e4a6-1c7f-4114-bf60-48a82c2fe133")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -836,7 +836,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/1bc58d3a-07b0-449d-bcb1-ad5d660c0a71")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1004,7 +1004,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d31e4560-e018-43d4-b7da-b93c85c85c15")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1190,7 +1190,7 @@
 		(property ki_fp_filters "*QFN*7x7mm?P0.4mm?EP3.4x3.4mm*")
 		(path "/8fc7ab08-30cb-414e-b8e6-6ec6429f340a")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2420,7 +2420,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1baf75ce-b576-4e5b-a968-eae4e1150743")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2604,7 +2604,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/daaaf5b9-c471-4c63-8b8e-f72543a2cca3")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2788,7 +2788,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/6a850bcb-1840-4f5d-89e0-fd60390650bb")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3003,7 +3003,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/65d2f76b-67fa-4a19-95bd-b66b9ecc4cfb")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3226,7 +3226,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/884ae3bc-99eb-4fdb-b3f2-64a63d4d0125")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3706,7 +3706,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/46a43306-a66a-4971-a3fd-6fe5550bf80b")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3929,7 +3929,7 @@
 		(property ki_fp_filters "Connector*:*_1x??-1MP*")
 		(path "/403332db-2d9c-4ad4-bcdf-c378e2835159")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4383,7 +4383,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9b3ac51f-cfe7-465f-8fc8-1412ce6ea53a")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4593,7 +4593,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/661c6457-9bcc-44aa-9b68-26006ad25a93")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4803,7 +4803,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8aecf48a-cc4c-42f4-868f-17610a08feea")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5017,7 +5017,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/37eb5dab-37c7-4482-a799-a1218e73bc79")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5227,7 +5227,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/dc289e2b-2d51-4039-b30d-575744ebacf7")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5399,7 +5399,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/c7de21bd-421d-4d30-a99c-8efd35e918c8")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5567,7 +5567,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/29fbe1e8-756e-445e-8a00-318a887edd05")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5777,7 +5777,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ef88acca-2257-4070-a503-b633b5271a35")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5987,7 +5987,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/747dffcd-9438-429e-ab62-5e82d4ea15b3")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6204,7 +6204,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005eef89bd")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6417,7 +6417,7 @@
 		(property ki_fp_filters "Crystal*")
 		(path "/dd0fdcaf-56ed-460c-beac-ca6cbfc74af7")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6640,7 +6640,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/890c36d7-0978-4c0a-82be-b8f34167d380")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6846,7 +6846,7 @@
 		)
 		(path "/07f2898c-76b8-4bd1-8cf2-bd6eee411b6b")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7383,7 +7383,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/10141786-7231-4f55-a12b-acbba03152f5")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7567,7 +7567,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/963160b2-4c45-48e6-8fee-35bbf783f986")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7741,7 +7741,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/3adee4e8-ee9c-49c4-91d2-42037af77cd3")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -7909,7 +7909,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1b57c55a-c679-4d9d-903c-1e14aafe1d65")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8126,7 +8126,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3106e60e-b374-4670-984f-336c2c60cef0")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8336,7 +8336,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ca7e73ee-6298-4310-bf26-3ec6cdbb3c84")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8546,7 +8546,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/782f410f-43a6-4bcc-9cdc-ebcc7ba3da72")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8761,7 +8761,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8a87e88c-cc33-4141-b00d-1a959e6db957")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8937,7 +8937,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/763ac6c9-637b-4ce5-a2e8-cc81e796582f")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9251,7 +9251,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bea9aac9-80f1-497a-9431-5fbb1a2a1992")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9437,7 +9437,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/da2ed638-8827-4713-8b34-5dc3bfb5399e")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9647,7 +9647,7 @@
 		(property ki_fp_filters "WSON*1EP*6x5mm*P1.27mm*EP3.4x4.3mm*")
 		(path "/dc7467bd-fbe5-4a53-bf21-bd2a9a6f5fd0")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10136,7 +10136,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9c77ddd7-0f01-4a10-8d25-561e0b821e2b")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10320,7 +10320,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/9544ca07-f695-4f2c-8dd2-6187ef0856e7")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10535,7 +10535,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005eeee897")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10747,7 +10747,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8ca2a8d7-b8ce-4ff0-8cdb-5cd6740618b5")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10962,7 +10962,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8c7fb6de-1d1f-4440-b0a4-d1b3f16880ad")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11172,7 +11172,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/90666263-cf7e-48c3-be5e-a5182d552109")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11384,7 +11384,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/eade1c53-53cd-4196-b92e-460e75ffb55b")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11601,7 +11601,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3f872f85-22d4-4286-adef-8fd1ac09d3e5")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11777,7 +11777,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/6a083b30-7c7d-4b6f-8603-60a02e2c9098")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12122,7 +12122,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a6d66fdd-f3ef-4d2c-980b-484eb3d8b3c9")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12332,7 +12332,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/72c60445-2b86-4189-a623-f2579953fc8a")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12545,7 +12545,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2296f086-ba26-459f-8631-28e4687498a3")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12755,7 +12755,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e933d90e-d4ea-40eb-825d-d7c4feb0e329")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -12927,7 +12927,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/94ba54ef-4fc8-4240-8d33-d986f2ebb37c")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13100,7 +13100,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/157490c1-0cc4-407a-adb7-ed251f4b4d08")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13284,7 +13284,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/47ae49b7-d025-4f71-8f67-54613b18cc15")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13494,7 +13494,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/20581f40-1cd3-45e2-b621-8c1610841a53")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13680,7 +13680,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/55045853-4d29-4add-a409-eba9f93875de")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -13895,7 +13895,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005ede1624")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14108,7 +14108,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005ede0881")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14308,7 +14308,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bc90e09c-97c1-47b1-bda2-69eb191f3192")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14556,7 +14556,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/5fb29ec2-b54b-4ab0-9fdb-422f36113ce4")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14755,7 +14755,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/0b22a2a7-23fb-4521-87d0-aa72b18b1afb")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15042,7 +15042,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/100d8571-a9e8-4bae-8312-52aa7ac38044")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15257,7 +15257,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8c185b20-3bb0-4d54-a45b-a9740c41d954")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15440,7 +15440,7 @@
 		)
 		(path "/ab6ac212-d6ac-4964-866e-1bec17cb6f19")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15876,7 +15876,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8e6e3c5-d783-4f7e-9568-47a2863d5b1c")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16060,7 +16060,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bd55dfa9-dd08-437b-afa2-b09420d4ba38")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16272,7 +16272,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d5272163-1a14-48b1-9130-21ad3b92b7f2")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16456,7 +16456,7 @@
 		(property ki_fp_filters "SOT?563*")
 		(path "/bbb70988-a800-4770-aba3-b33bb3fffa58")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16836,7 +16836,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/258c4816-45ff-4431-9120-72ed127013b5")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17050,7 +17050,7 @@
 		)
 		(path "/d1e1ac03-dd7d-4d04-b4ed-12737b84f0a2")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17415,7 +17415,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005eef0473")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17625,7 +17625,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/352d343e-6b29-4f55-be1c-b15a05a41cf2")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -17835,7 +17835,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/cf0a119b-2bc1-4c6f-8d91-577b34c3d996")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18050,7 +18050,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/afc5815d-d894-4cd1-ba9b-a5ec9f40998e")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18263,7 +18263,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9bda668b-11d7-4cd4-a482-8fb1a3aad85f")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18478,7 +18478,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005eef0994")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18662,7 +18662,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/4ebe9a88-edd0-4c61-8628-76e923358767")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18846,7 +18846,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/89a427b1-f19c-4eca-8930-108fa323b2c7")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19056,7 +19056,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b9b7ad91-11c3-4311-be10-54b0560ae46b")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19266,7 +19266,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e1a1ffe1-9091-4f81-9f43-1cc659042c42")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19445,7 +19445,7 @@
 		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/82882486-1ca3-4fd4-ab1b-b3932d475b4c")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19884,7 +19884,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/78be65a0-3db5-4df5-b777-8801b6db3b30")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20063,7 +20063,7 @@
 		(property ki_fp_filters "microSD*")
 		(path "/cd8e77a3-e9f8-4164-b9e7-b4b23872356b")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20937,7 +20937,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/504f47a3-f585-448d-9456-d5cd62c97d8c")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21152,7 +21152,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/65294b7d-51fe-4b5d-beec-e96282813ebf")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21254,6 +21254,7 @@
 			(at 0 3.2 90)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "fb71d782-345f-4794-b510-f81a1ef0fd47")
 			(effects
 				(font
@@ -21321,7 +21322,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/de15f0e7-b87e-43a3-8230-b5aeceb9294d")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21456,6 +21457,7 @@
 			(at 0 3.2 90)
 			(unlocked yes)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "4c2e7fae-72d3-46d3-b93d-9ee8fed1893a")
 			(effects
 				(font
@@ -21523,7 +21525,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/65f9c17e-24d0-4e2d-babf-43a105a196ab")
 		(sheetname "/")
-		(sheetfile "seed.kicad_sch")
+		(sheetfile "brain.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -21798,7 +21800,7 @@
 		(uuid "437fb5d3-75cd-4e51-8c00-732eae489274")
 	)
 	(gr_text "${TITLE}\n${REVISION}"
-		(at 142.6 80.1 0)
+		(at 142.6 80.7 0)
 		(layer "F.SilkS")
 		(uuid "298b0a5e-3b7a-4145-981f-04af3afcd965")
 		(effects

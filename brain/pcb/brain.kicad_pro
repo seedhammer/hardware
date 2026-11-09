@@ -555,7 +555,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "seed.kicad_pro",
+    "filename": "brain.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -593,7 +593,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "../../../../../Downloads/seed-nopd2.step",
+      "step": "../../../../../Downloads/brain-nopd2.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -773,8 +773,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "seed.kicad_sch",
-        "name": "seed",
+        "filename": "brain.kicad_sch",
+        "name": "brain",
         "uuid": "e4f777a6-82c9-4514-a2d3-4bfa04299680"
       }
     ],
@@ -784,11 +784,11 @@
   "sheets": [
     [
       "e4f777a6-82c9-4514-a2d3-4bfa04299680",
-      "seed"
+      "brain"
     ]
   ],
   "text_variables": {
-    "TITLE": "seed",
+    "TITLE": "brain",
     "VERSION": ""
   },
   "tuning_profiles": {
