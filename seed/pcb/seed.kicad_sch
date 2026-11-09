@@ -6674,7 +6674,7 @@
 	)
 	(text "microSD"
 		(exclude_from_sim no)
-		(at 259.08 21.844 0)
+		(at 259.842 21.844 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7116,6 +7116,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eda5d2a3-75d2-4d2c-a0a7-7385fba21d94")
+	)
+	(junction
+		(at 331.47 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeeee2fa-8aa0-4550-a632-cf78ce392865")
 	)
 	(junction
 		(at 30.48 58.42)
@@ -8180,16 +8186,6 @@
 			(type default)
 		)
 		(uuid "48e7dad6-8f03-4c0c-93e9-1465d75f30aa")
-	)
-	(wire
-		(pts
-			(xy 336.55 189.23) (xy 336.55 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491043ec-524f-4d4d-b6ba-08483fa6ce61")
 	)
 	(wire
 		(pts
@@ -9883,6 +9879,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 189.23) (xy 331.47 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d51f48-6c0e-4a51-b640-413ef7e1a984")
+	)
+	(wire
+		(pts
 			(xy 318.77 116.84) (xy 318.77 114.3)
 		)
 		(stroke
@@ -10353,7 +10359,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 189.23) (xy 336.55 189.23)
+			(xy 325.12 189.23) (xy 347.98 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11251,7 +11257,7 @@
 		)
 		(uuid "89ee010f-7240-4198-8559-a8e1b259862f")
 	)
-	(label "S_SENSE_UNF"
+	(label "S_SENSE0"
 		(at 303.53 205.74 180)
 		(effects
 			(font
@@ -11392,7 +11398,7 @@
 		(uuid "aaa22fb1-4dc7-45d6-88f6-70fd2b81bec3")
 	)
 	(label "S_SENSE"
-		(at 335.28 189.23 180)
+		(at 347.98 189.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23774,7 +23780,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 336.55 194.31 0)
+		(at 331.47 194.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23784,7 +23790,7 @@
 		(dnp no)
 		(uuid "bea9aac9-80f1-497a-9431-5fbb1a2a1992")
 		(property "Reference" "C31"
-			(at 339.09 193.0399 0)
+			(at 334.01 193.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23795,7 +23801,7 @@
 			)
 		)
 		(property "Value" "22n"
-			(at 339.09 195.5799 0)
+			(at 334.01 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23806,7 +23812,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 336.55 194.31 0)
+			(at 331.47 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23817,7 +23823,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/1884-0402B223K500NT/C1532"
-			(at 336.55 194.31 0)
+			(at 331.47 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23828,7 +23834,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 336.55 204.47 0)
+			(at 331.47 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23839,7 +23845,7 @@
 			)
 		)
 		(property "LCSC" "C1532"
-			(at 336.55 194.31 0)
+			(at 331.47 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23850,7 +23856,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 336.55 194.31 0)
+			(at 331.47 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26049,7 +26055,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 336.55 196.85 0)
+		(at 331.47 196.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26060,7 +26066,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd5bafb8-9e86-4bb7-9a17-c0b67fe3cb5f")
 		(property "Reference" "#PWR065"
-			(at 336.55 203.2 0)
+			(at 331.47 203.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26071,7 +26077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 336.55 201.93 0)
+			(at 331.47 201.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26081,7 +26087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 336.55 196.85 0)
+			(at 331.47 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26092,7 +26098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 336.55 196.85 0)
+			(at 331.47 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26103,7 +26109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 336.55 196.85 0)
+			(at 331.47 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
