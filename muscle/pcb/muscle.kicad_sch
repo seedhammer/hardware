@@ -12809,6 +12809,7 @@
 		)
 		(pin "15"
 			(uuid "5461556c-de61-4b7a-bd3c-d1f485b5cdff")
+			(alternate "STL_TH")
 		)
 		(pin "16"
 			(uuid "ba4175a1-405e-4230-ad2a-3d3db3a08825")
@@ -29951,6 +29952,7 @@
 		)
 		(pin "15"
 			(uuid "89cf1e7d-004e-4a4f-a43a-f6e8c74f18ee")
+			(alternate "STL_TH")
 		)
 		(pin "16"
 			(uuid "cca1466a-af54-43f1-b0f4-6fbaa2331ed5")
