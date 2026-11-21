@@ -25683,7 +25683,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d01dbba4-8a7b-4b9a-a90a-516fc4c800d0")
 		(property "Reference" "J3"
 			(at 39.624 296.672 0)
@@ -26217,7 +26217,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d4562368-c11f-4bbf-9428-e36e51d60b73")
 		(property "Reference" "J2"
 			(at 39.624 238.252 0)
