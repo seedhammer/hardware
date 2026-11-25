@@ -6617,7 +6617,7 @@
 		)
 		(uuid "09251fe6-d419-4513-8ee3-ddd8d6dcae33")
 	)
-	(text "Reset"
+	(text "AMOLED Reset Delay"
 		(exclude_from_sim no)
 		(at 327.152 132.334 0)
 		(effects
@@ -6734,7 +6734,7 @@
 		(uuid "0526969f-f8b4-4610-a2aa-60502b3827fc")
 	)
 	(junction
-		(at 318.77 106.68)
+		(at 308.61 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06ca0d14-85a1-4802-8c63-5d265f2be966")
@@ -6872,13 +6872,7 @@
 		(uuid "52dbf261-70c0-406d-86ce-d98814e30c16")
 	)
 	(junction
-		(at 308.61 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5309f8d0-9bb3-42a7-8fa8-fb431fb764e7")
-	)
-	(junction
-		(at 328.93 106.68)
+		(at 318.77 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5738fffe-be6a-4b3b-987b-9ad2805f8010")
@@ -6902,10 +6896,10 @@
 		(uuid "5908d05e-6c87-439c-96da-d3468d13f97d")
 	)
 	(junction
-		(at 349.25 106.68)
+		(at 140.97 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6028b40b-f57a-4b81-8f57-3b450aa0a6ee")
+		(uuid "5d262c7d-3d61-41ac-a06d-298667e972f0")
 	)
 	(junction
 		(at 267.97 44.45)
@@ -6944,16 +6938,16 @@
 		(uuid "790cb674-4b8c-49b3-adee-247f61cb8d94")
 	)
 	(junction
-		(at 349.25 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8053c4a0-984f-442d-885c-2485ab1a9e1a")
-	)
-	(junction
 		(at 46.99 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a7932a3-b371-4775-a4ab-7d847dadaef6")
+	)
+	(junction
+		(at 146.05 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b383fad-6962-4408-ac92-5b4ce6acf9b4")
 	)
 	(junction
 		(at 146.05 27.94)
@@ -6992,6 +6986,12 @@
 		(uuid "9c356360-406d-41f5-8780-d928087df156")
 	)
 	(junction
+		(at 273.05 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c526926-cf40-4e87-bf3a-92c119938260")
+	)
+	(junction
 		(at 76.2 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7010,12 +7010,6 @@
 		(uuid "9f7ea231-a798-4d32-b3cf-4ff50de36e1e")
 	)
 	(junction
-		(at 318.77 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a33a5f4b-4e14-4025-9361-004e539034af")
-	)
-	(junction
 		(at 327.66 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7028,13 +7022,7 @@
 		(uuid "b0430487-c2c2-46bf-be10-b027dfc21788")
 	)
 	(junction
-		(at 339.09 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba42c6d4-3041-47e3-8c5e-37b6700d0c87")
-	)
-	(junction
-		(at 328.93 116.84)
+		(at 318.77 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb139048-a68c-4a22-aba3-93bb13903a46")
@@ -7044,12 +7032,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd837eac-3f37-4bc7-9531-fe0041e956a8")
-	)
-	(junction
-		(at 339.09 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bdb4b647-3f1c-44e2-902c-067f824a8a19")
 	)
 	(junction
 		(at 38.1 162.56)
@@ -7068,12 +7050,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c50c0ca0-ca37-4a42-9ff5-0abcad8139c2")
-	)
-	(junction
-		(at 288.29 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce1a6147-93b3-4797-a718-c631c263d50e")
 	)
 	(junction
 		(at 133.35 156.21)
@@ -7148,6 +7124,12 @@
 		(uuid "fb4ed2d0-4230-4dd9-bd04-a5c3d8d62c9f")
 	)
 	(junction
+		(at 335.28 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbe538cc-948c-49d7-a919-4b4d7dae7454")
+	)
+	(junction
 		(at 195.58 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7176,6 +7158,16 @@
 			(type default)
 		)
 		(uuid "00489468-bfdb-4c81-913b-4ea5ed91c0df")
+	)
+	(wire
+		(pts
+			(xy 318.77 118.11) (xy 318.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01693b76-3959-4f1a-b513-67aff7cc29e6")
 	)
 	(wire
 		(pts
@@ -7509,16 +7501,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 116.84) (xy 349.25 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "169fee6e-af6c-4042-9242-e7c3ca3b6f7a")
-	)
-	(wire
-		(pts
 			(xy 289.56 71.12) (xy 289.56 72.39)
 		)
 		(stroke
@@ -7759,7 +7741,17 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 146.05) (xy 347.98 147.32)
+			(xy 273.05 106.68) (xy 262.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d7290a-6965-43ce-b732-31acedd6b572")
+	)
+	(wire
+		(pts
+			(xy 347.98 138.43) (xy 347.98 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7786,6 +7778,16 @@
 			(type default)
 		)
 		(uuid "273adeb8-5a4a-49d4-86f3-d1539a29fa81")
+	)
+	(wire
+		(pts
+			(xy 262.89 106.68) (xy 262.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274f6b81-e9af-4e7f-be4c-82407f3bf735")
 	)
 	(wire
 		(pts
@@ -7839,7 +7841,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 106.68) (xy 318.77 109.22)
+			(xy 308.61 106.68) (xy 308.61 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7849,7 +7851,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 106.68) (xy 328.93 109.22)
+			(xy 318.77 106.68) (xy 318.77 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7939,6 +7941,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 114.3) (xy 273.05 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3262c4b2-6a73-410f-8963-52a37484fef2")
+	)
+	(wire
+		(pts
 			(xy 27.94 261.62) (xy 31.75 261.62)
 		)
 		(stroke
@@ -8016,6 +8028,16 @@
 			(type default)
 		)
 		(uuid "39815ae4-7f0f-4c1b-aa4e-02aec7e1d25f")
+	)
+	(wire
+		(pts
+			(xy 146.05 233.68) (xy 152.4 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b65ce2-4700-4f1e-93e9-5275425d0631")
 	)
 	(wire
 		(pts
@@ -8119,16 +8141,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 116.84) (xy 339.09 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41cdf04a-fe12-4037-8178-7ccfd2556bbf")
-	)
-	(wire
-		(pts
 			(xy 110.49 39.37) (xy 121.92 39.37)
 		)
 		(stroke
@@ -8146,6 +8158,16 @@
 			(type default)
 		)
 		(uuid "433f92fa-a6b7-4ea5-b330-b1beb359c42c")
+	)
+	(wire
+		(pts
+			(xy 335.28 138.43) (xy 335.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4350787b-4645-4703-aace-fb217f96e343")
 	)
 	(wire
 		(pts
@@ -8289,26 +8311,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 106.68) (xy 349.25 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52fbceaf-2ec9-4d72-a949-8da0b0cd2bfa")
-	)
-	(wire
-		(pts
-			(xy 339.09 116.84) (xy 339.09 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "544724ff-6e4b-4b3b-a654-e78fca9c7655")
-	)
-	(wire
-		(pts
 			(xy 195.58 241.3) (xy 195.58 240.03)
 		)
 		(stroke
@@ -8316,6 +8318,16 @@
 			(type default)
 		)
 		(uuid "5458767d-6256-43d2-a9d3-af2037ab090d")
+	)
+	(wire
+		(pts
+			(xy 140.97 233.68) (xy 146.05 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54712186-c0ed-45af-a8b0-f118cf6a41e3")
 	)
 	(wire
 		(pts
@@ -8346,6 +8358,16 @@
 			(type default)
 		)
 		(uuid "54fc5b0e-dc2d-4f3e-8863-27f6c53fb11c")
+	)
+	(wire
+		(pts
+			(xy 347.98 138.43) (xy 344.17 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55031e53-43c9-49c6-a333-e39ad2e2bb71")
 	)
 	(wire
 		(pts
@@ -8469,7 +8491,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 114.3) (xy 328.93 116.84)
+			(xy 318.77 114.3) (xy 318.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8559,16 +8581,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 106.68) (xy 318.77 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a8e141-d13a-4bc8-a1a8-ba771199f794")
-	)
-	(wire
-		(pts
 			(xy 76.2 68.58) (xy 76.2 67.31)
 		)
 		(stroke
@@ -8599,7 +8611,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 102.87) (xy 349.25 106.68)
+			(xy 318.77 102.87) (xy 318.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8779,16 +8791,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 106.68) (xy 339.09 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b7de98-8398-40d0-8788-55bb952dbc32")
-	)
-	(wire
-		(pts
 			(xy 92.71 95.25) (xy 80.01 95.25)
 		)
 		(stroke
@@ -8849,7 +8851,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 147.32) (xy 337.82 147.32)
+			(xy 327.66 147.32) (xy 335.28 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8866,16 +8868,6 @@
 			(type default)
 		)
 		(uuid "78f40f50-2ce4-44b2-a906-75d6f72dda07")
-	)
-	(wire
-		(pts
-			(xy 308.61 106.68) (xy 308.61 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b31f5c-e31f-40b8-87f2-e13e8f186270")
 	)
 	(wire
 		(pts
@@ -8959,6 +8951,16 @@
 	)
 	(wire
 		(pts
+			(xy 339.09 138.43) (xy 335.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800353cf-aa48-4740-a563-e48280580be0")
+	)
+	(wire
+		(pts
 			(xy 31.75 157.48) (xy 33.02 157.48)
 		)
 		(stroke
@@ -9009,7 +9011,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 147.32) (xy 347.98 147.32)
+			(xy 344.17 147.32) (xy 347.98 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9076,16 +9078,6 @@
 			(type default)
 		)
 		(uuid "8940b83b-c4d6-490b-b276-948e42422e80")
-	)
-	(wire
-		(pts
-			(xy 339.09 106.68) (xy 339.09 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bab1aea-d43f-4abd-99da-2ae4f7d53149")
 	)
 	(wire
 		(pts
@@ -9179,6 +9171,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 147.32) (xy 339.09 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8fb331-5a25-4893-8440-df8e2f24fbed")
+	)
+	(wire
+		(pts
 			(xy 313.69 238.76) (xy 313.69 240.03)
 		)
 		(stroke
@@ -9206,6 +9208,16 @@
 			(type default)
 		)
 		(uuid "911490cc-4cf2-4102-b06a-98a257769774")
+	)
+	(wire
+		(pts
+			(xy 285.75 106.68) (xy 273.05 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "938c0aa3-8aa8-4f67-831a-7ccc1b7a338a")
 	)
 	(wire
 		(pts
@@ -9359,16 +9371,6 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 106.68) (xy 349.25 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d1351dc-4b29-45ac-a2c6-9d51f29ee40b")
-	)
-	(wire
-		(pts
 			(xy 154.94 27.94) (xy 146.05 27.94)
 		)
 		(stroke
@@ -9406,16 +9408,6 @@
 			(type default)
 		)
 		(uuid "a1341504-7113-4797-893f-46a1e40ff660")
-	)
-	(wire
-		(pts
-			(xy 308.61 114.3) (xy 308.61 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a14dcd79-a4f5-444c-93f2-d99fe2279134")
 	)
 	(wire
 		(pts
@@ -9509,16 +9501,6 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 116.84) (xy 318.77 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a87ca6bb-b35e-4aaa-b2b8-262580328df0")
-	)
-	(wire
-		(pts
 			(xy 64.77 71.12) (xy 57.15 71.12)
 		)
 		(stroke
@@ -9579,7 +9561,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 233.68) (xy 152.4 233.68)
+			(xy 134.62 233.68) (xy 140.97 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9679,16 +9661,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 106.68) (xy 288.29 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24054a0-9d2c-4455-94d2-eb42bb994b40")
-	)
-	(wire
-		(pts
 			(xy 288.29 106.68) (xy 290.83 106.68)
 		)
 		(stroke
@@ -9696,6 +9668,16 @@
 			(type default)
 		)
 		(uuid "b2c4fd51-7e45-4260-8f51-3170a8ba916c")
+	)
+	(wire
+		(pts
+			(xy 146.05 229.87) (xy 146.05 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3db0e7e-ca74-427c-b985-c5600fecf44e")
 	)
 	(wire
 		(pts
@@ -9849,7 +9831,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 116.84) (xy 328.93 116.84)
+			(xy 308.61 116.84) (xy 318.77 116.84)
 		)
 		(stroke
 			(width 0)
@@ -9889,7 +9871,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 116.84) (xy 318.77 114.3)
+			(xy 308.61 116.84) (xy 308.61 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10139,16 +10121,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 116.84) (xy 349.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4e40f70-ff28-4248-9443-6f50b30e1b64")
-	)
-	(wire
-		(pts
 			(xy 52.07 124.46) (xy 62.23 124.46)
 		)
 		(stroke
@@ -10166,16 +10138,6 @@
 			(type default)
 		)
 		(uuid "d5933921-341f-473b-8b51-95a0f27315db")
-	)
-	(wire
-		(pts
-			(xy 285.75 124.46) (xy 285.75 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d67a264e-7ac7-4e67-b01e-d1062799c3e9")
 	)
 	(wire
 		(pts
@@ -10389,7 +10351,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 106.68) (xy 328.93 106.68)
+			(xy 308.61 106.68) (xy 318.77 106.68)
 		)
 		(stroke
 			(width 0)
@@ -10416,6 +10378,16 @@
 			(type default)
 		)
 		(uuid "ed0ff958-0ea8-401b-9d17-299a80235930")
+	)
+	(wire
+		(pts
+			(xy 273.05 106.68) (xy 273.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee63d6e3-b5c9-41ea-96bc-7e6e23f61599")
 	)
 	(wire
 		(pts
@@ -10446,6 +10418,16 @@
 			(type default)
 		)
 		(uuid "f02ca30a-dbdf-4ec9-92e0-52dca5360741")
+	)
+	(wire
+		(pts
+			(xy 285.75 124.46) (xy 285.75 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a099eb-cda2-4dd7-bb21-560cb968184d")
 	)
 	(wire
 		(pts
@@ -13428,7 +13410,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 340.36 147.32 90)
+		(at 341.63 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13439,7 +13421,7 @@
 		(fields_autoplaced yes)
 		(uuid "10141786-7231-4f55-a12b-acbba03152f5")
 		(property "Reference" "R24"
-			(at 340.36 142.24 90)
+			(at 341.63 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13449,7 +13431,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 340.36 144.78 90)
+			(at 341.63 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13459,7 +13441,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 340.36 147.32 0)
+			(at 341.63 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13470,7 +13452,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741"
-			(at 340.36 147.32 0)
+			(at 341.63 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13481,7 +13463,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 340.36 147.32 0)
+			(at 341.63 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13492,7 +13474,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 340.36 147.32 0)
+			(at 341.63 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13503,7 +13485,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 340.36 147.32 90)
+			(at 341.63 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13950,7 +13932,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "100"
 			(at 70.7136 176.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13971,7 +13953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://jlcpcb.com/partdetail/25819-0402WGF1000TCE/C25076"
 			(at 73.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13993,7 +13975,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25076"
 			(at 73.66 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -16238,130 +16220,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 349.25 111.76 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "46a43306-a66a-4971-a3fd-6fe5550bf80b")
-		(property "Reference" "C21"
-			(at 346.329 110.5916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 346.329 112.903 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 349.25 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
-			(at 349.25 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 349.25 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 349.25 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 349.25 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 349.25 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 349.25 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "90e1835e-983c-483d-8de8-a95d981a8884")
-		)
-		(pin "2"
-			(uuid "06d96557-be41-4be3-b8e8-a9e571528f78")
-		)
-		(instances
-			(project "brain"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 67.31 227.33 90)
 		(unit 1)
@@ -16769,6 +16627,130 @@
 			(project "brain"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 318.77 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50858517-bbe5-4c70-a5c4-336cdfeb9f47")
+		(property "Reference" "C34"
+			(at 315.849 110.5916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 315.849 112.903 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 318.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
+			(at 318.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 318.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 318.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 318.77 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 318.77 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 318.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "302816d7-d83c-4586-aecd-e10905ce71bc")
+		)
+		(pin "2"
+			(uuid "fea97a84-fe1b-4b59-ba1b-e9bac97efbe3")
+		)
+		(instances
+			(project "brain"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -17977,7 +17959,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 328.93 111.76 0)
+		(at 273.05 111.76 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17986,9 +17968,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "661c6457-9bcc-44aa-9b68-26006ad25a93")
-		(property "Reference" "C19"
-			(at 326.009 110.5916 0)
+		(uuid "69947d89-4b70-42f1-a7d8-2df60b3f39b9")
+		(property "Reference" "C32"
+			(at 270.129 110.5916 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17998,8 +17980,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 326.009 112.903 0)
+		(property "Value" "10u"
+			(at 270.129 112.903 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18010,7 +17992,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 328.93 111.76 0)
+			(at 273.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18020,8 +18002,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
-			(at 328.93 111.76 0)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
+			(at 273.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18032,7 +18014,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 328.93 111.76 0)
+			(at 273.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18042,8 +18024,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 328.93 111.76 0)
+		(property "LCSC" "C15525"
+			(at 273.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18054,7 +18036,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 328.93 111.76 0)
+			(at 273.05 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18064,7 +18046,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 328.93 111.76 0)
+			(at 273.05 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18074,7 +18056,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 328.93 111.76 0)
+			(at 273.05 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18085,15 +18067,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbbf2e0f-4654-443b-be30-5042216cac46")
+			(uuid "6d869e6c-2228-4372-aef2-c9b1009d2c5e")
 		)
 		(pin "2"
-			(uuid "a9155195-752d-4c14-b571-e7e6e1b907cf")
+			(uuid "8708ff19-253d-4947-87f1-2a078e380084")
 		)
 		(instances
 			(project "brain"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C19")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -18511,7 +18493,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 152.4 233.68 0)
+		(at 140.97 233.68 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18523,7 +18505,7 @@
 		(fields_autoplaced yes)
 		(uuid "734773b2-7311-4ac9-84d7-e841f1946331")
 		(property "Reference" "#FLG07"
-			(at 152.4 231.775 0)
+			(at 140.97 231.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18534,7 +18516,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 152.4 228.6 0)
+			(at 140.97 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18545,7 +18527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 233.68 0)
+			(at 140.97 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18556,7 +18538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 233.68 0)
+			(at 140.97 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18567,7 +18549,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 152.4 233.68 0)
+			(at 140.97 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18715,7 +18697,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky_Small")
-		(at 347.98 143.51 90)
+		(at 341.63 138.43 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -18726,7 +18708,7 @@
 		(dnp no)
 		(uuid "763ac6c9-637b-4ce5-a2e8-cc81e796582f")
 		(property "Reference" "D1"
-			(at 350.52 143.51 90)
+			(at 342.9 135.382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18737,7 +18719,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 350.52 141.9861 90)
+			(at 340.1061 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18748,7 +18730,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 347.98 143.51 90)
+			(at 341.63 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18759,7 +18741,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/hongjiacheng-RB751S40/C7502700"
-			(at 347.98 143.51 90)
+			(at 341.63 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18770,7 +18752,7 @@
 			)
 		)
 		(property "Description" "Schottky diode, small symbol"
-			(at 347.98 143.51 0)
+			(at 341.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18781,7 +18763,7 @@
 			)
 		)
 		(property "LCSC" "C7502700"
-			(at 347.98 143.51 90)
+			(at 341.63 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18792,7 +18774,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 347.98 143.51 90)
+			(at 341.63 138.43 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22921,7 +22903,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 349.25 102.87 0)
+		(at 318.77 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22932,7 +22914,7 @@
 		(dnp no)
 		(uuid "b05b9afd-e760-44ba-af4c-53bd3c9665e1")
 		(property "Reference" "#PWR025"
-			(at 349.25 106.68 0)
+			(at 318.77 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22943,7 +22925,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 348.869 98.4758 0)
+			(at 318.389 98.4758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22953,7 +22935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 102.87 0)
+			(at 318.77 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22964,7 +22946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 102.87 0)
+			(at 318.77 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22975,7 +22957,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 349.25 102.87 0)
+			(at 318.77 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23078,7 +23060,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 349.25 116.84 0)
+		(at 318.77 118.11 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23089,7 +23071,7 @@
 		(dnp no)
 		(uuid "b1bf2c34-eaed-41df-ada5-48157d805c25")
 		(property "Reference" "#PWR032"
-			(at 349.25 123.19 0)
+			(at 318.77 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23100,7 +23082,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 349.123 121.2342 0)
+			(at 318.643 122.5042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23110,7 +23092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 349.25 116.84 0)
+			(at 318.77 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23121,7 +23103,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 116.84 0)
+			(at 318.77 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23132,7 +23114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 116.84 0)
+			(at 318.77 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23233,8 +23215,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 308.61 111.76 0)
+		(lib_id "power:+3V3")
+		(at 146.05 229.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -23243,31 +23225,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b9b7ad91-11c3-4311-be10-54b0560ae46b")
-		(property "Reference" "C17"
-			(at 305.689 110.5916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 305.689 112.903 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 308.61 111.76 0)
+		(uuid "b89441ed-115d-433a-b660-430e8cf3b8f4")
+		(property "Reference" "#PWR066"
+			(at 146.05 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23277,8 +23237,18 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
-			(at 308.61 111.76 0)
+		(property "Value" "+5V"
+			(at 145.669 225.4758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23288,8 +23258,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 308.61 111.76 0)
+		(property "Datasheet" ""
+			(at 146.05 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23299,39 +23269,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 308.61 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 308.61 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 308.61 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 308.61 111.76 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 146.05 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23342,15 +23281,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9b42b1c3-f250-4b2e-bb52-4a4328c79bf7")
-		)
-		(pin "2"
-			(uuid "c848ab49-8feb-4437-9949-5a2595b76592")
+			(uuid "df6bb9df-7844-4396-8a88-584b0b475438")
 		)
 		(instances
 			(project "brain"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C17")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -24288,6 +24224,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 308.61 111.76 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ca0d6ac7-4136-4251-a715-90202dde110a")
+		(property "Reference" "C33"
+			(at 305.689 110.5916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 305.689 112.903 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 308.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525"
+			(at 308.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 308.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15525"
+			(at 308.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 308.61 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 308.61 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 308.61 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75707985-0b24-4c3d-9608-8d2710ae33c4")
+		)
+		(pin "2"
+			(uuid "4ef6fb9f-78e5-454a-af0b-d885fcfe957d")
+		)
+		(instances
+			(project "brain"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 288.29 31.75 0)
 		(mirror y)
@@ -25164,208 +25224,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 318.77 111.76 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d5272163-1a14-48b1-9130-21ad3b92b7f2")
-		(property "Reference" "C18"
-			(at 315.849 110.5916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 315.849 112.903 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 318.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
-			(at 318.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 318.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 318.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 318.77 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 318.77 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 318.77 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "89580a0c-2523-420a-b4d7-8616da14b50d")
-		)
-		(pin "2"
-			(uuid "02c4cfd6-6795-442d-b0b2-3065dccf2895")
-		)
-		(instances
-			(project "brain"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 347.98 140.97 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d89509d6-9d77-4ac1-a564-16124421aaa2")
-		(property "Reference" "#PWR037"
-			(at 347.98 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 347.599 136.5758 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 347.98 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 347.98 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 347.98 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e381e66f-6e4e-440d-9b50-546211f0e8d1")
-		)
-		(instances
-			(project "brain"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 327.66 232.41 0)
 		(mirror y)
@@ -25768,6 +25626,84 @@
 			(project "brain"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc31fa54-be2b-4ec8-91b6-6d61366d35ab")
+		(property "Reference" "#PWR034"
+			(at 273.05 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 272.923 119.9642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5464a765-c81b-4b4b-b67f-40a62030b478")
+		)
+		(instances
+			(project "brain"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -26671,130 +26607,6 @@
 			(project "brain"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 339.09 111.76 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e933d90e-d4ea-40eb-825d-d7c4feb0e329")
-		(property "Reference" "C20"
-			(at 336.169 110.5916 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 336.169 112.903 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 339.09 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923"
-			(at 339.09 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 339.09 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C52923"
-			(at 339.09 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 339.09 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 339.09 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 339.09 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b88bc627-35e2-4b11-8035-328238ab3ddf")
-		)
-		(pin "2"
-			(uuid "5515908a-ae7f-41bf-9d1f-5adcc854f762")
-		)
-		(instances
-			(project "brain"
-				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -27723,6 +27535,84 @@
 			(project "brain"
 				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 262.89 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb048748-b2a1-4244-a069-7b20529096c1")
+		(property "Reference" "#PWR067"
+			(at 262.89 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 262.509 98.4758 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 262.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6eec707d-40b1-41ab-8835-88582e5c18a7")
+		)
+		(instances
+			(project "brain"
+				(path "/e4f777a6-82c9-4514-a2d3-4bfa04299680"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
